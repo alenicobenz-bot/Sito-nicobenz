@@ -175,20 +175,17 @@ export const TESTIMONIALS = [
 
 export const BOOK = {
   title: "Il parrucchiere autorevole",
-  subtitle: "Il manuale che ha cambiato il marketing dei saloni italiani.",
+  subtitle: "La storia dei parrucchieri sui social raccontata come se fossi tu.",
   description:
-  "Un sistema pratico per costruire un personal brand autentico e posizionarti come punto di riferimento nel tuo mercato. Pagine fitte di esempi, strategie e check-list pensate per chi non ha tempo da perdere.",
+  "Non è un manuale. È un viaggio dentro il mondo dei parrucchieri sui social, raccontato come se Nico Benz fosse uno di loro. Un libro che non invecchia, quasi motivazionale, ma denso di regole e strumenti concreti per far esplodere il tuo personal brand e diventare davvero autorevole.",
   cover:
   "https://static.wixstatic.com/media/e71624_ef03b6e0429f4bd2a0648274d1a468a7~mv2.png/v1/fill/w_594,h_394,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/519d1e8c-5d02-4710-8e0f-16c669584e55.png",
-  quotes: [
-  "« Un libro che dovrebbe leggere ogni titolare di salone. » — Estetica Magazine",
-  "« Pragmatico, diretto, senza scorciatoie. » — Hairdresser's Journal"],
-
+  quotes: [],
   cta: { label: "Acquista il libro", href: "https://amzn.eu/d/02sKFc6w" }
 };
 
 export const PODCAST = {
-  title: "Beauty Social Coach — il podcast",
+  title: "Podcast Parrucchieri",
   description:
   "Conversazioni senza filtri con imprenditori beauty, creativi e marketer. Episodi nuovi ogni settimana.",
   episodes: [

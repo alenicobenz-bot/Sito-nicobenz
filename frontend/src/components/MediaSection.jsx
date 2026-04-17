@@ -26,13 +26,15 @@ const MediaSection = () => {
                 {BOOK.description}
               </p>
 
-              <div className="mt-10 space-y-4">
-                {BOOK.quotes.map((q, i) => (
-                  <div key={i} className="pl-5 border-l border-[var(--nb-gold)] text-[14px] text-[var(--nb-ivory)] italic leading-[1.6] max-w-[520px] font-display">
-                    {q}
-                  </div>
-                ))}
-              </div>
+              {BOOK.quotes.length > 0 && (
+                <div className="mt-10 space-y-4">
+                  {BOOK.quotes.map((q, i) => (
+                    <div key={i} className="pl-5 border-l border-[var(--nb-gold)] text-[14px] text-[var(--nb-ivory)] italic leading-[1.6] max-w-[520px] font-display">
+                      {q}
+                    </div>
+                  ))}
+                </div>
+              )}
 
               <a
                 href={BOOK.cta.href}
@@ -82,7 +84,7 @@ const MediaSection = () => {
                 <span className="nb-eyebrow">Podcast</span>
               </div>
               <h2 className="font-display font-light tracking-editorial text-[36px] md:text-[52px] lg:text-[60px] leading-[1.05] text-[var(--nb-ivory)] max-w-[640px]">
-                {PODCAST.title.split(" — ")[0]} <em className="italic text-[var(--nb-gold)]">— {PODCAST.title.split(" — ")[1]}.</em>
+                <em className="italic text-[var(--nb-gold)]">{PODCAST.title}</em>
               </h2>
               <p className="mt-5 text-[15px] leading-[1.7] text-[var(--nb-ivory-dim)] max-w-[480px]">
                 {PODCAST.description}
