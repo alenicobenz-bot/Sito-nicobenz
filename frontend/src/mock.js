@@ -26,34 +26,28 @@ export const NAV = [
 
 
 export const HERO = {
-  eyebrow: "Beauty Social Coach \xB7 Fondatore Marketing Parrucchieri",
+  eyebrow: "Beauty Social Coach · Fondatore Marketing Parrucchieri",
   title: [
   "Trasformo saloni di bellezza",
   "in personal brand che le persone",
   "scelgono, seguono e ricordano."],
 
   subtitle:
-  "Strategia, personal branding e video marketing per parrucchieri e professionisti beauty che vogliono smettere di inseguire i clienti e iniziare ad attrarli.",
-  primaryCta: { label: "Prenota una consulenza gratuita", href: "#prenota" },
+  "Strategia, personal branding e video marketing per parrucchieri e professionisti beauty che vogliono smettere di inseguire i clienti e iniziare ad attrarli. Noi facciamo il 95% del lavoro: tu ti concentri sulla poltrona.",
+  primaryCta: { label: "Prenota una consulenza gratuita", href: "https://nicobenz.youcanbook.me/" },
   secondaryCta: { label: "Scopri il metodo", href: "#metodo" },
   portrait:
-  "https://images.unsplash.com/photo-1655801856579-be4f3402eea4?auto=format&fit=crop&w=1200&q=80"
+  "https://customer-assets.emergentagent.com/job_beauty-authority-co/artifacts/hne988lj_f29392da-cd95-4d2d-80f0-699210e26ec0.png"
 };
 
 export const STATS = [
 { value: "+2.400", label: "Saloni formati in Italia" },
-{ value: "12 anni", label: "Nel marketing per il beauty" },
+{ value: "15 anni", label: "Nel marketing per il beauty" },
 { value: "+180", label: "Case study documentati" },
 { value: "4,9 / 5", label: "Valutazione clienti" }];
 
 
-export const PRESS = [
-"Estetica Magazine",
-"Hairdresser's Journal",
-"Cosmoprof",
-"Il Sole 24 Ore — Moda",
-"Vanity Fair Beauty",
-"Salone Internazionale"];
+export const PRESS = [];
 
 
 export const METHOD = {

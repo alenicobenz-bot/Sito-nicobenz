@@ -20,22 +20,25 @@ const SocialProof = () => {
         </div>
       </div>
 
-      <div className="nb-hairline" />
-
-      {/* Press marquee */}
-      <div className="overflow-hidden py-8">
-        <div className="flex items-center gap-16 whitespace-nowrap nb-marquee-track">
-          {[...PRESS, ...PRESS, ...PRESS].map((p, i) => (
-            <span
-              key={i}
-              className="font-display italic text-[20px] md:text-[22px] text-[var(--nb-ivory-dim)] hover:text-[var(--nb-gold)] transition-colors"
-            >
-              {p}
-              <span className="ml-16 text-[var(--nb-muted)]">—</span>
-            </span>
-          ))}
-        </div>
-      </div>
+      {PRESS.length > 0 && (
+        <>
+          <div className="nb-hairline" />
+          {/* Press marquee */}
+          <div className="overflow-hidden py-8">
+            <div className="flex items-center gap-16 whitespace-nowrap nb-marquee-track">
+              {[...PRESS, ...PRESS, ...PRESS].map((p, i) => (
+                <span
+                  key={i}
+                  className="font-display italic text-[20px] md:text-[22px] text-[var(--nb-ivory-dim)] hover:text-[var(--nb-gold)] transition-colors"
+                >
+                  {p}
+                  <span className="ml-16 text-[var(--nb-muted)]">—</span>
+                </span>
+              ))}
+            </div>
+          </div>
+        </>
+      )}
     </section>
   );
 };

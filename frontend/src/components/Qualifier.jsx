@@ -3,7 +3,7 @@ import { Check, X } from "lucide-react";
 
 const FOR = [
   "Titolari di saloni che vogliono smettere di rincorrere clienti e costruire un brand che attrae",
-  "Parrucchieri e barber pronti a dedicare 60 minuti alla settimana per crescere online",
+  "Parrucchieri e barber che vogliono un team esperto che fa il 95% del lavoro di marketing per loro",
   "Professionisti beauty che cercano un metodo strutturato, non l'ennesimo corso sui Reels",
   "Chi è disposto a metterci la faccia e raccontare il proprio lavoro con autenticità",
 ];
