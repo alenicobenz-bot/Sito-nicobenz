@@ -3,7 +3,7 @@ import { ArrowUpRight, Mail, Video, Zap } from "lucide-react";
 
 const FreeResource = () => {
   return (
-    <section className="relative py-20 md:py-24 bg-[var(--nb-bg-2)] border-y border-[var(--nb-border)]">
+    <section id="video-giorno" className="relative py-20 md:py-24 bg-[var(--nb-bg-2)] border-y border-[var(--nb-border)]">
       <div className="max-w-[1200px] mx-auto px-6 md:px-10">
         <div className="relative bg-gradient-to-br from-[var(--nb-gold)]/10 to-transparent border border-[var(--nb-gold)]/30 p-10 md:p-14 overflow-hidden">
           {/* Background pattern */}

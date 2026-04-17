@@ -17,12 +17,12 @@ export const BRAND = {
 
 export const NAV = [
 { label: "Metodo", href: "#metodo" },
-{ label: "Case Study", href: "#case-study" },
-{ label: "Voci", href: "#voci" },
-{ label: "Libro", href: "#libro" },
 { label: "Podcast", href: "#podcast" },
+{ label: "Un video al giorno", href: "#video-giorno" },
+{ label: "Libro", href: "#libro" },
 { label: "Journal", href: "#journal" },
-{ label: "FAQ", href: "#faq" }];
+{ label: "FAQ", href: "#faq" },
+{ label: "Prenota", href: "#prenota" }];
 
 
 export const HERO = {

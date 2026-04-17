@@ -6,21 +6,21 @@ const Testimonials = () => {
   const [active, setActive] = useState(null);
 
   return (
-    <section id="voci" className="relative py-24 md:py-36">
+    <section id="podcast" className="relative py-24 md:py-36">
       <div className="max-w-[1400px] mx-auto px-6 md:px-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 mb-16 md:mb-20">
           <div className="lg:col-span-5">
             <div className="flex items-center gap-3 mb-6">
               <span className="w-10 h-[1px] bg-[var(--nb-gold)]" />
-              <span className="nb-eyebrow">Le voci dei parrucchieri top</span>
+              <span className="nb-eyebrow">Podcast Parrucchieri</span>
             </div>
             <h2 className="font-display font-light tracking-editorial text-[36px] md:text-[52px] lg:text-[60px] leading-[1.05] text-[var(--nb-ivory)]">
-              Cosa dicono i <em className="italic text-[var(--nb-gold)]">professionisti del settore.</em>
+              Guarda le <em className="italic text-[var(--nb-gold)]">interviste complete.</em>
             </h2>
           </div>
           <div className="lg:col-span-6 lg:col-start-7 flex items-end">
             <p className="text-[16px] leading-[1.7] text-[var(--nb-ivory-dim)] max-w-[520px]">
-              Quattro voci, quattro visioni, una consapevolezza comune: il futuro del beauty passa dalla comunicazione. Clicca per guardare l'intervista completa.
+              Conversazioni senza filtri con i migliori professionisti del settore beauty. Clicca per guardare l'episodio completo su YouTube.
             </p>
           </div>
         </div>
