@@ -217,36 +217,39 @@ export const PODCAST = {
 export const JOURNAL = [
 {
   id: "j1",
-  category: "Strategia",
-  title: "Il mito del trend: perché copiare gli altri ti rende invisibile",
+  category: "Marketing",
+  title: "Oggi vince la persona, non il brand",
   excerpt:
-  "Il salone che vince nel 2025 non rincorre i trend: li interpreta. Una guida pratica per costruire una voce riconoscibile.",
-  date: "12 Giugno 2025",
+  "Perché il personal branding è diventato l'unica vera leva di differenziazione nel settore beauty.",
+  date: "2024",
   read: "6 min",
   image:
-  "https://images.unsplash.com/photo-1631648080466-906e6a83dc7d?auto=format&fit=crop&w=1200&q=80"
+  "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1200&q=80",
+  href: "https://www.nicobenz.it/post/oggi-vince-la-persona-non-il-brand"
 },
 {
   id: "j2",
-  category: "Video",
-  title: "Un video al giorno: la routine in 18 minuti che cambia la tua agenda",
+  category: "Strategia",
+  title: "Parrucchieri che fanno i soldi con Facebook e Instagram VS Parrucchieri che non li fanno",
   excerpt:
-  "Metodo, template e tre esempi reali da saloni italiani. Tutto quello che serve per iniziare domani mattina.",
-  date: "04 Giugno 2025",
-  read: "8 min",
+  "Le differenze concrete tra chi usa i social per crescere e chi li subisce senza risultati.",
+  date: "2023",
+  read: "7 min",
   image:
-  "https://images.pexels.com/photos/8867553/pexels-photo-8867553.jpeg?auto=compress&cs=tinysrgb&w=1200"
+  "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?auto=format&fit=crop&w=1200&q=80",
+  href: "https://www.nicobenz.it/post/2018/03/10/parrucchieri-che-fanno-i-soldi-con-facebook-e-instagram-vs-parrucchieri-che-non-li-fanno"
 },
 {
   id: "j3",
-  category: "Brand",
-  title: "Alzare i prezzi senza perdere clienti: tre leve di posizionamento",
+  category: "Mindset",
+  title: "Parrucchieri e tempo",
   excerpt:
-  "Dal linguaggio al format dell'appuntamento: come costruire percezione di valore che giustifica ogni euro.",
-  date: "27 Maggio 2025",
-  read: "7 min",
+  "Come smettere di essere schiavi dell'agenda e iniziare a gestire il tempo con strategia.",
+  date: "2023",
+  read: "5 min",
   image:
-  "https://images.unsplash.com/photo-1759142235060-3191ee596c81?auto=format&fit=crop&w=1200&q=80"
+  "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=1200&q=80",
+  href: "https://www.nicobenz.it/post/2018/06/08/parrucchieri-e-tempo"
 }];
 
 
