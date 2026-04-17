@@ -6,28 +6,7 @@ const Footer = () => {
   return (
     <footer className="relative bg-[var(--nb-bg)] border-t border-[var(--nb-border)] pt-24 pb-12">
       <div className="max-w-[1400px] mx-auto px-6 md:px-10">
-        {/* Big editorial word */}
-        <div className="mb-16">
-          <div className="text-[11px] tracking-micro uppercase text-[var(--nb-muted)] mb-6">
-            — Nicobenz
-          </div>
-          <a
-            href="#prenota"
-            className="group inline-flex items-center gap-4 flex-wrap"
-          >
-            <span className="font-display font-light italic tracking-editorial text-[46px] sm:text-[72px] md:text-[110px] lg:text-[140px] leading-[0.95] text-[var(--nb-ivory)] group-hover:text-[var(--nb-gold)] transition-colors duration-500">
-              Scriviamoci.
-            </span>
-            <span className="mb-4 md:mb-8 w-14 h-14 md:w-20 md:h-20 rounded-full border border-[var(--nb-border-strong)] flex items-center justify-center group-hover:border-[var(--nb-gold)] group-hover:bg-[var(--nb-gold)] transition-all duration-500">
-              <ArrowUpRight
-                className="w-6 h-6 md:w-8 md:h-8 text-[var(--nb-ivory)] group-hover:text-[#0B0B0C] transition-all duration-500 group-hover:rotate-45"
-                strokeWidth={1.2}
-              />
-            </span>
-          </a>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-10 pt-12 border-t border-[var(--nb-border)]">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-10 border-t border-[var(--nb-border)] pt-12">
           <div className="md:col-span-4">
             <div className="font-display text-[22px] tracking-editorial mb-4">
               Nico<span className="text-[var(--nb-gold)]">benz</span>
