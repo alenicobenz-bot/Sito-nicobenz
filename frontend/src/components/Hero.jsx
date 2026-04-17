@@ -75,12 +75,7 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Bottom micro bar */}
-        <div className="mt-20 md:mt-28 flex items-center justify-between text-[11px] tracking-micro uppercase text-[var(--nb-muted)]">
-          <span>EST. 2013</span>
-          <span className="hidden md:inline">Scroll</span>
-          <span>No. 01 — Homepage</span>
-        </div>
+        {/* Rimossa bottom micro bar */}
       </div>
     </section>
   );

@@ -134,9 +134,9 @@ export const TESTIMONIALS = [
 {
   id: "t1",
   name: "Maurizio Fiore",
-  role: "Beauty Professional — ospite podcast",
+  role: "Beauty Professional",
   quote:
-  "Nico non vende fumo. Ti costringe a guardare il tuo salone con occhi nuovi e a lavorare sulle cose che contano: identità, qualità e coerenza.",
+  "Il futuro del nostro settore passa dalla capacità di raccontare chi siamo. I social non sono un optional, sono il nuovo salone vetrina.",
   avatar:
   "https://images.unsplash.com/photo-1754683378256-4b17627097d0?auto=format&fit=crop&w=400&q=80",
   youtubeId: "puNZKqsRnFo"
@@ -144,9 +144,9 @@ export const TESTIMONIALS = [
 {
   id: "t2",
   name: "Davide Lamia",
-  role: "Professional Beauty — ospite podcast",
+  role: "Professional Beauty",
   quote:
-  "Abbiamo smesso di inseguire la clientela. Oggi siamo noi a scegliere chi far sedere sulla poltrona. È un altro mestiere.",
+  "La sfida oggi non è solo fare un bel taglio, ma comunicarlo nel modo giusto. Chi sa raccontarsi vince.",
   avatar:
   "https://images.pexels.com/photos/8867553/pexels-photo-8867553.jpeg?auto=compress&cs=tinysrgb&w=400",
   youtubeId: "2vI_sbO5Anw"
@@ -154,9 +154,9 @@ export const TESTIMONIALS = [
 {
   id: "t3",
   name: "Marzia Nardi",
-  role: "Beauty Expert — ospite podcast",
+  role: "Beauty Expert",
   quote:
-  "Mi ha insegnato a raccontare il mio lavoro senza imbarazzo. I social sono diventati uno strumento, non un peso.",
+  "Il personal brand è l'unico vero elemento distintivo che abbiamo. Tutti sanno tagliare i capelli, ma nessuno racconta come te.",
   avatar:
   "https://images.unsplash.com/photo-1674882629415-6aab3ce98051?auto=format&fit=crop&w=400&q=80",
   youtubeId: "ZvEcbpjawnU"
@@ -164,9 +164,9 @@ export const TESTIMONIALS = [
 {
   id: "t4",
   name: "Andrea Bozzano",
-  role: "Beauty Professional — ospite podcast",
+  role: "Beauty Professional",
   quote:
-  "Un percorso chirurgico. Ogni consulenza lascia un'azione concreta e una metrica da rispettare.",
+  "Non si tratta di essere presenti ovunque, ma di essere presenti bene. Qualità sopra quantità, sempre.",
   avatar:
   "https://images.unsplash.com/photo-1761839256840-7780a45b85dc?auto=format&fit=crop&w=400&q=80",
   youtubeId: "NKgB3S-soVU"
@@ -174,10 +174,10 @@ export const TESTIMONIALS = [
 
 
 export const BOOK = {
-  title: "Un video al giorno",
+  title: "Il parrucchiere autorevole",
   subtitle: "Il manuale che ha cambiato il marketing dei saloni italiani.",
   description:
-  "Un sistema pratico per costruire un personal brand autentico con un solo video al giorno. Pagine fitte di esempi, template e check-list pensate per chi non ha tempo da perdere.",
+  "Un sistema pratico per costruire un personal brand autentico e posizionarti come punto di riferimento nel tuo mercato. Pagine fitte di esempi, strategie e check-list pensate per chi non ha tempo da perdere.",
   cover:
   "https://static.wixstatic.com/media/e71624_ef03b6e0429f4bd2a0648274d1a468a7~mv2.png/v1/fill/w_594,h_394,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/519d1e8c-5d02-4710-8e0f-16c669584e55.png",
   quotes: [

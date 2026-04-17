@@ -12,15 +12,15 @@ const Testimonials = () => {
           <div className="lg:col-span-5">
             <div className="flex items-center gap-3 mb-6">
               <span className="w-10 h-[1px] bg-[var(--nb-gold)]" />
-              <span className="nb-eyebrow">Le voci dei clienti</span>
+              <span className="nb-eyebrow">Le voci dei parrucchieri top</span>
             </div>
             <h2 className="font-display font-light tracking-editorial text-[36px] md:text-[52px] lg:text-[60px] leading-[1.05] text-[var(--nb-ivory)]">
-              Non le mie parole. <em className="italic text-[var(--nb-gold)]">Le loro.</em>
+              Cosa dicono i <em className="italic text-[var(--nb-gold)]">professionisti del settore.</em>
             </h2>
           </div>
           <div className="lg:col-span-6 lg:col-start-7 flex items-end">
             <p className="text-[16px] leading-[1.7] text-[var(--nb-ivory-dim)] max-w-[520px]">
-              Quattro storie, quattro saloni, quattro città. Clicca su ogni tessera per guardare la testimonianza video.
+              Quattro voci, quattro visioni, una consapevolezza comune: il futuro del beauty passa dalla comunicazione. Clicca per guardare l'intervista completa.
             </p>
           </div>
         </div>
