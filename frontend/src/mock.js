@@ -255,28 +255,36 @@ export const JOURNAL = [
 
 export const FAQS = [
 {
-  q: "A chi si rivolge la consulenza?",
-  a: "A titolari di saloni di bellezza, parrucchieri, barber shop e professionisti beauty che vogliono trasformare la propria presenza online in un vero canale di acquisizione e posizionamento."
+  q: "Chi è Nicobenz?",
+  a: "Nicobenz è un beauty social coach italiano specializzato nel marketing per parrucchieri e professionisti della bellezza. Aiuta saloni e imprenditori beauty a migliorare la propria comunicazione online e a far crescere il personal brand attraverso contenuti video e strategie social."
 },
 {
-  q: "La prima consulenza è davvero gratuita?",
-  a: "Sì. È una call di 30 minuti senza impegno. Analizziamo il tuo posizionamento attuale, individuiamo il primo blocco da risolvere e decidiamo insieme se ha senso proseguire."
+  q: "Di cosa si occupa Nicobenz?",
+  a: "Nicobenz si occupa di web marketing per parrucchieri, personal branding per professionisti beauty e strategie di comunicazione sui social media. Sul sito propone anche consulenze, contenuti formativi e risorse dedicate alla crescita online dei saloni di bellezza."
 },
 {
-  q: "Devo già avere una presenza sui social?",
-  a: "No. Lavoro con saloni che partono da zero e con realtà già strutturate. Il metodo si adatta al punto in cui sei, non viceversa."
+  q: "A chi si rivolgono i servizi di Nicobenz?",
+  a: "I servizi di Nicobenz si rivolgono a parrucchieri, saloni di bellezza e professionisti del settore beauty che vogliono aumentare visibilità, autorevolezza e contatti grazie al marketing digitale."
 },
 {
-  q: "Quanto tempo devo dedicare ogni settimana?",
-  a: "Il metodo è costruito su un video al giorno e circa 60 minuti di produzione settimanale, al netto del lavoro strategico che facciamo insieme."
+  q: "In che modo Nicobenz aiuta i parrucchieri a trovare clienti online?",
+  a: "Nicobenz aiuta i parrucchieri a comunicare meglio sui social, a rafforzare il personal brand e a usare i video come leva di crescita. L'obiettivo è rendere più efficace la presenza online del salone e migliorare il rapporto con clienti attuali e potenziali."
 },
 {
-  q: "In quanto tempo si vedono i primi risultati?",
-  a: "I primi segnali — qualità dei contatti, conversazioni, richieste — arrivano in 4-6 settimane. L'impatto strutturale sul fatturato in 4-6 mesi."
+  q: "Cosa significa beauty social coach?",
+  a: "Un beauty social coach è un professionista che supporta attività e imprenditori del settore bellezza nella comunicazione digitale, nella strategia social e nella costruzione della propria immagine online."
 },
 {
-  q: "Lavori anche fuori dall'Italia?",
-  a: "Sì, su selezione. Seguo saloni in Italia, Svizzera italiana e alcune realtà europee in lingua italiana o inglese."
+  q: "Nicobenz offre una consulenza gratuita?",
+  a: "Sì, sul sito è presente un invito esplicito a prenotare una consulenza gratuita. Questo rende la consulenza uno dei principali punti di ingresso per chi vuole capire come migliorare la propria comunicazione online."
+},
+{
+  q: "Come prenotare una consulenza con Nicobenz?",
+  a: "Per prenotare una consulenza con Nicobenz basta utilizzare il link presente nella homepage del sito. La call to action 'Prenota una consulenza gratuita' è uno degli elementi principali della navigazione."
+},
+{
+  q: "Nicobenz si occupa solo di social media?",
+  a: "No, il posizionamento include più in generale il web marketing per parrucchieri, anche se i video sui social e il personal brand sono al centro del messaggio principale."
 }];
 
 

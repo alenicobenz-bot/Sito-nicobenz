@@ -7,6 +7,7 @@ import Method from "../components/Method";
 import Qualifier from "../components/Qualifier";
 import CaseStudies from "../components/CaseStudies";
 import Testimonials from "../components/Testimonials";
+import FreeResource from "../components/FreeResource";
 import MediaSection from "../components/MediaSection";
 import Journal from "../components/Journal";
 import Faq from "../components/Faq";
@@ -24,6 +25,7 @@ const HomePage = () => {
       <Qualifier />
       <CaseStudies />
       <Testimonials />
+      <FreeResource />
       <MediaSection />
       <Journal />
       <Faq />
