@@ -1,5 +1,5 @@
 import React from "react";
-import { ArrowUpRight, Play } from "lucide-react";
+import { ArrowUpRight, Mail, Video, Zap } from "lucide-react";
 
 const FreeResource = () => {
   return (
@@ -23,20 +23,20 @@ const FreeResource = () => {
               </h2>
 
               <p className="text-[16px] md:text-[18px] leading-[1.7] text-[var(--nb-ivory-dim)] max-w-[540px] mb-8">
-                Il sistema pratico per costruire la tua presenza online con un solo video al giorno. Strategia, template e tutto quello che ti serve per iniziare subito.
+                Un'idea video che ti arriva direttamente via email. Ogni giorno, puntuale: tema del video, idee, riprese da fare, testo da scrivere, hashtag e tutto il resto.
               </p>
 
               <ul className="space-y-3 mb-10">
                 {[
-                  "Metodo completo spiegato passo dopo passo",
-                  "Template pronti da usare oggi stesso",
-                  "Zero costi, zero vincoli, zero fuffa",
+                  { icon: Mail, text: "Email quotidiana con l'idea pronta all'uso" },
+                  { icon: Video, text: "Tema, riprese, testo e hashtag già pensati per te" },
+                  { icon: Zap, text: "Zero costi, zero impegno, cancelli quando vuoi" },
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-3 text-[15px] text-[var(--nb-ivory)]">
-                    <span className="mt-0.5 w-5 h-5 rounded-full bg-[var(--nb-gold)]/20 flex items-center justify-center shrink-0">
-                      <span className="w-2 h-2 rounded-full bg-[var(--nb-gold)]" />
+                    <span className="mt-0.5 w-8 h-8 rounded-full bg-[var(--nb-gold)]/20 flex items-center justify-center shrink-0">
+                      <item.icon className="w-4 h-4 text-[var(--nb-gold)]" strokeWidth={1.8} />
                     </span>
-                    {item}
+                    {item.text}
                   </li>
                 ))}
               </ul>
@@ -47,22 +47,34 @@ const FreeResource = () => {
                 rel="noreferrer"
                 className="inline-flex items-center gap-3 px-8 py-4 bg-[var(--nb-gold)] hover:bg-[var(--nb-gold)]/90 text-[#0B0B0C] font-semibold text-[14px] tracking-micro uppercase transition-all duration-300 group"
               >
-                <Play className="w-4 h-4" strokeWidth={2} />
-                Accedi alla risorsa gratuita
+                <Mail className="w-4 h-4" strokeWidth={2} />
+                Iscriviti gratis
                 <ArrowUpRight className="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" strokeWidth={2} />
               </a>
             </div>
 
             <div className="lg:col-span-5 flex justify-center">
               <div className="relative w-full max-w-[320px]">
-                <div className="aspect-[3/4] bg-gradient-to-br from-[var(--nb-gold)]/20 to-transparent border-2 border-[var(--nb-gold)]/40 flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-20 h-20 rounded-full bg-[var(--nb-gold)] flex items-center justify-center mx-auto mb-4">
-                      <Play className="w-10 h-10 text-[#0B0B0C] ml-1" strokeWidth={1.5} fill="currentColor" />
+                <div className="aspect-[3/4] bg-gradient-to-br from-[#1a1a1a] to-[#0a0a0a] border border-[var(--nb-gold)]/40 flex flex-col items-center justify-center p-8 overflow-hidden">
+                  {/* Decorative elements */}
+                  <div className="absolute top-4 right-4 w-16 h-16 border border-[var(--nb-gold)]/20 rotate-45" />
+                  <div className="absolute bottom-4 left-4 w-12 h-12 border border-[var(--nb-gold)]/20" />
+                  
+                  <div className="relative text-center z-10">
+                    <div className="w-20 h-20 rounded-full bg-[var(--nb-gold)] flex items-center justify-center mx-auto mb-6 shadow-lg shadow-[var(--nb-gold)]/30">
+                      <Mail className="w-10 h-10 text-[#0B0B0C]" strokeWidth={1.5} />
                     </div>
-                    <div className="font-display text-[22px] tracking-editorial text-[var(--nb-gold)] uppercase">
-                      Free
+                    <div className="font-display text-[18px] tracking-editorial text-[var(--nb-ivory)] mb-2">
+                      365 idee video
                     </div>
+                    <div className="text-[12px] tracking-micro uppercase text-[var(--nb-gold)]">
+                      Gratis · Ogni giorno
+                    </div>
+                  </div>
+                  
+                  {/* Animated lines */}
+                  <div className="absolute inset-0 flex items-center justify-center opacity-10">
+                    <div className="w-full h-px bg-gradient-to-r from-transparent via-[var(--nb-gold)] to-transparent" />
                   </div>
                 </div>
                 <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-[var(--nb-gold)]/10 border border-[var(--nb-gold)]/20 -z-10" />
