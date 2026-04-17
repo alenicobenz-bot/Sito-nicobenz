@@ -5,7 +5,6 @@ import Problem from "../components/Problem";
 import SocialProof from "../components/SocialProof";
 import Method from "../components/Method";
 import Qualifier from "../components/Qualifier";
-import CaseStudies from "../components/CaseStudies";
 import Testimonials from "../components/Testimonials";
 import FreeResource from "../components/FreeResource";
 import MediaSection from "../components/MediaSection";
@@ -23,7 +22,6 @@ const HomePage = () => {
       <SocialProof />
       <Method />
       <Qualifier />
-      <CaseStudies />
       <Testimonials />
       <FreeResource />
       <MediaSection />
