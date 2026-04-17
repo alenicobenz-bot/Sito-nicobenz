@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Prenota consulenza — Nicobenz</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;1,9..144,400&family=Inter:wght@400;500&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#0B0B0C;color:#EDE7D9;font-family:'Inter',sans-serif}
+.nb-bk{position:relative;padding:96px 24px;max-width:1400px;margin:0 auto;overflow:hidden}
+@media(min-width:768px){.nb-bk{padding:144px 40px}}
+.nb-bk::before{content:"";position:absolute;left:0;right:0;top:0;height:1px;background:linear-gradient(to right,transparent,rgba(201,169,110,.4),transparent)}
+.nb-bk__grid{display:grid;grid-template-columns:1fr;gap:48px}
+@media(min-width:1024px){.nb-bk__grid{grid-template-columns:1fr 1fr;gap:80px}}
+.nb-eyebrow-row{display:flex;align-items:center;gap:12px;margin-bottom:24px}
+.nb-eyebrow-row span:first-child{width:40px;height:1px;background:#C9A96E;display:block}
+.nb-eyebrow{font-size:.72rem;font-weight:500;text-transform:uppercase;letter-spacing:.24em;color:#C9A96E}
+.nb-h2{font-family:'Fraunces',serif;font-weight:300;letter-spacing:-0.025em;font-size:44px;line-height:1.02;color:#EDE7D9}
+@media(min-width:768px){.nb-h2{font-size:64px}}
+@media(min-width:1024px){.nb-h2{font-size:80px}}
+.nb-h2 em{font-style:italic;color:#C9A96E}
+.nb-bk__desc{margin-top:32px;font-size:16px;line-height:1.7;color:#C9C2B2;max-width:520px}
+@media(min-width:768px){.nb-bk__desc{font-size:18px}}
+.nb-bk__list{margin-top:40px;display:flex;flex-direction:column;gap:16px;list-style:none;padding:0}
+.nb-bk__list li{display:flex;align-items:flex-start;gap:16px;font-size:15px;color:#EDE7D9}
+.nb-bk__check{flex-shrink:0;width:24px;height:24px;border-radius:50%;border:1px solid #C9A96E;display:flex;align-items:center;justify-content:center;margin-top:2px}
+.nb-bk__check::before{content:"✓";color:#C9A96E;font-size:12px;font-weight:700}
+.nb-btn-ghost{display:inline-flex;align-items:center;gap:.6rem;padding:.9rem 1.4rem;border-radius:999px;font-weight:500;font-size:14px;text-decoration:none;background:transparent;color:#EDE7D9;border:1px solid rgba(237,231,217,.22);margin-top:48px;transition:all .26s}
+.nb-btn-ghost:hover{border-color:#C9A96E;color:#C9A96E}
+.nb-form{position:relative;background:#111012;border:1px solid rgba(237,231,217,.12);padding:32px}
+@media(min-width:768px){.nb-form{padding:48px}}
+.nb-form__tag{position:absolute;top:16px;right:16px;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:#8A8275}
+.nb-form__row{display:grid;grid-template-columns:1fr;gap:24px;margin-bottom:24px}
+@media(min-width:768px){.nb-form__row{grid-template-columns:1fr 1fr}}
+.nb-form label{display:block}
+.nb-form__lbl{font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:#8A8275;margin-bottom:8px;display:block}
+.nb-form input,.nb-form textarea{width:100%;background:transparent;border:none;border-bottom:1px solid rgba(237,231,217,.22);padding:12px 0;font-size:15px;color:#EDE7D9;outline:none;font-family:inherit;transition:border-color .3s}
+.nb-form input:focus,.nb-form textarea:focus{border-color:#C9A96E}
+.nb-form input::placeholder,.nb-form textarea::placeholder{color:#8A8275}
+.nb-form textarea{resize:none}
+.nb-form__privacy{display:flex;align-items:flex-start;gap:12px;font-size:13px;color:#C9C2B2;padding-top:16px}
+.nb-form__privacy input{width:16px;height:16px;margin-top:2px;accent-color:#C9A96E;flex-shrink:0}
+.nb-form__privacy a{color:#C9A96E;text-decoration:underline}
+.nb-btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:.6rem;padding:.95rem 1.4rem;border-radius:999px;font-weight:500;font-size:14px;background:#EDE7D9;color:#0B0B0C;border:1px solid #EDE7D9;width:100%;margin-top:24px;cursor:pointer;font-family:inherit;transition:all .26s}
+.nb-btn-primary:hover{background:#C9A96E;border-color:#C9A96E}
+.nb-form__success{display:none;padding:40px 0;text-align:center}
+.nb-form.sent .nb-form__fields{display:none}
+.nb-form.sent .nb-form__success{display:block}
+.nb-form__success-icon{margin:0 auto 24px;width:64px;height:64px;border-radius:50%;border:1px solid #C9A96E;display:flex;align-items:center;justify-content:center;color:#C9A96E;font-size:24px}
+.nb-form__success h3{font-family:'Fraunces',serif;letter-spacing:-0.025em;font-size:28px;color:#EDE7D9;margin-bottom:12px}
+.nb-form__success p{font-size:15px;color:#C9C2B2;max-width:360px;margin:0 auto}
+</style>
+</head>
+<body>
+<section class="nb-bk" id="prenota">
+  <div class="nb-bk__grid">
+    <div>
+      <div class="nb-eyebrow-row"><span></span><span class="nb-eyebrow">Consulenza gratuita</span></div>
+      <h2 class="nb-h2">Trenta minuti <em>per capire</em> se il tuo salone può crescere di un altro livello.</h2>
+      <p class="nb-bk__desc">Una call 1-a-1 con me. Analizziamo il tuo posizionamento, individuiamo il primo ostacolo da rimuovere e decidi in autonomia se proseguire.</p>
+      <ul class="nb-bk__list">
+        <li><span class="nb-bk__check"></span>Analisi del posizionamento attuale</li>
+        <li><span class="nb-bk__check"></span>Audit dei contenuti e della presenza social</li>
+        <li><span class="nb-bk__check"></span>Prima azione strategica, già pronta</li>
+        <li><span class="nb-bk__check"></span>Zero impegno, zero vendite forzate</li>
+      </ul>
+      <a href="https://nicobenz.youcanbook.me/" target="_blank" rel="noreferrer" class="nb-btn-ghost">Apri il calendario YouCanBook.me &#8599;</a>
+    </div>
+    <form class="nb-form" id="nbForm">
+      <div class="nb-form__tag">Modulo · No. 03</div>
+      <div class="nb-form__fields">
+        <div class="nb-form__row">
+          <label><span class="nb-form__lbl">Nome</span><input required name="name" placeholder="Mario Rossi" /></label>
+          <label><span class="nb-form__lbl">Email</span><input required type="email" name="email" placeholder="tu@salone.it" /></label>
+        </div>
+        <div class="nb-form__row">
+          <label><span class="nb-form__lbl">Telefono</span><input name="phone" placeholder="+39 ..." /></label>
+          <label><span class="nb-form__lbl">Salone / Città</span><input name="salon" placeholder="Atelier Rossi — Milano" /></label>
+        </div>
+        <label><span class="nb-form__lbl">Obiettivo principale</span><textarea name="goal" rows="3" placeholder="Cosa vorresti ottenere nei prossimi 6 mesi?"></textarea></label>
+        <label class="nb-form__privacy"><input type="checkbox" required name="privacy" /><span>Ho letto e accetto l'<a href="#">informativa sulla privacy</a>.</span></label>
+        <button type="submit" class="nb-btn-primary">Invia richiesta &#8599;</button>
+      </div>
+      <div class="nb-form__success">
+        <div class="nb-form__success-icon">✓</div>
+        <h3>Grazie, ci sentiamo presto.</h3>
+        <p>Ho ricevuto la tua richiesta. Ti contatterò entro 24 ore lavorative per fissare la consulenza.</p>
+      </div>
+    </form>
+  </div>
+</section>
+<script>
+document.getElementById('nbForm').addEventListener('submit',function(e){e.preventDefault();this.classList.add('sent');});
+</script>
+</body>
+</html>

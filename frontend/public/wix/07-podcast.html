@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Podcast — Nicobenz</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;1,9..144,400&family=Inter:wght@400;500&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#0B0B0C;color:#EDE7D9;font-family:'Inter',sans-serif}
+.nb-p{padding:96px 24px;max-width:1400px;margin:0 auto}
+@media(min-width:768px){.nb-p{padding:144px 40px}}
+.nb-p__head{display:flex;flex-direction:column;gap:40px;margin-bottom:56px}
+@media(min-width:768px){.nb-p__head{flex-direction:row;align-items:flex-end;justify-content:space-between;margin-bottom:80px}}
+.nb-eyebrow-row{display:flex;align-items:center;gap:12px;margin-bottom:24px}
+.nb-eyebrow-row span:first-child{width:40px;height:1px;background:#C9A96E;display:block}
+.nb-eyebrow{font-size:.72rem;font-weight:500;text-transform:uppercase;letter-spacing:.24em;color:#C9A96E}
+.nb-h2{font-family:'Fraunces',serif;font-weight:300;letter-spacing:-0.025em;font-size:36px;line-height:1.05;color:#EDE7D9;max-width:640px}
+@media(min-width:768px){.nb-h2{font-size:52px}}
+@media(min-width:1024px){.nb-h2{font-size:60px}}
+.nb-h2 em{font-style:italic;color:#C9A96E}
+.nb-p__desc{margin-top:20px;font-size:15px;line-height:1.7;color:#C9C2B2;max-width:480px}
+.nb-btn-ghost{display:inline-flex;align-items:center;gap:.6rem;padding:.9rem 1.4rem;border-radius:999px;font-weight:500;font-size:14px;text-decoration:none;background:transparent;color:#EDE7D9;border:1px solid rgba(237,231,217,.22);transition:all .26s}
+.nb-btn-ghost:hover{border-color:#C9A96E;color:#C9A96E}
+.nb-p__list{border-top:1px solid rgba(237,231,217,.12);border-bottom:1px solid rgba(237,231,217,.12)}
+.nb-ep{width:100%;background:transparent;border:none;border-bottom:1px solid rgba(237,231,217,.12);padding:24px 16px;display:flex;align-items:center;justify-content:space-between;gap:24px;cursor:pointer;text-align:left;font-family:inherit;color:inherit;transition:background-color .3s}
+@media(min-width:768px){.nb-ep{padding:32px}}
+.nb-ep:last-child{border-bottom:none}
+.nb-ep:hover{background:#111012}
+.nb-ep__left{display:flex;align-items:center;gap:24px}
+@media(min-width:768px){.nb-ep__left{gap:40px}}
+.nb-ep__n{font-family:'Fraunces',serif;font-style:italic;color:#C9A96E;font-size:15px;width:60px}
+@media(min-width:768px){.nb-ep__n{font-size:18px}}
+.nb-ep__play{width:44px;height:44px;border-radius:50%;border:1px solid rgba(237,231,217,.22);display:flex;align-items:center;justify-content:center;transition:all .3s;flex-shrink:0}
+.nb-ep:hover .nb-ep__play{border-color:#C9A96E;background:#C9A96E}
+.nb-ep__play::before{content:"▶";color:#EDE7D9;font-size:12px;transition:color .3s;margin-left:2px}
+.nb-ep:hover .nb-ep__play::before{color:#0B0B0C}
+.nb-ep__title{font-family:'Fraunces',serif;letter-spacing:-0.025em;font-size:18px;color:#EDE7D9;max-width:720px;transition:color .3s}
+@media(min-width:768px){.nb-ep__title{font-size:24px}}
+.nb-ep:hover .nb-ep__title{color:#C9A96E}
+.nb-ep__len{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#8A8275}
+@media(max-width:639px){.nb-ep__len{display:none}}
+.nb-modal{position:fixed;inset:0;background:rgba(5,5,6,.92);backdrop-filter:blur(8px);display:none;align-items:center;justify-content:center;z-index:9999;padding:24px}
+.nb-modal.open{display:flex}
+.nb-modal__close{position:absolute;top:20px;right:20px;background:transparent;border:none;color:#EDE7D9;font-size:32px;cursor:pointer;padding:8px;line-height:1}
+.nb-modal__close:hover{color:#C9A96E}
+.nb-modal__inner{width:100%;max-width:1100px;aspect-ratio:16/9;border:1px solid rgba(237,231,217,.22);background:#000}
+.nb-modal__inner iframe{width:100%;height:100%;border:0}
+</style>
+</head>
+<body>
+<section class="nb-p" id="podcast">
+  <div class="nb-p__head">
+    <div>
+      <div class="nb-eyebrow-row"><span></span><span class="nb-eyebrow">Podcast</span></div>
+      <h2 class="nb-h2">Beauty Social Coach <em>— il podcast.</em></h2>
+      <p class="nb-p__desc">Conversazioni senza filtri con imprenditori beauty, creativi e marketer. Episodi nuovi ogni settimana.</p>
+    </div>
+    <a href="https://www.youtube.com/@nicobenzbeautysocialcoach" target="_blank" rel="noreferrer" class="nb-btn-ghost">Ascolta su YouTube &#8599;</a>
+  </div>
+  <div class="nb-p__list">
+    <button class="nb-ep" data-yt="dQw4w9WgXcQ"><div class="nb-ep__left"><span class="nb-ep__n">EP. 48</span><span class="nb-ep__play"></span><h3 class="nb-ep__title">Perché il tuo salone non sta crescendo (anche se lavori benissimo)</h3></div><span class="nb-ep__len">42 min</span></button>
+    <button class="nb-ep" data-yt="M7lc1UVf-VE"><div class="nb-ep__left"><span class="nb-ep__n">EP. 47</span><span class="nb-ep__play"></span><h3 class="nb-ep__title">Come ho trasformato un barber shop in un brand da lista d'attesa</h3></div><span class="nb-ep__len">38 min</span></button>
+    <button class="nb-ep" data-yt="ScMzIvxBSi4"><div class="nb-ep__left"><span class="nb-ep__n">EP. 46</span><span class="nb-ep__play"></span><h3 class="nb-ep__title">La formula dei contenuti che vendono senza sembrare pubblicità</h3></div><span class="nb-ep__len">51 min</span></button>
+  </div>
+</section>
+<div class="nb-modal" id="ytModal"><button class="nb-modal__close" aria-label="Chiudi">&times;</button><div class="nb-modal__inner"><iframe id="ytFrame" src="" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe></div></div>
+<script>
+(function(){var modal=document.getElementById('ytModal'),frame=document.getElementById('ytFrame');document.querySelectorAll('.nb-ep').forEach(function(el){el.addEventListener('click',function(){frame.src='https://www.youtube.com/embed/'+el.dataset.yt+'?autoplay=1&rel=0';modal.classList.add('open');});});function close(){modal.classList.remove('open');frame.src='';}modal.querySelector('.nb-modal__close').addEventListener('click',close);modal.addEventListener('click',function(e){if(e.target===modal)close();});})();
+</script>
+</body>
+</html>

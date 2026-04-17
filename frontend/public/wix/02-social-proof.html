@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Social Proof — Nicobenz</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;1,9..144,400&family=Inter:wght@400;500&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#111012;color:#EDE7D9;font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased}
+.nb-sp{border-top:1px solid rgba(237,231,217,.12);border-bottom:1px solid rgba(237,231,217,.12)}
+.nb-sp__inner{max-width:1400px;margin:0 auto;padding:56px 24px;display:grid;grid-template-columns:repeat(2,1fr);gap:40px}
+@media(min-width:768px){.nb-sp__inner{padding:80px 40px;grid-template-columns:repeat(4,1fr);gap:24px}}
+.nb-stat{display:flex;flex-direction:column}
+.nb-stat__value{font-family:'Fraunces',serif;font-weight:300;letter-spacing:-0.025em;font-size:42px;line-height:1;color:#EDE7D9}
+@media(min-width:768px){.nb-stat__value{font-size:56px}}
+.nb-stat__label{margin-top:12px;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#8A8275}
+.nb-hairline{height:1px;background:linear-gradient(90deg,transparent,rgba(237,231,217,.22),transparent)}
+.nb-marquee{overflow:hidden;padding:32px 0}
+.nb-marquee__track{display:flex;align-items:center;gap:64px;white-space:nowrap;animation:marq 38s linear infinite}
+@keyframes marq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.nb-marquee__item{font-family:'Fraunces',serif;font-style:italic;font-size:20px;color:#C9C2B2;transition:color .3s}
+@media(min-width:768px){.nb-marquee__item{font-size:22px}}
+.nb-marquee__item:hover{color:#C9A96E}
+.nb-marquee__sep{margin-left:64px;color:#8A8275}
+</style>
+</head>
+<body>
+<section class="nb-sp">
+  <div class="nb-sp__inner">
+    <div class="nb-stat"><span class="nb-stat__value">+2.400</span><span class="nb-stat__label">Saloni formati in Italia</span></div>
+    <div class="nb-stat"><span class="nb-stat__value">12 anni</span><span class="nb-stat__label">Nel marketing per il beauty</span></div>
+    <div class="nb-stat"><span class="nb-stat__value">+180</span><span class="nb-stat__label">Case study documentati</span></div>
+    <div class="nb-stat"><span class="nb-stat__value">4,9 / 5</span><span class="nb-stat__label">Valutazione clienti</span></div>
+  </div>
+  <div class="nb-hairline"></div>
+  <div class="nb-marquee">
+    <div class="nb-marquee__track">
+      <span class="nb-marquee__item">Estetica Magazine<span class="nb-marquee__sep">—</span></span>
+      <span class="nb-marquee__item">Hairdresser's Journal<span class="nb-marquee__sep">—</span></span>
+      <span class="nb-marquee__item">Cosmoprof<span class="nb-marquee__sep">—</span></span>
+      <span class="nb-marquee__item">Il Sole 24 Ore — Moda<span class="nb-marquee__sep">—</span></span>
+      <span class="nb-marquee__item">Vanity Fair Beauty<span class="nb-marquee__sep">—</span></span>
+      <span class="nb-marquee__item">Salone Internazionale<span class="nb-marquee__sep">—</span></span>
+      <span class="nb-marquee__item">Estetica Magazine<span class="nb-marquee__sep">—</span></span>
+      <span class="nb-marquee__item">Hairdresser's Journal<span class="nb-marquee__sep">—</span></span>
+      <span class="nb-marquee__item">Cosmoprof<span class="nb-marquee__sep">—</span></span>
+      <span class="nb-marquee__item">Il Sole 24 Ore — Moda<span class="nb-marquee__sep">—</span></span>
+      <span class="nb-marquee__item">Vanity Fair Beauty<span class="nb-marquee__sep">—</span></span>
+      <span class="nb-marquee__item">Salone Internazionale<span class="nb-marquee__sep">—</span></span>
+    </div>
+  </div>
+</section>
+</body>
+</html>

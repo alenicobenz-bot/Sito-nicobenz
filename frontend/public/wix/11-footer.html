@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Footer — Nicobenz</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;1,9..144,400&family=Inter:wght@400;500&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#0B0B0C;color:#EDE7D9;font-family:'Inter',sans-serif}
+a{text-decoration:none;color:inherit}
+.nb-f{position:relative;background:#0B0B0C;border-top:1px solid rgba(237,231,217,.12);padding:96px 24px 48px;max-width:1400px;margin:0 auto}
+@media(min-width:768px){.nb-f{padding:96px 40px 48px}}
+.nb-f__lead-label{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#8A8275;margin-bottom:24px}
+.nb-f__lead{display:inline-flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:64px}
+.nb-f__big{font-family:'Fraunces',serif;font-weight:300;font-style:italic;letter-spacing:-0.025em;font-size:46px;line-height:.95;color:#EDE7D9;transition:color .5s}
+@media(min-width:640px){.nb-f__big{font-size:72px}}
+@media(min-width:768px){.nb-f__big{font-size:110px}}
+@media(min-width:1024px){.nb-f__big{font-size:140px}}
+.nb-f__lead:hover .nb-f__big{color:#C9A96E}
+.nb-f__arrow{margin-bottom:16px;width:56px;height:56px;border-radius:50%;border:1px solid rgba(237,231,217,.22);display:flex;align-items:center;justify-content:center;color:#EDE7D9;font-size:24px;transition:all .5s}
+@media(min-width:768px){.nb-f__arrow{width:80px;height:80px;font-size:32px;margin-bottom:32px}}
+.nb-f__lead:hover .nb-f__arrow{border-color:#C9A96E;background:#C9A96E;color:#0B0B0C;transform:rotate(45deg)}
+.nb-f__grid{display:grid;grid-template-columns:1fr;gap:40px;padding-top:48px;border-top:1px solid rgba(237,231,217,.12)}
+@media(min-width:768px){.nb-f__grid{grid-template-columns:4fr 3fr 3fr 2fr}}
+.nb-f__logo{font-family:'Fraunces',serif;letter-spacing:-0.025em;font-size:22px;margin-bottom:16px}
+.nb-f__logo em{color:#C9A96E;font-style:normal}
+.nb-f__about{font-size:14px;line-height:1.7;color:#C9C2B2;max-width:320px}
+.nb-f__email{margin-top:24px;display:inline-flex;align-items:center;gap:8px;font-size:14px;color:#EDE7D9;transition:color .3s}
+.nb-f__email:hover{color:#C9A96E}
+.nb-f__col-label{font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:#8A8275;margin-bottom:20px}
+.nb-f__list{list-style:none;display:flex;flex-direction:column;gap:12px}
+.nb-f__list a{font-size:14px;color:#C9C2B2;transition:color .3s}
+.nb-f__list a:hover{color:#C9A96E}
+.nb-f__list li.social a{display:inline-flex;align-items:center;gap:12px}
+.nb-f__bottom{margin-top:56px;padding-top:32px;border-top:1px solid rgba(237,231,217,.12);display:flex;flex-direction:column;gap:12px;justify-content:space-between;align-items:flex-start}
+@media(min-width:768px){.nb-f__bottom{flex-direction:row;align-items:center}}
+.nb-f__bottom p{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#8A8275}
+</style>
+</head>
+<body>
+<footer class="nb-f">
+  <div class="nb-f__lead-label">— Contatto</div>
+  <a href="#prenota" class="nb-f__lead"><span class="nb-f__big">Scriviamoci.</span><span class="nb-f__arrow">&#8599;</span></a>
+  <div class="nb-f__grid">
+    <div>
+      <div class="nb-f__logo">Nico<em>benz</em></div>
+      <p class="nb-f__about">Il primo Beauty Social Coach italiano. Strategia, personal brand e video marketing per saloni e professionisti beauty.</p>
+      <a href="mailto:info@nicobenz.it" class="nb-f__email">✉ info@nicobenz.it</a>
+    </div>
+    <div>
+      <div class="nb-f__col-label">Sito</div>
+      <ul class="nb-f__list"><li><a href="#metodo">Metodo</a></li><li><a href="#case-study">Case study</a></li><li><a href="#libro">Libro</a></li><li><a href="#podcast">Podcast</a></li><li><a href="#journal">Journal</a></li><li><a href="#prenota">Contatti</a></li></ul>
+    </div>
+    <div>
+      <div class="nb-f__col-label">Social</div>
+      <ul class="nb-f__list"><li class="social"><a target="_blank" href="https://www.instagram.com/nicobenz_beauty_social_coach/">● Instagram</a></li><li class="social"><a target="_blank" href="https://www.youtube.com/@nicobenzbeautysocialcoach">▶ YouTube</a></li><li class="social"><a target="_blank" href="https://www.facebook.com/nicobenzbeautysocialcoach">f Facebook</a></li><li class="social"><a target="_blank" href="https://www.tiktok.com/@nicobenzi">Tt TikTok</a></li></ul>
+    </div>
+    <div>
+      <div class="nb-f__col-label">Legale</div>
+      <ul class="nb-f__list"><li><a href="#">Privacy Policy</a></li><li><a href="#">Cookie Policy</a></li></ul>
+    </div>
+  </div>
+  <div class="nb-f__bottom">
+    <p>&copy; <span id="yr"></span> Nicobenz · Tutti i diritti riservati</p>
+    <p>Design editoriale · Redesigned with care</p>
+  </div>
+</footer>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>

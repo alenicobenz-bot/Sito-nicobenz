@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hero — Nicobenz</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,400&family=Inter:wght@300;400;500;600&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#0B0B0C;color:#EDE7D9;font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased}
+.nb-hero{padding:120px 24px 80px;max-width:1400px;margin:0 auto;position:relative}
+@media(min-width:768px){.nb-hero{padding:180px 40px 112px}}
+.nb-hero__grid{display:grid;grid-template-columns:1fr;gap:40px;align-items:end}
+@media(min-width:1024px){.nb-hero__grid{grid-template-columns:7fr 5fr;gap:64px}}
+.nb-eyebrow-row{display:flex;align-items:center;gap:12px;margin-bottom:32px}
+.nb-eyebrow-row span:first-child{width:40px;height:1px;background:#C9A96E;display:block}
+.nb-eyebrow{font-size:.72rem;font-weight:500;text-transform:uppercase;letter-spacing:.24em;color:#C9A96E}
+.nb-h1{font-family:'Fraunces',serif;font-weight:300;letter-spacing:-0.025em;font-size:44px;line-height:1.02;color:#EDE7D9}
+@media(min-width:640px){.nb-h1{font-size:58px}}
+@media(min-width:768px){.nb-h1{font-size:76px}}
+@media(min-width:1024px){.nb-h1{font-size:88px}}
+@media(min-width:1280px){.nb-h1{font-size:98px}}
+.nb-h1 em{font-style:italic;font-weight:400;color:#C9A96E}
+.nb-h1 span{display:block}
+.nb-sub{margin-top:36px;max-width:560px;font-size:17px;line-height:1.65;color:#C9C2B2}
+@media(min-width:768px){.nb-sub{font-size:18px;margin-top:40px}}
+.nb-cta-row{margin-top:40px;display:flex;flex-direction:column;gap:16px}
+@media(min-width:640px){.nb-cta-row{flex-direction:row}}
+.nb-btn-primary,.nb-btn-ghost{display:inline-flex;align-items:center;gap:.6rem;padding:.95rem 1.4rem;border-radius:999px;font-weight:500;letter-spacing:.01em;text-decoration:none;cursor:pointer;font-size:14px;transition:all .26s ease}
+.nb-btn-primary{background:#EDE7D9;color:#0B0B0C;border:1px solid #EDE7D9}
+.nb-btn-primary:hover{background:#C9A96E;border-color:#C9A96E}
+.nb-btn-ghost{background:transparent;color:#EDE7D9;border:1px solid rgba(237,231,217,0.22)}
+.nb-btn-ghost:hover{border-color:#C9A96E;color:#C9A96E}
+.nb-portrait{position:relative}
+.nb-portrait__inner{position:relative;aspect-ratio:4/5;width:100%;max-width:520px;margin:0 auto;overflow:hidden}
+@media(min-width:1024px){.nb-portrait__inner{margin-left:auto;margin-right:0}}
+.nb-portrait__inner img{width:100%;height:100%;object-fit:cover;filter:grayscale(.2) contrast(1.02)}
+.nb-portrait__overlay{position:absolute;inset:0;background:linear-gradient(to top,#0B0B0C,transparent 60%)}
+.nb-portrait__tag{position:absolute;top:16px;left:16px;border:1px solid rgba(237,231,217,0.22);padding:6px 12px;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:#EDE7D9;background:rgba(11,11,12,.5);backdrop-filter:blur(6px)}
+.nb-portrait__caption{position:absolute;bottom:24px;left:24px;right:24px;display:flex;justify-content:space-between;align-items:flex-end}
+.nb-portrait__name{font-family:'Fraunces',serif;font-size:20px;letter-spacing:-0.025em}
+.nb-portrait__role{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#C9C2B2;margin-top:4px}
+.nb-portrait__age{font-family:'Fraunces',serif;font-style:italic;color:#C9A96E;font-size:20px}
+.nb-quote{display:none;position:absolute;left:-32px;bottom:32px;max-width:280px;padding:20px;border-left:2px solid #C9A96E;background:rgba(17,16,18,.7);backdrop-filter:blur(4px)}
+@media(min-width:1024px){.nb-quote{display:block}}
+.nb-quote p{font-family:'Fraunces',serif;font-style:italic;font-size:17px;line-height:1.45;color:#EDE7D9}
+.nb-micro-row{margin-top:80px;display:flex;justify-content:space-between;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#8A8275}
+@media(min-width:768px){.nb-micro-row{margin-top:112px}}
+@keyframes nb-fade-up{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+.nb-fade{animation:nb-fade-up .9s cubic-bezier(.2,.7,.2,1) both}
+.arrow{display:inline-block;transition:transform .3s}
+.nb-btn-primary:hover .arrow{transform:translate(2px,-2px)}
+</style>
+</head>
+<body>
+<section class="nb-hero">
+  <div class="nb-hero__grid">
+    <div>
+      <div class="nb-eyebrow-row nb-fade"><span></span><span class="nb-eyebrow">Beauty Social Coach · Fondatore Parrucchiere Social</span></div>
+      <h1 class="nb-h1 nb-fade" style="animation-delay:80ms">
+        <span>Trasformo saloni di bellezza</span>
+        <span>in brand che le persone</span>
+        <span>scelgono, <em>seguono</em> e ricordano.</span>
+      </h1>
+      <p class="nb-sub nb-fade" style="animation-delay:160ms">Strategia, personal branding e video marketing per parrucchieri e professionisti beauty che vogliono smettere di inseguire i clienti e iniziare ad attrarli.</p>
+      <div class="nb-cta-row nb-fade" style="animation-delay:240ms">
+        <a href="#prenota" class="nb-btn-primary">Prenota una consulenza gratuita <span class="arrow">&#8599;</span></a>
+        <a href="#metodo" class="nb-btn-ghost">Scopri il metodo <span>&#8595;</span></a>
+      </div>
+    </div>
+    <div class="nb-portrait nb-fade" style="animation-delay:320ms">
+      <div class="nb-portrait__inner">
+        <img src="https://images.unsplash.com/photo-1655801856579-be4f3402eea4?auto=format&fit=crop&w=1200&q=80" alt="Nico Benz" />
+        <div class="nb-portrait__overlay"></div>
+        <div class="nb-portrait__tag">Milano · Italia</div>
+        <div class="nb-portrait__caption">
+          <div>
+            <div class="nb-portrait__name">Nico Benz</div>
+            <div class="nb-portrait__role">Fondatore · Parrucchiere Social</div>
+          </div>
+          <span class="nb-portrait__age">—12’</span>
+        </div>
+      </div>
+      <div class="nb-quote"><p>“Smetti di inseguire i clienti. Inizia a costruire il motivo per cui ti cercano.”</p></div>
+    </div>
+  </div>
+  <div class="nb-micro-row">
+    <span>EST. 2013</span>
+    <span style="display:none" class="md-show">Scroll</span>
+    <span>No. 01 — Homepage</span>
+  </div>
+</section>
+</body>
+</html>

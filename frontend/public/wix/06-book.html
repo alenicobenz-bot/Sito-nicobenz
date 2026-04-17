@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Libro — Nicobenz</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;1,9..144,400;1,9..144,500&family=Inter:wght@400;500&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#111012;color:#EDE7D9;font-family:'Inter',sans-serif}
+.nb-book{padding:96px 24px;max-width:1400px;margin:0 auto;border-top:1px solid rgba(237,231,217,.12);border-bottom:1px solid rgba(237,231,217,.12)}
+@media(min-width:768px){.nb-book{padding:144px 40px}}
+.nb-book__grid{display:grid;grid-template-columns:1fr;gap:40px;align-items:center}
+@media(min-width:1024px){.nb-book__grid{grid-template-columns:5fr 7fr;gap:64px}}
+.nb-eyebrow-row{display:flex;align-items:center;gap:12px;margin-bottom:24px}
+.nb-eyebrow-row span:first-child{width:40px;height:1px;background:#C9A96E;display:block}
+.nb-eyebrow{font-size:.72rem;font-weight:500;text-transform:uppercase;letter-spacing:.24em;color:#C9A96E}
+.nb-h2{font-family:'Fraunces',serif;font-weight:300;letter-spacing:-0.025em;font-size:40px;line-height:1.02;color:#EDE7D9}
+@media(min-width:768px){.nb-h2{font-size:58px}}
+.nb-h2 em{font-style:italic;color:#C9A96E}
+.nb-book__sub{margin-top:20px;font-family:'Fraunces',serif;font-style:italic;font-size:20px;color:#C9C2B2}
+.nb-book__desc{margin-top:32px;font-size:15px;line-height:1.7;color:#C9C2B2;max-width:520px}
+@media(min-width:768px){.nb-book__desc{font-size:16px}}
+.nb-book__quotes{margin-top:40px;display:flex;flex-direction:column;gap:16px}
+.nb-book__quote{padding-left:20px;border-left:1px solid #C9A96E;font-family:'Fraunces',serif;font-style:italic;font-size:14px;color:#EDE7D9;line-height:1.6;max-width:520px}
+.nb-btn-primary{display:inline-flex;align-items:center;gap:.6rem;padding:.95rem 1.4rem;border-radius:999px;font-weight:500;font-size:14px;text-decoration:none;background:#EDE7D9;color:#0B0B0C;border:1px solid #EDE7D9;margin-top:40px;transition:all .26s}
+.nb-btn-primary:hover{background:#C9A96E;border-color:#C9A96E}
+.nb-book__visual{position:relative;aspect-ratio:5/4;width:100%;background:linear-gradient(135deg,#1a1813,#111012,#0B0B0C);border:1px solid rgba(237,231,217,.12);display:flex;align-items:center;justify-content:center}
+.nb-book__cover-wrap{position:relative}
+.nb-book__cover-wrap::before{content:"";position:absolute;inset:-32px;background:rgba(201,169,110,.1);filter:blur(48px);border-radius:50%}
+.nb-book__cover{position:relative;width:260px;transform:rotate(-6deg);box-shadow:0 40px 80px rgba(0,0,0,.6);transition:transform .7s}
+@media(min-width:768px){.nb-book__cover{width:360px}}
+.nb-book__cover-wrap:hover .nb-book__cover{transform:rotate(0deg)}
+.nb-book__tag-tl{position:absolute;top:24px;left:24px;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#8A8275}
+.nb-book__tag-br{position:absolute;bottom:24px;right:24px;font-family:'Fraunces',serif;font-style:italic;color:#C9A96E;font-size:18px}
+.order-lg-first{order:2}
+.order-lg-last{order:1}
+@media(min-width:1024px){.order-lg-first{order:1}.order-lg-last{order:2}}
+</style>
+</head>
+<body>
+<section class="nb-book" id="libro">
+  <div class="nb-book__grid">
+    <div class="order-lg-first">
+      <div class="nb-eyebrow-row"><span></span><span class="nb-eyebrow">Il libro</span></div>
+      <h2 class="nb-h2"><em>Un video al giorno.</em></h2>
+      <p class="nb-book__sub">Il manuale che ha cambiato il marketing dei saloni italiani.</p>
+      <p class="nb-book__desc">Un sistema pratico per costruire un personal brand autentico con un solo video al giorno. Pagine fitte di esempi, template e check-list pensate per chi non ha tempo da perdere.</p>
+      <div class="nb-book__quotes">
+        <div class="nb-book__quote">« Un libro che dovrebbe leggere ogni titolare di salone. » — Estetica Magazine</div>
+        <div class="nb-book__quote">« Pragmatico, diretto, senza scorciatoie. » — Hairdresser's Journal</div>
+      </div>
+      <a href="https://amzn.eu/d/02sKFc6w" target="_blank" rel="noreferrer" class="nb-btn-primary">Acquista il libro &#8599;</a>
+    </div>
+    <div class="order-lg-last">
+      <div class="nb-book__visual">
+        <div class="nb-book__tag-tl">No. 02 — Pubblicato da Nicobenz</div>
+        <div class="nb-book__cover-wrap"><img class="nb-book__cover" src="https://static.wixstatic.com/media/e71624_ef03b6e0429f4bd2a0648274d1a468a7~mv2.png/v1/fill/w_594,h_394,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/519d1e8c-5d02-4710-8e0f-16c669584e55.png" alt="Un video al giorno" /></div>
+        <div class="nb-book__tag-br">— disponibile su Amazon</div>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Metodo — Nicobenz</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;1,9..144,400&family=Inter:wght@400;500&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#0B0B0C;color:#EDE7D9;font-family:'Inter',sans-serif}
+.nb-method{padding:96px 24px;max-width:1400px;margin:0 auto}
+@media(min-width:768px){.nb-method{padding:144px 40px}}
+.nb-method__head{display:grid;grid-template-columns:1fr;gap:40px;margin-bottom:56px}
+@media(min-width:1024px){.nb-method__head{grid-template-columns:5fr 1fr 6fr;margin-bottom:80px}}
+.nb-eyebrow-row{display:flex;align-items:center;gap:12px;margin-bottom:24px}
+.nb-eyebrow-row span:first-child{width:40px;height:1px;background:#C9A96E;display:block}
+.nb-eyebrow{font-size:.72rem;font-weight:500;text-transform:uppercase;letter-spacing:.24em;color:#C9A96E}
+.nb-h2{font-family:'Fraunces',serif;font-weight:300;letter-spacing:-0.025em;font-size:36px;line-height:1.05;color:#EDE7D9}
+@media(min-width:768px){.nb-h2{font-size:52px}}
+@media(min-width:1024px){.nb-h2{font-size:60px}}
+.nb-h2 em{font-style:italic;color:#C9A96E}
+.nb-method__desc{font-size:16px;line-height:1.7;color:#C9C2B2;max-width:520px;display:flex;align-items:flex-end}
+@media(min-width:768px){.nb-method__desc{font-size:18px}}
+.nb-steps{display:grid;grid-template-columns:1fr;gap:1px;background:rgba(237,231,217,.12)}
+@media(min-width:768px){.nb-steps{grid-template-columns:1fr 1fr}}
+.nb-step{position:relative;background:#0B0B0C;padding:40px 32px;transition:background-color .5s}
+@media(min-width:768px){.nb-step{padding:56px}}
+.nb-step:hover{background:#111012}
+.nb-step__top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:40px}
+.nb-step__n{font-family:'Fraunces',serif;font-style:italic;color:#C9A96E;font-size:18px}
+.nb-step__tag{font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:#8A8275}
+.nb-step__title{font-family:'Fraunces',serif;letter-spacing:-0.025em;font-size:28px;color:#EDE7D9;margin-bottom:20px}
+@media(min-width:768px){.nb-step__title{font-size:34px}}
+.nb-step__text{font-size:15px;line-height:1.7;color:#C9C2B2;max-width:460px}
+.nb-step__line{margin-top:40px;height:1px;background:rgba(237,231,217,.12);width:0;transition:width .7s}
+.nb-step:hover .nb-step__line{width:100%}
+</style>
+</head>
+<body>
+<section class="nb-method" id="metodo">
+  <div class="nb-method__head">
+    <div>
+      <div class="nb-eyebrow-row"><span></span><span class="nb-eyebrow">Il Metodo</span></div>
+      <h2 class="nb-h2">Un sistema in <em>quattro movimenti.</em></h2>
+    </div>
+    <div></div>
+    <p class="nb-method__desc">Niente ricette miracolose. Una regia chiara che unisce posizionamento, contenuti e conversione — pensata per chi vive di appuntamenti e reputazione.</p>
+  </div>
+  <div class="nb-steps">
+    <div class="nb-step"><div class="nb-step__top"><span class="nb-step__n">01</span><span class="nb-step__tag">Step</span></div><h3 class="nb-step__title">Posizionamento</h3><p class="nb-step__text">Definiamo chi sei, a chi parli e perché meriti di essere scelto. Un'identità editoriale che distingue il tuo salone dal rumore locale.</p><div class="nb-step__line"></div></div>
+    <div class="nb-step"><div class="nb-step__top"><span class="nb-step__n">02</span><span class="nb-step__tag">Step</span></div><h3 class="nb-step__title">Contenuto</h3><p class="nb-step__text">Costruiamo un piano video sostenibile: 1 contenuto al giorno, calibrato sul tuo tempo e sulla tua voce. Niente trend copiati, solo storia vera.</p><div class="nb-step__line"></div></div>
+    <div class="nb-step"><div class="nb-step__top"><span class="nb-step__n">03</span><span class="nb-step__tag">Step</span></div><h3 class="nb-step__title">Distribuzione</h3><p class="nb-step__text">Instagram, TikTok, YouTube e Google Business. Ogni piattaforma ha un ruolo preciso dentro un ecosistema che lavora per te 24/7.</p><div class="nb-step__line"></div></div>
+    <div class="nb-step"><div class="nb-step__top"><span class="nb-step__n">04</span><span class="nb-step__tag">Step</span></div><h3 class="nb-step__title">Conversione</h3><p class="nb-step__text">Trasformiamo follower in appuntamenti reali, con funnel semplici, offerte coerenti e un tono di voce che costruisce fiducia nel tempo.</p><div class="nb-step__line"></div></div>
+  </div>
+</section>
+</body>
+</html>

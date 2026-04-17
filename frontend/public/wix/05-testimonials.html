@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Testimonianze — Nicobenz</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;1,9..144,400;1,9..144,500&family=Inter:wght@400;500&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#0B0B0C;color:#EDE7D9;font-family:'Inter',sans-serif}
+.nb-t{padding:96px 24px;max-width:1400px;margin:0 auto}
+@media(min-width:768px){.nb-t{padding:144px 40px}}
+.nb-t__head{display:grid;grid-template-columns:1fr;gap:40px;margin-bottom:64px}
+@media(min-width:1024px){.nb-t__head{grid-template-columns:5fr 1fr 6fr;margin-bottom:80px}}
+.nb-eyebrow-row{display:flex;align-items:center;gap:12px;margin-bottom:24px}
+.nb-eyebrow-row span:first-child{width:40px;height:1px;background:#C9A96E;display:block}
+.nb-eyebrow{font-size:.72rem;font-weight:500;text-transform:uppercase;letter-spacing:.24em;color:#C9A96E}
+.nb-h2{font-family:'Fraunces',serif;font-weight:300;letter-spacing:-0.025em;font-size:36px;line-height:1.05;color:#EDE7D9}
+@media(min-width:768px){.nb-h2{font-size:52px}}
+@media(min-width:1024px){.nb-h2{font-size:60px}}
+.nb-h2 em{font-style:italic;color:#C9A96E}
+.nb-t__intro{font-size:16px;line-height:1.7;color:#C9C2B2;max-width:520px;display:flex;align-items:flex-end}
+.nb-t__grid{display:grid;grid-template-columns:1fr;gap:24px}
+@media(min-width:768px){.nb-t__grid{grid-template-columns:1fr 1fr;gap:32px}}
+.nb-card{background:#111012;border:1px solid rgba(237,231,217,.12);padding:32px;display:flex;flex-direction:column;gap:28px;min-height:320px;cursor:pointer;font-family:inherit;color:inherit;text-align:left;transition:border-color .3s;width:100%}
+@media(min-width:768px){.nb-card{padding:40px}}
+.nb-card:hover{border-color:rgba(237,231,217,.22)}
+.nb-card__top{display:flex;justify-content:space-between;align-items:flex-start}
+.nb-card__icon{color:#C9A96E;font-family:'Fraunces',serif;font-size:36px;line-height:1}
+.nb-card__play{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#C9C2B2;display:inline-flex;align-items:center;gap:8px;transition:color .3s}
+.nb-card:hover .nb-card__play{color:#C9A96E}
+.nb-card__play::before{content:"▶";font-size:10px}
+.nb-card__quote{font-family:'Fraunces',serif;font-size:22px;line-height:1.35;color:#EDE7D9;letter-spacing:-0.025em}
+@media(min-width:768px){.nb-card__quote{font-size:26px}}
+.nb-card__foot{margin-top:auto;display:flex;align-items:center;gap:16px;padding-top:24px;border-top:1px solid rgba(237,231,217,.12)}
+.nb-card__avatar{width:48px;height:48px;border-radius:50%;object-fit:cover;filter:grayscale(.2)}
+.nb-card__name{font-size:15px;color:#EDE7D9}
+.nb-card__role{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#8A8275;margin-top:2px}
+.nb-modal{position:fixed;inset:0;background:rgba(5,5,6,.92);backdrop-filter:blur(8px);display:none;align-items:center;justify-content:center;z-index:9999;padding:24px}
+.nb-modal.open{display:flex}
+.nb-modal__close{position:absolute;top:20px;right:20px;background:transparent;border:none;color:#EDE7D9;font-size:32px;cursor:pointer;padding:8px;line-height:1}
+.nb-modal__close:hover{color:#C9A96E}
+.nb-modal__inner{width:100%;max-width:1100px;aspect-ratio:16/9;border:1px solid rgba(237,231,217,.22);background:#000}
+.nb-modal__inner iframe{width:100%;height:100%;border:0}
+</style>
+</head>
+<body>
+<section class="nb-t" id="voci">
+  <div class="nb-t__head">
+    <div>
+      <div class="nb-eyebrow-row"><span></span><span class="nb-eyebrow">Le voci dei clienti</span></div>
+      <h2 class="nb-h2">Non le mie parole. <em>Le loro.</em></h2>
+    </div>
+    <div></div>
+    <p class="nb-t__intro">Quattro storie, quattro saloni, quattro città. Clicca su ogni tessera per guardare la testimonianza video.</p>
+  </div>
+  <div class="nb-t__grid">
+    <button class="nb-card" data-yt="dQw4w9WgXcQ">
+      <div class="nb-card__top"><span class="nb-card__icon">“</span><span class="nb-card__play">Guarda</span></div>
+      <blockquote class="nb-card__quote">“Nico non vende fumo. Ti costringe a guardare il tuo salone con occhi nuovi e a lavorare sulle cose che contano.”</blockquote>
+      <div class="nb-card__foot"><img class="nb-card__avatar" src="https://images.unsplash.com/photo-1754683378256-4b17627097d0?auto=format&fit=crop&w=400&q=80" alt="Laura" /><div><div class="nb-card__name">Laura Marchesi</div><div class="nb-card__role">Atelier Moreno — Milano</div></div></div>
+    </button>
+    <button class="nb-card" data-yt="M7lc1UVf-VE">
+      <div class="nb-card__top"><span class="nb-card__icon">“</span><span class="nb-card__play">Guarda</span></div>
+      <blockquote class="nb-card__quote">“Abbiamo smesso di inseguire la clientela. Oggi siamo noi a scegliere chi far sedere sulla poltrona.”</blockquote>
+      <div class="nb-card__foot"><img class="nb-card__avatar" src="https://images.pexels.com/photos/8867553/pexels-photo-8867553.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Marco" /><div><div class="nb-card__name">Marco Vitale</div><div class="nb-card__role">Master Barber — Napoli</div></div></div>
+    </button>
+    <button class="nb-card" data-yt="ScMzIvxBSi4">
+      <div class="nb-card__top"><span class="nb-card__icon">“</span><span class="nb-card__play">Guarda</span></div>
+      <blockquote class="nb-card__quote">“Mi ha insegnato a raccontare il mio lavoro senza imbarazzo. I social sono diventati uno strumento, non un peso.”</blockquote>
+      <div class="nb-card__foot"><img class="nb-card__avatar" src="https://images.unsplash.com/photo-1674882629415-6aab3ce98051?auto=format&fit=crop&w=400&q=80" alt="Bianca" /><div><div class="nb-card__name">Bianca Ferri</div><div class="nb-card__role">Bianca Parrucchieri — Torino</div></div></div>
+    </button>
+    <button class="nb-card" data-yt="9bZkp7q19f0">
+      <div class="nb-card__top"><span class="nb-card__icon">“</span><span class="nb-card__play">Guarda</span></div>
+      <blockquote class="nb-card__quote">“Un percorso chirurgico. Ogni consulenza lascia un'azione concreta e una metrica da rispettare.”</blockquote>
+      <div class="nb-card__foot"><img class="nb-card__avatar" src="https://images.unsplash.com/photo-1761839256840-7780a45b85dc?auto=format&fit=crop&w=400&q=80" alt="Alessia" /><div><div class="nb-card__name">Alessia Conti</div><div class="nb-card__role">Officina Capelli — Bologna</div></div></div>
+    </button>
+  </div>
+</section>
+<div class="nb-modal" id="ytModal"><button class="nb-modal__close" aria-label="Chiudi">&times;</button><div class="nb-modal__inner"><iframe id="ytFrame" src="" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe></div></div>
+<script>
+(function(){
+  var modal=document.getElementById('ytModal'),frame=document.getElementById('ytFrame');
+  document.querySelectorAll('.nb-card').forEach(function(el){el.addEventListener('click',function(){frame.src='https://www.youtube.com/embed/'+el.dataset.yt+'?autoplay=1&rel=0';modal.classList.add('open');});});
+  function close(){modal.classList.remove('open');frame.src='';}
+  modal.querySelector('.nb-modal__close').addEventListener('click',close);
+  modal.addEventListener('click',function(e){if(e.target===modal)close();});
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>FAQ — Nicobenz</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;1,9..144,400&family=Inter:wght@400;500&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#0B0B0C;color:#EDE7D9;font-family:'Inter',sans-serif}
+.nb-faq{padding:96px 24px;max-width:1400px;margin:0 auto}
+@media(min-width:768px){.nb-faq{padding:144px 40px}}
+.nb-faq__grid{display:grid;grid-template-columns:1fr;gap:40px}
+@media(min-width:1024px){.nb-faq__grid{grid-template-columns:5fr 7fr;gap:80px}}
+.nb-eyebrow-row{display:flex;align-items:center;gap:12px;margin-bottom:24px}
+.nb-eyebrow-row span:first-child{width:40px;height:1px;background:#C9A96E;display:block}
+.nb-eyebrow{font-size:.72rem;font-weight:500;text-transform:uppercase;letter-spacing:.24em;color:#C9A96E}
+.nb-h2{font-family:'Fraunces',serif;font-weight:300;letter-spacing:-0.025em;font-size:36px;line-height:1.05;color:#EDE7D9}
+@media(min-width:768px){.nb-h2{font-size:52px}}
+@media(min-width:1024px){.nb-h2{font-size:60px}}
+.nb-h2 em{font-style:italic;color:#C9A96E}
+.nb-faq__lead{margin-top:24px;font-size:15px;line-height:1.7;color:#C9C2B2;max-width:440px}
+.nb-faq__list{border-top:1px solid rgba(237,231,217,.12)}
+.nb-q{border-bottom:1px solid rgba(237,231,217,.12)}
+.nb-q__btn{width:100%;padding:28px 0;display:flex;justify-content:space-between;gap:24px;background:transparent;border:none;cursor:pointer;text-align:left;font-family:inherit;color:inherit}
+.nb-q__text{font-family:'Fraunces',serif;letter-spacing:-0.025em;font-size:18px;color:#EDE7D9;transition:color .3s}
+@media(min-width:768px){.nb-q__text{font-size:22px}}
+.nb-q__btn:hover .nb-q__text{color:#C9A96E}
+.nb-q__icon{flex-shrink:0;width:40px;height:40px;border-radius:50%;border:1px solid rgba(237,231,217,.22);display:flex;align-items:center;justify-content:center;transition:border-color .3s;position:relative}
+.nb-q__btn:hover .nb-q__icon{border-color:#C9A96E}
+.nb-q__icon::before,.nb-q__icon::after{content:"";position:absolute;background:#EDE7D9;transition:background .3s,transform .3s}
+.nb-q__icon::before{width:14px;height:1.5px}
+.nb-q__icon::after{width:1.5px;height:14px}
+.nb-q.open .nb-q__icon::before{background:#C9A96E}
+.nb-q.open .nb-q__icon::after{transform:scaleY(0)}
+.nb-q__body{display:grid;grid-template-rows:0fr;opacity:0;transition:grid-template-rows .5s,opacity .5s}
+.nb-q.open .nb-q__body{grid-template-rows:1fr;opacity:1}
+.nb-q__body>div{overflow:hidden}
+.nb-q__body p{padding:0 56px 28px 0;font-size:15px;line-height:1.75;color:#C9C2B2;max-width:640px}
+@media(min-width:768px){.nb-q__body p{font-size:16px}}
+</style>
+</head>
+<body>
+<section class="nb-faq" id="faq">
+  <div class="nb-faq__grid">
+    <div>
+      <div class="nb-eyebrow-row"><span></span><span class="nb-eyebrow">FAQ</span></div>
+      <h2 class="nb-h2">Domande ricorrenti, <em>risposte dirette.</em></h2>
+      <p class="nb-faq__lead">Se non trovi quello che cerchi, la consulenza gratuita è il modo più rapido per togliersi ogni dubbio.</p>
+    </div>
+    <div class="nb-faq__list">
+      <div class="nb-q open"><button class="nb-q__btn"><span class="nb-q__text">A chi si rivolge la consulenza?</span><span class="nb-q__icon"></span></button><div class="nb-q__body"><div><p>A titolari di saloni di bellezza, parrucchieri, barber shop e professionisti beauty che vogliono trasformare la propria presenza online in un vero canale di acquisizione e posizionamento.</p></div></div></div>
+      <div class="nb-q"><button class="nb-q__btn"><span class="nb-q__text">La prima consulenza è davvero gratuita?</span><span class="nb-q__icon"></span></button><div class="nb-q__body"><div><p>Sì. È una call di 30 minuti senza impegno. Analizziamo il tuo posizionamento attuale, individuiamo il primo blocco da risolvere e decidiamo insieme se ha senso proseguire.</p></div></div></div>
+      <div class="nb-q"><button class="nb-q__btn"><span class="nb-q__text">Devo già avere una presenza sui social?</span><span class="nb-q__icon"></span></button><div class="nb-q__body"><div><p>No. Lavoro con saloni che partono da zero e con realtà già strutturate. Il metodo si adatta al punto in cui sei, non viceversa.</p></div></div></div>
+      <div class="nb-q"><button class="nb-q__btn"><span class="nb-q__text">Quanto tempo devo dedicare ogni settimana?</span><span class="nb-q__icon"></span></button><div class="nb-q__body"><div><p>Il metodo è costruito su un video al giorno e circa 60 minuti di produzione settimanale, al netto del lavoro strategico che facciamo insieme.</p></div></div></div>
+      <div class="nb-q"><button class="nb-q__btn"><span class="nb-q__text">In quanto tempo si vedono i primi risultati?</span><span class="nb-q__icon"></span></button><div class="nb-q__body"><div><p>I primi segnali — qualità dei contatti, conversazioni, richieste — arrivano in 4-6 settimane. L'impatto strutturale sul fatturato in 4-6 mesi.</p></div></div></div>
+      <div class="nb-q"><button class="nb-q__btn"><span class="nb-q__text">Lavori anche fuori dall'Italia?</span><span class="nb-q__icon"></span></button><div class="nb-q__body"><div><p>Sì, su selezione. Seguo saloni in Italia, Svizzera italiana e alcune realtà europee in lingua italiana o inglese.</p></div></div></div>
+    </div>
+  </div>
+</section>
+<script>
+document.querySelectorAll('.nb-q__btn').forEach(function(btn){btn.addEventListener('click',function(){var q=btn.parentElement;var wasOpen=q.classList.contains('open');document.querySelectorAll('.nb-q').forEach(function(x){x.classList.remove('open');});if(!wasOpen)q.classList.add('open');});});
+</script>
+</body>
+</html>

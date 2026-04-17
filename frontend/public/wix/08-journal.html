@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Journal — Nicobenz</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;1,9..144,400&family=Inter:wght@400;500&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#111012;color:#EDE7D9;font-family:'Inter',sans-serif}
+.nb-j{padding:96px 24px;max-width:1400px;margin:0 auto;border-top:1px solid rgba(237,231,217,.12);border-bottom:1px solid rgba(237,231,217,.12)}
+@media(min-width:768px){.nb-j{padding:144px 40px}}
+.nb-j__head{display:flex;flex-direction:column;gap:32px;margin-bottom:56px}
+@media(min-width:768px){.nb-j__head{flex-direction:row;align-items:flex-end;justify-content:space-between;margin-bottom:80px}}
+.nb-eyebrow-row{display:flex;align-items:center;gap:12px;margin-bottom:24px}
+.nb-eyebrow-row span:first-child{width:40px;height:1px;background:#C9A96E;display:block}
+.nb-eyebrow{font-size:.72rem;font-weight:500;text-transform:uppercase;letter-spacing:.24em;color:#C9A96E}
+.nb-h2{font-family:'Fraunces',serif;font-weight:300;letter-spacing:-0.025em;font-size:36px;line-height:1.05;color:#EDE7D9;max-width:640px}
+@media(min-width:768px){.nb-h2{font-size:52px}}
+@media(min-width:1024px){.nb-h2{font-size:60px}}
+.nb-h2 em{font-style:italic;color:#C9A96E}
+.nb-btn-ghost{display:inline-flex;align-items:center;gap:.6rem;padding:.9rem 1.4rem;border-radius:999px;font-weight:500;font-size:14px;text-decoration:none;background:transparent;color:#EDE7D9;border:1px solid rgba(237,231,217,.22);transition:all .26s}
+.nb-btn-ghost:hover{border-color:#C9A96E;color:#C9A96E}
+.nb-j__grid{display:grid;grid-template-columns:1fr;gap:24px}
+@media(min-width:768px){.nb-j__grid{grid-template-columns:repeat(3,1fr);gap:32px}}
+.nb-post{border:1px solid rgba(237,231,217,.12);background:#0B0B0C;overflow:hidden;cursor:pointer;transition:border-color .3s;text-decoration:none;color:inherit;display:block}
+.nb-post:hover{border-color:rgba(237,231,217,.22)}
+.nb-post__media{position:relative;aspect-ratio:4/3;overflow:hidden}
+.nb-post__media img{width:100%;height:100%;object-fit:cover;transition:transform .9s}
+.nb-post:hover .nb-post__media img{transform:scale(1.05)}
+.nb-post__media::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.6),transparent 50%)}
+.nb-post__cat{position:absolute;top:16px;left:16px;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:#EDE7D9;border:1px solid rgba(237,231,217,.22);background:rgba(11,11,12,.55);backdrop-filter:blur(6px);padding:6px 12px;z-index:2}
+.nb-post__body{padding:24px}
+@media(min-width:768px){.nb-post__body{padding:28px}}
+.nb-post__meta{display:flex;align-items:center;gap:12px;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#8A8275}
+.nb-post__dot{width:4px;height:4px;border-radius:50%;background:#8A8275}
+.nb-post__title{margin-top:16px;font-family:'Fraunces',serif;letter-spacing:-0.025em;font-size:22px;line-height:1.25;color:#EDE7D9;transition:color .3s}
+@media(min-width:768px){.nb-post__title{font-size:24px}}
+.nb-post:hover .nb-post__title{color:#C9A96E}
+.nb-post__excerpt{margin-top:12px;font-size:14px;line-height:1.65;color:#C9C2B2}
+.nb-post__cta{margin-top:24px;display:inline-flex;align-items:center;gap:8px;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#EDE7D9;transition:color .3s}
+.nb-post:hover .nb-post__cta{color:#C9A96E}
+</style>
+</head>
+<body>
+<section class="nb-j" id="journal">
+  <div class="nb-j__head">
+    <div>
+      <div class="nb-eyebrow-row"><span></span><span class="nb-eyebrow">Journal</span></div>
+      <h2 class="nb-h2">Idee, strumenti, <em>ossessioni.</em></h2>
+    </div>
+    <a href="#prenota" class="nb-btn-ghost">Tutti gli articoli &#8599;</a>
+  </div>
+  <div class="nb-j__grid">
+    <a href="#" class="nb-post">
+      <div class="nb-post__media"><span class="nb-post__cat">Strategia</span><img src="https://images.unsplash.com/photo-1631648080466-906e6a83dc7d?auto=format&fit=crop&w=1200&q=80" alt="" /></div>
+      <div class="nb-post__body"><div class="nb-post__meta"><span>12 Giugno 2025</span><span class="nb-post__dot"></span><span>6 min lettura</span></div><h3 class="nb-post__title">Il mito del trend: perché copiare gli altri ti rende invisibile</h3><p class="nb-post__excerpt">Il salone che vince nel 2025 non rincorre i trend: li interpreta. Una guida pratica per costruire una voce riconoscibile.</p><span class="nb-post__cta">Leggi articolo &#8599;</span></div>
+    </a>
+    <a href="#" class="nb-post">
+      <div class="nb-post__media"><span class="nb-post__cat">Video</span><img src="https://images.pexels.com/photos/8867553/pexels-photo-8867553.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="" /></div>
+      <div class="nb-post__body"><div class="nb-post__meta"><span>04 Giugno 2025</span><span class="nb-post__dot"></span><span>8 min lettura</span></div><h3 class="nb-post__title">Un video al giorno: la routine in 18 minuti che cambia la tua agenda</h3><p class="nb-post__excerpt">Metodo, template e tre esempi reali da saloni italiani. Tutto quello che serve per iniziare domani mattina.</p><span class="nb-post__cta">Leggi articolo &#8599;</span></div>
+    </a>
+    <a href="#" class="nb-post">
+      <div class="nb-post__media"><span class="nb-post__cat">Brand</span><img src="https://images.unsplash.com/photo-1759142235060-3191ee596c81?auto=format&fit=crop&w=1200&q=80" alt="" /></div>
+      <div class="nb-post__body"><div class="nb-post__meta"><span>27 Maggio 2025</span><span class="nb-post__dot"></span><span>7 min lettura</span></div><h3 class="nb-post__title">Alzare i prezzi senza perdere clienti: tre leve di posizionamento</h3><p class="nb-post__excerpt">Dal linguaggio al format dell'appuntamento: come costruire percezione di valore che giustifica ogni euro.</p><span class="nb-post__cta">Leggi articolo &#8599;</span></div>
+    </a>
+  </div>
+</section>
+</body>
+</html>

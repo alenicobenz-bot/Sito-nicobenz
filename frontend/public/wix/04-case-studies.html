@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Case Studies — Nicobenz</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;1,9..144,400&family=Inter:wght@400;500&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#111012;color:#EDE7D9;font-family:'Inter',sans-serif}
+.nb-cs{padding:96px 24px;max-width:1400px;margin:0 auto;border-top:1px solid rgba(237,231,217,.12);border-bottom:1px solid rgba(237,231,217,.12)}
+@media(min-width:768px){.nb-cs{padding:144px 40px}}
+.nb-cs__head{display:flex;flex-direction:column;gap:32px;margin-bottom:64px}
+@media(min-width:768px){.nb-cs__head{flex-direction:row;align-items:flex-end;justify-content:space-between;margin-bottom:80px}}
+.nb-eyebrow-row{display:flex;align-items:center;gap:12px;margin-bottom:24px}
+.nb-eyebrow-row span:first-child{width:40px;height:1px;background:#C9A96E;display:block}
+.nb-eyebrow{font-size:.72rem;font-weight:500;text-transform:uppercase;letter-spacing:.24em;color:#C9A96E}
+.nb-h2{font-family:'Fraunces',serif;font-weight:300;letter-spacing:-0.025em;font-size:36px;line-height:1.05;color:#EDE7D9;max-width:640px}
+@media(min-width:768px){.nb-h2{font-size:52px}}
+@media(min-width:1024px){.nb-h2{font-size:60px}}
+.nb-h2 em{font-style:italic;color:#C9A96E}
+.nb-cs__intro{font-size:15px;line-height:1.7;color:#C9C2B2;max-width:420px}
+.nb-cs__grid{display:grid;grid-template-columns:1fr;gap:24px}
+@media(min-width:768px){.nb-cs__grid{grid-template-columns:1fr 1fr;gap:32px}}
+.nb-tile{position:relative;overflow:hidden;border:1px solid rgba(237,231,217,.12);background:#111012;transition:border-color .4s;text-decoration:none;color:inherit;display:block}
+.nb-tile:hover{border-color:rgba(237,231,217,.22)}
+.nb-tile--wide{grid-column:1/-1}
+.nb-tile__media{position:relative;overflow:hidden;aspect-ratio:4/3}
+.nb-tile--wide .nb-tile__media{aspect-ratio:21/9}
+.nb-tile__media img{width:100%;height:100%;object-fit:cover;transition:transform .9s cubic-bezier(.2,.7,.2,1),filter .6s}
+.nb-tile:hover .nb-tile__media img{transform:scale(1.05);filter:saturate(1.05) contrast(1.02)}
+.nb-tile__overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.8),rgba(0,0,0,.2) 50%,transparent)}
+.nb-tile__cat{position:absolute;top:20px;left:20px;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:#EDE7D9;background:rgba(11,11,12,.6);backdrop-filter:blur(6px);padding:6px 12px;border:1px solid rgba(237,231,217,.22)}
+.nb-tile__bottom{position:absolute;bottom:24px;left:24px;right:24px;display:flex;justify-content:space-between;align-items:flex-end;gap:16px}
+.nb-tile__name{font-family:'Fraunces',serif;letter-spacing:-0.025em;font-size:26px;line-height:1.15;color:#EDE7D9}
+@media(min-width:768px){.nb-tile__name{font-size:32px}}
+.nb-tile__city{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#C9C2B2;margin-top:4px}
+.nb-tile__result{font-family:'Fraunces',serif;font-style:italic;color:#C9A96E;font-size:22px;text-align:right}
+@media(min-width:768px){.nb-tile__result{font-size:28px}}
+.nb-tile__metric{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#C9C2B2;text-align:right}
+.nb-tile__foot{padding:24px;border-top:1px solid rgba(237,231,217,.12);display:flex;justify-content:space-between;gap:24px;align-items:flex-start}
+@media(min-width:768px){.nb-tile__foot{padding:32px}}
+.nb-tile__summary{font-size:15px;line-height:1.65;color:#C9C2B2;max-width:560px}
+.nb-tile__cta{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:#EDE7D9;white-space:nowrap;transition:color .3s}
+.nb-tile:hover .nb-tile__cta{color:#C9A96E}
+</style>
+</head>
+<body>
+<section class="nb-cs" id="case-study">
+  <div class="nb-cs__head">
+    <div>
+      <div class="nb-eyebrow-row"><span></span><span class="nb-eyebrow">Case study</span></div>
+      <h2 class="nb-h2">Risultati misurabili, <em>saloni reali.</em></h2>
+    </div>
+    <p class="nb-cs__intro">Una selezione di clienti con cui abbiamo lavorato sulla crescita organica, il posizionamento editoriale e la conversione degli appuntamenti.</p>
+  </div>
+  <div class="nb-cs__grid">
+    <a href="#prenota" class="nb-tile nb-tile--wide">
+      <div class="nb-tile__media"><img src="https://images.unsplash.com/photo-1773904215697-e6c21fc27ac2?auto=format&fit=crop&w=1600&q=80" alt="Atelier Moreno" /><div class="nb-tile__overlay"></div><span class="nb-tile__cat">Salone premium</span>
+        <div class="nb-tile__bottom"><div><div class="nb-tile__name">Atelier Moreno</div><div class="nb-tile__city">Milano</div></div><div><div class="nb-tile__result">+312% prenotazioni</div><div class="nb-tile__metric">in 8 mesi</div></div></div>
+      </div>
+      <div class="nb-tile__foot"><p class="nb-tile__summary">Riposizionamento come hair atelier per clientela corporate. Agenda satura con prezzi aumentati del 28%.</p><span class="nb-tile__cta">Leggi &#8599;</span></div>
+    </a>
+    <a href="#prenota" class="nb-tile">
+      <div class="nb-tile__media"><img src="https://images.pexels.com/photos/2881253/pexels-photo-2881253.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Studio Vitale" /><div class="nb-tile__overlay"></div><span class="nb-tile__cat">Barber shop</span>
+        <div class="nb-tile__bottom"><div><div class="nb-tile__name">Studio Vitale</div><div class="nb-tile__city">Napoli</div></div><div><div class="nb-tile__result">+184% follower</div><div class="nb-tile__metric">in 6 mesi</div></div></div>
+      </div>
+      <div class="nb-tile__foot"><p class="nb-tile__summary">Personal brand del titolare costruito su TikTok e Reels. Lista d'attesa per i nuovi clienti a 3 settimane.</p><span class="nb-tile__cta">Leggi &#8599;</span></div>
+    </a>
+    <a href="#prenota" class="nb-tile">
+      <div class="nb-tile__media"><img src="https://images.pexels.com/photos/7195812/pexels-photo-7195812.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Bianca Parrucchieri" /><div class="nb-tile__overlay"></div><span class="nb-tile__cat">Salone di quartiere</span>
+        <div class="nb-tile__bottom"><div><div class="nb-tile__name">Bianca Parrucchieri</div><div class="nb-tile__city">Torino</div></div><div><div class="nb-tile__result">+47% scontrino</div><div class="nb-tile__metric">in 5 mesi</div></div></div>
+      </div>
+      <div class="nb-tile__foot"><p class="nb-tile__summary">Nuovo tono editoriale e servizi signature. Clientela più fedele, meno sconti, più margine.</p><span class="nb-tile__cta">Leggi &#8599;</span></div>
+    </a>
+    <a href="#prenota" class="nb-tile nb-tile--wide">
+      <div class="nb-tile__media"><img src="https://images.pexels.com/photos/7195799/pexels-photo-7195799.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Officina Capelli" /><div class="nb-tile__overlay"></div><span class="nb-tile__cat">Concept store beauty</span>
+        <div class="nb-tile__bottom"><div><div class="nb-tile__name">Officina Capelli</div><div class="nb-tile__city">Bologna</div></div><div><div class="nb-tile__result">+22.000 views/mese</div><div class="nb-tile__metric">organiche</div></div></div>
+      </div>
+      <div class="nb-tile__foot"><p class="nb-tile__summary">Serie di contenuti dietro le quinte e micro-documentari. Nuova clientela fuori città ogni settimana.</p><span class="nb-tile__cta">Leggi &#8599;</span></div>
+    </a>
+  </div>
+</section>
+</body>
+</html>
