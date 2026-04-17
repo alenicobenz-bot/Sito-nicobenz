@@ -9,7 +9,7 @@ const Footer = () => {
         {/* Big editorial word */}
         <div className="mb-16">
           <div className="text-[11px] tracking-micro uppercase text-[var(--nb-muted)] mb-6">
-            — Contatto
+            — Nicobenz
           </div>
           <a
             href="#prenota"

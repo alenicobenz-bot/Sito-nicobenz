@@ -1,8 +1,14 @@
 import React from "react";
 import { ArrowUpRight } from "lucide-react";
+import { useBlogPosts } from "../hooks/useDynamicContent";
 import { JOURNAL } from "../mock";
 
 const Journal = () => {
+  const { posts, loading } = useBlogPosts();
+  
+  // Use dynamic posts if available, otherwise fallback to mock
+  const displayPosts = posts.length > 0 ? posts : JOURNAL;
+
   return (
     <section id="journal" className="relative py-24 md:py-36 bg-[var(--nb-bg-2)] border-y border-[var(--nb-border)]">
       <div className="max-w-[1400px] mx-auto px-6 md:px-10">
@@ -13,17 +19,20 @@ const Journal = () => {
               <span className="nb-eyebrow">Journal</span>
             </div>
             <h2 className="font-display font-light tracking-editorial text-[36px] md:text-[52px] lg:text-[60px] leading-[1.05] text-[var(--nb-ivory)] max-w-[640px]">
-              Idee, strumenti, <em className="italic text-[var(--nb-gold)]">ossessioni.</em>
+              Ultimi <em className="italic text-[var(--nb-gold)]">articoli.</em>
             </h2>
           </div>
-          <a href="#prenota" className="nb-btn-ghost self-start md:self-end">
+          <a href="https://www.nicobenz.it/post" target="_blank" rel="noreferrer" className="nb-btn-ghost self-start md:self-end">
             Tutti gli articoli
             <ArrowUpRight className="w-4 h-4" strokeWidth={1.6} />
           </a>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
-          {JOURNAL.map((post) => (
+        {loading ? (
+          <div className="text-center text-[var(--nb-muted)] py-12">Caricamento articoli...</div>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+            {displayPosts.map((post) => (
             <a
               key={post.id}
               href={post.href}
@@ -57,8 +66,9 @@ const Journal = () => {
                 </div>
               </article>
             </a>
-          ))}
-        </div>
+            ))}
+          </div>
+        )}
       </div>
     </section>
   );

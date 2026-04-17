@@ -286,4 +286,4 @@ export const FOOTER_LINKS = [
 { label: "Libro", href: "#libro" },
 { label: "Podcast", href: "#podcast" },
 { label: "Journal", href: "#journal" },
-{ label: "Contatti", href: "#prenota" }];
+{ label: "Prenota", href: "#prenota" }];

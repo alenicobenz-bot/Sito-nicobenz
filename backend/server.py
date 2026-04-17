@@ -9,6 +9,7 @@ from pydantic import BaseModel, Field, ConfigDict
 from typing import List
 import uuid
 from datetime import datetime, timezone
+from routes import blog, youtube
 
 
 ROOT_DIR = Path(__file__).parent
@@ -67,6 +68,8 @@ async def get_status_checks():
     return status_checks
 
 # Include the router in the main app
+api_router.include_router(blog.router, prefix="/blog", tags=["blog"])
+api_router.include_router(youtube.router, prefix="/youtube", tags=["youtube"])
 app.include_router(api_router)
 
 app.add_middleware(
