@@ -1,0 +1,9 @@
+/* App-level overrides — minimal */
+.App {
+  min-height: 100vh;
+  background: var(--nb-bg);
+  color: var(--nb-ivory);
+}
+
+/* Smooth anchor scroll */
+html { scroll-behavior: smooth; }
