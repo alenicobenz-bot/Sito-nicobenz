@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import Problem from "../components/Problem";
 import SocialProof from "../components/SocialProof";
 import Method from "../components/Method";
 import CaseStudies from "../components/CaseStudies";
@@ -16,6 +17,7 @@ const HomePage = () => {
     <main className="relative bg-[var(--nb-bg)] text-[var(--nb-ivory)]">
       <Header />
       <Hero />
+      <Problem />
       <SocialProof />
       <Method />
       <CaseStudies />

@@ -139,43 +139,43 @@ export const CASE_STUDIES = [
 export const TESTIMONIALS = [
 {
   id: "t1",
-  name: "Laura Marchesi",
-  role: "Titolare, Atelier Moreno — Milano",
+  name: "Maurizio Fiore",
+  role: "Beauty Professional — ospite podcast",
   quote:
   "Nico non vende fumo. Ti costringe a guardare il tuo salone con occhi nuovi e a lavorare sulle cose che contano: identità, qualità e coerenza.",
   avatar:
   "https://images.unsplash.com/photo-1754683378256-4b17627097d0?auto=format&fit=crop&w=400&q=80",
-  youtubeId: "dQw4w9WgXcQ"
+  youtubeId: "puNZKqsRnFo"
 },
 {
   id: "t2",
-  name: "Marco Vitale",
-  role: "Master Barber — Napoli",
+  name: "Davide Lamia",
+  role: "Professional Beauty — ospite podcast",
   quote:
   "Abbiamo smesso di inseguire la clientela. Oggi siamo noi a scegliere chi far sedere sulla poltrona. È un altro mestiere.",
   avatar:
   "https://images.pexels.com/photos/8867553/pexels-photo-8867553.jpeg?auto=compress&cs=tinysrgb&w=400",
-  youtubeId: "M7lc1UVf-VE"
+  youtubeId: "2vI_sbO5Anw"
 },
 {
   id: "t3",
-  name: "Bianca Ferri",
-  role: "Founder, Bianca Parrucchieri — Torino",
+  name: "Marzia Nardi",
+  role: "Beauty Expert — ospite podcast",
   quote:
   "Mi ha insegnato a raccontare il mio lavoro senza imbarazzo. I social sono diventati uno strumento, non un peso.",
   avatar:
   "https://images.unsplash.com/photo-1674882629415-6aab3ce98051?auto=format&fit=crop&w=400&q=80",
-  youtubeId: "ScMzIvxBSi4"
+  youtubeId: "ZvEcbpjawnU"
 },
 {
   id: "t4",
-  name: "Alessia Conti",
-  role: "Owner, Officina Capelli — Bologna",
+  name: "Andrea Bozzano",
+  role: "Beauty Professional — ospite podcast",
   quote:
   "Un percorso chirurgico. Ogni consulenza lascia un'azione concreta e una metrica da rispettare.",
   avatar:
   "https://images.unsplash.com/photo-1761839256840-7780a45b85dc?auto=format&fit=crop&w=400&q=80",
-  youtubeId: "9bZkp7q19f0"
+  youtubeId: "NKgB3S-soVU"
 }];
 
 
@@ -200,21 +200,21 @@ export const PODCAST = {
   episodes: [
   {
     n: "EP. 48",
-    title: "Perché il tuo salone non sta crescendo (anche se lavori benissimo)",
-    length: "42 min",
-    youtubeId: "dQw4w9WgXcQ"
+    title: "Ospite Maurizio Fiore — Dipendenti imprenditori, la nuova era del lavoro",
+    length: "51 min",
+    youtubeId: "puNZKqsRnFo"
   },
   {
     n: "EP. 47",
-    title: "Come ho trasformato un barber shop in un brand da lista d'attesa",
-    length: "38 min",
-    youtubeId: "M7lc1UVf-VE"
+    title: "Ospite Davide Lamia — Strategie social vincenti per il beauty",
+    length: "57 min",
+    youtubeId: "2vI_sbO5Anw"
   },
   {
     n: "EP. 46",
-    title: "La formula dei contenuti che vendono senza sembrare pubblicità",
-    length: "51 min",
-    youtubeId: "ScMzIvxBSi4"
+    title: "Ospite Andrea Bozzano — Costruire autorevolezza nel settore beauty",
+    length: "46 min",
+    youtubeId: "NKgB3S-soVU"
   }],
 
   cta: {
