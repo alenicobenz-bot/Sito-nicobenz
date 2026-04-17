@@ -29,7 +29,7 @@ export const HERO = {
   eyebrow: "Beauty Social Coach \xB7 Fondatore Marketing Parrucchieri",
   title: [
   "Trasformo saloni di bellezza",
-  "in brand che le persone",
+  "in personal brand che le persone",
   "scelgono, seguono e ricordano."],
 
   subtitle:
