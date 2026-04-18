@@ -47,6 +47,13 @@ const Hero = () => {
                 loading="eager"
               />
             </div>
+
+            {/* Floating quote */}
+            <div className="hidden lg:block absolute -left-8 bottom-8 max-w-[280px] p-6 border-l-2 border-[var(--nb-gold)] bg-[rgba(17,16,18,0.85)] backdrop-blur-md">
+              <p className="font-display italic text-[17px] leading-[1.5] text-[var(--nb-ivory)]">
+                "Smetti di inseguire i clienti. Inizia a costruire il motivo per cui ti cercano."
+              </p>
+            </div>
           </div>
         </div>
       </div>
