@@ -20,7 +20,7 @@ const BookingCTA = () => {
         </h2>
         
         <p className="text-[17px] md:text-[19px] leading-[1.7] text-[var(--nb-ivory-dim)] max-w-[640px] mx-auto mb-12">
-          Una call 1-a-1 con me. Analizziamo il tuo posizionamento, individuiamo il primo ostacolo da rimuovere e decidi in autonomia se proseguire.
+          Una call 1-a-1 con <span className="text-[var(--nb-gold)] font-medium">Nico Benz</span>. Analizziamo il tuo posizionamento, individuiamo il primo ostacolo da rimuovere e decidi in autonomia se proseguire.
         </p>
 
         <ul className="inline-flex flex-col items-start gap-4 text-left mb-14">

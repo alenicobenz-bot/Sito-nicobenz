@@ -8,9 +8,15 @@ const Hero = () => {
       <div className="max-w-[1600px] mx-auto px-6 md:px-10 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           <div className="lg:col-span-6">
-            <div className="flex items-center gap-3 mb-6">
-              <span className="w-10 h-[1px] bg-[var(--nb-gold)]" />
-              <span className="nb-eyebrow">{HERO.eyebrow}</span>
+            {/* Nome prominente sopra tutto */}
+            <div className="mb-8">
+              <h2 className="font-display font-medium tracking-editorial text-[32px] sm:text-[40px] md:text-[48px] text-[var(--nb-gold)] mb-2">
+                Nico Benz
+              </h2>
+              <div className="flex items-center gap-3">
+                <span className="w-10 h-[1px] bg-[var(--nb-gold)]" />
+                <span className="nb-eyebrow">{HERO.eyebrow}</span>
+              </div>
             </div>
 
             <h1 className="font-display font-light tracking-editorial text-[48px] sm:text-[64px] md:text-[80px] lg:text-[96px] leading-[0.95] text-[var(--nb-ivory)] mb-8">
@@ -42,17 +48,32 @@ const Hero = () => {
             <div className="relative aspect-[3/4] lg:aspect-[4/5] overflow-hidden bg-[#0a0a0a] flex items-center justify-center">
               <img
                 src={HERO.portrait}
-                alt="Nicobenz"
+                alt="Nico Benz"
                 className="w-full h-full object-contain scale-90"
                 loading="eager"
               />
+              
+              {/* Firma sotto la foto - sempre visibile */}
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-black/90 to-transparent pt-16 pb-6 px-6">
+                <div className="text-center">
+                  <div className="font-display text-[28px] sm:text-[32px] md:text-[36px] tracking-editorial text-[var(--nb-gold)] mb-1">
+                    Nico Benz
+                  </div>
+                  <div className="text-[11px] sm:text-[12px] tracking-micro uppercase text-[var(--nb-ivory-dim)]">
+                    Beauty Social Coach · Founder
+                  </div>
+                </div>
+              </div>
             </div>
 
             {/* Floating quote */}
-            <div className="hidden lg:block absolute -left-8 bottom-8 max-w-[280px] p-6 border-l-2 border-[var(--nb-gold)] bg-[rgba(17,16,18,0.85)] backdrop-blur-md">
+            <div className="hidden lg:block absolute -left-8 bottom-24 max-w-[280px] p-6 border-l-2 border-[var(--nb-gold)] bg-[rgba(17,16,18,0.85)] backdrop-blur-md">
               <p className="font-display italic text-[17px] leading-[1.5] text-[var(--nb-ivory)]">
                 "Smetti di inseguire i clienti. Inizia a costruire il motivo per cui ti cercano."
               </p>
+              <div className="mt-3 text-[11px] tracking-micro uppercase text-[var(--nb-gold)]">
+                — Nico Benz
+              </div>
             </div>
           </div>
         </div>
