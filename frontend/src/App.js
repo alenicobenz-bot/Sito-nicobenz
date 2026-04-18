@@ -6,6 +6,7 @@ import HomePage from "./pages/HomePage";
 import VideoGiornoPage from "./pages/VideoGiornoPage";
 import BlogListPage from "./pages/BlogListPage";
 import BlogArticlePage from "./pages/BlogArticlePage";
+import ThankYouPage from "./pages/ThankYouPage";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/un-video-al-giorno" element={<VideoGiornoPage />} />
+          <Route path="/grazie-iscrizione" element={<ThankYouPage />} />
           <Route path="/blog" element={<BlogListPage />} />
           <Route path="/blog/:slug" element={<BlogArticlePage />} />
         </Routes>

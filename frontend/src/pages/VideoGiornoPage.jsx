@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Check, Home } from "lucide-react";
 
 const VideoGiornoPage = () => {
+  // Scroll to top quando la pagina si carica
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="relative bg-[var(--nb-bg)] text-[var(--nb-ivory)]">
       {/* Simple Header */}
@@ -98,6 +103,7 @@ const VideoGiornoPage = () => {
                   <input type="text" name="email_address_check" defaultValue="" className="hidden" />
                   <input type="hidden" name="locale" value="it" />
                   <input type="hidden" name="html_type" value="simple" />
+                  <input type="hidden" name="success_url" value={`${window.location.origin}/grazie-iscrizione`} />
 
                   <button
                     type="submit"
@@ -316,6 +322,7 @@ const VideoGiornoPage = () => {
                 <input type="text" name="email_address_check" defaultValue="" className="hidden" />
                 <input type="hidden" name="locale" value="it" />
                 <input type="hidden" name="html_type" value="simple" />
+                <input type="hidden" name="success_url" value={`${window.location.origin}/grazie-iscrizione`} />
 
                 <button
                   type="submit"
