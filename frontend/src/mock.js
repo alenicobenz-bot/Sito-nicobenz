@@ -37,7 +37,7 @@ export const HERO = {
   primaryCta: { label: "Prenota una consulenza gratuita", href: "https://nicobenz.youcanbook.me/" },
   secondaryCta: { label: "Scopri il metodo", href: "#metodo" },
   portrait:
-  "https://customer-assets.emergentagent.com/job_beauty-authority-co/artifacts/hwvwuqh9_Untitled%20design%20%282%29.png"
+  "https://customer-assets.emergentagent.com/job_beauty-authority-co/artifacts/c69ocy2m_Untitled%20design%20%283%29.png"
 };
 
 export const STATS = [
@@ -54,27 +54,27 @@ export const METHOD = {
   kicker: "Il Metodo",
   title: "Un sistema in quattro movimenti.",
   description:
-  "Niente ricette miracolose. Una regia chiara che unisce posizionamento, contenuti e conversione — pensata per chi vive di appuntamenti e reputazione.",
+  "Niente ricette miracolose. Una regia chiara che unisce personal brand, strategia e contenuti — pensata per chi vive di appuntamenti e reputazione.",
   steps: [
   {
     n: "01",
-    title: "Posizionamento",
-    text: "Definiamo chi sei, a chi parli e perché meriti di essere scelto. Un'identità editoriale che distingue il tuo salone dal rumore locale."
+    title: "Personal Brand",
+    text: "Costruiamo la tua identità distintiva: chi sei, cosa fai, perché ti scelgono. Un personal brand forte è la base di tutto."
   },
   {
     n: "02",
-    title: "Contenuto",
-    text: "Costruiamo un piano video sostenibile: 1 contenuto al giorno, calibrato sul tuo tempo e sulla tua voce. Niente trend copiati, solo storia vera."
+    title: "Strategia",
+    text: "Analizziamo il tuo posizionamento, definiamo il pubblico e creiamo il piano di comunicazione su misura."
   },
   {
     n: "03",
-    title: "Distribuzione",
-    text: "Instagram, TikTok, YouTube e Google Business. Ogni piattaforma ha un ruolo preciso dentro un ecosistema che lavora per te 24/7."
+    title: "Contenuti",
+    text: "Produciamo i contenuti per te: video, copy, grafica. Tu registri, noi facciamo il resto. Il 95% del lavoro è nostro."
   },
   {
     n: "04",
-    title: "Conversione",
-    text: "Trasformiamo follower in appuntamenti reali, con funnel semplici, offerte coerenti e un tono di voce che costruisce fiducia nel tempo."
+    title: "Risultati",
+    text: "Monitoriamo i numeri, ottimizziamo la strategia e scaliamo quello che funziona. Crescita continua e misurabile."
   }]
 
 };
