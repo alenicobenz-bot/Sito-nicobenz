@@ -65,8 +65,26 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="text-[10px] tracking-micro uppercase text-[var(--nb-muted)] mb-5">Legale</div>
             <ul className="space-y-3">
-              <li><a href="#" className="text-[14px] text-[var(--nb-ivory-dim)] hover:text-[var(--nb-ivory)] transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="text-[14px] text-[var(--nb-ivory-dim)] hover:text-[var(--nb-ivory)] transition-colors">Cookie Policy</a></li>
+              <li>
+                <a 
+                  href="https://www.iubenda.com/privacy-policy/8164139" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-[14px] text-[var(--nb-ivory-dim)] hover:text-[var(--nb-ivory)] transition-colors"
+                >
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="https://www.iubenda.com/privacy-policy/8164139/cookie-policy" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-[14px] text-[var(--nb-ivory-dim)] hover:text-[var(--nb-ivory)] transition-colors"
+                >
+                  Cookie Policy
+                </a>
+              </li>
             </ul>
           </div>
         </div>

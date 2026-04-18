@@ -12,6 +12,7 @@ import Journal from "../components/Journal";
 import Faq from "../components/Faq";
 import BookingCTA from "../components/BookingCTA";
 import Footer from "../components/Footer";
+import CookieConsent from "../components/CookieConsent";
 
 const HomePage = () => {
   return (
@@ -29,6 +30,7 @@ const HomePage = () => {
       <Faq />
       <BookingCTA />
       <Footer />
+      <CookieConsent />
     </main>
   );
 };
