@@ -1,12 +1,37 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Check, Home } from "lucide-react";
 
 const VideoGiornoPage = () => {
+  const navigate = useNavigate();
+
   // Scroll to top quando la pagina si carica
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  // Handle form submission
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const form = e.target;
+    const formData = new FormData(form);
+
+    try {
+      // Submit to Brevo
+      await fetch(form.action, {
+        method: 'POST',
+        body: formData,
+        mode: 'no-cors' // Brevo doesn't support CORS
+      });
+
+      // Redirect to thank you page
+      navigate('/grazie-iscrizione');
+    } catch (error) {
+      console.error('Form submission error:', error);
+      // Still redirect even if there's an error (no-cors doesn't return response)
+      navigate('/grazie-iscrizione');
+    }
+  };
 
   return (
     <div className="relative bg-[var(--nb-bg)] text-[var(--nb-ivory)]">
@@ -85,6 +110,7 @@ const VideoGiornoPage = () => {
                   method="POST"
                   action="https://cafe0d23.sibforms.com/serve/MUIFABZ43SZXZJH3nshDiaEg6ITekEZFU8PddpHeCiP8S5uTb9c9TdmBgvBb6YOe4JWzk0GPU-rui_Fh58JPoW11WkmpCiZK3cfFJ1wm0t37eIN51lM70FU7cyI2ZSEPvDBFVNOY4rahnCk05XQEBHjxGtsfev6ojgvmcxsu6hEARNFV78urib3ojuu2WimeYvDMgahxoLNf1Cg9lQ=="
                   className="space-y-5"
+                  onSubmit={handleSubmit}
                 >
                   <div>
                     <label htmlFor="EMAIL-top" className="block text-[13px] tracking-micro uppercase text-[var(--nb-muted)] mb-2 font-semibold">
@@ -100,10 +126,9 @@ const VideoGiornoPage = () => {
                     />
                   </div>
 
-                  <input type="text" name="email_address_check" defaultValue="" className="hidden" />
+                  <input type="text" name="email_address_check" value="" style={{display: 'none'}} />
                   <input type="hidden" name="locale" value="it" />
                   <input type="hidden" name="html_type" value="simple" />
-                  <input type="hidden" name="success_url" value={`${window.location.origin}/grazie-iscrizione`} />
 
                   <button
                     type="submit"
@@ -304,6 +329,7 @@ const VideoGiornoPage = () => {
                 method="POST"
                 action="https://cafe0d23.sibforms.com/serve/MUIFABZ43SZXZJH3nshDiaEg6ITekEZFU8PddpHeCiP8S5uTb9c9TdmBgvBb6YOe4JWzk0GPU-rui_Fh58JPoW11WkmpCiZK3cfFJ1wm0t37eIN51lM70FU7cyI2ZSEPvDBFVNOY4rahnCk05XQEBHjxGtsfev6ojgvmcxsu6hEARNFV78urib3ojuu2WimeYvDMgahxoLNf1Cg9lQ=="
                 className="max-w-[520px] mx-auto space-y-5"
+                onSubmit={handleSubmit}
               >
                 <div>
                   <label htmlFor="EMAIL-bottom" className="block text-[13px] tracking-micro uppercase text-[#0B0B0C] mb-2 font-semibold">
@@ -319,10 +345,9 @@ const VideoGiornoPage = () => {
                   />
                 </div>
 
-                <input type="text" name="email_address_check" defaultValue="" className="hidden" />
+                <input type="text" name="email_address_check" value="" style={{display: 'none'}} />
                 <input type="hidden" name="locale" value="it" />
                 <input type="hidden" name="html_type" value="simple" />
-                <input type="hidden" name="success_url" value={`${window.location.origin}/grazie-iscrizione`} />
 
                 <button
                   type="submit"
