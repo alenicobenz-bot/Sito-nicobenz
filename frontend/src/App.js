@@ -8,6 +8,7 @@ import BlogListPage from "./pages/BlogListPage";
 import BlogArticlePage from "./pages/BlogArticlePage";
 import ThankYouPage from "./pages/ThankYouPage";
 import ScrollToTop from "./components/ScrollToTop";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/blog/:slug" element={<BlogArticlePage />} />
         </Routes>
         <ScrollToTop />
+        <WhatsAppButton />
       </BrowserRouter>
       <Toaster position="bottom-right" theme="dark" />
     </div>
