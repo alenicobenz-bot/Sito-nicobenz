@@ -3,16 +3,16 @@ import { AlertCircle, X } from "lucide-react";
 
 const PROBLEMS = [
   {
-    title: "I tuoi contenuti non convertono",
-    text: "Pubblichi tutti i giorni, lavori ore sui social, ma non ti porta clienti. La visibilità non è il problema: è la mancanza di strategia.",
+    title: "Non hai tempo di seguire i social",
+    text: "Tra clienti, fornitori e gestione salone, ti manca il tempo per fare contenuti. Servono ore che non hai.",
   },
   {
-    title: "I competitor sono più visibili",
-    text: "Altri saloni riempiono l'agenda con metà della tua qualità tecnica. Non è fortuna: sanno come posizionarsi e tu no.",
+    title: "Non sai cosa pubblicare",
+    text: "Ogni giorno è lo stesso dilemma: cosa posto oggi? Che testo scrivo? Quali hashtag uso? Ti perdi e rinunci.",
   },
   {
-    title: "Non sai come raccontare il tuo lavoro",
-    text: "Sei bravissimo sulla poltrona, ma davanti alla telecamera vai in crisi. Così il tuo salone resta invisibile online.",
+    title: "I tuoi contenuti non portano risultati",
+    text: "Pubblichi quando riesci, ma nessuno prenota. I social diventano un peso, non uno strumento che lavora per te.",
   },
 ];
 
@@ -64,8 +64,7 @@ const Problem = () => {
         {/* Bottom callout */}
         <div className="mt-12 md:mt-16 p-6 md:p-8 border-l-2 border-[var(--nb-gold)] bg-[rgba(201,169,110,0.03)]">
           <p className="font-display italic text-[17px] md:text-[20px] leading-[1.5] text-[var(--nb-ivory)] max-w-[820px]">
-            "La buona notizia? Con il sistema giusto, questi tre blocchi si risolvono in 90 giorni. 
-            E il tuo salone inizia ad attrarre clienti senza rincorrerli."
+            "La buona notizia? Hai bisogno di una guida che ti segue, ti dice esattamente cosa fare, e soprattutto ti toglie il 95% del lavoro. Tu resti sulla poltrona a fare il tuo mestiere. Al resto pensiamo noi."
           </p>
         </div>
       </div>

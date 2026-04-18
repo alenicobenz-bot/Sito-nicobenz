@@ -37,7 +37,7 @@ export const HERO = {
   primaryCta: { label: "Prenota una consulenza gratuita", href: "https://nicobenz.youcanbook.me/" },
   secondaryCta: { label: "Scopri il metodo", href: "#metodo" },
   portrait:
-  "https://customer-assets.emergentagent.com/job_beauty-authority-co/artifacts/hne988lj_f29392da-cd95-4d2d-80f0-699210e26ec0.png"
+  "https://customer-assets.emergentagent.com/job_beauty-authority-co/artifacts/hwvwuqh9_Untitled%20design%20%282%29.png"
 };
 
 export const STATS = [
