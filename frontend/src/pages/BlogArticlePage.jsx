@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams, Link, Navigate } from "react-router-dom";
 import { ArrowLeft, Clock, Tag, Home } from "lucide-react";
 import { getArticleBySlug } from "../data/blogArticles";
@@ -6,6 +6,11 @@ import { getArticleBySlug } from "../data/blogArticles";
 const BlogArticlePage = () => {
   const { slug } = useParams();
   const article = getArticleBySlug(slug);
+
+  // Scroll to top quando la pagina si carica
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   if (!article) {
     return <Navigate to="/blog" replace />;

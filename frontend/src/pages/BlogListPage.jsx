@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { ArrowUpRight, ArrowLeft, Home } from "lucide-react";
 import { BLOG_ARTICLES } from "../data/blogArticles";
 
 const BlogListPage = () => {
+  // Scroll to top quando la pagina si carica
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="relative bg-[var(--nb-bg)] text-[var(--nb-ivory)] min-h-screen">
       {/* Simple Header */}

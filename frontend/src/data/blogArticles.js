@@ -6,36 +6,67 @@ export const BLOG_ARTICLES = [
     id: "oggi-vince-la-persona-non-il-brand",
     slug: "oggi-vince-la-persona-non-il-brand",
     title: "Oggi vince la persona, non il brand",
-    excerpt: "Perché il personal branding è diventato l'unica vera leva di differenziazione nel settore beauty.",
+    excerpt: "Per tanti anni nel nostro settore abbiamo creduto che fosse il nome del salone a fare la differenza. Il logo, l'insegna, il marchio. Poi è arrivato internet, i social, i video. E tutto è cambiato.",
     category: "Marketing",
     date: "2024",
     readTime: "6 min",
-    image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1200&q=80",
+    image: "https://customer-assets.emergentagent.com/job_beauty-authority-co/artifacts/lnnohnsf_Screenshot%202026-04-19%20002524.png",
     content: `
 # Oggi vince la persona, non il brand
 
-Nel settore beauty, il vero differenziale non è più il nome del salone o il logo sulla vetrina. 
+Per tanti anni nel nostro settore abbiamo creduto che fosse il nome del salone a fare la differenza. Il logo, l'insegna, il marchio. Bastava avere un bel nome sul vetro, una posizione decente, qualche anno di storia alle spalle. I clienti arrivavano, e se erano soddisfatti tornavano. Il sistema era semplice, lineare, prevedibile.
 
-**È la persona.**
+Poi è arrivato internet. Poi i social. Poi i video. E tutto è cambiato — lentamente all'inizio, poi sempre più velocemente, fino al punto in cui oggi il vecchio sistema funziona ancora per chi è già consolidato, ma è quasi impossibile da usare per chi vuole crescere.
 
-I clienti oggi non cercano "un parrucchiere qualsiasi". Cercano **qualcuno** che li capisca, che abbia uno stile riconoscibile, che sappia consigliarli e con cui si trovino bene.
+Oggi le persone non si affezionano a un logo. Non si affezionano a un'insegna o a un nome su una vetrina. **Si affezionano a una faccia, a una voce, a un carattere.** Si affezionano a una persona vera — con le sue idee, le sue opinioni, il suo modo di vedere il lavoro e il mondo.
 
-## Perché il personal brand è tutto
+Guarda chi ha successo oggi, in qualsiasi settore: dietro al brand c'è sempre una persona forte. Un nome, un volto, una storia che le persone possono seguire, con cui possono identificarsi, che possono scegliere consapevolmente.
 
-Quando costruisci il tuo personal brand:
-- I clienti ti cercano per nome, non solo per servizio
-- Puoi aumentare i prezzi perché loro vogliono proprio te
-- La concorrenza diventa irrilevante
-- Le persone tornano e ti consigliano
+## Il potere della personalità
 
-## Come iniziare
+Pensa ai grandi chef che conosci. Non è la cucina che li ha resi famosi — è la loro personalità. Il modo in cui parlano del cibo, la passione con cui raccontano la storia di un piatto, la filosofia che c'è dietro ogni scelta.
 
-1. **Racconta chi sei** - Non solo cosa fai, ma perché lo fai
-2. **Mostra il tuo stile** - Ogni parrucchiere ha un'impronta unica
-3. **Condividi la tua esperienza** - Le persone si fidano di chi dimostra competenza
-4. **Sii presente** - Sui social, con continuità
+Pensa ai trainer più seguiti. Non è solo il programma di allenamento — è il carattere, la visione, il modo di motivare che li rende unici e irripetibili.
 
-Il personal branding non è vanità. È strategia. È il modo in cui trasformi il tuo nome in un asset di valore.
+**Nel nostro settore funziona esattamente allo stesso modo.**
+
+Le persone non comprano solo un servizio. Comprano fiducia. Comprano una relazione. E la fiducia nasce quando vedono qualcuno, quando lo sentono parlare con competenza e passione, quando capiscono come ragiona, quando riconoscono in lui valori che condividono.
+
+La fiducia nasce dalla conoscenza — e la conoscenza, oggi, passa attraverso i contenuti che produci online, molto prima che il cliente entri dalla tua porta.
+
+## La paura del personal brand
+
+Molti parrucchieri hanno ancora paura del personal brand. La paura più comune, quella che sento ripetere quasi ovunque, è questa:
+
+**"Se mi espongo troppo, i clienti vogliono solo me. Diventerò schiavo del mio stesso successo. I collaboratori resteranno senza lavoro."**
+
+È una paura razionale in apparenza. Ma la realtà dei fatti dice il contrario, ogni volta.
+
+Quando il titolare costruisce un personal brand forte, non diventa un collo di bottiglia — **diventa una leva.** La sua autorevolezza si trasferisce su tutto il salone. I clienti arrivano perché si fidano di lui — del suo gusto, del suo metodo, delle sue scelte di vita e di lavoro.
+
+E se lui ha scelto quei collaboratori, se li ha formati, se ci mette il suo nome sopra, allora anche i collaboratori sono degni di fiducia. Il personal brand forte eleva tutto il salone, non lo strozza.
+
+## Autorevolezza = Libertà
+
+Il personal brand non ti rende schiavo. **Ti rende autorevole.**
+
+E quando sei autorevole, puoi:
+- Scegliere i clienti con cui lavorare
+- Alzare i prezzi senza perdere lavoro
+- Costruire una squadra forte
+- Crescere in modo sostenibile
+
+L'autorevolezza è libertà — non dipendenza.
+
+---
+
+**Oggi le persone non scelgono il posto. Scelgono la persona.**
+
+Se vuoi essere scelto, devi farti conoscere. Non c'è altra strada.
+
+Inizia a pensare al tuo nome come al tuo asset più importante. Non il negozio, non le attrezzature, non la posizione. **Il tuo nome.**
+
+Perché il negozio può cambiare, può spostarsi, può chiudere per mille ragioni. Il tuo nome, se lo costruisci bene, ti segue ovunque. È portabile. È inattaccabile dalla concorrenza. È tuo per sempre.
 
 ---
 
