@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 import { Menu, X, ArrowUpRight } from "lucide-react";
 import { NAV, BRAND } from "../mock";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+  const location = useLocation();
+  const isHomePage = location.pathname === '/';
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
@@ -12,6 +15,12 @@ const Header = () => {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  // Aggiungi Blog al NAV
+  const navItems = [
+    ...NAV,
+    { label: "Blog", href: isHomePage ? "#journal" : "/blog" }
+  ];
 
   return (
     <header
@@ -22,32 +31,57 @@ const Header = () => {
       }`}
     >
       <div className="max-w-[1400px] mx-auto px-6 md:px-10 h-[76px] md:h-[88px] flex items-center justify-between">
-        <a href="#top" className="flex items-center gap-3 group">
+        <Link to="/" className="flex items-center gap-3 group">
           <span className="font-display text-[22px] md:text-[26px] font-medium tracking-editorial text-[var(--nb-ivory)]">
             Nico<span className="text-[var(--nb-gold)]">benz</span>
           </span>
           <span className="hidden md:inline text-[10px] tracking-micro uppercase text-[var(--nb-muted)] border-l border-[var(--nb-border)] pl-3">
             {BRAND.role}
           </span>
-        </a>
+        </Link>
 
         <nav className="hidden lg:flex items-center gap-8">
-          {NAV.map((item) => (
-            <a
-              key={item.href}
-              href={item.href}
-              className="nb-link text-[13px] tracking-wide"
-            >
-              {item.label}
-            </a>
+          {navItems.map((item) => (
+            item.href.startsWith('#') && isHomePage ? (
+              <a
+                key={item.href}
+                href={item.href}
+                className="nb-link text-[13px] tracking-wide"
+              >
+                {item.label}
+              </a>
+            ) : item.href === "/blog" ? (
+              <Link
+                key={item.href}
+                to={item.href}
+                className="nb-link text-[13px] tracking-wide"
+              >
+                {item.label}
+              </Link>
+            ) : (
+              <a
+                key={item.href}
+                href={isHomePage ? item.href : `/${item.href}`}
+                className="nb-link text-[13px] tracking-wide"
+              >
+                {item.label}
+              </a>
+            )
           ))}
         </nav>
 
         <div className="hidden md:flex items-center gap-3">
-          <a href="#prenota" className="nb-btn-primary text-[13px]">
-            Prenota consulenza
-            <ArrowUpRight className="w-4 h-4" strokeWidth={1.6} />
-          </a>
+          {isHomePage ? (
+            <a href="#prenota" className="nb-btn-primary text-[13px]">
+              Prenota consulenza
+              <ArrowUpRight className="w-4 h-4" strokeWidth={1.6} />
+            </a>
+          ) : (
+            <Link to="/#prenota" className="nb-btn-primary text-[13px]">
+              Prenota consulenza
+              <ArrowUpRight className="w-4 h-4" strokeWidth={1.6} />
+            </Link>
+          )}
         </div>
 
         <button
@@ -87,25 +121,56 @@ const Header = () => {
             </button>
           </div>
           <nav className="flex flex-col gap-6">
-            {NAV.map((item) => (
-              <a
-                key={item.href}
-                href={item.href}
-                onClick={() => setOpen(false)}
-                className="font-display text-3xl tracking-editorial text-[var(--nb-ivory)] hover:text-[var(--nb-gold)] transition-colors duration-300"
-              >
-                {item.label}
-              </a>
+            {navItems.map((item) => (
+              item.href.startsWith('#') && isHomePage ? (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  onClick={() => setOpen(false)}
+                  className="font-display text-3xl tracking-editorial text-[var(--nb-ivory)] hover:text-[var(--nb-gold)] transition-colors duration-300"
+                >
+                  {item.label}
+                </a>
+              ) : item.href === "/blog" ? (
+                <Link
+                  key={item.href}
+                  to={item.href}
+                  onClick={() => setOpen(false)}
+                  className="font-display text-3xl tracking-editorial text-[var(--nb-ivory)] hover:text-[var(--nb-gold)] transition-colors duration-300"
+                >
+                  {item.label}
+                </Link>
+              ) : (
+                <a
+                  key={item.href}
+                  href={isHomePage ? item.href : `/${item.href}`}
+                  onClick={() => setOpen(false)}
+                  className="font-display text-3xl tracking-editorial text-[var(--nb-ivory)] hover:text-[var(--nb-gold)] transition-colors duration-300"
+                >
+                  {item.label}
+                </a>
+              )
             ))}
           </nav>
-          <a
-            href="#prenota"
-            onClick={() => setOpen(false)}
-            className="nb-btn-primary mt-auto justify-center"
-          >
-            Prenota consulenza
-            <ArrowUpRight className="w-4 h-4" strokeWidth={1.6} />
-          </a>
+          {isHomePage ? (
+            <a
+              href="#prenota"
+              onClick={() => setOpen(false)}
+              className="nb-btn-primary mt-auto justify-center"
+            >
+              Prenota consulenza
+              <ArrowUpRight className="w-4 h-4" strokeWidth={1.6} />
+            </a>
+          ) : (
+            <Link
+              to="/#prenota"
+              onClick={() => setOpen(false)}
+              className="nb-btn-primary mt-auto justify-center"
+            >
+              Prenota consulenza
+              <ArrowUpRight className="w-4 h-4" strokeWidth={1.6} />
+            </Link>
+          )}
         </div>
       </div>
     </header>

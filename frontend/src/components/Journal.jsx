@@ -1,8 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { ArrowUpRight } from "lucide-react";
-import { JOURNAL } from "../mock";
+import { getLatestArticles } from "../data/blogArticles";
 
 const Journal = () => {
+  const articles = getLatestArticles(3);
+  
   return (
     <section id="journal" className="relative py-24 md:py-36 bg-[var(--nb-bg-2)] border-y border-[var(--nb-border)]">
       <div className="max-w-[1400px] mx-auto px-6 md:px-10">
@@ -16,19 +19,17 @@ const Journal = () => {
               Ultimi <em className="italic text-[var(--nb-gold)]">articoli.</em>
             </h2>
           </div>
-          <a href="https://www.nicobenz.it/blog-1" target="_blank" rel="noreferrer" className="nb-btn-ghost self-start md:self-end">
+          <Link to="/blog" className="nb-btn-ghost self-start md:self-end">
             Tutti gli articoli
             <ArrowUpRight className="w-4 h-4" strokeWidth={1.6} />
-          </a>
+          </Link>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
-          {JOURNAL.map((post) => (
-            <a
+          {articles.map((post) => (
+            <Link
               key={post.id}
-              href={post.href}
-              target="_blank"
-              rel="noreferrer"
+              to={`/blog/${post.slug}`}
               className="nb-tile group cursor-pointer block"
             >
               <article>
@@ -43,7 +44,7 @@ const Journal = () => {
                   <div className="flex items-center gap-3 text-[11px] tracking-micro uppercase text-[var(--nb-muted)]">
                     <span>{post.date}</span>
                     <span className="w-1 h-1 rounded-full bg-[var(--nb-muted)]" />
-                    <span>{post.read} lettura</span>
+                    <span>{post.readTime} lettura</span>
                   </div>
                   <h3 className="mt-4 font-display tracking-editorial text-[22px] md:text-[24px] leading-[1.25] text-[var(--nb-ivory)] group-hover:text-[var(--nb-gold)] transition-colors">
                     {post.title}
@@ -56,7 +57,7 @@ const Journal = () => {
                   </div>
                 </div>
               </article>
-            </a>
+            </Link>
             ))}
         </div>
       </div>

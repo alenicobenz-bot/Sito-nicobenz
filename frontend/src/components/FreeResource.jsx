@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { ArrowUpRight, Mail, Video, Zap } from "lucide-react";
 
 const FreeResource = () => {
@@ -41,16 +42,14 @@ const FreeResource = () => {
                 ))}
               </ul>
 
-              <a
-                href="https://www.nicobenz.it/1-video-al-giorno"
-                target="_blank"
-                rel="noreferrer"
+              <Link
+                to="/un-video-al-giorno"
                 className="inline-flex items-center gap-3 px-8 py-4 bg-[var(--nb-gold)] hover:bg-[var(--nb-gold)]/90 text-[#0B0B0C] font-semibold text-[14px] tracking-micro uppercase transition-all duration-300 group"
               >
                 <Mail className="w-4 h-4" strokeWidth={2} />
                 Iscriviti gratis
                 <ArrowUpRight className="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" strokeWidth={2} />
-              </a>
+              </Link>
             </div>
 
             <div className="lg:col-span-5 flex justify-center">
