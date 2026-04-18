@@ -22,7 +22,7 @@ const Journal = () => {
               Ultimi <em className="italic text-[var(--nb-gold)]">articoli.</em>
             </h2>
           </div>
-          <a href="https://www.nicobenz.it/post" target="_blank" rel="noreferrer" className="nb-btn-ghost self-start md:self-end">
+          <a href="https://www.nicobenz.it/blog-1" target="_blank" rel="noreferrer" className="nb-btn-ghost self-start md:self-end">
             Tutti gli articoli
             <ArrowUpRight className="w-4 h-4" strokeWidth={1.6} />
           </a>
