@@ -1,14 +1,8 @@
 import React from "react";
 import { ArrowUpRight } from "lucide-react";
-import { useBlogPosts } from "../hooks/useDynamicContent";
 import { JOURNAL } from "../mock";
 
 const Journal = () => {
-  const { posts, loading } = useBlogPosts();
-  
-  // Use dynamic posts if available, otherwise fallback to mock
-  const displayPosts = posts.length > 0 ? posts : JOURNAL;
-
   return (
     <section id="journal" className="relative py-24 md:py-36 bg-[var(--nb-bg-2)] border-y border-[var(--nb-border)]">
       <div className="max-w-[1400px] mx-auto px-6 md:px-10">
@@ -28,11 +22,8 @@ const Journal = () => {
           </a>
         </div>
 
-        {loading ? (
-          <div className="text-center text-[var(--nb-muted)] py-12">Caricamento articoli...</div>
-        ) : (
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
-            {displayPosts.map((post) => (
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+          {JOURNAL.map((post) => (
             <a
               key={post.id}
               href={post.href}
@@ -67,8 +58,7 @@ const Journal = () => {
               </article>
             </a>
             ))}
-          </div>
-        )}
+        </div>
       </div>
     </section>
   );

@@ -49,25 +49,16 @@ Tutto compilato e ottimizzato. Ora devi solo pubblicarlo su Vercel.
    Output Directory: build ✅
    ```
 
-5. **Environment Variables** (IMPORTANTE):
-   - Clicca "Environment Variables"
-   - Aggiungi:
-     ```
-     Nome: REACT_APP_BACKEND_URL
-     Valore: https://beauty-authority-co.emergent.sh
-     ```
-   - Clicca "Add"
+5. Clicca il grosso bottone **"Deploy"** 🚀
 
-6. Clicca il grosso bottone **"Deploy"** 🚀
+6. ⏳ Aspetta 2-3 minuti (Vercel costruisce il sito)
 
-7. ⏳ Aspetta 2-3 minuti (Vercel costruisce il sito)
-
-8. **DONE!** ✅ Vercel ti dà un link tipo:
+7. **DONE!** ✅ Vercel ti dà un link tipo:
    ```
    https://nicobenz-premium.vercel.app
    ```
 
-9. **COPIA QUESTO LINK** - ti serve per il prossimo step!
+8. **COPIA QUESTO LINK** - ti serve per il prossimo step!
 
 ---
 
