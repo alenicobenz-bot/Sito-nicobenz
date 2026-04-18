@@ -59,22 +59,22 @@ export const METHOD = {
   {
     n: "01",
     title: "Personal Brand",
-    text: "Costruiamo la tua identità distintiva: chi sei, cosa fai, perché ti scelgono. Un personal brand forte è la base di tutto."
+    text: "Costruiamo la tua identità distintiva: chi sei, cosa fai, perché ti scelgono. Definiamo il tuo posizionamento, la tua voce unica e il motivo per cui un cliente dovrebbe preferire te alla concorrenza. Il personal brand forte è la fondazione di tutto: senza identità chiara, nessuna strategia di comunicazione può funzionare davvero."
   },
   {
     n: "02",
     title: "Strategia",
-    text: "Analizziamo il tuo posizionamento, definiamo il pubblico e creiamo il piano di comunicazione su misura."
+    text: "Analizziamo il tuo pubblico, i tuoi obiettivi di crescita e creiamo il piano di comunicazione su misura. Ogni salone è diverso: non usiamo template preconfezionati, ma strategie costruite attorno al tuo mercato locale, al tuo stile e ai risultati che vuoi ottenere. Piano editoriale, piattaforme, frequenza: tutto calibrato sulla tua realtà."
   },
   {
     n: "03",
     title: "Contenuti",
-    text: "Produciamo i contenuti per te: video, copy, grafica. Tu registri, noi facciamo il resto. Il 95% del lavoro è nostro."
+    text: "Produciamo i contenuti per te: video, copy, grafica, editing, pubblicazione. Tu registri i video seguendo le nostre indicazioni (10-15 minuti al giorno), noi facciamo tutto il resto. Il 95% del lavoro è nostro: montaggio, testi, hashtag, calendario pubblicazioni. Ti lasciamo il tempo di stare sulla poltrona, che è dove devi essere."
   },
   {
     n: "04",
     title: "Risultati",
-    text: "Monitoriamo i numeri, ottimizziamo la strategia e scaliamo quello che funziona. Crescita continua e misurabile."
+    text: "Monitoriamo i numeri che contano: reach, engagement, prenotazioni, crescita follower qualificati. Testiamo, ottimizziamo e scaliamo quello che funziona. Ogni mese rivediamo i dati insieme, capiamo cosa migliorare e dove investire più energia. La crescita è continua, misurabile e costruita su iterazioni concrete, non su speranze."
   }]
 
 };

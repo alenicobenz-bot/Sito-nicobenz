@@ -39,11 +39,11 @@ const Hero = () => {
           </div>
 
           <div className="lg:col-span-6 relative">
-            <div className="relative aspect-[3/4] lg:aspect-[4/5] overflow-hidden bg-[#0a0a0a]">
+            <div className="relative aspect-[3/4] lg:aspect-[4/5] overflow-hidden bg-[#0a0a0a] flex items-center justify-center">
               <img
                 src={HERO.portrait}
                 alt="Nicobenz"
-                className="w-full h-full object-cover object-center"
+                className="w-full h-full object-contain scale-90"
                 loading="eager"
               />
             </div>
