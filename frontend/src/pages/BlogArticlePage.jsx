@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams, Link, Navigate } from "react-router-dom";
-import { ArrowLeft, Clock, Tag } from "lucide-react";
+import { ArrowLeft, Clock, Tag, Home } from "lucide-react";
 import { getArticleBySlug } from "../data/blogArticles";
 
 const BlogArticlePage = () => {
@@ -97,6 +97,27 @@ const BlogArticlePage = () => {
 
   return (
     <div className="relative bg-[var(--nb-bg)] text-[var(--nb-ivory)] min-h-screen">
+      {/* Simple Header */}
+      <header className="fixed top-0 left-0 right-0 z-50 bg-[rgba(11,11,12,0.85)] backdrop-blur-md border-b border-[var(--nb-border)]">
+        <div className="max-w-[1400px] mx-auto px-6 md:px-10 h-[70px] flex items-center justify-between">
+          <Link to="/" className="flex items-center gap-3 group">
+            <span className="font-display text-[22px] md:text-[26px] font-medium tracking-editorial text-[var(--nb-ivory)]">
+              Nico<span className="text-[var(--nb-gold)]">benz</span>
+            </span>
+          </Link>
+          <Link 
+            to="/" 
+            className="inline-flex items-center gap-2 px-4 py-2 text-[13px] tracking-micro uppercase text-[var(--nb-ivory)] hover:text-[var(--nb-gold)] transition-colors"
+          >
+            <Home className="w-4 h-4" strokeWidth={1.6} />
+            Home
+          </Link>
+        </div>
+      </header>
+
+      {/* Add padding for fixed header */}
+      <div className="h-[70px]" />
+
       {/* Header */}
       <section className="relative py-12 md:py-16 border-b border-[var(--nb-border)]">
         <div className="max-w-[900px] mx-auto px-6 md:px-10">

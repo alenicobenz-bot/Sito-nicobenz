@@ -1,11 +1,32 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ArrowUpRight, ArrowLeft } from "lucide-react";
+import { ArrowUpRight, ArrowLeft, Home } from "lucide-react";
 import { BLOG_ARTICLES } from "../data/blogArticles";
 
 const BlogListPage = () => {
   return (
     <div className="relative bg-[var(--nb-bg)] text-[var(--nb-ivory)] min-h-screen">
+      {/* Simple Header */}
+      <header className="fixed top-0 left-0 right-0 z-50 bg-[rgba(11,11,12,0.85)] backdrop-blur-md border-b border-[var(--nb-border)]">
+        <div className="max-w-[1400px] mx-auto px-6 md:px-10 h-[70px] flex items-center justify-between">
+          <Link to="/" className="flex items-center gap-3 group">
+            <span className="font-display text-[22px] md:text-[26px] font-medium tracking-editorial text-[var(--nb-ivory)]">
+              Nico<span className="text-[var(--nb-gold)]">benz</span>
+            </span>
+          </Link>
+          <Link 
+            to="/" 
+            className="inline-flex items-center gap-2 px-4 py-2 text-[13px] tracking-micro uppercase text-[var(--nb-ivory)] hover:text-[var(--nb-gold)] transition-colors"
+          >
+            <Home className="w-4 h-4" strokeWidth={1.6} />
+            Home
+          </Link>
+        </div>
+      </header>
+
+      {/* Add padding for fixed header */}
+      <div className="h-[70px]" />
+
       {/* Hero */}
       <section className="relative py-20 md:py-32 bg-[var(--nb-bg)] nb-grain border-b border-[var(--nb-border)]">
         <div className="max-w-[1400px] mx-auto px-6 md:px-10">

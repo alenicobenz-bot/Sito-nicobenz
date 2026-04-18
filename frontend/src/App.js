@@ -6,6 +6,7 @@ import HomePage from "./pages/HomePage";
 import VideoGiornoPage from "./pages/VideoGiornoPage";
 import BlogListPage from "./pages/BlogListPage";
 import BlogArticlePage from "./pages/BlogArticlePage";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/blog" element={<BlogListPage />} />
           <Route path="/blog/:slug" element={<BlogArticlePage />} />
         </Routes>
+        <ScrollToTop />
       </BrowserRouter>
       <Toaster position="bottom-right" theme="dark" />
     </div>
