@@ -3,14 +3,31 @@ import { MessageCircle } from "lucide-react";
 
 const WhatsAppButton = () => {
   const phoneNumber = "393923141757"; // Numero senza il +
-  const whatsappUrl = `https://wa.me/${phoneNumber}`;
+  
+  // Funzione per aprire WhatsApp in modo cross-platform
+  const handleWhatsAppClick = (e) => {
+    e.preventDefault();
+    
+    // Rileva se è mobile
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    
+    let url;
+    if (isMobile) {
+      // Mobile: apre l'app WhatsApp
+      url = `https://wa.me/${phoneNumber}`;
+    } else {
+      // Desktop: apre WhatsApp Web
+      url = `https://web.whatsapp.com/send?phone=${phoneNumber}`;
+    }
+    
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
 
   return (
     <a
-      href={whatsappUrl}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="fixed bottom-[85px] right-6 z-[9998] group"
+      href={`https://wa.me/${phoneNumber}`}
+      onClick={handleWhatsAppClick}
+      className="fixed bottom-[85px] right-6 z-[9998] group cursor-pointer"
       aria-label="Chatta con me su WhatsApp"
     >
       <div className="relative">
