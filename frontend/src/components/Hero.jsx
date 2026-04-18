@@ -48,7 +48,7 @@ const Hero = () => {
             <div className="relative aspect-[3/4] lg:aspect-[4/5] overflow-hidden bg-[#0a0a0a] flex items-center justify-center">
               <img
                 src={HERO.portrait}
-                alt="Nico Benz"
+                alt="Nicobenz Beauty Social Coach - Esperto marketing per parrucchieri e formazione social media per saloni di bellezza"
                 className="w-full h-full object-contain scale-90"
                 loading="eager"
               />

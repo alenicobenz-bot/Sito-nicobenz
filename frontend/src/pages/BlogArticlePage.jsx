@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useParams, Link, Navigate } from "react-router-dom";
 import { ArrowLeft, Clock, Tag, Home } from "lucide-react";
 import { getArticleBySlug } from "../data/blogArticles";
+import { Helmet } from "react-helmet";
 
 const BlogArticlePage = () => {
   const { slug } = useParams();
@@ -15,6 +16,61 @@ const BlogArticlePage = () => {
   if (!article) {
     return <Navigate to="/blog" replace />;
   }
+
+  // Schema JSON-LD Article per AI search e Google rich snippets
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": article.title,
+    "description": article.excerpt,
+    "image": article.image,
+    "datePublished": article.date,
+    "author": {
+      "@type": "Person",
+      "name": "Nicobenz",
+      "jobTitle": "Beauty Social Coach",
+      "url": "https://nicobenz.it"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Nicobenz",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nicobenz.it/logo.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://nicobenz.it/blog/${slug}`
+    },
+    "keywords": "marketing parrucchieri, formazione parrucchieri, social media parrucchieri, personal branding beauty, strategia social saloni"
+  };
+
+  // Breadcrumb Schema per navigazione
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://nicobenz.it"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://nicobenz.it/blog"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": article.title,
+        "item": `https://nicobenz.it/blog/${slug}`
+      }
+    ]
+  };
 
   // Simple markdown-like rendering
   const renderContent = (content) => {
@@ -101,7 +157,25 @@ const BlogArticlePage = () => {
   };
 
   return (
-    <div className="relative bg-[var(--nb-bg)] text-[var(--nb-ivory)] min-h-screen">
+    <>
+      <Helmet>
+        <title>{`${article.title} — Nicobenz Blog`}</title>
+        <meta name="description" content={article.excerpt} />
+        <meta name="keywords" content="marketing parrucchieri, formazione parrucchieri, social media parrucchieri, personal branding beauty, consulenza saloni" />
+        
+        {/* Open Graph */}
+        <meta property="og:title" content={article.title} />
+        <meta property="og:description" content={article.excerpt} />
+        <meta property="og:image" content={article.image} />
+        <meta property="og:url" content={`https://nicobenz.it/blog/${slug}`} />
+        <meta property="og:type" content="article" />
+      </Helmet>
+      
+      {/* JSON-LD Schemas injected directly into DOM */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      
+      <div className="relative bg-[var(--nb-bg)] text-[var(--nb-ivory)] min-h-screen">
       {/* Simple Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-[rgba(11,11,12,0.85)] backdrop-blur-md border-b border-[var(--nb-border)]">
         <div className="max-w-[1400px] mx-auto px-6 md:px-10 h-[70px] flex items-center justify-between">
@@ -158,7 +232,7 @@ const BlogArticlePage = () => {
           <div className="relative aspect-[16/9] overflow-hidden rounded-2xl">
             <img 
               src={article.image} 
-              alt={article.title} 
+              alt={`${article.title} - Articolo marketing parrucchieri e formazione beauty social media`} 
               className="w-full h-full object-cover" 
               loading="eager" 
             />
@@ -195,7 +269,8 @@ const BlogArticlePage = () => {
           </div>
         </div>
       </section>
-    </div>
+      </div>
+    </>
   );
 };
 

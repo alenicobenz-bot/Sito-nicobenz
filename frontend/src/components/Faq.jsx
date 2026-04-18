@@ -5,9 +5,27 @@ import { FAQS } from "../mock";
 const Faq = () => {
   const [open, setOpen] = useState(0);
 
+  // Schema JSON-LD per FAQPage ottimizzato per AI search engines
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": FAQS.map(faq => ({
+      "@type": "Question",
+      "name": faq.q,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.a
+      }
+    }))
+  };
+
   return (
-    <section id="faq" className="relative py-24 md:py-36">
-      <div className="max-w-[1400px] mx-auto px-6 md:px-10">
+    <>
+      {/* FAQ Schema JSON-LD injected directly into DOM */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      
+      <section id="faq" className="relative py-24 md:py-36">
+        <div className="max-w-[1400px] mx-auto px-6 md:px-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-20">
           <div className="lg:col-span-5">
             <div className="flex items-center gap-3 mb-6">
@@ -61,7 +79,8 @@ const Faq = () => {
           </div>
         </div>
       </div>
-    </section>
+      </section>
+    </>
   );
 };
 
