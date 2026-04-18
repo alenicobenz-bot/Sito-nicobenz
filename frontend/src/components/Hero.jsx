@@ -1,81 +1,54 @@
 import React from "react";
-import { ArrowUpRight, ArrowDown } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { HERO, BRAND } from "../mock";
 
 const Hero = () => {
   return (
-    <section id="top" className="relative pt-[120px] md:pt-[180px] pb-20 md:pb-28 nb-grain">
-      <div className="max-w-[1400px] mx-auto px-6 md:px-10">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-end">
-          {/* Left — Editorial headline */}
-          <div className="lg:col-span-7">
-            <div className="flex items-center gap-3 mb-8 nb-fade-up">
+    <section className="relative min-h-screen flex items-center py-20 md:py-24 bg-[var(--nb-bg)] overflow-hidden">
+      <div className="max-w-[1600px] mx-auto px-6 md:px-10 w-full">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+          <div className="lg:col-span-6">
+            <div className="flex items-center gap-3 mb-6">
               <span className="w-10 h-[1px] bg-[var(--nb-gold)]" />
               <span className="nb-eyebrow">{HERO.eyebrow}</span>
             </div>
 
-            <h1 className="font-display font-light tracking-editorial text-[var(--nb-ivory)] text-[44px] leading-[1.02] sm:text-[58px] md:text-[76px] lg:text-[88px] xl:text-[98px] nb-fade-up" style={{animationDelay:'80ms'}}>
+            <h1 className="font-display font-light tracking-editorial text-[48px] sm:text-[64px] md:text-[80px] lg:text-[96px] leading-[0.95] text-[var(--nb-ivory)] mb-8">
               {HERO.title.map((line, i) => (
-                <span key={i} className="block">
-                  {i === 2 ? (
-                    <>
-                      scelgono, <em className="italic font-normal text-[var(--nb-gold)]">seguono</em> e ricordano.
-                    </>
-                  ) : (
-                    line
-                  )}
-                </span>
+                <React.Fragment key={i}>
+                  {line}
+                  {i < HERO.title.length - 1 && <br />}
+                </React.Fragment>
               ))}
             </h1>
 
-            <p className="mt-8 md:mt-10 max-w-[560px] text-[16px] md:text-[18px] leading-[1.65] text-[var(--nb-ivory-dim)] nb-fade-up" style={{animationDelay:'160ms'}}>
+            <p className="text-base sm:text-lg leading-[1.7] text-[var(--nb-ivory-dim)] max-w-[560px] mb-10">
               {HERO.subtitle}
             </p>
 
-            <div className="mt-10 flex flex-col sm:flex-row gap-4 nb-fade-up" style={{animationDelay:'240ms'}}>
-              <a href={HERO.primaryCta.href} className="nb-btn-primary">
+            <div className="flex flex-col sm:flex-row gap-4">
+              <a href={HERO.primaryCta.href} target="_blank" rel="noreferrer" className="nb-btn-primary justify-center sm:justify-start">
                 {HERO.primaryCta.label}
                 <ArrowUpRight className="w-4 h-4" strokeWidth={1.6} />
               </a>
-              <a href={HERO.secondaryCta.href} className="nb-btn-ghost">
+              <a href={HERO.secondaryCta.href} className="nb-btn-ghost justify-center sm:justify-start">
                 {HERO.secondaryCta.label}
-                <ArrowDown className="w-4 h-4" strokeWidth={1.4} />
+                <ArrowUpRight className="w-4 h-4" strokeWidth={1.6} />
               </a>
             </div>
           </div>
 
-          {/* Right — Portrait */}
-          <div className="lg:col-span-5 relative nb-fade-up" style={{animationDelay:'320ms'}}>
-            <div className="relative aspect-[4/5] w-full max-w-[520px] mx-auto lg:ml-auto overflow-hidden">
+          <div className="lg:col-span-6 relative">
+            <div className="relative aspect-[3/4] lg:aspect-[4/5] overflow-hidden bg-[#0a0a0a]">
               <img
                 src={HERO.portrait}
-                alt={`${BRAND.name}, ${BRAND.role}`}
-                className="w-full h-full object-cover grayscale-[0.2] contrast-[1.02]"
+                alt="Nicobenz"
+                className="w-full h-full object-cover object-center"
                 loading="eager"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-[var(--nb-bg)] via-transparent to-transparent" />
-              <div className="absolute top-4 left-4 border border-[var(--nb-border-strong)] px-3 py-1.5 text-[10px] tracking-micro uppercase text-[var(--nb-ivory)] bg-[rgba(11,11,12,0.5)] backdrop-blur">
-                Milano · Italia
-              </div>
-              <div className="absolute bottom-6 left-6 right-6 flex items-end justify-between">
-                <div>
-                  <div className="font-display text-xl tracking-editorial">Nico Benz</div>
-                  <div className="text-[11px] tracking-micro uppercase text-[var(--nb-ivory-dim)]">Fondatore · Parrucchiere Social</div>
-                </div>
-                <span className="font-display italic text-[var(--nb-gold)] text-xl">—12’</span>
-              </div>
-            </div>
-
-            {/* Floating quote */}
-            <div className="hidden lg:block absolute -left-8 bottom-8 max-w-[280px] p-5 border-l-2 border-[var(--nb-gold)] bg-[rgba(17,16,18,0.7)] backdrop-blur-sm">
-              <p className="font-display italic text-[17px] leading-[1.45] text-[var(--nb-ivory)]">
-                “Smetti di inseguire i clienti. Inizia a costruire il motivo per cui ti cercano.”
-              </p>
             </div>
           </div>
         </div>
-
-        {/* Rimossa bottom micro bar */}
       </div>
     </section>
   );
