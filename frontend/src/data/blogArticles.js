@@ -3,6 +3,47 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "il-90-percento-dei-parrucchieri-non-fa-video",
+    slug: "il-90-percento-dei-parrucchieri-non-fa-video",
+    title: "Il 90% dei parrucchieri non fa video: è la tua occasione",
+    excerpt: "Se andassi a fare una ricerca adesso su Instagram o TikTok cercando parrucchieri nella tua zona, cosa troveresti? Probabilmente silenzio. La maggior parte non c'è. E questo è il tuo vantaggio.",
+    category: "Video Marketing",
+    date: "2025",
+    readTime: "5 min",
+    image: "https://customer-assets.emergentagent.com/job_beauty-authority-co/artifacts/earlg94z_65e28d39-531c-48a1-815b-974276c1b966.png",
+    content: `
+# Il 90% dei parrucchieri non fa video: è la tua occasione
+
+Se andassi a fare una ricerca adesso — aprendo Instagram o TikTok e cercando parrucchieri nella tua zona — cosa troveresti? Probabilmente qualche profilo con foto di tagli e colori, aggiornato ogni tanto. Forse qualche video fatto male, con la musica di sottofondo e nient'altro. E poi il silenzio. La maggior parte non c'è. O se c'è, non pubblica con continuità, non ha una strategia, non costruisce niente di intenzionale.
+
+## Il falso mito della saturazione
+
+Molti parrucchieri, quando gli parli di social, ti dicono con aria rassegnata: 'Sì, ma ci sono già tutti. Ormai è un mercato saturo. È troppo tardi per iniziare.' Come se la finestra di opportunità si fosse chiusa. Come se non ci fosse più spazio.
+
+Non è così. È esattamente il contrario.
+
+La maggior parte dei parrucchieri non fa video. Non uno al giorno. Non uno a settimana. Non uno al mese. Niente di intenzionale, niente di costante, niente che costruisca qualcosa nel tempo. Magari pubblicano ogni tanto una foto di un lavoro, poi spariscono per tre settimane, poi riprendono con entusiasmo per qualche giorno, poi si fermano di nuovo. Non c'è costanza, non c'è strategia, non c'è intenzione reale.
+
+## Il vantaggio della costanza
+
+E questo crea uno spazio enorme — immenso — per chi invece decide di farlo davvero, con serietà, con continuità. Perché nell'algoritmo dei social, chi pubblica con costanza viene premiato. Chi c'è ogni giorno, o quasi, accumula visibilità nel tempo. Chi sparisce, viene dimenticato rapidamente.
+
+Pensa a questa come a una gara. La maggior parte dei partecipanti si è iscritta ma non è mai partita. È ferma ai blocchi di partenza, paralizzata dalla paura, dalla pigrizia, dalla mancanza di tempo reale o percepita. Tu, invece, puoi partire adesso. E anche se non sei il più veloce, anche se non sei il più bravo tecnicamente, il fatto di correre mentre gli altri stanno fermi ti dà un vantaggio enorme — uno che si accumula con il tempo.
+
+## Non serve la perfezione
+
+Non serve essere perfetti per iniziare. Non serve avere il salone più bello, le luci professionali, un microfono da studio, un montatore. Non serve essere attori o personaggi televisivi. Non serve fare video virali o inseguire i trend del momento. Serve esserci. Serve pubblicare con continuità. Serve fare quello che il 90% degli altri non fa.
+
+## Il potere del video
+
+Il video è lo strumento più potente che abbiamo oggi perché fa vedere la persona, non solo il lavoro. Una foto di un taglio è statica — mostra il risultato, ma non dice nulla su chi l'ha fatto, su come ragiona, su come si relaziona con i clienti. Un video invece mostra tutto questo. Mostra come parli, come sorridi, come spieghi le cose, come ti muovi nel tuo spazio. Mostra il professionista in azione — non solo il prodotto finito.
+
+E le persone, guardando un video, capiscono istintivamente se possono fidarsi di qualcuno. È una valutazione quasi inconscia, rapida, emotiva — ma avviene. E chi sa stare davanti a una telecamera in modo autentico, chi sa trasmettere competenza e calore attraverso lo schermo, ha un vantaggio enorme su chi rimane nascosto.
+
+**Non devi essere il più bravo per vincere sui social. Devi solo fare quello che gli altri non fanno: esserci, ogni giorno, con costanza e intenzione.**
+`
+  },
+  {
     id: "il-problema-non-e-il-talento",
     slug: "il-problema-non-e-il-talento",
     title: "Il problema non è il talento: è che nessuno ti vede",
