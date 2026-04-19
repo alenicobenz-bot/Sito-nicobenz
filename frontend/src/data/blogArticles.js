@@ -3,6 +3,129 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "7-errori-instagram-parrucchieri",
+    slug: "7-errori-instagram-parrucchieri",
+    title: "7 errori che i parrucchieri fanno su Instagram (e come evitarli)",
+    excerpt: "Se stai usando Instagram ma non ti porta clienti, quasi sicuramente stai facendo almeno uno di questi errori. E no, non è colpa dell'algoritmo.",
+    category: "Instagram",
+    date: "2025",
+    readTime: "6 min",
+    image: "https://customer-assets.emergentagent.com/job_beauty-authority-co/artifacts/60renbm6_751ad25f-ee63-42ec-ba5a-96121667a689.png",
+    content: `
+# 7 errori che i parrucchieri fanno su Instagram (e come evitarli)
+
+Se stai usando Instagram ma non ti porta clienti… quasi sicuramente stai facendo almeno uno di questi errori.
+
+E no, non è colpa dell'algoritmo.
+
+## Errore 1: Pubblichi solo foto dei capelli
+
+**Classico.** Prima e dopo, colore, piega… fine.
+
+**Il problema?** Per il cliente sei uguale a tutti gli altri.
+
+**Soluzione:** Inizia a parlare. Metti la faccia. Spiega, racconta, educa. Le persone scelgono TE, non solo il risultato.
+
+---
+
+## Errore 2: Non si capisce cosa fai davvero
+
+Guardi il profilo e pensi: "Ok… ma questo in cosa è forte?"
+
+- Colore?
+- Ricci?
+- Trattamenti?
+
+**Se non è chiaro, non sei memorabile.**
+
+**Soluzione:** Posizionati. Diventa "quello dei ricci" oppure "quello della cute sensibile". Non puoi essere tutto per tutti.
+
+---
+
+## Errore 3: Video noiosi o troppo tecnici
+
+Spieghi bene… ma nessuno guarda. **Perché?** Perché non agganci.
+
+**Soluzione:** Lavora sull'HOOK (l'apertura del video).
+
+**Esempio:**
+- ❌ "Oggi parliamo della cute…"
+- ✅ "Se hai prurito alla testa, questo ti salva"
+
+Devi fermare lo scroll. I primi 3 secondi decidono tutto.
+
+---
+
+## Errore 4: Parli solo di te
+
+"Ho fatto questo" / "Ho fatto quello"
+
+**Al cliente non interessa.** Vuole sapere: "Questo cosa cambia per ME?"
+
+**Soluzione:** Parla SEMPRE dal punto di vista del cliente.
+
+**Struttura vincente:** Problemi → Soluzioni → Risultati
+
+---
+
+## Errore 5: Non hai costanza
+
+Pubblichi 3 giorni… poi sparisci 2 settimane.
+
+**Instagram ti dimentica. E anche le persone.**
+
+**Soluzione:** Meglio semplice ma costante. **1 video al giorno fatto bene vale più di 10 messi a caso.**
+
+La costanza è il segreto che il 90% ignora. Non serve la perfezione, serve la presenza.
+
+---
+
+## Errore 6: Non inviti all'azione
+
+Fai contenuti… ma poi?
+
+- ❌ Nessuna chiamata
+- ❌ Nessuna direzione
+
+**Le persone non fanno niente da sole.**
+
+**Soluzione:** Guidali.
+
+- "Scrivimi"
+- "Prenota"
+- "Seguimi per altri consigli"
+
+Sembra banale… ma cambia tutto. Il 70% dei tuoi follower non sa cosa fare dopo aver visto il tuo video. Diglielo tu.
+
+---
+
+## Errore 7: Pensi che basti postare
+
+**Questo è l'errore più grosso.**
+
+Postare ≠ Crescere
+
+Serve strategia. Serve un sistema. Serve qualcuno che lo faccia con te.
+
+---
+
+## La verità su Instagram
+
+Instagram funziona. Ma solo se lo usi nel modo giusto. Altrimenti è solo tempo perso.
+
+**Se vuoi iniziare a farlo funzionare davvero:**
+- Inizia a fare VIDEO
+- Inizia a metterci la faccia
+- Inizia a essere riconoscibile
+
+Non serve essere perfetti. Serve essere presenti, costanti, autentici.
+
+**E se vuoi una strategia personalizzata che funzioni per il TUO salone?**
+
+Prenota una consulenza gratuita. Ti aiuto io.
+`
+  },
+  {
     id: "il-90-percento-dei-parrucchieri-non-fa-video",
     slug: "il-90-percento-dei-parrucchieri-non-fa-video",
     title: "Il 90% dei parrucchieri non fa video: è la tua occasione",
