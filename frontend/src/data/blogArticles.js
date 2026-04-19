@@ -3,6 +3,47 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "il-problema-non-e-il-talento",
+    slug: "il-problema-non-e-il-talento",
+    title: "Il problema non è il talento: è che nessuno ti vede",
+    excerpt: "Ogni volta che entro in un salone nuovo, osservo. Cerco di capire una cosa: questo professionista ha talento? E la risposta, quasi sempre, è sì. Ma il talento da solo non basta più.",
+    category: "Visibilità",
+    date: "2025",
+    readTime: "5 min",
+    image: "https://customer-assets.emergentagent.com/job_beauty-authority-co/artifacts/sph78jcv_feb4f90f-d0d4-4089-b06d-8fefa246abc2.png",
+    content: `
+# Il problema non è il talento: è che nessuno ti vede
+
+Ogni volta che entro in un salone nuovo, osservo. Cerco di capire una cosa: questo professionista ha talento? E la risposta, quasi sempre, è sì. Quasi sempre trovo persone che sanno fare davvero bene il loro lavoro. Che hanno una mano precisa, un occhio educato agli anni di pratica, una sensibilità che si percepisce nel risultato finale.
+
+Il talento nel nostro settore non manca. Non è mai mancato. Manca la visibilità. Manca la capacità di far sapere al mondo che quel talento esiste.
+
+## Il passaparola non basta più
+
+Per tanti anni l'unico modo per farsi conoscere era il passaparola. La cliente soddisfatta ne parlava con un'amica, l'amica veniva a provare, poi magari ne parlava con un'altra ancora. Un meccanismo lento, limitato geograficamente, dipendente da fattori completamente fuori dal tuo controllo. Se le tue clienti erano riservate, se abitavano in un quartiere poco sociale, se semplicemente non avevano l'abitudine di consigliare i servizi che amavano — tu restavi invisibile, anche se eri bravissimo. Anche se facevi i lavori più belli della città.
+
+## Lo strumento che cambia tutto
+
+Oggi c'è uno strumento che ha cambiato completamente questa dinamica. Uno strumento che puoi usare tu, con il tuo telefono, senza spendere un euro di pubblicità, e che ti permette di raggiungere migliaia di persone contemporaneamente. Non solo nel tuo quartiere. Non solo nella tua città. Ovunque — in Italia, in Europa, nel mondo.
+
+I social media. Il video. Il contenuto digitale prodotto con costanza e intenzione.
+
+Non usarli oggi non è una scelta neutrale. Non è semplicemente 'fare come si è sempre fatto'. È come avere una vetrina sul corso principale della città e tenerla sempre buia, con le serrande abbassate. Sei fisicamente lì, ma per chi passa sei invisibile. E nell'era digitale, essere invisibile ha un costo enorme — un costo che cresce ogni giorno, mentre chi ha deciso di esserci accumula visibilità, fiducia, clienti.
+
+## La resistenza al digitale
+
+C'è ancora chi pensa che i social siano una cosa per giovani, una moda passeggera, qualcosa di superficiale che non fa per un professionista serio. Ho sentito questa obiezione centinaia di volte. Ma i numeri raccontano una storia diversa. Le persone passano ore sui social ogni giorno — non solo i giovani, tutte le generazioni. Cercano ispirazione, guardano trasformazioni, seguono professionisti che ammirano. E quando devono scegliere da chi andare, guardano online — sempre più spesso prima ancora di chiedere consiglio a un'amica.
+
+## Visibilità = Responsabilità
+
+Il tuo talento esiste. Ma se non lo mostri, è come se non esistesse. La qualità da sola non basta più — non perché il mondo sia diventato superficiale, ma perché la competizione è aumentata e la visibilità è diventata uno strumento democratico accessibile a tutti. Devi fargliela vedere, quella qualità. Devi renderla visibile, tangibile, condivisibile, memorabile.
+
+**Il tuo talento esiste. Se non lo mostri, è come se non esistesse. La visibilità non è vanità — è responsabilità verso il tuo lavoro.**
+
+E la buona notizia è che non serve essere esperti di marketing. Non serve avere un budget pubblicitario. Non serve nessuna attrezzatura sofisticata. Serve solo decidere di esserci — con costanza, con autenticità, con il coraggio di mostrare quello che fai ogni giorno.
+`
+  },
+  {
     id: "oggi-vince-la-persona-non-il-brand",
     slug: "oggi-vince-la-persona-non-il-brand",
     title: "Oggi vince la persona, non il brand",
