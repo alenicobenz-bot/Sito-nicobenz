@@ -3,6 +3,171 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "10-contenuti-instagram-tiktok-parrucchieri",
+    slug: "10-contenuti-instagram-tiktok-parrucchieri",
+    title: "10 contenuti Instagram e TikTok che funzionano sempre per parrucchieri",
+    excerpt: "Se non sai cosa pubblicare, non è un problema di idee. È che non stai usando i contenuti giusti. Quelli che attirano clienti, fermano lo scroll e ti fanno scegliere.",
+    category: "Contenuti",
+    date: "2025",
+    readTime: "7 min",
+    image: "https://customer-assets.emergentagent.com/job_beauty-authority-co/artifacts/o424yt5f_837a765d-83c1-4380-9ebb-45fba569e93a.png",
+    content: `
+# 10 contenuti Instagram e TikTok che funzionano sempre per parrucchieri
+
+Se non sai cosa pubblicare… non è un problema di idee.
+
+È che non stai usando i contenuti giusti. Quelli che attirano clienti. Quelli che fanno fermare lo scroll. Quelli che ti fanno scegliere.
+
+Ecco i 10 che funzionano SEMPRE.
+
+---
+
+## 1. Errori da Non Fare
+
+**"3 errori che rovinano i tuoi capelli"**
+
+Questo contenuto è una bomba. Perché? Perché parla di paura.
+
+**Funziona sempre perché:** le persone non vogliono sbagliare. Hanno paura di danneggiare i capelli, di scegliere il prodotto sbagliato, di fare la cosa peggiore. E tu puoi guidarle.
+
+---
+
+## 2. Prima e Dopo (Ma Fatto Bene)
+
+Non basta mostrarlo.
+
+- ❌ **Foto e basta** = inutile
+- ✅ **Racconto + spiegazione** = potente
+
+**Spiega:**
+- Cosa hai fatto
+- Perché lo hai fatto
+- Che problema hai risolto
+
+Il risultato diventa credibile solo se mostri il processo.
+
+---
+
+## 3. Domande delle Clienti
+
+**"Ogni quanto devo lavare i capelli?"**  
+**"Perché mi prudono?"**
+
+Se una cliente lo chiede… altre 100 lo pensano.
+
+Rispondi alle domande reali. Quelle che senti tutti i giorni in salone. Diventano i contenuti più visti, salvati e condivisi.
+
+---
+
+## 4. Video con Hook Forte
+
+**"Se hai questo problema, ascolta bene"**
+
+**I primi 3 secondi decidono tutto.** Se non agganci… sei morto.
+
+L'hook è l'apertura del video. Deve essere immediata, diretta, provocatoria. Non iniziare con "Ciao ragazzi, oggi vi parlo di…" — inizia con il problema, la curiosità, la promessa.
+
+---
+
+## 5. Consigli Pratici
+
+**"Fai questa cosa e i tuoi capelli cambiano subito"**
+
+Semplice. Veloce. Applicabile.
+
+Le persone vogliono soluzioni, non teoria. Un consiglio pratico che possono usare oggi stesso vale più di 10 spiegazioni tecniche.
+
+---
+
+## 6. Miti da Sfatare
+
+**"No, non è vero che…"**
+
+Questo crea curiosità immediata. Rompe convinzioni. Fa commentare.
+
+Esempi:
+- "No, tagliare i capelli NON li fa crescere più velocemente"
+- "No, lavare tutti i giorni NON rovina i capelli (se…)"
+
+---
+
+## 7. Dietro le Quinte
+
+- Preparazione cliente
+- Momenti in salone
+- Errori, risate, realtà
+
+**Umanizza. Avvicina.** Le persone vogliono vedere la persona dietro il professionista. Il backstage crea connessione.
+
+---
+
+## 8. Educazione Semplice
+
+Non fare il professore.
+
+**Spiega come se parlassi a una cliente seduta lì.**
+
+Chi capisce = si fida. Chi si fida = prenota.
+
+Usa parole semplici, paragoni concreti, esempi pratici. Zero tecnicismi inutili.
+
+---
+
+## 9. Problema Forte
+
+**"Se hai i capelli così, devi fare attenzione"**
+
+Mostra il problema. Fai immedesimare. E poi… dai la soluzione.
+
+La struttura vincente:
+1. Problema (aggancio emotivo)
+2. Spiegazione (perché succede)
+3. Soluzione (cosa fare)
+
+---
+
+## 10. Opinioni / Presa di Posizione
+
+**"Io questa cosa NON la farei mai"**
+
+Questo divide. E quando dividi… cresci.
+
+Non puoi piacere a tutti. Ma puoi essere memorabile per chi la pensa come te. Avere un'opinione forte ti rende riconoscibile.
+
+---
+
+## La Verità Che Nessuno Ti Dice
+
+**Non servono 1000 idee.**
+
+Te ne bastano 10… ma fatte bene e ripetute nel tempo.
+
+---
+
+## Strategia Semplice
+
+Prendi questi 10 contenuti e girali ogni giorno.
+
+- **Oggi:** errore
+- **Domani:** consiglio
+- **Dopo:** domanda cliente
+
+E così via. Ciclico. Costante. Prevedibile (per te), ma sempre fresco (per chi ti scopre).
+
+---
+
+## Conclusione
+
+**Instagram e TikTok non premiano i più bravi.**
+
+Premiano i più chiari.  
+I più costanti.  
+I più riconoscibili.
+
+Non cercare la perfezione. Cerca la costanza. E usa questi 10 contenuti per costruire una presenza che funziona davvero.
+`
+  },
+  {
     id: "7-errori-instagram-parrucchieri",
     slug: "7-errori-instagram-parrucchieri",
     title: "7 errori che i parrucchieri fanno su Instagram (e come evitarli)",
