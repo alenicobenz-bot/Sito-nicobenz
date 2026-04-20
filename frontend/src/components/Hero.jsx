@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { ArrowUpRight } from "lucide-react";
-import { HERO, BRAND } from "../mock";
+import { HERO } from "../mock";
 
 const Hero = () => {
   return (
@@ -33,10 +34,10 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href={HERO.primaryCta.href} target="_blank" rel="noreferrer" className="nb-btn-primary justify-center sm:justify-start">
+              <Link to="/prenota" className="nb-btn-primary justify-center sm:justify-start">
                 {HERO.primaryCta.label}
                 <ArrowUpRight className="w-4 h-4" strokeWidth={1.6} />
-              </a>
+              </Link>
               <a href={HERO.secondaryCta.href} className="nb-btn-ghost justify-center sm:justify-start">
                 {HERO.secondaryCta.label}
                 <ArrowUpRight className="w-4 h-4" strokeWidth={1.6} />

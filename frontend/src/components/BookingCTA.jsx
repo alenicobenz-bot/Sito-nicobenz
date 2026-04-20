@@ -1,6 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { ArrowUpRight, Check, Calendar } from "lucide-react";
-import { BRAND } from "../mock";
 
 const BookingCTA = () => {
   return (
@@ -39,16 +39,14 @@ const BookingCTA = () => {
           ))}
         </ul>
 
-        <a
-          href={BRAND.bookingUrl}
-          target="_blank"
-          rel="noreferrer"
+        <Link
+          to="/prenota"
           className="inline-flex items-center gap-3 px-10 py-5 bg-[var(--nb-gold)] hover:bg-[var(--nb-gold)]/90 text-[#0B0B0C] font-semibold text-[15px] tracking-micro uppercase transition-all duration-300 group shadow-lg shadow-[var(--nb-gold)]/20"
         >
           <Calendar className="w-5 h-5" strokeWidth={2} />
           Prenota la consulenza gratuita
           <ArrowUpRight className="w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" strokeWidth={2} />
-        </a>
+        </Link>
       </div>
     </section>
   );
