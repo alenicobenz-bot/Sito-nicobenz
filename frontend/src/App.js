@@ -9,6 +9,7 @@ import BlogArticlePage from "./pages/BlogArticlePage";
 import ThankYouPage from "./pages/ThankYouPage";
 import ScrollToTop from "./components/ScrollToTop";
 import WhatsAppButton from "./components/WhatsAppButton";
+import VideoGiornoPopup from "./components/VideoGiornoPopup";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         </Routes>
         <ScrollToTop />
         <WhatsAppButton />
+        <VideoGiornoPopup />
       </BrowserRouter>
       <Toaster position="bottom-right" theme="dark" />
     </div>
