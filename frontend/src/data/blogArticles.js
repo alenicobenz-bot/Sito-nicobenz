@@ -552,3 +552,26 @@ export const getArticleBySlug = (slug) => {
 export const getLatestArticles = (count = 3) => {
   return BLOG_ARTICLES.slice(0, count);
 };
+
+// Helper per ottenere articoli correlati (stessa categoria o random)
+export const getRelatedArticles = (currentSlug, count = 3) => {
+  const currentArticle = getArticleBySlug(currentSlug);
+  if (!currentArticle) return [];
+  
+  // Prima cerca articoli nella stessa categoria
+  const sameCategory = BLOG_ARTICLES.filter(
+    article => article.slug !== currentSlug && article.category === currentArticle.category
+  );
+  
+  // Se ci sono abbastanza articoli nella stessa categoria, usali
+  if (sameCategory.length >= count) {
+    return sameCategory.slice(0, count);
+  }
+  
+  // Altrimenti mescola con altri articoli
+  const otherArticles = BLOG_ARTICLES.filter(
+    article => article.slug !== currentSlug && article.category !== currentArticle.category
+  );
+  
+  return [...sameCategory, ...otherArticles].slice(0, count);
+};
