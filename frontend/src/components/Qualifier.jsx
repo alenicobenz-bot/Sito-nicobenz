@@ -30,42 +30,73 @@ const Qualifier = () => {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
-          {/* Per chi È */}
-          <div className="relative bg-[var(--nb-bg-2)] border border-[var(--nb-border)] p-10 md:p-14">
-            <div className="absolute top-6 right-6 w-12 h-12 rounded-full border border-[var(--nb-gold)] flex items-center justify-center">
-              <Check className="w-5 h-5 text-[var(--nb-gold)]" strokeWidth={2} />
+        {/* Photo + Content Grid */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12 items-start">
+          
+          {/* LEFT: Your Photo */}
+          <div className="lg:col-span-5">
+            <div className="relative aspect-[4/5] overflow-hidden bg-[#0a0a0a] border border-[var(--nb-border)]">
+              <img 
+                src="https://customer-assets.emergentagent.com/job_beauty-authority-co/artifacts/tk8p509u_ChatGPT%20Image%2020%20apr%202026%2C%2022_24_01.png"
+                alt="Nicobenz - Beauty Social Coach che lavora solo con professionisti pronti"
+                className="w-full h-full object-cover"
+                loading="lazy"
+              />
+              
+              {/* Overlay gradient bottom */}
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent pt-20 pb-6 px-6">
+                <div className="font-display text-[24px] md:text-[28px] tracking-editorial">
+                  <span className="text-[var(--nb-ivory)]">Nico</span><span className="text-[var(--nb-gold)]">benz</span>
+                </div>
+                <div className="text-[12px] tracking-micro uppercase text-[var(--nb-ivory-dim)] mt-1">
+                  Beauty Social Coach
+                </div>
+              </div>
             </div>
-            <h3 className="font-display tracking-editorial text-[28px] md:text-[34px] text-[var(--nb-ivory)] mb-8">
-              Per chi è
-            </h3>
-            <ul className="space-y-5">
-              {FOR.map((item, i) => (
-                <li key={i} className="flex items-start gap-4 text-[15px] leading-[1.7] text-[var(--nb-ivory-dim)]">
-                  <span className="mt-1 w-1.5 h-1.5 rounded-full bg-[var(--nb-gold)] shrink-0" />
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
           </div>
 
-          {/* Per chi NON è */}
-          <div className="relative bg-[var(--nb-bg)] border border-[var(--nb-border-strong)] p-10 md:p-14">
-            <div className="absolute top-6 right-6 w-12 h-12 rounded-full border border-[var(--nb-muted)] flex items-center justify-center">
-              <X className="w-5 h-5 text-[var(--nb-muted)]" strokeWidth={2} />
+          {/* RIGHT: Two Columns */}
+          <div className="lg:col-span-7">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              
+              {/* Per chi È */}
+              <div className="relative bg-[var(--nb-bg-2)] border border-[var(--nb-border)] p-8 md:p-10">
+                <div className="absolute top-4 right-4 w-10 h-10 rounded-full border border-[var(--nb-gold)] flex items-center justify-center">
+                  <Check className="w-4 h-4 text-[var(--nb-gold)]" strokeWidth={2} />
+                </div>
+                <h3 className="font-display tracking-editorial text-[24px] md:text-[28px] text-[var(--nb-ivory)] mb-6">
+                  Per chi è
+                </h3>
+                <ul className="space-y-4">
+                  {FOR.map((item, i) => (
+                    <li key={i} className="flex items-start gap-3 text-[14px] leading-[1.6] text-[var(--nb-ivory-dim)]">
+                      <span className="mt-1 w-1.5 h-1.5 rounded-full bg-[var(--nb-gold)] shrink-0" />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* Per chi NON è */}
+              <div className="relative bg-[var(--nb-bg)] border border-[var(--nb-border-strong)] p-8 md:p-10">
+                <div className="absolute top-4 right-4 w-10 h-10 rounded-full border border-[var(--nb-muted)] flex items-center justify-center">
+                  <X className="w-4 h-4 text-[var(--nb-muted)]" strokeWidth={2} />
+                </div>
+                <h3 className="font-display tracking-editorial text-[24px] md:text-[28px] text-[var(--nb-ivory)] mb-6">
+                  Per chi non è
+                </h3>
+                <ul className="space-y-4">
+                  {NOT_FOR.map((item, i) => (
+                    <li key={i} className="flex items-start gap-3 text-[14px] leading-[1.6] text-[var(--nb-muted)]">
+                      <span className="mt-1 w-1.5 h-1.5 rounded-full bg-[var(--nb-muted)] shrink-0" />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
-            <h3 className="font-display tracking-editorial text-[28px] md:text-[34px] text-[var(--nb-ivory)] mb-8">
-              Per chi non è
-            </h3>
-            <ul className="space-y-5">
-              {NOT_FOR.map((item, i) => (
-                <li key={i} className="flex items-start gap-4 text-[15px] leading-[1.7] text-[var(--nb-muted)]">
-                  <span className="mt-1 w-1.5 h-1.5 rounded-full bg-[var(--nb-muted)] shrink-0" />
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
           </div>
+
         </div>
 
         {/* Bottom statement */}
