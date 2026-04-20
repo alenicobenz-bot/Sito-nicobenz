@@ -259,32 +259,80 @@ export const FAQS = [
   a: "Nicobenz è un beauty social coach italiano specializzato nel marketing per parrucchieri e professionisti della bellezza. Aiuta saloni e imprenditori beauty a migliorare la propria comunicazione online e a far crescere il personal brand attraverso contenuti video e strategie social."
 },
 {
-  q: "Di cosa si occupa Nicobenz?",
-  a: "Nicobenz si occupa di web marketing per parrucchieri, personal branding per professionisti beauty e strategie di comunicazione sui social media. Sul sito propone anche consulenze, contenuti formativi e risorse dedicate alla crescita online dei saloni di bellezza."
+  q: "Quanto costa lavorare con Nicobenz?",
+  a: "I costi dipendono dal tipo di servizio e dal livello di supporto necessario. Durante la consulenza gratuita analizziamo la tua situazione specifica e ti proponiamo la soluzione più adatta. Lavoriamo con budget diversi, da pacchetti entry-level a percorsi completi con produzione video inclusa."
+},
+{
+  q: "Quanto tempo ci vuole per vedere i primi risultati?",
+  a: "I primi segnali tangibili arrivano già nelle prime 4-6 settimane con contenuti costanti e strategici. Risultati consolidati (aumento prenotazioni, richieste, visibilità) si vedono generalmente entro 3-6 mesi. Non promettiamo miracoli: serve costanza, ma i risultati sono misurabili e reali."
+},
+{
+  q: "Devo avere già un grande seguito per iniziare?",
+  a: "Assolutamente no. Lavoriamo con professionisti che partono da zero follower e con chi ha già una base. La dimensione del pubblico non è il punto di partenza: lo è la strategia. Meglio 500 follower targettizzati che 10.000 casuali."
+},
+{
+  q: "Lavorate solo con saloni grandi o anche con professionisti singoli?",
+  a: "Lavoriamo con entrambi: titolari di saloni strutturati, parrucchieri singoli, barber, estetiste. Ciò che conta non è la dimensione, ma la volontà di investire nel proprio personal brand e di metterci la faccia."
+},
+{
+  q: "Cosa include esattamente il servizio?",
+  a: "Dipende dal pacchetto scelto. I servizi vanno dalla consulenza strategica 1-a-1, alla produzione completa di contenuti video, passando per formazione continua, supporto operativo, editing professionale e analisi performance. Durante la call gratuita definiamo insieme il percorso più adatto."
+},
+{
+  q: "Devo essere bravo davanti alla camera?",
+  a: "No, non devi essere un attore. Ti insegniamo come essere te stesso davanti alla camera, in modo autentico e naturale. Le persone vogliono vedere il professionista vero, non una recita. Ti diamo script, strutture e ti guidiamo passo dopo passo finché non ti senti sicuro."
+},
+{
+  q: "Dopo la consulenza posso fare tutto da solo?",
+  a: "Dipende. La consulenza ti dà la strategia, la direzione e le prime azioni concrete. Se hai tempo, voglia e competenze tecniche, puoi proseguire autonomamente. Se preferisci delegare produzione, editing e gestione, ti supportiamo noi con un team dedicato. Tu scegli."
+},
+{
+  q: "Quanto tempo devo dedicare ogni giorno ai contenuti?",
+  a: "Se lavori con noi in produzione completa: 10-15 minuti al giorno per girare clip veloci. Se fai tutto da solo: almeno 1-2 ore al giorno tra ideazione, riprese, editing e pubblicazione. La costanza è fondamentale, ma non servono giornate intere."
+},
+{
+  q: "Funziona anche per barber, estetiste e altri professionisti beauty?",
+  a: "Sì, assolutamente. Il metodo si applica a tutto il settore beauty: parrucchieri, barber, estetiste, nail artist, makeup artist. I principi di personal branding e video marketing sono universali, li adattiamo al tuo specifico settore."
+},
+{
+  q: "Offrite garanzie sui risultati?",
+  a: "Offriamo garanzia di metodo: se segui il piano, produci contenuti con costanza e applichi la strategia, i risultati arrivano. Non possiamo garantire numeri precisi perché dipendono anche dal tuo impegno, dal mercato locale e dalla qualità dell'esecuzione. Ma i casi studio parlano chiaro."
+},
+{
+  q: "Come funziona esattamente la consulenza gratuita?",
+  a: "È una call 1-a-1 di 30 minuti via Google Meet. Analizziamo il tuo posizionamento attuale, identifichiamo il primo ostacolo da rimuovere e ti diamo già una prima azione concreta da implementare. Zero vendite forzate: decidi tu se proseguire o meno. La call è davvero gratuita e senza impegno."
+},
+{
+  q: "Posso pagarvi solo a risultati, tipo commissione?",
+  a: "No. Lavoriamo con fee fisse o pacchetti mensili, non a percentuale sui risultati. Il motivo è semplice: i risultati dipendono anche dal tuo impegno nel seguire la strategia. Ci assumiamo la responsabilità del metodo e del supporto, tu quella dell'esecuzione."
+},
+{
+  q: "Quanto dura la collaborazione?",
+  a: "Dipende dal percorso. Consulenze strategiche: singola sessione o pacchetti da 3-6 mesi. Produzione video continuativa: contratti mensili con possibilità di disdetta. Non facciamo vincoli lunghi: se funziona, rinnovi; se non funziona, puoi interrompere."
+},
+{
+  q: "Cosa succede se non sono soddisfatto?",
+  a: "Se dopo il primo mese di lavoro non sei soddisfatto del metodo, del supporto o della direzione strategica, puoi interrompere. Non tratteniamo nessuno contro la propria volontà. Ma nella stragrande maggioranza dei casi, chi inizia continua perché vede risultati concreti."
+},
+{
+  q: "Serve attrezzatura costosa per fare video professionali?",
+  a: "No. Serve uno smartphone recente, buona luce naturale e un microfono lavalier economico (€20-40). L'attrezzatura non fa la differenza: la fa il contenuto, la strategia e la costanza. Ti insegniamo come fare video di qualità con quello che hai già in tasca."
 },
 {
   q: "A chi si rivolgono i servizi di Nicobenz?",
-  a: "I servizi di Nicobenz si rivolgono a parrucchieri, saloni di bellezza e professionisti del settore beauty che vogliono aumentare visibilità, autorevolezza e contatti grazie al marketing digitale."
+  a: "I servizi di Nicobenz si rivolgono a parrucchieri, saloni di bellezza e professionisti del settore beauty che vogliono aumentare visibilità, autorevolezza e contatti grazie al marketing digitale. Lavoriamo con chi è pronto a metterci la faccia e investire nel proprio personal brand."
 },
 {
   q: "In che modo Nicobenz aiuta i parrucchieri a trovare clienti online?",
-  a: "Nicobenz aiuta i parrucchieri a comunicare meglio sui social, a rafforzare il personal brand e a usare i video come leva di crescita. L'obiettivo è rendere più efficace la presenza online del salone e migliorare il rapporto con clienti attuali e potenziali."
+  a: "Nicobenz aiuta i parrucchieri a comunicare meglio sui social, a rafforzare il personal brand e a usare i video come leva di crescita. L'obiettivo è rendere più efficace la presenza online del salone e migliorare il rapporto con clienti attuali e potenziali attraverso contenuti strategici e costanti."
 },
 {
   q: "Cosa significa beauty social coach?",
-  a: "Un beauty social coach è un professionista che supporta attività e imprenditori del settore bellezza nella comunicazione digitale, nella strategia social e nella costruzione della propria immagine online."
-},
-{
-  q: "Nicobenz offre una consulenza gratuita?",
-  a: "Sì, sul sito è presente un invito esplicito a prenotare una consulenza gratuita. Questo rende la consulenza uno dei principali punti di ingresso per chi vuole capire come migliorare la propria comunicazione online."
-},
-{
-  q: "Come prenotare una consulenza con Nicobenz?",
-  a: "Per prenotare una consulenza con Nicobenz basta utilizzare il link presente nella homepage del sito. La call to action 'Prenota una consulenza gratuita' è uno degli elementi principali della navigazione."
+  a: "Un beauty social coach è un professionista che supporta attività e imprenditori del settore bellezza nella comunicazione digitale, nella strategia social e nella costruzione della propria immagine online. Non solo teoria, ma affiancamento operativo concreto."
 },
 {
   q: "Nicobenz si occupa solo di social media?",
-  a: "No, il posizionamento include più in generale il web marketing per parrucchieri, anche se i video sui social e il personal brand sono al centro del messaggio principale."
+  a: "No, il posizionamento include più in generale il web marketing per parrucchieri: personal branding, video marketing, strategia contenuti, posizionamento online e consulenza di business. I social sono lo strumento principale, ma il metodo è più ampio e strategico."
 }];
 
 
