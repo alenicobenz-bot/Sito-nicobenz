@@ -8,6 +8,7 @@ import Qualifier from "../components/Qualifier";
 import Testimonials from "../components/Testimonials";
 import FreeResource from "../components/FreeResource";
 import MediaSection from "../components/MediaSection";
+import PodcastSection from "../components/PodcastSection";
 import Journal from "../components/Journal";
 import Faq from "../components/Faq";
 import BookingCTA from "../components/BookingCTA";
@@ -26,6 +27,7 @@ const HomePage = () => {
       <Testimonials />
       <FreeResource />
       <MediaSection />
+      <PodcastSection />
       <Journal />
       <Faq />
       <BookingCTA />
