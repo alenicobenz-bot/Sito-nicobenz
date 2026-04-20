@@ -53,7 +53,7 @@ const PrenotaPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-[700px] mx-auto mb-12">
             {[
               { icon: Clock, text: "30 minuti 1-a-1" },
-              { icon: Video, text: "Online via Zoom" },
+              { icon: Video, text: "Online via Google Meet" },
               { icon: Calendar, text: "Zero impegni" }
             ].map((item, i) => (
               <div key={i} className="flex items-center gap-3 justify-center md:justify-start px-4 py-3 bg-[#0a0a0a] border border-[var(--nb-border)] rounded-lg">
