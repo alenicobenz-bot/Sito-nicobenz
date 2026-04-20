@@ -12,6 +12,7 @@ import DemoPage from "./pages/DemoPage";
 import ScrollToTop from "./components/ScrollToTop";
 import WhatsAppButton from "./components/WhatsAppButton";
 import VideoGiornoPopup from "./components/VideoGiornoPopup";
+import QualifierMockup from "./components/QualifierMockup";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/blog" element={<BlogListPage />} />
           <Route path="/blog/:slug" element={<BlogArticlePage />} />
           <Route path="/demo" element={<DemoPage />} />
+          <Route path="/mockup-qualifier" element={<div className="bg-[var(--nb-bg)] min-h-screen"><QualifierMockup /></div>} />
         </Routes>
         <ScrollToTop />
         <WhatsAppButton />
