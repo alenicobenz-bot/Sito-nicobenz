@@ -4,14 +4,14 @@ import { Youtube } from "lucide-react";
 const VIDEOS = [
   {
     id: "fZ-mOQe0Ypc",
-    title: "Intervista a Gianni Frattini",
-    subtitle: "Una conversazione senza filtri con uno dei top del settore.",
+    title: "Intervista a Jenny Fratini",
+    subtitle: "Jenny, la Manga dei Parrucchieri.",
     url: "https://www.youtube.com/embed/fZ-mOQe0Ypc"
   },
   {
     id: "1-MKaUX1HyU",
     title: "La Live dei TOP",
-    subtitle: "Strategie e insight dai migliori professionisti del beauty.",
+    subtitle: "Il meglio degli hairstylist sui social, tutti insieme!",
     url: "https://www.youtube.com/embed/1-MKaUX1HyU"
   }
 ];
