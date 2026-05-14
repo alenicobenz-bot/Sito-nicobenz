@@ -1,39 +1,45 @@
 # Robots.txt - Nicobenz.it
 # Ottimizzato per SEO tradizionale + AI (SearchGPT, Perplexity, Claude, Gemini)
 
-# Default rules for all bots
+# ----- Default per tutti i bot -----
 User-agent: *
 Allow: /
 Disallow: /grazie-iscrizione
+Disallow: /demo
+Disallow: /mockup-qualifier
 Disallow: /api/
-Sitemap: https://nicobenz.it/sitemap.xml
 
-# OpenAI GPTBot (ChatGPT, SearchGPT)
+# ----- AI Crawlers (consentiti per AI SEO) -----
 User-agent: GPTBot
 Allow: /
 Disallow: /grazie-iscrizione
+Disallow: /demo
+Disallow: /mockup-qualifier
 
-# Perplexity AI
 User-agent: PerplexityBot
 Allow: /
 Disallow: /grazie-iscrizione
+Disallow: /demo
+Disallow: /mockup-qualifier
 
-# Anthropic Claude
 User-agent: Claude-Web
 Allow: /
 Disallow: /grazie-iscrizione
+Disallow: /demo
+Disallow: /mockup-qualifier
 
-# Google Gemini
 User-agent: Google-Extended
 Allow: /
 Disallow: /grazie-iscrizione
+Disallow: /demo
+Disallow: /mockup-qualifier
 
-# Meta AI
 User-agent: FacebookBot
 Allow: /
 Disallow: /grazie-iscrizione
+Disallow: /demo
+Disallow: /mockup-qualifier
 
-# Common AI Crawlers
 User-agent: CCBot
 Allow: /
 
@@ -43,12 +49,12 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-# Block spammy bots
+# ----- Throttling per crawler aggressivi -----
 User-agent: AhrefsBot
 Crawl-delay: 10
 
 User-agent: SemrushBot
 Crawl-delay: 10
 
-# Sitemap location
+# ----- Sitemap (una sola dichiarazione) -----
 Sitemap: https://nicobenz.it/sitemap.xml

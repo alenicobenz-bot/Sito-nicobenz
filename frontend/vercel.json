@@ -4,6 +4,18 @@
   "devCommand": "yarn start",
   "installCommand": "yarn install",
   "framework": "create-react-app",
+  "redirects": [
+    { "source": "/forum/:path*", "destination": "/", "permanent": true },
+    { "source": "/post/:path*", "destination": "/blog", "permanent": true },
+    { "source": "/category/:path*", "destination": "/blog", "permanent": true },
+    { "source": "/categories/:path*", "destination": "/blog", "permanent": true },
+    { "source": "/tag/:path*", "destination": "/blog", "permanent": true },
+    { "source": "/tags/:path*", "destination": "/blog", "permanent": true },
+    { "source": "/author/:path*", "destination": "/", "permanent": true },
+    { "source": "/wix/:path*", "destination": "/", "permanent": true },
+    { "source": "/_functions/:path*", "destination": "/", "permanent": true },
+    { "source": "/_partials/:path*", "destination": "/", "permanent": true }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",
