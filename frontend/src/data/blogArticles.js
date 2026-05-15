@@ -7,7 +7,54 @@ export const BLOG_ARTICLES = [
   
   
   
+  
   {
+    id: "come-scoprire-posizionamento-chatgpt",
+    slug: "come-scoprire-posizionamento-chatgpt",
+    title: "Come scoprire il tuo vero posizionamento con ChatGPT",
+    excerpt: "Pensi di sapere come sei percepito online? Forse ti sbagli. Ti spiego come usare l'AI per scoprire il tuo vero posizionamento in 2 minuti.",
+    category: "Contenuti",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://omni-content-3.preview.emergentagent.com/api/static/social/623f5c54-fb61-4aac-ba00-279415a0d621.jpg",
+    content: `
+## Sai davvero come sei percepito online?
+
+Spesso crediamo di avere un posizionamento chiaro. Altre volte non ne abbiamo proprio idea. E a volte — ed è il caso peggiore — pensiamo di essere percepiti in un modo, ma la realtà è completamente diversa.
+
+Se sei un parrucchiere o un'estetista che non sa bene come muoversi con l'intelligenza artificiale, questo è per te. Niente roba da smanettoni, solo un trucco pratico che puoi usare oggi stesso.
+
+## Il test del posizionamento in 3 step
+
+Ecco come fare:
+
+1. **Prendi il link del tuo profilo Instagram**
+2. **Aprilo su ChatGPT** (vai su chat.openai.com)
+3. **Scrivi questo prompt**: "Analizza il profilo di questo salone. Dimmi: qual è il posizionamento? Quali sono i punti di forza? Quali i punti deboli?"
+
+Poi aspetta.
+
+ChatGPT ti farà un'analisi spietata. Ti dirà esattamente cosa pensa di te, come sei posizionato, come appare il tuo personal brand visto da fuori. Punti forti, punti deboli, tutto.
+
+E fidati: a volte la verità fa male. Ma è esattamente quello che ti serve per capire come sei percepito davvero.
+
+## Cosa fare dopo l'analisi
+
+Una volta che hai i risultati, hai due strade:
+
+- **Se sei percepito male**: aggiusta il tiro. Subito. Cambia contenuti, tono, visual. Qualcosa non funziona e ora lo sai.
+- **Se sei percepito bene**: picchia forte in quella direzione. Raddoppia su ciò che funziona, non cambiare strategia.
+
+Il problema più grande che vedo nei saloni è che continuano a pubblicare senza mai fermarsi a capire se quello che fanno sta funzionando o meno. Questa analisi ti dà finalmente uno specchio onesto.
+
+## Consiglio bonus
+
+Non fermarti a una sola analisi. Rifalla ogni 2-3 mesi per vedere se la direzione che hai preso sta dando i frutti sperati. Il posizionamento si costruisce nel tempo, ma va monitorato.
+
+Se hai domande o vuoi confrontarti sui risultati che hai ottenuto, scrivimi in DM. Sono curioso di sapere cosa ti ha detto ChatGPT del tuo salone.
+    `
+  },
+{
     id: "come-scoprire-posizionamento-chatgpt",
     slug: "come-scoprire-posizionamento-chatgpt",
     title: "Come scoprire il tuo vero posizionamento con ChatGPT",
