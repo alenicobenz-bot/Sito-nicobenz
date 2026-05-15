@@ -3,6 +3,73 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "colonna-sonora-salone-ai-suno",
+    slug: "colonna-sonora-salone-ai-suno",
+    title: "La Colonna Sonora del Tuo Salone? Creala con l'AI",
+    excerpt: "Basta video silenziati per copyright. Ti mostro come creare la TUA musica originale gratis con l'intelligenza artificiale.",
+    category: "Contenuti",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://omni-content-3.preview.emergentagent.com/api/static/social/849ea541-3cef-4616-81e7-780421092c93.jpg",
+    content: `
+## Il Problema delle Musiche Famose
+
+Lo so, ti piace mettere quelle canzoni famose sotto i tuoi video. Ma quante volte ti è successo di pubblicare un reel e ritrovartelo silenziato?
+
+TikTok è cattivissimo su questo, YouTube pure, Instagram un po' meno (ma dipende dalla lunghezza del video). Il copyright è una rogna continua.
+
+## Essere Riconoscibili con la Musica
+
+Io sono convinto di una cosa: **bisogna essere riconoscibili con la musica**. Quando metti sempre la stessa traccia, la tua canzone, diventa un elemento del tuo brand. Munir è stato l'artefice di questa idea per me, e ora quando metto la mia musica nei video, le persone mi riconoscono subito.
+
+Ma qual è una musica senza copyright che non viene bloccata? **La TUA canzone.**
+
+## Come Creare la Tua Colonna Sonora
+
+Ecco la skill che ti cambierà i video:
+
+### Step 1: Scarica Suno
+
+Vai su **Suno** e scaricati l'app. Suno è un'intelligenza artificiale famosissima per creare musica. Lì puoi creare il tuo brano personalizzato.
+
+### Step 2: Crea il Testo (se ti serve)
+
+Se hai il nome del salone o di un servizio specifico e vuoi un testo, vai su ChatGPT:
+
+- "Sono un salone, faccio questo, mi chiamo così..."
+- Dagli più informazioni possibili
+- "Mi scrivi il testo di una canzone?"
+
+Io ti direi di farlo in inglese, però qualcuno lo fa anche in italiano — scegli tu.
+
+### Step 3: Genera su Suno
+
+Prendi il testo che ChatGPT ti ha scritto, mettilo su Suno come testo. Ti chiederà che tipo di arrangiamento vuoi:
+
+- Pop?
+- Latino americano?
+- Rock?
+- Moderno?
+- Morbido e tranquillo?
+
+Scegli, fai ok, e ti dà **due brani tra cui scegliere**. Fino a qui **tutto gratis**.
+
+Se poi vuoi di più e vuoi provare altre opzioni, bisogna fare un abbonamento a Suno o comprare qualche credito — parliamo di pochi euro.
+
+## Come Usarla nei Tuoi Video
+
+Una volta che hai il tuo brano:
+
+- Quando parli, tieni la musica bassa
+- Quando non parli, alzala
+- E magari quando l'alzi, dice proprio **il nome del tuo salone**
+
+Immaginati l'impatto: ogni tuo video ha la stessa base musicale riconoscibile, nessuno te la silenzierà mai, e in più comunichi il tuo brand anche con il suono.
+
+Per tutto il resto, scrivetemi in DM. Voglio sapere che musica crei per il tuo salone.
+    `
+  },
+  {
     id: "come-scoprire-posizionamento-chatgpt",
     slug: "come-scoprire-posizionamento-chatgpt",
     title: "Come scoprire il tuo vero posizionamento con ChatGPT",
