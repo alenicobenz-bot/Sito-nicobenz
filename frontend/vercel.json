@@ -7,6 +7,9 @@
   "redirects": [
     { "source": "/forum/:path*", "destination": "/", "permanent": true },
     { "source": "/post/:path*", "destination": "/blog", "permanent": true },
+    { "source": "/single-post/:path*", "destination": "/blog", "permanent": true },
+    { "source": "/blog-1/:path*", "destination": "/blog", "permanent": true },
+    { "source": "/blog-feed.xml", "destination": "/blog", "permanent": true },
     { "source": "/category/:path*", "destination": "/blog", "permanent": true },
     { "source": "/categories/:path*", "destination": "/blog", "permanent": true },
     { "source": "/tag/:path*", "destination": "/blog", "permanent": true },
