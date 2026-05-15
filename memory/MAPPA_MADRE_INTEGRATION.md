@@ -29,18 +29,18 @@ Quando genera un nuovo articolo, deve:
 Variabili d'ambiente da aggiungere nel `.env` di Mappa Madre:
 
 ```env
-NICOBENZ_GITHUB_REPO=<owner>/<nome-repo>           # es: nicobenz/nicobenz-site
-NICOBENZ_GITHUB_BRANCH=main                         # branch su cui committare
+NICOBENZ_GITHUB_REPO=alenicobenz-bot/Sito-nicobenz
+NICOBENZ_GITHUB_BRANCH=main
 NICOBENZ_GITHUB_TOKEN=<github_personal_access_token>
 NICOBENZ_BLOG_FILE_PATH=frontend/src/data/blogArticles.js
 ```
 
 ### Come ottenere il GitHub Token
-1. Vai su https://github.com/settings/personal-access-tokens/new
+1. Vai su https://github.com/settings/personal-access-tokens/new (loggato come `alenicobenz-bot` o come owner del repo)
 2. **Token name:** `mappa-madre-publisher`
-3. **Resource owner:** scegli l'owner del repo nicobenz
+3. **Resource owner:** `alenicobenz-bot`
 4. **Expiration:** 1 year (o "No expiration" se preferisci)
-5. **Repository access** → "Only select repositories" → seleziona il repo di nicobenz.it
+5. **Repository access** → "Only select repositories" → seleziona **`Sito-nicobenz`**
 6. **Permissions** → Repository permissions:
    - **Contents:** Read and write ✅
    - **Metadata:** Read-only ✅ (auto)
