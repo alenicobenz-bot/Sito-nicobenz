@@ -4,6 +4,14 @@ import { Link } from "react-router-dom";
 import { LINKS_DATA } from "../data/linksData";
 import { BLOG_ARTICLES } from "../data/blogArticles";
 
+let INTERVIEWS = [];
+try {
+  // eslint-disable-next-line global-require
+  INTERVIEWS = require("../data/interviewsData").INTERVIEWS || [];
+} catch (e) {
+  INTERVIEWS = [];
+}
+
 function LinkRow({ href, label, icon, external, badge }) {
   const inner = (
     <>
@@ -37,6 +45,7 @@ function LinkRow({ href, label, icon, external, badge }) {
 
 export default function LinksPage() {
   const recentArticles = (BLOG_ARTICLES || []).slice(0, 3);
+  const recentInterviews = (INTERVIEWS || []).slice(0, 5);
   return (
     <div className="min-h-screen bg-[#0A0A0A] text-white">
       <Helmet>
@@ -60,6 +69,31 @@ export default function LinksPage() {
             Trasformo parrucchieri in social-content machine. Tutti i miei canali, qui.
           </p>
         </header>
+
+        {recentInterviews.length > 0 && (
+          <section className="mb-8">
+            <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-white/40 mb-3">
+              ULTIME INTERVISTE
+            </div>
+            <div className="space-y-2">
+              {recentInterviews.map((iv) => (
+                <a
+                  key={iv.id}
+                  href={iv.youtubeUrl}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="group flex items-center gap-4 bg-gradient-to-r from-red-500/10 to-transparent hover:from-red-500/20 border border-red-500/30 hover:border-red-500 px-5 py-4 transition-all duration-200"
+                >
+                  <span className="text-2xl leading-none w-7 text-center" aria-hidden>▶</span>
+                  <div className="flex-1 min-w-0">
+                    <div className="font-medium truncate">{iv.title}</div>
+                    <div className="text-[11px] text-white/50 mt-0.5">YouTube · {iv.date}</div>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
 
         {recentArticles.length > 0 && (
           <section className="mb-8">
