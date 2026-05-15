@@ -57,4 +57,4 @@ User-agent: SemrushBot
 Crawl-delay: 10
 
 # ----- Sitemap (una sola dichiarazione) -----
-Sitemap: https://nicobenz.it/sitemap.xml
+Sitemap: https://www.nicobenz.it/sitemap.xml
