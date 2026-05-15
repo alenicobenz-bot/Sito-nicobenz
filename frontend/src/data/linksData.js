@@ -1,6 +1,12 @@
 // Lista link fissi della pagina /links. Aggiornato automaticamente da Mappa Madre.
 export const LINKS_DATA = [
   {
+    label: "Sito Ufficiale nicobenz.it",
+    url: "https://www.nicobenz.it",
+    icon: "\ud83c\udf0d",
+    external: false,
+  },
+  {
     label: "Prenota una call",
     url: "https://www.nicobenz.it/prenota",
     icon: "\ud83c\udf10",
