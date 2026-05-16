@@ -2,8 +2,8 @@
 export const INTERVIEWS = [
   {
     id: "34d034fc-eaba-45d8-8989-29636001d198",
-    slug: "diretta-del-16-05-11-22",
-    title: "Diretta del 16/05 11:22",
+    slug: "intervista-a-valentina-carrino",
+    title: "Intervista a Valentina Carrino",
     youtubeUrl: "https://www.youtube.com/watch?v=FCtrgRJp4XM",
     videoId: "FCtrgRJp4XM",
     thumbnail: "https://img.youtube.com/vi/FCtrgRJp4XM/hqdefault.jpg",
