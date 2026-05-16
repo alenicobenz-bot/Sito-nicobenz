@@ -3,6 +3,45 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "ia-ti-togliera-il-lavoro-solo-se-resti-mediocre",
+    slug: "ia-ti-togliera-il-lavoro-solo-se-resti-mediocre",
+    title: "L'IA ti toglier\u00e0 il lavoro? Solo se resti mediocre",
+    excerpt: "L'intelligenza artificiale cambier\u00e0 il mercato. I saloni senza posizionamento rischiano grosso. Ecco perch\u00e9 questo \u00e8 il momento di diventare super.",
+    category: "Mindset",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://omni-content-3.preview.emergentagent.com/api/static/social/5902c0b5-4343-4011-aa67-ecb62e4e9919.jpg",
+    content: `
+L'IA ti toglierà il lavoro anche se sei un parrucchiere?
+
+Fermi tutti. Non sono uno di quei catastrofisti che urlano "l'IA ci ruberà il lavoro". Anzi, sono innamorato delle possibilità che l'intelligenza artificiale ci offre: espansione, creatività, nuove potenzialità lavorative. È uno strumento straordinario.
+
+Ma attenzione: **molti perderanno il lavoro**.
+
+Non i parrucchieri, sia chiaro. Le mani contano ancora tanto e conteranno per anni. Prima che arrivi un robot a tagliare i capelli o fare una schiaritura passerà del tempo. Ma tante persone in altri settori perderanno l'occupazione.
+
+## Cosa significa questo per te
+
+Più disoccupazione = più povertà = meno clienti.
+
+Ma non per tutti. Come è sempre capitato nella storia, **i ricchi e il ceto medio-alto continueranno ad andare dai super parrucchieri**. Dai professionisti riconoscibili, posizionati, con un personal brand forte.
+
+I saloni piccoli, poco posizionati, quelli che non hanno una ragione precisa per cui un cliente dovrebbe sceglierli rispetto ad altri — quelli sì, rischiano grosso.
+
+## Questo è il momento di scegliere
+
+Basta mediocrità. Basta essere "un parrucchiere come tanti".
+
+**Devi diventare super**. Devi essere riconoscibile, posizionato, esattamente il professionista di cui quel tipo di cliente ha bisogno. Devi costruire un personal brand che parli chiaro: io sono la scelta giusta per te.
+
+Non piangere sull'IA. Usala, magari, per ottimizzare il tuo lavoro quotidiano. Ma soprattutto: **mettiti al lavoro sul tuo posizionamento**.
+
+Perché il mercato si sta dividendo. E tu da che parte vuoi stare?
+
+Smetti di rimandare. Lavora sulla forza del tuo personal brand. Adesso.
+    `
+  },
+  {
     id: "ia-in-salone-gestisci-recensioni-negative",
     slug: "ia-in-salone-gestisci-recensioni-negative",
     title: "IA in salone: gestisci recensioni negative in 2 minuti",
