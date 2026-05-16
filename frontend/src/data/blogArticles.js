@@ -3,6 +3,54 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "ia-in-salone-gestisci-recensioni-negative",
+    slug: "ia-in-salone-gestisci-recensioni-negative",
+    title: "IA in salone: gestisci recensioni negative in 2 minuti",
+    excerpt: "ChatGPT pu\u00f2 scrivere per te risposte professionali a recensioni e commenti negativi. Ti spiego come usarlo per risparmiare tempo e difendere il tuo brand.",
+    category: "Social",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://omni-content-3.preview.emergentagent.com/api/static/social/6d414184-3977-491c-9653-00a1022f556d.jpg",
+    content: `
+## Ti blocchi davanti a una recensione negativa?
+
+Lo so. La leggi, la rileggi, inizi a scrivere, cancelli, riscrivi. "Oddio, come rispondo senza sembrare aggressiva? Ma devo difendermi, no?"
+
+Ecco la buona notizia: non devi più fare tutto da sola.
+
+## Come ChatGPT ti salva (letteralmente)
+
+Apri ChatGPT o Gemini. Fai copia-incolla del commento o della recensione negativa. Poi scrivi questo prompt:
+
+**"Creami una risposta educata e moderata a questo commento. Non deve offendere, ma deve essere utile a chi leggerà domani. Difendi le mie posizioni [oppure: scusati per l'errore se necessario]."**
+
+Questo dipende da te: se hai sbagliato, l'IA ti aiuta a scusarti con dignità. Se il cliente ha torto, ti aiuta a difenderti senza perdere la classe.
+
+## Il trucco che cambia tutto
+
+Ogni volta che lo fai, l'IA **impara**. Inizia a capire il tuo tone of voice, il tuo stile. Le risposte diventano sempre più tue.
+
+Poi:
+- Copi il testo generato
+- Lo rileggi (sempre)
+- Aggiusti quello che serve
+- Pubblichi
+
+**Bonus pro:** tieniti da parte i template delle risposte più ricorrenti.
+- Commenti positivi standard
+- Recensioni negative standard  
+- Appuntamenti confermati/cancellati
+
+Diventa un sistema. Tempo risparmiato, stress ridotto, professionalità garantita.
+
+## Provalo questa settimana
+
+La prossima volta che leggi un commento che ti manda in panico, fermati. Apri ChatGPT. Fai il test.
+
+Poi scrivimi in privato e dimmi com'è andata. Voglio sapere quanto tempo hai risparmiato.
+    `
+  },
+  {
     id: "colonna-sonora-salone-ai-suno",
     slug: "colonna-sonora-salone-ai-suno",
     title: "La Colonna Sonora del Tuo Salone? Creala con l'AI",
