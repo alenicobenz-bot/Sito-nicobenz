@@ -73,7 +73,7 @@ export default function LinksPage() {
           <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[#ECA72C] mb-2">
             BEAUTY SOCIAL COACH
           </div>
-          <h1 className="font-serif text-3xl sm:text-4xl font-bold leading-tight">Nico Benz</h1>
+          <h1 className="font-serif text-3xl sm:text-4xl font-bold leading-tight">NicoBenz</h1>
           <p className="text-white/60 text-sm mt-2 max-w-[320px]">
             Trasformo parrucchieri in social-content machine. Tutti i miei canali, qui.
           </p>
