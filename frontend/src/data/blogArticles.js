@@ -10,7 +10,7 @@ export const BLOG_ARTICLES = [
     category: "Mindset",
     date: "2026",
     readTime: "2 min",
-    image: "https://omni-content-3.preview.emergentagent.com/api/static/social/5902c0b5-4343-4011-aa67-ecb62e4e9919.jpg",
+    image: "https://mappa-madre.emergent.host/api/static/social/5902c0b5-4343-4011-aa67-ecb62e4e9919.jpg",
     content: `
 L'IA ti toglierà il lavoro anche se sei un parrucchiere?
 
@@ -49,7 +49,7 @@ Smetti di rimandare. Lavora sulla forza del tuo personal brand. Adesso.
     category: "Social",
     date: "2026",
     readTime: "2 min",
-    image: "https://omni-content-3.preview.emergentagent.com/api/static/social/6d414184-3977-491c-9653-00a1022f556d.jpg",
+    image: "https://mappa-madre.emergent.host/api/static/social/6d414184-3977-491c-9653-00a1022f556d.jpg",
     content: `
 ## Ti blocchi davanti a una recensione negativa?
 
@@ -97,7 +97,7 @@ Poi scrivimi in privato e dimmi com'è andata. Voglio sapere quanto tempo hai ri
     category: "Contenuti",
     date: "2026",
     readTime: "2 min",
-    image: "https://omni-content-3.preview.emergentagent.com/api/static/social/849ea541-3cef-4616-81e7-780421092c93.jpg",
+    image: "https://mappa-madre.emergent.host/api/static/social/849ea541-3cef-4616-81e7-780421092c93.jpg",
     content: `
 ## Il Problema delle Musiche Famose
 
@@ -164,7 +164,7 @@ Per tutto il resto, scrivetemi in DM. Voglio sapere che musica crei per il tuo s
     category: "Contenuti",
     date: "2026",
     readTime: "2 min",
-    image: "https://omni-content-3.preview.emergentagent.com/api/static/social/623f5c54-fb61-4aac-ba00-279415a0d621.jpg",
+    image: "https://mappa-madre.emergent.host/api/static/social/623f5c54-fb61-4aac-ba00-279415a0d621.jpg",
     content: `
 ## Sai davvero come sei percepito online?
 
