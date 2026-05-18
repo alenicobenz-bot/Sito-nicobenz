@@ -3,6 +3,77 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "perche-ai-non-funziona-ti-manca-solo-questo",
+    slug: "perche-ai-non-funziona-ti-manca-solo-questo",
+    title: "Perch\u00e9 l'AI non funziona? Ti manca solo questo",
+    excerpt: "L'intelligenza artificiale ti d\u00e0 risultati brutti? Il segreto \u00e8 tutto nel prompt. Ecco come scriverlo bene.",
+    category: "Marketing",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://mappa-madre.emergent.host/api/static/social/8442e844-9769-4ddc-9dc0-8f5aa8d5fab1.jpg",
+    content: `
+## "Ma a me non funziona"
+
+Dopo i primi tre video sull'intelligenza artificiale in salone, mi sono arrivate un sacco di domande. Tutte variazioni dello stesso tema: "Ho fatto come dici tu ma non viene bene, le foto sono strane, i testi sono blandi..."
+
+Bene. Diamo la risposta definitiva.
+
+## Cos'è davvero un prompt
+
+Il prompt è quello che tu dici all'intelligenza artificiale. Gli chiedi "fammi un'immagine di me che cammino in salone in mezzo ai clienti" e lui ti fa uscire una faccia allungata, occhiali diversi dai tuoi, mani storte, clienti che sembrano fantasmi. Non sei tu.
+
+Oppure gli chiedi un testo e parla come se fosse ilbot del call center. O gli chiedi di aiutarti col posizionamento e ti dà risposte così generiche che valgono per chiunque.
+
+**Il problema non è l'AI. È il prompt.**
+
+## La regola d'oro: il contesto
+
+Se vuoi risultati ottimali senza impazzire, c'è una cosa fondamentale da fare: **dagli il contesto prima di fare la domanda**.
+
+Spiegagli:
+- Chi sei
+- Che lavoro fai
+- Come lo fai
+- Dove lo fai
+- Perché lo fai
+
+Ogni volta che glielo dici, lui impara su di te. Potresti anche metterlo nelle impostazioni (ChatGPT e Gemini te lo permettono), ma non voglio entrare troppo nel tecnico ora.
+
+Il punto è: **metti sempre il contesto prima di fargli una richiesta importante**.
+
+## Il trucco per chi non ha voglia
+
+Ecco il bonus: fatti scrivere il prompt dall'AI stessa.
+
+Gli dici in quattro parole chi sei, poi gli chiedi: "Mi scrivi un bel prompt per spiegare a te (o a qualunque altra AI) il contesto di chi sono e cosa faccio?"
+
+Lui te lo scrive perfetto. Tu te lo copi. E tutte le volte che fai una richiesta importante, incolli quello prima.
+
+## Esempio pratico: le immagini
+
+Metti una tua foto. Gli dici "Fammi figo in salone con la maglia nera". Viene male.
+
+Perché? Perché la faccia non è uguale, la luce è diversa, i dettagli sono inventati.
+
+**Cosa devi dirgli:**
+- Mantieni il volto originale
+- Non cambiare la luce
+- Mantieni i tratti del viso
+- Usa gli stessi colori
+
+Sono tutte istruzioni che devi dare. Sembra difficile, ma una volta che l'hai fatto la prima volta, diventa automatico.
+
+## Ricapitolando
+
+- Contesto sempre, prima di ogni richiesta importante
+- Fatti scrivere il tuo prompt-base dall'AI stessa
+- Sii specifico: più dettagli dai, meglio funziona
+- Stiamo parlando di livello totalmente gratuito (ChatGPT, Gemini)
+
+Provaci questa settimana. E se hai dubbi, scrivimi nei commenti o in DM.
+    `
+  },
+  {
     id: "ia-ti-togliera-il-lavoro-solo-se-resti-mediocre",
     slug: "ia-ti-togliera-il-lavoro-solo-se-resti-mediocre",
     title: "L'IA ti toglier\u00e0 il lavoro? Solo se resti mediocre",
