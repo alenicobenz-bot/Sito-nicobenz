@@ -3,6 +3,53 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "il-momento-in-cui-smetti-di-pensare-che-i-social-siano-un-gioco",
+    slug: "il-momento-in-cui-smetti-di-pensare-che-i-social-siano-un-gioco",
+    title: "Il momento in cui smetti di pensare che i social siano un gioco",
+    excerpt: "C'\u00e8 un prima e un dopo nella comunicazione online. Quando lo vivi, tutto cambia. E non torni pi\u00f9 indietro.",
+    category: "Mindset",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://mappa-madre.emergent.host/api/static/social/f4e26b57-1c4f-42b2-880f-4d99820b5ae6.jpg",
+    content: `
+**Scusi, lei non è quello dei video sui capelli ricci?**
+
+C'è un momento preciso, e chi lo ha vissuto se lo ricorda con chiarezza, in cui qualcosa cambia radicalmente nel modo in cui vivi la comunicazione online.
+
+All'inizio pubblichi senza troppa convinzione. Qualche foto, ogni tanto un video quando l'ispirazione arriva. Lo fai più per curiosità che per strategia, più per sentirti al passo coi tempi che per un piano preciso. I risultati sono modesti: qualche like dai soliti conoscenti, qualche commento di cortesia, nulla di entusiasmante.
+
+Inizi a pensare che forse non fa per te, che forse i social non sono il tuo mezzo, che forse stai perdendo tempo prezioso.
+
+## Poi succede qualcosa
+
+Non sempre è un grande evento. Spesso è piccolo, quasi banale.
+
+Un video va leggermente meglio degli altri, raccoglie qualche commento genuino di persone che non conosci. O arriva un messaggio privato da qualcuno che non hai mai incontrato che ti dice che ha visto il tuo lavoro e vuole prenotare. O una cliente che hai da anni ti fa: "Ti seguo su Instagram, sei davvero bravissima". O qualcuno ti riconosce al supermercato.
+
+In quel momento **qualcosa si accende dentro di te**, qualcosa che non si può spegnere facilmente.
+
+Capisci che non è un gioco.
+
+Capisci che le persone ti stanno guardando davvero, anche quando non te ne accorgi, anche quando pensi che nessuno guardi, anche quando i numeri sembrano bassi. Capisci che quello che pubblichi ha un impatto reale sulla vita delle persone, sulle loro decisioni, sulla loro percezione di te come professionista.
+
+## Il vero punto di svolta
+
+Da quel momento il tuo rapporto con i social cambia completamente.
+
+- Non pubblichi più quando ti ricordi, inizi a pensarci con regolarità, a pianificare, a cercare opportunità di contenuto in ogni momento della giornata lavorativa
+- Non pubblichi più per abitudine o per sentirti moderna
+- Pubblichi perché sai che stai costruendo qualcosa di concreto, di reale, di tuo
+
+Questo cambio di mentalità è il vero punto di svolta. Non è il numero di follower. Non dipende da quale strumento usi o da quanti tutorial hai seguito. **Dipende da come vivi internamente la comunicazione**: come obbligo esterno o come opportunità interna, come peso da portare o come strumento da usare.
+
+Chi arriva a questo punto non torna quasi mai indietro, perché ha visto concretamente il valore di quello che sta costruendo.
+
+E il valore, una volta visto e toccato con mano, non si abbandona facilmente.
+
+**Questo passaggio l'hai già fatto? O sei ancora in quella fase in cui pubblichi "quando capita"? Scrivimelo, sono curiosa di sapere a che punto sei del percorso.**
+    `
+  },
+  {
     id: "perche-ai-non-funziona-ti-manca-solo-questo",
     slug: "perche-ai-non-funziona-ti-manca-solo-questo",
     title: "Perch\u00e9 l'AI non funziona? Ti manca solo questo",
