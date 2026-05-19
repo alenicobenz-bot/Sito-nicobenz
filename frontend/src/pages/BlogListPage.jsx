@@ -1,9 +1,17 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+import { useSeo } from "../hooks/useSeo";
 import { ArrowUpRight, ArrowLeft, Home } from "lucide-react";
 import { BLOG_ARTICLES } from "../data/blogArticles";
 
 const BlogListPage = () => {
+  useSeo({
+    title: "Blog — Nicobenz Beauty Social Coach",
+    description: "Articoli su marketing, social media e personal branding per parrucchieri e professionisti beauty.",
+    canonical: "https://www.nicobenz.it/blog",
+    ogType: "website",
+  });
+
   // Scroll to top quando la pagina si carica
   useEffect(() => {
     window.scrollTo(0, 0);
