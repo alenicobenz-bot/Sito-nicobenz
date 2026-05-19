@@ -2,12 +2,20 @@ import React, { useEffect } from "react";
 import { useParams, Link, Navigate } from "react-router-dom";
 import { ArrowLeft, Clock, Tag, Home, Share2 } from "lucide-react";
 import { getArticleBySlug, getRelatedArticles } from "../data/blogArticles";
-import { Helmet } from "react-helmet";
+import { useSeo } from "../hooks/useSeo";
 
 const BlogArticlePage = () => {
   const { slug } = useParams();
   const article = getArticleBySlug(slug);
   const relatedArticles = article ? getRelatedArticles(slug, 3) : [];
+
+  useSeo({
+    title: article ? `${article.title} — Nicobenz Blog` : "Nicobenz Blog",
+    description: article?.excerpt,
+    canonical: `https://www.nicobenz.it/blog/${slug}`,
+    ogImage: article?.image,
+    ogType: "article",
+  });
 
   // Scroll to top quando la pagina si carica
   useEffect(() => {
@@ -30,19 +38,19 @@ const BlogArticlePage = () => {
       "@type": "Person",
       "name": "Nicobenz",
       "jobTitle": "Beauty Social Coach",
-      "url": "https://nicobenz.it"
+      "url": "https://www.nicobenz.it"
     },
     "publisher": {
       "@type": "Organization",
       "name": "Nicobenz",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://nicobenz.it/logo.png"
+        "url": "https://www.nicobenz.it/logo.png"
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://nicobenz.it/blog/${slug}`
+      "@id": `https://www.nicobenz.it/blog/${slug}`
     },
     "keywords": "marketing parrucchieri, formazione parrucchieri, social media parrucchieri, personal branding beauty, strategia social saloni"
   };
@@ -56,19 +64,19 @@ const BlogArticlePage = () => {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://nicobenz.it"
+        "item": "https://www.nicobenz.it"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Blog",
-        "item": "https://nicobenz.it/blog"
+        "item": "https://www.nicobenz.it/blog"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": article.title,
-        "item": `https://nicobenz.it/blog/${slug}`
+        "item": `https://www.nicobenz.it/blog/${slug}`
       }
     ]
   };
@@ -159,19 +167,6 @@ const BlogArticlePage = () => {
 
   return (
     <>
-      <Helmet>
-        <title>{`${article.title} — Nicobenz Blog`}</title>
-        <meta name="description" content={article.excerpt} />
-        <meta name="keywords" content="marketing parrucchieri, formazione parrucchieri, social media parrucchieri, personal branding beauty, consulenza saloni" />
-        
-        {/* Open Graph */}
-        <meta property="og:title" content={article.title} />
-        <meta property="og:description" content={article.excerpt} />
-        <meta property="og:image" content={article.image} />
-        <meta property="og:url" content={`https://nicobenz.it/blog/${slug}`} />
-        <meta property="og:type" content="article" />
-      </Helmet>
-      
       {/* JSON-LD Schemas injected directly into DOM */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
@@ -263,7 +258,7 @@ const BlogArticlePage = () => {
             <div className="flex items-center gap-3">
               {/* X (Twitter) */}
               <a
-                href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(article.title)}&url=${encodeURIComponent(`https://nicobenz.it/blog/${slug}`)}`}
+                href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(article.title)}&url=${encodeURIComponent(`https://www.nicobenz.it/blog/${slug}`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-11 h-11 rounded-full bg-[#1DA1F2]/10 hover:bg-[#1DA1F2]/20 border border-[#1DA1F2]/30 hover:border-[#1DA1F2]/50 flex items-center justify-center transition-all group"
@@ -276,7 +271,7 @@ const BlogArticlePage = () => {
 
               {/* Facebook */}
               <a
-                href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`https://nicobenz.it/blog/${slug}`)}`}
+                href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`https://www.nicobenz.it/blog/${slug}`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-11 h-11 rounded-full bg-[#1877F2]/10 hover:bg-[#1877F2]/20 border border-[#1877F2]/30 hover:border-[#1877F2]/50 flex items-center justify-center transition-all group"
@@ -289,7 +284,7 @@ const BlogArticlePage = () => {
 
               {/* LinkedIn */}
               <a
-                href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://nicobenz.it/blog/${slug}`)}`}
+                href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://www.nicobenz.it/blog/${slug}`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-11 h-11 rounded-full bg-[#0A66C2]/10 hover:bg-[#0A66C2]/20 border border-[#0A66C2]/30 hover:border-[#0A66C2]/50 flex items-center justify-center transition-all group"
@@ -302,7 +297,7 @@ const BlogArticlePage = () => {
 
               {/* WhatsApp */}
               <a
-                href={`https://wa.me/?text=${encodeURIComponent(`${article.title} - https://nicobenz.it/blog/${slug}`)}`}
+                href={`https://wa.me/?text=${encodeURIComponent(`${article.title} - https://www.nicobenz.it/blog/${slug}`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-11 h-11 rounded-full bg-[#25D366]/10 hover:bg-[#25D366]/20 border border-[#25D366]/30 hover:border-[#25D366]/50 flex items-center justify-center transition-all group"
