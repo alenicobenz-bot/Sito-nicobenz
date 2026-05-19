@@ -1,6 +1,15 @@
 // Episodi podcast Spotify pubblicati. Aggiornato automaticamente da Mappa Madre.
 export const PODCASTS = [
   {
+    id: "51625cae-8ef1-44f4-bafd-a749f07ebdc9",
+    slug: "intervista-a-marica-lopez",
+    title: "Intervista a Marica Lopez",
+    spotifyUrl: "https://open.spotify.com/episode/6a5oSH82gWHAsQw7nX68fo?si=b47d6bf5e26b4f23",
+    episodeId: "6a5oSH82gWHAsQw7nX68fo",
+    cover: "https://mappa-madre.emergent.host/api/static/social/51625cae-8ef1-44f4-bafd-a749f07ebdc9.jpg",
+    date: "2026-05-19",
+  },
+  {
     id: "69edc70c-9b45-488f-bee7-3b87420a50bc",
     slug: "la-live-dei-top",
     title: "La Live dei Top",
