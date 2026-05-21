@@ -3,6 +3,50 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "ia-in-salone-trucca-le-foto-prima-di-pubblicarle",
+    slug: "ia-in-salone-trucca-le-foto-prima-di-pubblicarle",
+    title: "IA in Salone: Trucca le Foto Prima di Pubblicarle",
+    excerpt: "Come usare l'intelligenza artificiale per migliorare le foto delle clienti senza perdere tempo col trucco vero.",
+    category: "Social",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://mappa-madre.emergent.host/api/static/social/80339ec9-dd52-492a-b105-98d669d01b45.jpg",
+    content: `
+## Il problema delle foto in salone
+
+Publichi ancora foto delle tue clienti? Su Google My Business, Instagram, magari per mostrare i tuoi lavori?
+
+È utile, funziona come una brochure digitale. Ma sai qual è sempre stato il problema?
+
+Le clienti entrano con i capelli da sistemare, spesso struccate. Tu gli fai un lavoro stupendo sui capelli, ma il viso rimane al naturale. E la foto? Meno impattante di quanto potrebbe essere.
+
+Io l'ho sempre detto: sarebbe figo se potessi truccarle leggermente, giusto per far risaltare meglio il lavoro. Ma perdere cinque minuti a truccare ogni cliente per una foto? Non è realistico. E infatti non lo fate, perché siete furbi.
+
+## La soluzione con l'intelligenza artificiale
+
+Finalmente il mio desiderio si può realizzare, grazie all'IA.
+
+Ecco come funziona:
+
+- Scatti la foto alla cliente dopo il tuo lavoro
+- La carichi su ChatGPT
+- Usi un prompt specifico (come ti ho spiegato nei video precedenti)
+- L'IA aggiunge un **trucco leggero e naturale**
+
+**Attenzione fondamentale**: devi dire all'intelligenza artificiale di **non cambiare i lineamenti del viso**. Deve solo aggiungere un filo di rossetto, mascara sulle ciglia, giusto quei due tre tocchi che fanno la differenza.
+
+## Perché funziona
+
+Le foto diventano molto più belle. Valorizzano il tuo lavoro senza snaturare la persona.
+
+E sai cosa succede? **Le clienti se le condividono**. Le postano sui loro profili, le mandano alle amiche. È pubblicità gratuita che parte da loro, non da te.
+
+Non stai ingannando nessuno, stai solo presentando il tuo lavoro nella migliore luce possibile. Come quando sistemi le luci prima di scattare una foto, o scegli l'angolazione migliore.
+
+Prova questa settimana con un paio di clienti e dimmi com'è andata. Vedrai che differenza.
+    `
+  },
+  {
     id: "il-momento-in-cui-smetti-di-pensare-che-i-social-siano-un-gioco",
     slug: "il-momento-in-cui-smetti-di-pensare-che-i-social-siano-un-gioco",
     title: "Il momento in cui smetti di pensare che i social siano un gioco",
