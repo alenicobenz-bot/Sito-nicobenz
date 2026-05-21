@@ -6,6 +6,10 @@
   "framework": "create-react-app",
   "redirects": [
     { "source": "/forum/:path*", "destination": "/", "permanent": true },
+    { "source": "/group/:path*", "destination": "/", "permanent": true },
+    { "source": "/groups/:path*", "destination": "/", "permanent": true },
+    { "source": "/members/:path*", "destination": "/", "permanent": true },
+    { "source": "/profile/:path*", "destination": "/", "permanent": true },
     { "source": "/post/:path*", "destination": "/blog", "permanent": true },
     { "source": "/single-post/:path*", "destination": "/blog", "permanent": true },
     { "source": "/blog-1/:path*", "destination": "/blog", "permanent": true },
@@ -17,7 +21,8 @@
     { "source": "/author/:path*", "destination": "/", "permanent": true },
     { "source": "/wix/:path*", "destination": "/", "permanent": true },
     { "source": "/_functions/:path*", "destination": "/", "permanent": true },
-    { "source": "/_partials/:path*", "destination": "/", "permanent": true }
+    { "source": "/_partials/:path*", "destination": "/", "permanent": true },
+    { "source": "/1-video-al-giorno", "destination": "/un-video-al-giorno", "permanent": true }
   ],
   "rewrites": [
     {

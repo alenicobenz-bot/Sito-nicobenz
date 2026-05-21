@@ -59,7 +59,7 @@ NICOBENZ_BLOG_FILE_PATH=frontend/src/data/blogArticles.js
   category: "Contenuti",                 // string, es: "Contenuti", "Strategia", "Branding", "Social"
   date: "2026",                          // "YYYY" o "YYYY-MM-DD"
   readTime: "7 min",                     // string, es: "5 min", "10 min"
-  image: "https://nicobenz.it/blog-covers/cover-articolo.jpg",  // URL cover image (HTTPS)
+  image: "/blog-covers/cover-slug-articolo.jpg",  // PATH RELATIVO sul repo (vedi sezione "Upload immagine")
   content: `
 # Titolo H1 (di solito uguale a "title")
 
@@ -92,6 +92,76 @@ Altro contenuto...
 - ✅ Grassetto su riga propria: `**testo**` → diventa paragrafo enfatizzato
 - ✅ Separatori orizzontali: `---`
 - ⚠️ Link, immagini inline, code blocks: **non supportati** dal renderer custom (eventualmente li ignoriamo)
+
+---
+
+## 🖼️ Upload immagine cover (IMPORTANTE — aggiornamento 2026-05-21)
+
+**Problema risolto:** in passato il campo `image` puntava al dominio di Mappa Madre (`https://mappa-madre.emergent.host/api/static/...`). Quando un file viene rimosso o il dominio cambia, l'immagine sparisce dal sito → 404.
+
+**Nuova policy (obbligatoria):** la cover deve essere **committata insieme all'articolo** nel repo GitHub di nicobenz.it. L'articolo referenzia un path **relativo** del tipo `/blog-covers/<slug>.jpg`.
+
+### Logica da implementare in Mappa Madre
+
+Per ogni pubblicazione, Mappa Madre deve:
+
+1. Avere l'immagine cover in memoria come bytes (`image_bytes`) o scaricarla dal proprio storage interno
+2. Determinare l'estensione corretta (`.jpg`, `.png`, `.webp`)
+3. Fare un **commit GitHub aggiuntivo** sul path: `frontend/public/blog-covers/<slug>.<ext>`
+4. Nel campo `image` dell'articolo usare il path relativo: `/blog-covers/<slug>.<ext>` (NO dominio assoluto)
+
+### Codice di esempio Python
+
+```python
+def upload_image_to_nicobenz_repo(slug: str, image_bytes: bytes, ext: str = "jpg") -> str:
+    """
+    Committa l'immagine cover su frontend/public/blog-covers/<slug>.<ext>
+    Ritorna il path relativo da usare nel campo `image` dell'articolo.
+    """
+    path = f"frontend/public/blog-covers/{slug}.{ext}"
+    url = f"{GH_API}/repos/{REPO}/contents/{path}"
+
+    # 1. Check se esiste già (per ottenere sha — serve solo per UPDATE)
+    r = requests.get(f"{url}?ref={BRANCH}", headers=HEADERS)
+    existing_sha = r.json().get("sha") if r.status_code == 200 else None
+
+    # 2. PUT (create o update)
+    payload = {
+        "message": f"chore(blog-covers): cover per {slug}",
+        "content": base64.b64encode(image_bytes).decode("ascii"),
+        "branch": BRANCH,
+    }
+    if existing_sha:
+        payload["sha"] = existing_sha
+
+    r = requests.put(url, headers=HEADERS, json=payload)
+    r.raise_for_status()
+    return f"/blog-covers/{slug}.{ext}"
+
+
+# Uso nel flusso di publish
+def publish_to_nicobenz(article_dict, image_bytes, image_ext="jpg"):
+    # 1. Upload immagine PRIMA dell'articolo
+    image_path = upload_image_to_nicobenz_repo(
+        slug=article_dict["slug"],
+        image_bytes=image_bytes,
+        image_ext=image_ext,
+    )
+    # 2. Aggiorna il campo image con il path relativo
+    article_dict["image"] = image_path
+    # 3. Procedi col commit dell'articolo come prima
+    return publish_article_to_nicobenz(article_dict)
+```
+
+### Vincoli sull'immagine
+- **Formato:** JPG, PNG o WebP (preferibilmente JPG per dimensioni minori)
+- **Aspect ratio consigliato:** 16:9 o 1:1 (il sito le mostra croppate)
+- **Risoluzione minima:** 1080×1080 (1:1) o 1600×900 (16:9)
+- **Peso file:** idealmente < 300 KB (le immagini > 1 MB rallentano il sito e gonfiano il repo)
+- **Nome file:** `<slug>.jpg` (es. `5-strategie-tiktok-2026.jpg`)
+
+### Fallback automatico
+Anche se l'upload immagine fallisce, il sito nicobenz.it ha un fallback editoriale `/blog-covers/default-cover.svg` (logo + sfondo dark + accenti oro) che viene mostrato automaticamente in caso di 404. Quindi una pubblicazione senza immagine è "graceful degradation" — l'articolo è comunque pubblicabile e leggibile.
 
 ---
 

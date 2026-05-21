@@ -13,6 +13,18 @@ const VIDEOS = [
     title: "La Live dei TOP",
     subtitle: "Il meglio degli hairstylist sui social, tutti insieme!",
     url: "https://www.youtube.com/embed/1-MKaUX1HyU"
+  },
+  {
+    id: "ypMot6OnJ54",
+    title: "Intervista a Marica Lopez",
+    subtitle: "Essere originali e autentici paga sempre.",
+    url: "https://www.youtube.com/embed/ypMot6OnJ54"
+  },
+  {
+    id: "NKgB3S-soVU",
+    title: "Intervista a Andrea Bozzano",
+    subtitle: "Il Boss di HC Salon.",
+    url: "https://www.youtube.com/embed/NKgB3S-soVU"
   }
 ];
 

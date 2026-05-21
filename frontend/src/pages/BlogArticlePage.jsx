@@ -229,6 +229,7 @@ const BlogArticlePage = () => {
             <img 
               src={article.image} 
               alt={`${article.title} - Articolo marketing parrucchieri e formazione beauty social media`} 
+              onError={(e) => { e.currentTarget.src = "/blog-covers/default-cover.svg"; }}
               className="w-full h-full object-cover" 
               loading="eager" 
             />
@@ -333,6 +334,7 @@ const BlogArticlePage = () => {
                       <img 
                         src={related.image} 
                         alt={related.title}
+                        onError={(e) => { e.currentTarget.src = "/blog-covers/default-cover.svg"; }}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         loading="lazy"
                       />
