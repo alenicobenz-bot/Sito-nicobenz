@@ -1,6 +1,15 @@
 // Episodi podcast Spotify pubblicati. Aggiornato automaticamente da Mappa Madre.
 export const PODCASTS = [
   {
+    id: "638ea761-8784-4822-809e-45f0595ea0b1",
+    slug: "intervista-a-ilaria-martinelli",
+    title: "Intervista a Ilaria Martinelli",
+    spotifyUrl: "https://open.spotify.com/episode/4PKoWkMqRnvsEH0BcxRscj?si=8edefa85b9c847cb",
+    episodeId: "4PKoWkMqRnvsEH0BcxRscj",
+    cover: "https://mappa-madre.emergent.host/api/static/social/638ea761-8784-4822-809e-45f0595ea0b1.jpg",
+    date: "2026-05-24",
+  },
+  {
     id: "51625cae-8ef1-44f4-bafd-a749f07ebdc9",
     slug: "intervista-a-marica-lopez",
     title: "Intervista a Marica Lopez",
