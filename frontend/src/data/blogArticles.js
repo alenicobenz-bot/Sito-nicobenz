@@ -3,6 +3,53 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "perche-contenuti-virali-non-ti-faranno-crescere",
+    slug: "perche-contenuti-virali-non-ti-faranno-crescere",
+    title: "Perch\u00e9 i contenuti virali non ti faranno crescere (davvero)",
+    excerpt: "Ho fatto una live con 11 top del settore beauty. L'hanno vista in pochi. Un video polemico sui prezzi? Migliaia di visualizzazioni. Ecco il problema.",
+    category: "Contenuti",
+    date: "2026",
+    readTime: "2 min",
+    image: "/blog-covers/perche-contenuti-virali-non-ti-faranno-crescere.jpg",
+    content: `
+## Il paradosso dei contenuti beauty sui social
+
+Ho ricevuto un messaggio da Michela Ferracuti, formatrice che molti di voi conoscono, che mi ha segnalato un suo articolo in cui parlava di me. Molto gentile da parte sua, e la ringrazio pubblicamente. Non siamo competitori, io mi occupo solo di social, ma ha toccato un tema che mi sta a cuore.
+
+Il punto è questo: ho fatto una live con undici **top assoluti** del settore. Persone che online, attraverso i video e i social, sono diventate autorevoli, forti, riconosciute. Oggi fanno formazione, vendono prodotti, hanno costruito imperi partendo dai contenuti.
+
+Quella live? **L'hanno vista in pochi.**
+
+È vero, vado in diretta su quattro canali diversi, poi faccio clip per settimane, quindi il materiale arriva comunque ai parrucchieri nel tempo. Ma il dato resta.
+
+## Quando il trash batte la sostanza
+
+Ora prendi un video dove una ragazza si lamenta del costo dei parrucchieri. Quello **va virale**. Commenti su commenti, discussioni infinite, tutti che dicono la loro, chi pro, chi contro. Tutti esperti improvvisati.
+
+Quando c'è qualcosa di **utile e vero**, qualcosa che dovresti ascoltare attentamente per capire come hanno fatto gli altri a crescere (e crescere anche tu), scatta il meccanismo delle scuse:
+
+- "Sì ma lui è in centro a Roma"
+- "Quello è troppo bello"
+- "Ha avuto dei vantaggi"
+- "Non me lo cago"
+- "Adesso non mi serve"
+
+E intanto si preferisce **polinizzare** nei commenti di contenuti trash.
+
+## La mia scelta (e quella che dovresti fare anche tu)
+
+Michela nel suo format va nei saloni e molta gente fa esattamente questo: taglia contenuti del tipo "che capelli hai" invece di creare valore. Non sono tutti così, ma la maggior parte sì.
+
+Io, dal mio canto, **me ne frego di fare contenuti virali**. Anzi, quando mi capita mi girano anche un po' le scatole, perché mi tiro dentro gente che non voglio, persone che non centrano nulla con il mio messaggio e che poi inquinano i commenti.
+
+Preferisco continuare sulla strada dritta del **contenuto di valore**. Quella che non ti dà migliaia di visualizzazioni oggi, ma ti costruisce autorevolezza, fiducia e un pubblico che davvero conta domani.
+
+Però Michela, su questo: sono d'accordo con te.
+
+**E tu? Stai inseguendo le visualizzazioni o stai costruendo qualcosa di solido? Pensaci bene prima di postare il prossimo video.**
+    `
+  },
+  {
     id: "ia-in-salone-trucca-le-foto-prima-di-pubblicarle",
     slug: "ia-in-salone-trucca-le-foto-prima-di-pubblicarle",
     title: "IA in Salone: Trucca le Foto Prima di Pubblicarle",
