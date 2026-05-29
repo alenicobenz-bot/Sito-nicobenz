@@ -1,6 +1,15 @@
 // Interviste pubblicate su YouTube. Aggiornato automaticamente da Mappa Madre.
 export const INTERVIEWS = [
   {
+    id: "b02f164d-270f-4a71-a0af-d13507d92c7c",
+    slug: "intervista-a-omar-bertasi",
+    title: "Intervista a Omar Bertasi",
+    youtubeUrl: "https://www.youtube.com/live/J5JpLM5nZcE?is=dX8dm5oPdE7yQ8sl",
+    videoId: "J5JpLM5nZcE",
+    thumbnail: "https://img.youtube.com/vi/J5JpLM5nZcE/hqdefault.jpg",
+    date: "2026-05-29",
+  },
+  {
     id: "d6c24101-a59f-426c-9ad9-1f3271244e61",
     slug: "intervista-a-ilaria-martinelli",
     title: "Intervista a Ilaria Martinelli",
