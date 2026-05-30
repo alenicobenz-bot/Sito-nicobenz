@@ -1,6 +1,15 @@
 // Interviste pubblicate su YouTube. Aggiornato automaticamente da Mappa Madre.
 export const INTERVIEWS = [
   {
+    id: "f7514894-b3fd-41af-b8c8-4edf164e6fef",
+    slug: "intervista-a-omar-bertasi-parte2",
+    title: "Intervista a Omar Bertasi (parte2)",
+    youtubeUrl: "https://www.youtube.com/live/-SFYDby6rXw?is=OlciSBOROwWlIOpb",
+    videoId: "-SFYDby6rXw",
+    thumbnail: "https://img.youtube.com/vi/-SFYDby6rXw/hqdefault.jpg",
+    date: "2026-05-30",
+  },
+  {
     id: "b02f164d-270f-4a71-a0af-d13507d92c7c",
     slug: "intervista-a-omar-bertasi",
     title: "Intervista a Omar Bertasi",
