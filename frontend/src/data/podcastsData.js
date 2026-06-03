@@ -1,6 +1,15 @@
 // Episodi podcast Spotify pubblicati. Aggiornato automaticamente da Mappa Madre.
 export const PODCASTS = [
   {
+    id: "01ab9d32-0e0f-4634-8351-722b7e922d10",
+    slug: "intervista-a-omar-bertasi",
+    title: "Intervista a Omar Bertasi",
+    spotifyUrl: "https://open.spotify.com/episode/3AksS0Te8PgqEEJYv3L0tv?si=1ec6f9f5acc44f51",
+    episodeId: "3AksS0Te8PgqEEJYv3L0tv",
+    cover: "https://www.nicobenz.it/social/01ab9d32-0e0f-4634-8351-722b7e922d10.jpg",
+    date: "2026-06-03",
+  },
+  {
     id: "638ea761-8784-4822-809e-45f0595ea0b1",
     slug: "intervista-a-ilaria-martinelli",
     title: "Intervista a Ilaria Martinelli",
