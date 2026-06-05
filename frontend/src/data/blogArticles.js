@@ -3,6 +3,52 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "vuoi-andare-virale-ecco-perche-stai-sbagliando-tutto",
+    slug: "vuoi-andare-virale-ecco-perche-stai-sbagliando-tutto",
+    title: "Vuoi andare virale? Ecco perch\u00e9 stai sbagliando tutto",
+    excerpt: "La viralit\u00e0 senza fondamenta non ti porta clienti. Ti svelo cosa costruire prima di inseguire visualizzazioni e like che non convertono.",
+    category: "Strategia",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://www.nicobenz.it/social/887a7657-1bf0-4c6c-a24e-228761e63556.jpg",
+    content: `
+## Vuoi le due mosse per andare virale?
+
+Ecco: cospargi di alcol etilico i capelli della cliente, accendi un fiammifero, riprendi mentre urla e scappa in fiamme per il salone. Pubblichi il video e boom, sei virale.
+
+Cazzata, vero? Ovvio che sì.
+
+Ma sai qual è la vera cazzata? Che parte da molto prima. Parte nel momento esatto in cui ti siedi e pensi: "Come faccio ad andare virale?"
+
+## La viralità da sola non ti serve a niente
+
+E lo dico seriamente. Un video che esplode, 500.000 visualizzazioni, commenti ovunque... e poi? Se sotto non c'è nulla, se la gente non capisce chi sei, perché dovrebbe fidarsi di te, perché dovrebbe lasciare il suo parrucchiere di fiducia per venire da te — quella viralità è fumo.
+
+La viralità funziona **solo** se sotto c'è dello storico. Se tu sei quel professionista che da mesi pubblica contenuti, fa vedere il suo lavoro, comunica la sua visione, costruisce autorevolezza giorno dopo giorno. A quel punto sì: un video virale diventa benzina sul fuoco (scusa il gioco di parole) e hai fatto bingo.
+
+## Cosa costruire prima della viralità
+
+Prima di inseguire like e condivisioni, chiediti:
+
+- **Chi sono io come professionista?** Qual è il mio posizionamento?
+- **Perché una cliente dovrebbe scegliere me?** Cosa mi rende diverso?
+- **Sto comunicando con autenticità?** O sto solo copiando trend?
+- **Sono costante?** Un video ogni morte di papa non costruisce nulla.
+
+Ci vuole fatica. Ci vuole sacrificio. Ci vuole pazienza. Ma soprattutto ci vuole **strategia**: devi scegliere che tipo di contenuti pubblicare, quale messaggio mandare, quale personal brand costruire.
+
+## L'autorevolezza prima di tutto
+
+La gente deve capire perché sei bravo. Deve vedere la tua competenza, la tua esperienza, il tuo modo di lavorare. Deve fidarsi di te **prima** di prenotare un appuntamento.
+
+Se insegui la viralità a tutti i costi, stai costruendo sulla sabbia. E quando arriva l'onda (ammesso che arrivi), ti porta via tutto.
+
+Costruisci fondamenta solide. Poi, se arriva la viralità, sarà il ciliegina sulla torta. Non la torta stessa.
+
+Smetti di cercare scorciatoie. Inizia a costruire il tuo brand con autenticità e costanza. I risultati arriveranno, te lo garantisco.
+    `
+  },
+  {
     id: "perche-contenuti-virali-non-ti-faranno-crescere",
     slug: "perche-contenuti-virali-non-ti-faranno-crescere",
     title: "Perch\u00e9 i contenuti virali non ti faranno crescere (davvero)",
