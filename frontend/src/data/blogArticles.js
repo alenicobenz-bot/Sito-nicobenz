@@ -3,6 +3,59 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "copertine-reel-professionali-con-ai",
+    slug: "copertine-reel-professionali-con-ai",
+    title: "Come Creare Copertine Reel Professionali con l'AI",
+    excerpt: "Basta screenshot casuali sui tuoi Reel. Ti spiego come usare l'AI per creare copertine fighe, coerenti e che attirano davvero l'attenzione.",
+    category: "Contenuti",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://www.nicobenz.it/social/58998157-9482-4fe9-a6ee-f71def44c21a.jpg",
+    content: `
+## Hai mai guardato il tuo profilo Instagram e pensato "Che casino"?
+
+Quelle copertine dei Reel... screenshot a caso, mezze sfocate, con te a metà faccia. Lo so, lo vedo continuamente. Ma c'è una soluzione veloce e che funziona davvero.
+
+Parlo delle **copertine dei Reel** — quelle che vedi quando vai sul tuo profilo Instagram o TikTok, dove ci sono tutti i tuoi video in griglia. Ecco, quelle si possono fare **belle, fighe e soprattutto coerenti**.
+
+E no, non serve Photoshop. Serve solo l'intelligenza artificiale.
+
+## Come funziona (passo per passo)
+
+**1. Scegli il frame giusto**
+
+Prendi il tuo video e fai uno screenshot del momento che ti piace di più. Magari il finale, magari un momento dove si vede bene il risultato del trattamento. L'importante è che sia un'immagine decente da cui partire.
+
+**2. Vai sulla tua AI preferita**
+
+ChatGPT, Gemini, quella che usi normalmente. Carica lo screenshot.
+
+**3. Chiedi la copertina con questo prompt**
+
+"Mi fai la copertina del mio Reel? Mi raccomando: metti me e l'altra protagonista (se siete in due, o tu e la cliente) belli in evidenza, quasi tridimensionali. Lo sfondo invece fammelo un po' più sfocato. Poi mettimi come titolo in centro [INSERISCI IL TUO TITOLO]."
+
+E boom. Ti viene fuori la copertina.
+
+## Il trucco per tenerle tutte uguali
+
+Questa è la parte che fa la differenza: **la coerenza visiva**.
+
+Ogni volta che fai un nuovo Reel, prendi la **prima copertina** che hai fatto (quella originale), caricala insieme al nuovo screenshot e chiedi all'AI:
+
+"Me la rifai così, con questo nuovo screenshot, e metti questo titolo."
+
+In questo modo tutte le tue copertine avranno lo stesso stile, gli stessi colori, la stessa impostazione grafica. Il tuo profilo sembrerà curato, professionale, **da seguire**.
+
+E sai cosa? Questo lo noti. La gente lo nota. Quando scorri un profilo e vedi che è tutto coerente, pensi "Okay, questa sa il fatto suo".
+
+## Provalo questa settimana
+
+Prendi i tuoi ultimi 3-4 Reel e rifagli le copertine con questo metodo. Poi guardati il profilo e dimmi se non fa tutta un'altra figura.
+
+Se hai dubbi o vuoi farmi vedere il risultato, scrivimi.
+    `
+  },
+  {
     id: "vuoi-andare-virale-ecco-perche-stai-sbagliando-tutto",
     slug: "vuoi-andare-virale-ecco-perche-stai-sbagliando-tutto",
     title: "Vuoi andare virale? Ecco perch\u00e9 stai sbagliando tutto",
