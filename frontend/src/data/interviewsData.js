@@ -1,6 +1,15 @@
 // Interviste pubblicate su YouTube. Aggiornato automaticamente da Mappa Madre.
 export const INTERVIEWS = [
   {
+    id: "da7fb370-1904-42a0-8804-6062e1fce0fc",
+    slug: "intervista-al-maestro-francesco-cirignotta",
+    title: "Intervista al Maestro Francesco Cirignotta",
+    youtubeUrl: "https://www.youtube.com/watch?v=2Euvm_KI0Os",
+    videoId: "2Euvm_KI0Os",
+    thumbnail: "https://img.youtube.com/vi/2Euvm_KI0Os/hqdefault.jpg",
+    date: "2026-06-12",
+  },
+  {
     id: "f7514894-b3fd-41af-b8c8-4edf164e6fef",
     slug: "intervista-a-omar-bertasi-parte2",
     title: "Intervista a Omar Bertasi (parte2)",
