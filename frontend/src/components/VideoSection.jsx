@@ -15,10 +15,10 @@ const VIDEOS = [
     url: "https://www.youtube.com/embed/1-MKaUX1HyU"
   },
   {
-    id: "ypMot6OnJ54",
-    title: "Intervista a Marica Lopez",
-    subtitle: "Essere originali e autentici paga sempre.",
-    url: "https://www.youtube.com/embed/ypMot6OnJ54"
+    id: "2Euvm_KI0Os",
+    title: "Intervista al Maestro Francesco Cirignotta",
+    subtitle: "Un dialogo con uno dei Maestri italiani della hairstyling.",
+    url: "https://www.youtube.com/embed/2Euvm_KI0Os"
   },
   {
     id: "NKgB3S-soVU",
