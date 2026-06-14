@@ -9,6 +9,7 @@ import BlogArticlePage from "./pages/BlogArticlePage";
 import ThankYouPage from "./pages/ThankYouPage";
 import PrenotaPage from "./pages/PrenotaPage";
 import DemoPage from "./pages/DemoPage";
+import LinksPage from "./pages/LinksPage";
 import ScrollToTop from "./components/ScrollToTop";
 import WhatsAppButton from "./components/WhatsAppButton";
 import VideoGiornoPopup from "./components/VideoGiornoPopup";
@@ -25,6 +26,7 @@ function App() {
           <Route path="/prenota" element={<PrenotaPage />} />
           <Route path="/blog" element={<BlogListPage />} />
           <Route path="/blog/:slug" element={<BlogArticlePage />} />
+          <Route path="/links" element={<LinksPage />} />
           <Route path="/demo" element={<DemoPage />} />
           <Route path="/mockup-qualifier" element={<div className="bg-[var(--nb-bg)] min-h-screen"><QualifierMockup /></div>} />
         </Routes>

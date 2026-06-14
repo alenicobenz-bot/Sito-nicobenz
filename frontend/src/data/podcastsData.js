@@ -1,0 +1,48 @@
+// Episodi podcast Spotify pubblicati. Aggiornato automaticamente da Mappa Madre.
+export const PODCASTS = [
+  {
+    id: "01ab9d32-0e0f-4634-8351-722b7e922d10",
+    slug: "intervista-a-omar-bertasi",
+    title: "Intervista a Omar Bertasi",
+    spotifyUrl: "https://open.spotify.com/episode/3AksS0Te8PgqEEJYv3L0tv?si=1ec6f9f5acc44f51",
+    episodeId: "3AksS0Te8PgqEEJYv3L0tv",
+    cover: "https://www.nicobenz.it/social/01ab9d32-0e0f-4634-8351-722b7e922d10.jpg",
+    date: "2026-06-03",
+  },
+  {
+    id: "638ea761-8784-4822-809e-45f0595ea0b1",
+    slug: "intervista-a-ilaria-martinelli",
+    title: "Intervista a Ilaria Martinelli",
+    spotifyUrl: "https://open.spotify.com/episode/4PKoWkMqRnvsEH0BcxRscj?si=8edefa85b9c847cb",
+    episodeId: "4PKoWkMqRnvsEH0BcxRscj",
+    cover: "https://mappa-madre.emergent.host/api/static/social/638ea761-8784-4822-809e-45f0595ea0b1.jpg",
+    date: "2026-05-24",
+  },
+  {
+    id: "51625cae-8ef1-44f4-bafd-a749f07ebdc9",
+    slug: "intervista-a-marica-lopez",
+    title: "Intervista a Marica Lopez",
+    spotifyUrl: "https://open.spotify.com/episode/6a5oSH82gWHAsQw7nX68fo?si=b47d6bf5e26b4f23",
+    episodeId: "6a5oSH82gWHAsQw7nX68fo",
+    cover: "https://mappa-madre.emergent.host/api/static/social/51625cae-8ef1-44f4-bafd-a749f07ebdc9.jpg",
+    date: "2026-05-19",
+  },
+  {
+    id: "69edc70c-9b45-488f-bee7-3b87420a50bc",
+    slug: "la-live-dei-top",
+    title: "La Live dei Top",
+    spotifyUrl: "https://open.spotify.com/episode/4BSkTbhUiambXsq6Uq5RJB?si=408a1ba1911f46d6",
+    episodeId: "4BSkTbhUiambXsq6Uq5RJB",
+    cover: "https://omni-content-3.preview.emergentagent.com/api/static/social/69edc70c-9b45-488f-bee7-3b87420a50bc.jpg",
+    date: "2026-05-16",
+  },
+  {
+    id: "6253c088-d642-43d5-bf06-782a86ca9948",
+    slug: "intervista-a-jenny-fratini",
+    title: "Intervista a Jenny Fratini",
+    spotifyUrl: "https://open.spotify.com/episode/7Fpjv3BCEyqw9bvW8Y4hde?si=99c7d2abdd3e4bc7",
+    episodeId: "7Fpjv3BCEyqw9bvW8Y4hde",
+    cover: "https://omni-content-3.preview.emergentagent.com/api/static/social/6253c088-d642-43d5-bf06-782a86ca9948_sp.jpg",
+    date: "2026-05-15",
+  },
+];

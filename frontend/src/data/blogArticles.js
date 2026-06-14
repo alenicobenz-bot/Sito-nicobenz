@@ -89,6 +89,514 @@ Sempre.
     `
   },
   {
+    id: "copertine-reel-professionali-con-ai",
+    slug: "copertine-reel-professionali-con-ai",
+    title: "Come Creare Copertine Reel Professionali con l'AI",
+    excerpt: "Basta screenshot casuali sui tuoi Reel. Ti spiego come usare l'AI per creare copertine fighe, coerenti e che attirano davvero l'attenzione.",
+    category: "Contenuti",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://www.nicobenz.it/social/58998157-9482-4fe9-a6ee-f71def44c21a.jpg",
+    content: `
+## Hai mai guardato il tuo profilo Instagram e pensato "Che casino"?
+
+Quelle copertine dei Reel... screenshot a caso, mezze sfocate, con te a metà faccia. Lo so, lo vedo continuamente. Ma c'è una soluzione veloce e che funziona davvero.
+
+Parlo delle **copertine dei Reel** — quelle che vedi quando vai sul tuo profilo Instagram o TikTok, dove ci sono tutti i tuoi video in griglia. Ecco, quelle si possono fare **belle, fighe e soprattutto coerenti**.
+
+E no, non serve Photoshop. Serve solo l'intelligenza artificiale.
+
+## Come funziona (passo per passo)
+
+**1. Scegli il frame giusto**
+
+Prendi il tuo video e fai uno screenshot del momento che ti piace di più. Magari il finale, magari un momento dove si vede bene il risultato del trattamento. L'importante è che sia un'immagine decente da cui partire.
+
+**2. Vai sulla tua AI preferita**
+
+ChatGPT, Gemini, quella che usi normalmente. Carica lo screenshot.
+
+**3. Chiedi la copertina con questo prompt**
+
+"Mi fai la copertina del mio Reel? Mi raccomando: metti me e l'altra protagonista (se siete in due, o tu e la cliente) belli in evidenza, quasi tridimensionali. Lo sfondo invece fammelo un po' più sfocato. Poi mettimi come titolo in centro [INSERISCI IL TUO TITOLO]."
+
+E boom. Ti viene fuori la copertina.
+
+## Il trucco per tenerle tutte uguali
+
+Questa è la parte che fa la differenza: **la coerenza visiva**.
+
+Ogni volta che fai un nuovo Reel, prendi la **prima copertina** che hai fatto (quella originale), caricala insieme al nuovo screenshot e chiedi all'AI:
+
+"Me la rifai così, con questo nuovo screenshot, e metti questo titolo."
+
+In questo modo tutte le tue copertine avranno lo stesso stile, gli stessi colori, la stessa impostazione grafica. Il tuo profilo sembrerà curato, professionale, **da seguire**.
+
+E sai cosa? Questo lo noti. La gente lo nota. Quando scorri un profilo e vedi che è tutto coerente, pensi "Okay, questa sa il fatto suo".
+
+## Provalo questa settimana
+
+Prendi i tuoi ultimi 3-4 Reel e rifagli le copertine con questo metodo. Poi guardati il profilo e dimmi se non fa tutta un'altra figura.
+
+Se hai dubbi o vuoi farmi vedere il risultato, scrivimi.
+    `
+  },
+  {
+    id: "vuoi-andare-virale-ecco-perche-stai-sbagliando-tutto",
+    slug: "vuoi-andare-virale-ecco-perche-stai-sbagliando-tutto",
+    title: "Vuoi andare virale? Ecco perch\u00e9 stai sbagliando tutto",
+    excerpt: "La viralit\u00e0 senza fondamenta non ti porta clienti. Ti svelo cosa costruire prima di inseguire visualizzazioni e like che non convertono.",
+    category: "Strategia",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://www.nicobenz.it/social/887a7657-1bf0-4c6c-a24e-228761e63556.jpg",
+    content: `
+## Vuoi le due mosse per andare virale?
+
+Ecco: cospargi di alcol etilico i capelli della cliente, accendi un fiammifero, riprendi mentre urla e scappa in fiamme per il salone. Pubblichi il video e boom, sei virale.
+
+Cazzata, vero? Ovvio che sì.
+
+Ma sai qual è la vera cazzata? Che parte da molto prima. Parte nel momento esatto in cui ti siedi e pensi: "Come faccio ad andare virale?"
+
+## La viralità da sola non ti serve a niente
+
+E lo dico seriamente. Un video che esplode, 500.000 visualizzazioni, commenti ovunque... e poi? Se sotto non c'è nulla, se la gente non capisce chi sei, perché dovrebbe fidarsi di te, perché dovrebbe lasciare il suo parrucchiere di fiducia per venire da te — quella viralità è fumo.
+
+La viralità funziona **solo** se sotto c'è dello storico. Se tu sei quel professionista che da mesi pubblica contenuti, fa vedere il suo lavoro, comunica la sua visione, costruisce autorevolezza giorno dopo giorno. A quel punto sì: un video virale diventa benzina sul fuoco (scusa il gioco di parole) e hai fatto bingo.
+
+## Cosa costruire prima della viralità
+
+Prima di inseguire like e condivisioni, chiediti:
+
+- **Chi sono io come professionista?** Qual è il mio posizionamento?
+- **Perché una cliente dovrebbe scegliere me?** Cosa mi rende diverso?
+- **Sto comunicando con autenticità?** O sto solo copiando trend?
+- **Sono costante?** Un video ogni morte di papa non costruisce nulla.
+
+Ci vuole fatica. Ci vuole sacrificio. Ci vuole pazienza. Ma soprattutto ci vuole **strategia**: devi scegliere che tipo di contenuti pubblicare, quale messaggio mandare, quale personal brand costruire.
+
+## L'autorevolezza prima di tutto
+
+La gente deve capire perché sei bravo. Deve vedere la tua competenza, la tua esperienza, il tuo modo di lavorare. Deve fidarsi di te **prima** di prenotare un appuntamento.
+
+Se insegui la viralità a tutti i costi, stai costruendo sulla sabbia. E quando arriva l'onda (ammesso che arrivi), ti porta via tutto.
+
+Costruisci fondamenta solide. Poi, se arriva la viralità, sarà il ciliegina sulla torta. Non la torta stessa.
+
+Smetti di cercare scorciatoie. Inizia a costruire il tuo brand con autenticità e costanza. I risultati arriveranno, te lo garantisco.
+    `
+  },
+  {
+    id: "perche-contenuti-virali-non-ti-faranno-crescere",
+    slug: "perche-contenuti-virali-non-ti-faranno-crescere",
+    title: "Perch\u00e9 i contenuti virali non ti faranno crescere (davvero)",
+    excerpt: "Ho fatto una live con 11 top del settore beauty. L'hanno vista in pochi. Un video polemico sui prezzi? Migliaia di visualizzazioni. Ecco il problema.",
+    category: "Contenuti",
+    date: "2026",
+    readTime: "2 min",
+    image: "/blog-covers/perche-contenuti-virali-non-ti-faranno-crescere.jpg",
+    content: `
+## Il paradosso dei contenuti beauty sui social
+
+Ho ricevuto un messaggio da Michela Ferracuti, formatrice che molti di voi conoscono, che mi ha segnalato un suo articolo in cui parlava di me. Molto gentile da parte sua, e la ringrazio pubblicamente. Non siamo competitori, io mi occupo solo di social, ma ha toccato un tema che mi sta a cuore.
+
+Il punto è questo: ho fatto una live con undici **top assoluti** del settore. Persone che online, attraverso i video e i social, sono diventate autorevoli, forti, riconosciute. Oggi fanno formazione, vendono prodotti, hanno costruito imperi partendo dai contenuti.
+
+Quella live? **L'hanno vista in pochi.**
+
+È vero, vado in diretta su quattro canali diversi, poi faccio clip per settimane, quindi il materiale arriva comunque ai parrucchieri nel tempo. Ma il dato resta.
+
+## Quando il trash batte la sostanza
+
+Ora prendi un video dove una ragazza si lamenta del costo dei parrucchieri. Quello **va virale**. Commenti su commenti, discussioni infinite, tutti che dicono la loro, chi pro, chi contro. Tutti esperti improvvisati.
+
+Quando c'è qualcosa di **utile e vero**, qualcosa che dovresti ascoltare attentamente per capire come hanno fatto gli altri a crescere (e crescere anche tu), scatta il meccanismo delle scuse:
+
+- "Sì ma lui è in centro a Roma"
+- "Quello è troppo bello"
+- "Ha avuto dei vantaggi"
+- "Non me lo cago"
+- "Adesso non mi serve"
+
+E intanto si preferisce **polinizzare** nei commenti di contenuti trash.
+
+## La mia scelta (e quella che dovresti fare anche tu)
+
+Michela nel suo format va nei saloni e molta gente fa esattamente questo: taglia contenuti del tipo "che capelli hai" invece di creare valore. Non sono tutti così, ma la maggior parte sì.
+
+Io, dal mio canto, **me ne frego di fare contenuti virali**. Anzi, quando mi capita mi girano anche un po' le scatole, perché mi tiro dentro gente che non voglio, persone che non centrano nulla con il mio messaggio e che poi inquinano i commenti.
+
+Preferisco continuare sulla strada dritta del **contenuto di valore**. Quella che non ti dà migliaia di visualizzazioni oggi, ma ti costruisce autorevolezza, fiducia e un pubblico che davvero conta domani.
+
+Però Michela, su questo: sono d'accordo con te.
+
+**E tu? Stai inseguendo le visualizzazioni o stai costruendo qualcosa di solido? Pensaci bene prima di postare il prossimo video.**
+    `
+  },
+  {
+    id: "ia-in-salone-trucca-le-foto-prima-di-pubblicarle",
+    slug: "ia-in-salone-trucca-le-foto-prima-di-pubblicarle",
+    title: "IA in Salone: Trucca le Foto Prima di Pubblicarle",
+    excerpt: "Come usare l'intelligenza artificiale per migliorare le foto delle clienti senza perdere tempo col trucco vero.",
+    category: "Social",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://mappa-madre.emergent.host/api/static/social/80339ec9-dd52-492a-b105-98d669d01b45.jpg",
+    content: `
+## Il problema delle foto in salone
+
+Publichi ancora foto delle tue clienti? Su Google My Business, Instagram, magari per mostrare i tuoi lavori?
+
+È utile, funziona come una brochure digitale. Ma sai qual è sempre stato il problema?
+
+Le clienti entrano con i capelli da sistemare, spesso struccate. Tu gli fai un lavoro stupendo sui capelli, ma il viso rimane al naturale. E la foto? Meno impattante di quanto potrebbe essere.
+
+Io l'ho sempre detto: sarebbe figo se potessi truccarle leggermente, giusto per far risaltare meglio il lavoro. Ma perdere cinque minuti a truccare ogni cliente per una foto? Non è realistico. E infatti non lo fate, perché siete furbi.
+
+## La soluzione con l'intelligenza artificiale
+
+Finalmente il mio desiderio si può realizzare, grazie all'IA.
+
+Ecco come funziona:
+
+- Scatti la foto alla cliente dopo il tuo lavoro
+- La carichi su ChatGPT
+- Usi un prompt specifico (come ti ho spiegato nei video precedenti)
+- L'IA aggiunge un **trucco leggero e naturale**
+
+**Attenzione fondamentale**: devi dire all'intelligenza artificiale di **non cambiare i lineamenti del viso**. Deve solo aggiungere un filo di rossetto, mascara sulle ciglia, giusto quei due tre tocchi che fanno la differenza.
+
+## Perché funziona
+
+Le foto diventano molto più belle. Valorizzano il tuo lavoro senza snaturare la persona.
+
+E sai cosa succede? **Le clienti se le condividono**. Le postano sui loro profili, le mandano alle amiche. È pubblicità gratuita che parte da loro, non da te.
+
+Non stai ingannando nessuno, stai solo presentando il tuo lavoro nella migliore luce possibile. Come quando sistemi le luci prima di scattare una foto, o scegli l'angolazione migliore.
+
+Prova questa settimana con un paio di clienti e dimmi com'è andata. Vedrai che differenza.
+    `
+  },
+  {
+    id: "il-momento-in-cui-smetti-di-pensare-che-i-social-siano-un-gioco",
+    slug: "il-momento-in-cui-smetti-di-pensare-che-i-social-siano-un-gioco",
+    title: "Il momento in cui smetti di pensare che i social siano un gioco",
+    excerpt: "C'\u00e8 un prima e un dopo nella comunicazione online. Quando lo vivi, tutto cambia. E non torni pi\u00f9 indietro.",
+    category: "Mindset",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://mappa-madre.emergent.host/api/static/social/f4e26b57-1c4f-42b2-880f-4d99820b5ae6.jpg",
+    content: `
+**Scusi, lei non è quello dei video sui capelli ricci?**
+
+C'è un momento preciso, e chi lo ha vissuto se lo ricorda con chiarezza, in cui qualcosa cambia radicalmente nel modo in cui vivi la comunicazione online.
+
+All'inizio pubblichi senza troppa convinzione. Qualche foto, ogni tanto un video quando l'ispirazione arriva. Lo fai più per curiosità che per strategia, più per sentirti al passo coi tempi che per un piano preciso. I risultati sono modesti: qualche like dai soliti conoscenti, qualche commento di cortesia, nulla di entusiasmante.
+
+Inizi a pensare che forse non fa per te, che forse i social non sono il tuo mezzo, che forse stai perdendo tempo prezioso.
+
+## Poi succede qualcosa
+
+Non sempre è un grande evento. Spesso è piccolo, quasi banale.
+
+Un video va leggermente meglio degli altri, raccoglie qualche commento genuino di persone che non conosci. O arriva un messaggio privato da qualcuno che non hai mai incontrato che ti dice che ha visto il tuo lavoro e vuole prenotare. O una cliente che hai da anni ti fa: "Ti seguo su Instagram, sei davvero bravissima". O qualcuno ti riconosce al supermercato.
+
+In quel momento **qualcosa si accende dentro di te**, qualcosa che non si può spegnere facilmente.
+
+Capisci che non è un gioco.
+
+Capisci che le persone ti stanno guardando davvero, anche quando non te ne accorgi, anche quando pensi che nessuno guardi, anche quando i numeri sembrano bassi. Capisci che quello che pubblichi ha un impatto reale sulla vita delle persone, sulle loro decisioni, sulla loro percezione di te come professionista.
+
+## Il vero punto di svolta
+
+Da quel momento il tuo rapporto con i social cambia completamente.
+
+- Non pubblichi più quando ti ricordi, inizi a pensarci con regolarità, a pianificare, a cercare opportunità di contenuto in ogni momento della giornata lavorativa
+- Non pubblichi più per abitudine o per sentirti moderna
+- Pubblichi perché sai che stai costruendo qualcosa di concreto, di reale, di tuo
+
+Questo cambio di mentalità è il vero punto di svolta. Non è il numero di follower. Non dipende da quale strumento usi o da quanti tutorial hai seguito. **Dipende da come vivi internamente la comunicazione**: come obbligo esterno o come opportunità interna, come peso da portare o come strumento da usare.
+
+Chi arriva a questo punto non torna quasi mai indietro, perché ha visto concretamente il valore di quello che sta costruendo.
+
+E il valore, una volta visto e toccato con mano, non si abbandona facilmente.
+
+**Questo passaggio l'hai già fatto? O sei ancora in quella fase in cui pubblichi "quando capita"? Scrivimelo, sono curiosa di sapere a che punto sei del percorso.**
+    `
+  },
+  {
+    id: "perche-ai-non-funziona-ti-manca-solo-questo",
+    slug: "perche-ai-non-funziona-ti-manca-solo-questo",
+    title: "Perch\u00e9 l'AI non funziona? Ti manca solo questo",
+    excerpt: "L'intelligenza artificiale ti d\u00e0 risultati brutti? Il segreto \u00e8 tutto nel prompt. Ecco come scriverlo bene.",
+    category: "Marketing",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://mappa-madre.emergent.host/api/static/social/8442e844-9769-4ddc-9dc0-8f5aa8d5fab1.jpg",
+    content: `
+## "Ma a me non funziona"
+
+Dopo i primi tre video sull'intelligenza artificiale in salone, mi sono arrivate un sacco di domande. Tutte variazioni dello stesso tema: "Ho fatto come dici tu ma non viene bene, le foto sono strane, i testi sono blandi..."
+
+Bene. Diamo la risposta definitiva.
+
+## Cos'è davvero un prompt
+
+Il prompt è quello che tu dici all'intelligenza artificiale. Gli chiedi "fammi un'immagine di me che cammino in salone in mezzo ai clienti" e lui ti fa uscire una faccia allungata, occhiali diversi dai tuoi, mani storte, clienti che sembrano fantasmi. Non sei tu.
+
+Oppure gli chiedi un testo e parla come se fosse ilbot del call center. O gli chiedi di aiutarti col posizionamento e ti dà risposte così generiche che valgono per chiunque.
+
+**Il problema non è l'AI. È il prompt.**
+
+## La regola d'oro: il contesto
+
+Se vuoi risultati ottimali senza impazzire, c'è una cosa fondamentale da fare: **dagli il contesto prima di fare la domanda**.
+
+Spiegagli:
+- Chi sei
+- Che lavoro fai
+- Come lo fai
+- Dove lo fai
+- Perché lo fai
+
+Ogni volta che glielo dici, lui impara su di te. Potresti anche metterlo nelle impostazioni (ChatGPT e Gemini te lo permettono), ma non voglio entrare troppo nel tecnico ora.
+
+Il punto è: **metti sempre il contesto prima di fargli una richiesta importante**.
+
+## Il trucco per chi non ha voglia
+
+Ecco il bonus: fatti scrivere il prompt dall'AI stessa.
+
+Gli dici in quattro parole chi sei, poi gli chiedi: "Mi scrivi un bel prompt per spiegare a te (o a qualunque altra AI) il contesto di chi sono e cosa faccio?"
+
+Lui te lo scrive perfetto. Tu te lo copi. E tutte le volte che fai una richiesta importante, incolli quello prima.
+
+## Esempio pratico: le immagini
+
+Metti una tua foto. Gli dici "Fammi figo in salone con la maglia nera". Viene male.
+
+Perché? Perché la faccia non è uguale, la luce è diversa, i dettagli sono inventati.
+
+**Cosa devi dirgli:**
+- Mantieni il volto originale
+- Non cambiare la luce
+- Mantieni i tratti del viso
+- Usa gli stessi colori
+
+Sono tutte istruzioni che devi dare. Sembra difficile, ma una volta che l'hai fatto la prima volta, diventa automatico.
+
+## Ricapitolando
+
+- Contesto sempre, prima di ogni richiesta importante
+- Fatti scrivere il tuo prompt-base dall'AI stessa
+- Sii specifico: più dettagli dai, meglio funziona
+- Stiamo parlando di livello totalmente gratuito (ChatGPT, Gemini)
+
+Provaci questa settimana. E se hai dubbi, scrivimi nei commenti o in DM.
+    `
+  },
+  {
+    id: "ia-ti-togliera-il-lavoro-solo-se-resti-mediocre",
+    slug: "ia-ti-togliera-il-lavoro-solo-se-resti-mediocre",
+    title: "L'IA ti toglier\u00e0 il lavoro? Solo se resti mediocre",
+    excerpt: "L'intelligenza artificiale cambier\u00e0 il mercato. I saloni senza posizionamento rischiano grosso. Ecco perch\u00e9 questo \u00e8 il momento di diventare super.",
+    category: "Mindset",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://mappa-madre.emergent.host/api/static/social/5902c0b5-4343-4011-aa67-ecb62e4e9919.jpg",
+    content: `
+L'IA ti toglierà il lavoro anche se sei un parrucchiere?
+
+Fermi tutti. Non sono uno di quei catastrofisti che urlano "l'IA ci ruberà il lavoro". Anzi, sono innamorato delle possibilità che l'intelligenza artificiale ci offre: espansione, creatività, nuove potenzialità lavorative. È uno strumento straordinario.
+
+Ma attenzione: **molti perderanno il lavoro**.
+
+Non i parrucchieri, sia chiaro. Le mani contano ancora tanto e conteranno per anni. Prima che arrivi un robot a tagliare i capelli o fare una schiaritura passerà del tempo. Ma tante persone in altri settori perderanno l'occupazione.
+
+## Cosa significa questo per te
+
+Più disoccupazione = più povertà = meno clienti.
+
+Ma non per tutti. Come è sempre capitato nella storia, **i ricchi e il ceto medio-alto continueranno ad andare dai super parrucchieri**. Dai professionisti riconoscibili, posizionati, con un personal brand forte.
+
+I saloni piccoli, poco posizionati, quelli che non hanno una ragione precisa per cui un cliente dovrebbe sceglierli rispetto ad altri — quelli sì, rischiano grosso.
+
+## Questo è il momento di scegliere
+
+Basta mediocrità. Basta essere "un parrucchiere come tanti".
+
+**Devi diventare super**. Devi essere riconoscibile, posizionato, esattamente il professionista di cui quel tipo di cliente ha bisogno. Devi costruire un personal brand che parli chiaro: io sono la scelta giusta per te.
+
+Non piangere sull'IA. Usala, magari, per ottimizzare il tuo lavoro quotidiano. Ma soprattutto: **mettiti al lavoro sul tuo posizionamento**.
+
+Perché il mercato si sta dividendo. E tu da che parte vuoi stare?
+
+Smetti di rimandare. Lavora sulla forza del tuo personal brand. Adesso.
+    `
+  },
+  {
+    id: "ia-in-salone-gestisci-recensioni-negative",
+    slug: "ia-in-salone-gestisci-recensioni-negative",
+    title: "IA in salone: gestisci recensioni negative in 2 minuti",
+    excerpt: "ChatGPT pu\u00f2 scrivere per te risposte professionali a recensioni e commenti negativi. Ti spiego come usarlo per risparmiare tempo e difendere il tuo brand.",
+    category: "Social",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://mappa-madre.emergent.host/api/static/social/6d414184-3977-491c-9653-00a1022f556d.jpg",
+    content: `
+## Ti blocchi davanti a una recensione negativa?
+
+Lo so. La leggi, la rileggi, inizi a scrivere, cancelli, riscrivi. "Oddio, come rispondo senza sembrare aggressiva? Ma devo difendermi, no?"
+
+Ecco la buona notizia: non devi più fare tutto da sola.
+
+## Come ChatGPT ti salva (letteralmente)
+
+Apri ChatGPT o Gemini. Fai copia-incolla del commento o della recensione negativa. Poi scrivi questo prompt:
+
+**"Creami una risposta educata e moderata a questo commento. Non deve offendere, ma deve essere utile a chi leggerà domani. Difendi le mie posizioni [oppure: scusati per l'errore se necessario]."**
+
+Questo dipende da te: se hai sbagliato, l'IA ti aiuta a scusarti con dignità. Se il cliente ha torto, ti aiuta a difenderti senza perdere la classe.
+
+## Il trucco che cambia tutto
+
+Ogni volta che lo fai, l'IA **impara**. Inizia a capire il tuo tone of voice, il tuo stile. Le risposte diventano sempre più tue.
+
+Poi:
+- Copi il testo generato
+- Lo rileggi (sempre)
+- Aggiusti quello che serve
+- Pubblichi
+
+**Bonus pro:** tieniti da parte i template delle risposte più ricorrenti.
+- Commenti positivi standard
+- Recensioni negative standard  
+- Appuntamenti confermati/cancellati
+
+Diventa un sistema. Tempo risparmiato, stress ridotto, professionalità garantita.
+
+## Provalo questa settimana
+
+La prossima volta che leggi un commento che ti manda in panico, fermati. Apri ChatGPT. Fai il test.
+
+Poi scrivimi in privato e dimmi com'è andata. Voglio sapere quanto tempo hai risparmiato.
+    `
+  },
+  {
+    id: "colonna-sonora-salone-ai-suno",
+    slug: "colonna-sonora-salone-ai-suno",
+    title: "La Colonna Sonora del Tuo Salone? Creala con l'AI",
+    excerpt: "Basta video silenziati per copyright. Ti mostro come creare la TUA musica originale gratis con l'intelligenza artificiale.",
+    category: "Contenuti",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://mappa-madre.emergent.host/api/static/social/849ea541-3cef-4616-81e7-780421092c93.jpg",
+    content: `
+## Il Problema delle Musiche Famose
+
+Lo so, ti piace mettere quelle canzoni famose sotto i tuoi video. Ma quante volte ti è successo di pubblicare un reel e ritrovartelo silenziato?
+
+TikTok è cattivissimo su questo, YouTube pure, Instagram un po' meno (ma dipende dalla lunghezza del video). Il copyright è una rogna continua.
+
+## Essere Riconoscibili con la Musica
+
+Io sono convinto di una cosa: **bisogna essere riconoscibili con la musica**. Quando metti sempre la stessa traccia, la tua canzone, diventa un elemento del tuo brand. Munir è stato l'artefice di questa idea per me, e ora quando metto la mia musica nei video, le persone mi riconoscono subito.
+
+Ma qual è una musica senza copyright che non viene bloccata? **La TUA canzone.**
+
+## Come Creare la Tua Colonna Sonora
+
+Ecco la skill che ti cambierà i video:
+
+### Step 1: Scarica Suno
+
+Vai su **Suno** e scaricati l'app. Suno è un'intelligenza artificiale famosissima per creare musica. Lì puoi creare il tuo brano personalizzato.
+
+### Step 2: Crea il Testo (se ti serve)
+
+Se hai il nome del salone o di un servizio specifico e vuoi un testo, vai su ChatGPT:
+
+- "Sono un salone, faccio questo, mi chiamo così..."
+- Dagli più informazioni possibili
+- "Mi scrivi il testo di una canzone?"
+
+Io ti direi di farlo in inglese, però qualcuno lo fa anche in italiano — scegli tu.
+
+### Step 3: Genera su Suno
+
+Prendi il testo che ChatGPT ti ha scritto, mettilo su Suno come testo. Ti chiederà che tipo di arrangiamento vuoi:
+
+- Pop?
+- Latino americano?
+- Rock?
+- Moderno?
+- Morbido e tranquillo?
+
+Scegli, fai ok, e ti dà **due brani tra cui scegliere**. Fino a qui **tutto gratis**.
+
+Se poi vuoi di più e vuoi provare altre opzioni, bisogna fare un abbonamento a Suno o comprare qualche credito — parliamo di pochi euro.
+
+## Come Usarla nei Tuoi Video
+
+Una volta che hai il tuo brano:
+
+- Quando parli, tieni la musica bassa
+- Quando non parli, alzala
+- E magari quando l'alzi, dice proprio **il nome del tuo salone**
+
+Immaginati l'impatto: ogni tuo video ha la stessa base musicale riconoscibile, nessuno te la silenzierà mai, e in più comunichi il tuo brand anche con il suono.
+
+Per tutto il resto, scrivetemi in DM. Voglio sapere che musica crei per il tuo salone.
+    `
+  },
+  {
+    id: "come-scoprire-posizionamento-chatgpt",
+    slug: "come-scoprire-posizionamento-chatgpt",
+    title: "Come scoprire il tuo vero posizionamento con ChatGPT",
+    excerpt: "Pensi di sapere come sei percepito online? Forse ti sbagli. Ti spiego come usare l'AI per scoprire il tuo vero posizionamento in 2 minuti.",
+    category: "Contenuti",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://mappa-madre.emergent.host/api/static/social/623f5c54-fb61-4aac-ba00-279415a0d621.jpg",
+    content: `
+## Sai davvero come sei percepito online?
+
+Spesso crediamo di avere un posizionamento chiaro. Altre volte non ne abbiamo proprio idea. E a volte — ed è il caso peggiore — pensiamo di essere percepiti in un modo, ma la realtà è completamente diversa.
+
+Se sei un parrucchiere o un'estetista che non sa bene come muoversi con l'intelligenza artificiale, questo è per te. Niente roba da smanettoni, solo un trucco pratico che puoi usare oggi stesso.
+
+## Il test del posizionamento in 3 step
+
+Ecco come fare:
+
+1. **Prendi il link del tuo profilo Instagram**
+2. **Aprilo su ChatGPT** (vai su chat.openai.com)
+3. **Scrivi questo prompt**: "Analizza il profilo di questo salone. Dimmi: qual è il posizionamento? Quali sono i punti di forza? Quali i punti deboli?"
+
+Poi aspetta.
+
+ChatGPT ti farà un'analisi spietata. Ti dirà esattamente cosa pensa di te, come sei posizionato, come appare il tuo personal brand visto da fuori. Punti forti, punti deboli, tutto.
+
+E fidati: a volte la verità fa male. Ma è esattamente quello che ti serve per capire come sei percepito davvero.
+
+## Cosa fare dopo l'analisi
+
+Una volta che hai i risultati, hai due strade:
+
+- **Se sei percepito male**: aggiusta il tiro. Subito. Cambia contenuti, tono, visual. Qualcosa non funziona e ora lo sai.
+- **Se sei percepito bene**: picchia forte in quella direzione. Raddoppia su ciò che funziona, non cambiare strategia.
+
+Il problema più grande che vedo nei saloni è che continuano a pubblicare senza mai fermarsi a capire se quello che fanno sta funzionando o meno. Questa analisi ti dà finalmente uno specchio onesto.
+
+## Consiglio bonus
+
+Non fermarti a una sola analisi. Rifalla ogni 2-3 mesi per vedere se la direzione che hai preso sta dando i frutti sperati. Il posizionamento si costruisce nel tempo, ma va monitorato.
+
+Se hai domande o vuoi confrontarti sui risultati che hai ottenuto, scrivimi in DM. Sono curioso di sapere cosa ti ha detto ChatGPT del tuo salone.
+    `
+  },
+  {
     id: "10-contenuti-instagram-tiktok-parrucchieri",
     slug: "10-contenuti-instagram-tiktok-parrucchieri",
     title: "10 contenuti Instagram e TikTok che funzionano sempre per parrucchieri",
