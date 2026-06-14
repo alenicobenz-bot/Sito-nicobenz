@@ -3,6 +3,92 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "resto-acceso-omaggio-parrucchieri",
+    slug: "resto-acceso-omaggio-parrucchieri",
+    title: "Resto Acceso: il mio omaggio ai parrucchieri e alle parrucchiere d'Italia",
+    excerpt: "Da oltre 15 anni vivo accanto a parrucchieri e parrucchiere. Da quella consapevolezza è nata Resto Acceso, una canzone che è il mio tributo a chi non molla mai.",
+    category: "Storia",
+    date: "2026",
+    readTime: "4 min",
+    image: "/blog-covers/resto-acceso-omaggio-parrucchieri.jpg",
+    content: `
+# Resto Acceso: il mio omaggio ai parrucchieri e alle parrucchiere d'Italia
+
+Ci sono cose che puoi capire davvero solo quando le vivi da vicino.
+
+Da oltre 15 anni lavoro ogni giorno al fianco di parrucchieri e parrucchiere. Ho visitato saloni, partecipato a corsi, condiviso successi, difficoltà, paure, sogni e obiettivi. Ho ascoltato migliaia di storie.
+
+In questi anni ho imparato che dietro ogni salone c'è molto più di quello che vede un cliente.
+
+Ci sono giornate passate in piedi per ore e ore. Ci sono appuntamenti che si susseguono senza sosta. Ci sono clienti che diventano amici e altri che mettono a dura prova la pazienza. Ci sono bollette, collaboratori, responsabilità, corsi di aggiornamento, social network da gestire e una montagna di cose da fare quando il tempo sembra non bastare mai.
+
+Eppure c'è una caratteristica che accomuna quasi tutte le persone che ho incontrato in questo settore.
+
+**Non mollano.**
+
+Anche quando sono stanche.
+
+Anche quando le cose non vanno come vorrebbero.
+
+Anche quando il mercato cambia.
+
+Anche quando tutti gli altri spengono le luci.
+
+Loro restano accesi.
+
+---
+
+## Da dove nasce "Resto Acceso"
+
+È proprio da questa consapevolezza che è nata "Resto Acceso", una canzone che rappresenta il mio personale ringraziamento a una categoria che mi ha dato tantissimo, sia dal punto di vista professionale che umano.
+
+Non è una canzone scritta da un osservatore esterno.
+
+**È una canzone scritta da chi, per 15 anni, ha vissuto accanto a voi.**
+
+Dentro ci sono le domeniche passate a formarsi.
+
+Le idee che arrivano a tarda sera.
+
+La voglia di migliorarsi.
+
+La fatica di reinventarsi.
+
+L'orgoglio di chi continua a credere nel proprio lavoro anche quando sarebbe più facile arrendersi.
+
+---
+
+## Un grazie a chi non si arrende
+
+"Resto Acceso" è il mio modo di dire grazie.
+
+- Grazie a chi apre il salone ogni mattina.
+- Grazie a chi investe continuamente su sé stesso.
+- Grazie a chi sceglie di crescere invece di lamentarsi.
+- Grazie a chi continua a metterci passione.
+
+Se fai parte di questo mondo, spero che ascoltandola tu possa ritrovare un pezzo della tua storia.
+
+---
+
+## Dove ascoltarla
+
+La trovi su Spotify, Amazon Music, YouTube Music e sulle principali piattaforme di streaming.
+
+E se usi TikTok o Instagram, mi farebbe piacere se la utilizzassi nei tuoi contenuti: sarebbe il modo più bello per far arrivare questo messaggio a sempre più professionisti del settore.
+
+Perché questa non è semplicemente una canzone.
+
+**È un tributo a una categoria che, nonostante tutto, continua ogni giorno a fare quello che sa fare meglio.**
+
+Restare accesa.
+
+Come la loro insegna.
+
+Sempre.
+    `
+  },
+  {
     id: "copertine-reel-professionali-con-ai",
     slug: "copertine-reel-professionali-con-ai",
     title: "Come Creare Copertine Reel Professionali con l'AI",
