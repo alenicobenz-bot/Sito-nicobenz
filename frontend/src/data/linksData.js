@@ -1,6 +1,12 @@
 // Lista link fissi della pagina /links. Aggiornato automaticamente da Mappa Madre.
 export const LINKS_DATA = [
   {
+    label: "Portale Matketing Parrucchieri",
+    url: "https://portale.marketingparrucchieri.info/",
+    icon: "\ud83e\udd16",
+    external: true,
+  },
+  {
     label: "Sito Ufficiale nicobenz.it",
     url: "https://www.nicobenz.it",
     icon: "\ud83c\udf0d",
