@@ -1,6 +1,15 @@
 // Episodi podcast Spotify pubblicati. Aggiornato automaticamente da Mappa Madre.
 export const PODCASTS = [
   {
+    id: "fcb459ce-e833-4858-bd7c-e851aa66dbad",
+    slug: "intervista-al-maestro-francesco-cirignotta",
+    title: "Intervista al Maestro Francesco Cirignotta",
+    spotifyUrl: "https://open.spotify.com/episode/0xfv7PFv0F5HiP3lQKJa8T?si=77c4bc491ec84d81",
+    episodeId: "0xfv7PFv0F5HiP3lQKJa8T",
+    cover: "https://www.nicobenz.it/social/fcb459ce-e833-4858-bd7c-e851aa66dbad.jpg",
+    date: "2026-06-15",
+  },
+  {
     id: "01ab9d32-0e0f-4634-8351-722b7e922d10",
     slug: "intervista-a-omar-bertasi",
     title: "Intervista a Omar Bertasi",
