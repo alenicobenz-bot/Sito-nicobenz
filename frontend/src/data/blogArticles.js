@@ -3,6 +3,51 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "sei-bravo-ma-invisibile-il-mistero-del-personal-brand",
+    slug: "sei-bravo-ma-invisibile-il-mistero-del-personal-brand",
+    title: "Sei bravo ma invisibile: il mistero del personal brand",
+    excerpt: "Anni di formazione, competenze top. Eppure nessuno lo sa. Perch\u00e9 tanti professionisti del beauty ancora non capiscono il potere del video e del personal brand?",
+    category: "Branding",
+    date: "2026",
+    readTime: "2 min",
+    image: "/blog-covers/sei-bravo-ma-invisibile-il-mistero-del-personal-brand.jpg",
+    content: `
+Hai speso anni per diventare bravo e nessuno lo sa.
+
+Quando sono entrato nel mondo dei parrucchieri non avevo idea di quanta formazione si faccia. Il settore hair è probabilmente quello che investe più di tutti nella crescita professionale. È una cosa incredibile.
+
+Dando per scontato che non tutti sono bravi allo stesso livello — questo lo sto imparando sulla mia pelle — c'è una cosa che continua a sfuggirmi.
+
+## Il mistero che non riesco a risolvere
+
+Com'è possibile che tanti parrucchieri bravissimi, soprattutto in qualcosa di specifico, **non abbiano ancora capito** che lo strumento dei video e del personal brand è il più potente per comunicare il proprio valore?
+
+Più potente anche di persone che magari reputano meno brave di loro.
+
+Ne parlo con chiunque. Anche con i parrucchieri conosciuti che fanno formazione, che vedono abitualmente altri colleghi. Tutti dicono: "Sì, quello è lo strumento."
+
+Poi?
+
+Poi non si fa.
+
+## Perché non si fa
+
+Non si fa perché **ci vuole tempo**. Spesso da soli. Non si è abbastanza "malati" o abbastanza fuoriclasse come dico io. Avere una mano è fattibile, dare una mano è possibile.
+
+Ma questa è la cosa da battere. Questo è il punto.
+
+Quel blocco mentale, quella resistenza, quella sensazione di "non ce la faccio da solo" — **quella è la sfida vera**. Non la tecnica, non gli strumenti. È la testa.
+
+## La soluzione esiste
+
+Che sia da me o da qualcun altro, poco importa. Quello che conta è iniziare. Farsi aiutare. Capire che il tuo talento merita di essere visto.
+
+Ho aperto il primo portale dedicato al marketing con intelligenza artificiale per parrucchieri. L'ingresso è gratuito, puoi dare un'occhiata e vedere cosa c'è di nuovo. Il link è nella mia bio.
+
+Perché se sei bravo, il mondo lo deve sapere. E i video sono l'unico modo per farglielo sapere davvero.
+    `
+  },
+  {
     id: "resto-acceso-omaggio-parrucchieri",
     slug: "resto-acceso-omaggio-parrucchieri",
     title: "Resto Acceso: il mio omaggio ai parrucchieri e alle parrucchiere d'Italia",
