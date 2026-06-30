@@ -3,6 +3,53 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "portale-gratuito-strumenti-ai-salone",
+    slug: "portale-gratuito-strumenti-ai-salone",
+    title: "Il mio portale gratuito con 3 strumenti AI per il tuo salone",
+    excerpt: "Musica personalizzata, simulazioni colore e taglio con AI: ecco gli strumenti gratuiti che ho raccolto per te nel mio portale dedicato ai beauty pro.",
+    category: "Contenuti",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://www.nicobenz.it/social/60ea0512-548d-4b2f-ba84-3719eb261ca9.jpg",
+    content: `
+## Aspetta: hai già visto il mio portale gratuito?
+
+Ho messo insieme una risorsa che volevo da tempo: un portale con strumenti di intelligenza artificiale pensati per chi lavora nel beauty. Tutto gratuito, tutto testato, tutto spiegato passo-passo.
+
+Ti porto dentro.
+
+## Strumento 1: Crea la colonna sonora dei tuoi Reel
+
+Il primo tool si chiama **Suno**, un'applicazione famosa per generare musica con l'AI. Funziona così:
+
+- Crei un account (nel portale trovi il tutorial completo)
+- Ricevi crediti gratis per iniziare
+- Scrivi il testo della tua canzone o scegli strumentale
+- Selezioni il genere musicale
+- Scarichi il brano e lo usi nei tuoi Reel
+
+Semplice, veloce, zero sbattimenti con copyright.
+
+## Strumento 2 e 3: Simulazioni colore e taglio con l'AI
+
+Qui diventa interessante. Ho preparato **due prompt pronti all'uso in inglese** (sì, in inglese, perché le AI lavorano molto meglio in quella lingua).
+
+**Primo prompt:** carichi la foto di una cliente e ottieni **8 tagli diversi** della stessa persona. Otto varianti, stesso viso.
+
+**Secondo prompt:** sempre stessa logica, ma con **11 colori diversi**.
+
+È una cosa che ho sempre sognato. Qualcuno in passato l'ha avuta con delle app dedicate, ma oggi poterlo fare con un prompt... cambia tutto. E con **Gemini** è praticamente gratuito.
+
+## Perché ti serve questo portale
+
+Perché raccolgo, testo e spiego strumenti che possono davvero farti risparmiare tempo e darti un vantaggio creativo. Tutorial passo-passo, niente tecnicismi inutili, tutto pensato per chi lavora in salone.
+
+E lo aggiorno sempre.
+
+**Clicca il link** (lo trovi nei miei contenuti), buttati dentro e inizia a sperimentare. Fammi sapere quale strumento provi per primo.
+    `
+  },
+  {
     id: "sei-bravo-ma-invisibile-il-mistero-del-personal-brand",
     slug: "sei-bravo-ma-invisibile-il-mistero-del-personal-brand",
     title: "Sei bravo ma invisibile: il mistero del personal brand",
