@@ -3,6 +3,45 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "i-social-non-funzionano-no-manca-la-strategia",
+    slug: "i-social-non-funzionano-no-manca-la-strategia",
+    title: "I social non funzionano? No, manca la strategia",
+    excerpt: "I social funzionano benissimo. Il problema? Troppi parrucchieri pubblicano senza una strategia che fermi davvero l'attenzione.",
+    category: "Strategia",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://www.nicobenz.it/social/5857de0a-09f9-4209-b28b-4dbb53dd3415.jpg",
+    content: `
+## Il vero problema non sono i social
+
+Sento spesso dire "i social non funzionano". E ogni volta rispondo la stessa cosa: **i social funzionano benissimo**. Il problema è un altro.
+
+Tanti parrucchieri pubblicano video tanto per pubblicare, come se stessero timbrando un cartellino. Un prima e dopo, una cliente, una musica di tendenza e via. Fatto il compitino, si passa oltre.
+
+Ma fermati un attimo e chiediti: quel video che hai appena pubblicato **fa fermare le persone**? Crea fiducia? Si distingue davvero dagli altri mille prima/dopo che scorrono nel feed?
+
+Se la risposta è no, non è colpa dell'algoritmo. È la strategia che manca.
+
+## Comunicare meglio, non pubblicare di più
+
+I social oggi premiano chi comunica meglio, non chi pubblica di più. Questa è la differenza tra chi riempie il calendario e chi aspetta che suoni il telefono.
+
+Pubblicare per pubblicare è come aprire il salone e aspettare che i clienti entrino per magia. Non funziona così. Serve un piano, una direzione chiara, contenuti che parlano alle persone giuste nel modo giusto.
+
+Quando hai una strategia, ogni video ha uno scopo. Non timbri il cartellino: costruisci fiducia, attiri l'attenzione, ti distingui.
+
+## Il miglior collaboratore del tuo salone
+
+I social possono diventare il miglior collaboratore del tuo salone. Quello che lavora per te 24 ore su 24, che porta clienti nuovi mentre tu sei con le mani tra i capelli di qualcun altro.
+
+Ma solo se smetti di trattarli come una perdita di tempo e inizi a usarli con metodo.
+
+Nei prossimi 90 giorni ti mostrerò esattamente come fare. Come trasformare quei 60 secondi di video in uno strumento di vendita reale. Come smettere di pubblicare a caso e iniziare a comunicare con strategia.
+
+Seguimi, e vedrai la differenza.
+    `
+  },
+  {
     id: "portale-gratuito-strumenti-ai-salone",
     slug: "portale-gratuito-strumenti-ai-salone",
     title: "Il mio portale gratuito con 3 strumenti AI per il tuo salone",
