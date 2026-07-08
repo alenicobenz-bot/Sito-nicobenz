@@ -3,6 +3,53 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "la-vera-paura-dietro-la-videocamera-e-come-superarla",
+    slug: "la-vera-paura-dietro-la-videocamera-e-come-superarla",
+    title: "La vera paura dietro la videocamera (e come superarla)",
+    excerpt: "Non \u00e8 la telecamera a spaventarti. \u00c8 il giudizio degli altri. Ti racconto cosa hanno fatto tutte le professioniste di successo che oggi segui.",
+    category: "Mindset",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://www.nicobenz.it/social/ee3153ee-2069-4584-90e7-9fa219ac8266.jpg",
+    content: `
+## Non è la videocamera il problema
+
+Ti dico una cosa che ho capito in anni di lavoro con centinaia di professioniste del beauty: non ho mai conosciuto nessuna parrucchiera che avesse veramente paura della videocamera.
+
+La paura vera? È il giudizio degli altri.
+
+È quella vocina nella testa che ti dice: "E se la mia collega ride di me?", "E se dico qualcosa in modo poco naturale?", "E se sbaglio e tutti se ne accorgono?"
+
+Quello che ti blocca non è il tasto REC. È l'idea di cosa penseranno le persone quando vedranno quel video.
+
+## Tutte hanno iniziato con la stessa paura
+
+Sai qual è la cosa incredibile?
+
+Tutte quelle professioniste che intervisto, quelle che oggi hanno successo, quelle che vengono fermate al supermercato con "Ehi, ho visto i tuoi video!" — **tutte** avevano la tua stessa identica paura.
+
+Nessuna esclusa.
+
+La differenza tra chi ce l'ha fatta e chi è rimasta ferma?
+
+Hanno fatto il primo video. Poi il secondo. Poi il terzo. Il cinquantesimo. Il centesimo.
+
+## Il momento giusto non esiste
+
+Voglio che ti entri bene in testa questa cosa: il personal branding non nasce quando ti senti pronta.
+
+**Nasce solo quando decidi di iniziare.**
+
+Puoi studiare, prepararti, guardare altri mille video su come fare contenuti. Ma finché non premi REC per la prima volta, il tuo personal branding semplicemente non esiste.
+
+La perfezione non arriva prima. Arriva dopo. Dopo il primo video imbarazzante, dopo il secondo che ti viene meglio, dopo il decimo in cui inizi a trovare il tuo ritmo.
+
+Il giudizio degli altri? Ci sarà sempre. Ma sai cosa scoprirai? Che le persone che contano davvero ti supporteranno. E quelle che giudicano... probabilmente non hanno mai avuto il coraggio di metterci la faccia.
+
+Questa settimana, fai quel primo video. Non dev'essere perfetto. Dev'essere fatto.
+    `
+  },
+  {
     id: "i-social-non-funzionano-no-manca-la-strategia",
     slug: "i-social-non-funzionano-no-manca-la-strategia",
     title: "I social non funzionano? No, manca la strategia",
