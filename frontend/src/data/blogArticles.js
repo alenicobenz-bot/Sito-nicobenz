@@ -3,6 +3,57 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "perche-pubblicare-ogni-giorno-puo-uccidere-il-tuo-brand",
+    slug: "perche-pubblicare-ogni-giorno-puo-uccidere-il-tuo-brand",
+    title: "Perch\u00e9 pubblicare ogni giorno pu\u00f2 uccidere il tuo brand",
+    excerpt: "Il consiglio pi\u00f9 dato \u00e8 anche il peggiore: pubblica di pi\u00f9. Ma la frequenza senza valore ti rende solo rumore di fondo.",
+    category: "Strategia",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://www.nicobenz.it/social/b11b540b-6678-40ac-96c1-7fdd411ee0f3.jpg",
+    content: `
+## Il mito del "pubblica di più"
+
+Il consiglio peggiore che puoi dare a un parrucchiere? **Pubblica di più.**
+
+Sai quante volte l'ho sentito ripetere? Prima poteva anche avere senso. "Pubblica tutti i giorni e crescerai" era il mantra. Ma oggi? Non funziona più così.
+
+Se pubblichi ogni giorno contenuti che non lasciano niente, diventi solo una cosa che disturba il feed. Punto.
+
+## Cosa preferisco (e cosa preferiscono i tuoi follower)
+
+Io preferisco **un video che cambia il modo di pensare di qualcuno**, piuttosto che sette video che nessuno ricorda.
+
+Le persone non seguono chi pubblica di più. Seguono chi gli fa dire: "Cavolo, non ci avevo mai pensato."
+
+È quella sensazione lì che crea connessione. Quella che ti fa salvare un post, condividerlo, ripensarci sotto la doccia.
+
+## Cosa ho imparato in 15 anni
+
+Studio il personal brand dei parrucchieri da 15 anni e ho capito una cosa fondamentale:
+
+**La frequenza ti rende presente. Il valore ti rende indimenticabile.**
+
+Sì, ho scritto bene: la frequenza ti rende presente, non memorabile. Essere sempre lì non significa essere ricordato.
+
+E se dovessi scegliere tra essere visto ogni giorno o essere ricordato?
+
+Io preferirei essere ricordato.
+
+## Quindi cosa fare?
+
+Smetti di inseguire il calendario editoriale perfetto. Smetti di stressarti perché "oggi non hai postato".
+
+Inizia a chiederti: **questo contenuto lascia qualcosa? Fa riflettere? Cambia una prospettiva?**
+
+Se la risposta è no, non pubblicarlo. Aspetta. Lavora su qualcosa che conti davvero.
+
+Perché alla fine, nella testa delle persone resta chi ha detto qualcosa che valeva la pena ascoltare. Non chi ha detto tutto, tutti i giorni.
+
+Questa settimana, prima di pubblicare, fermati e chiediti: questo post merita di esistere? Se sì, pubblicalo. Altrimenti, aspetta quello giusto.
+    `
+  },
+  {
     id: "la-vera-paura-dietro-la-videocamera-e-come-superarla",
     slug: "la-vera-paura-dietro-la-videocamera-e-come-superarla",
     title: "La vera paura dietro la videocamera (e come superarla)",
