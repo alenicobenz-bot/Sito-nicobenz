@@ -3,6 +3,45 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "perche-i-tuoi-clienti-pagano-il-tuo-prezzo",
+    slug: "perche-i-tuoi-clienti-pagano-il-tuo-prezzo",
+    title: "Perch\u00e9 i tuoi clienti pagano il tuo prezzo (anche se non \u00e8 il pi\u00f9 basso)",
+    excerpt: "Il segreto non sta nel servizio che offri, ma nel valore che comunichi prima ancora che entrino in salone. Ecco come costruirlo.",
+    category: "Mindset",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://www.nicobenz.it/social/f94af34b-9df9-4c6b-8212-ed5ab6b2a742.jpg",
+    content: `
+Ti sei mai chiesta perché parrucchieri diversi che fanno lo stesso identico lavoro possono chiedere prezzi completamente diversi?
+
+Non è il colore. Non è il taglio. Non è nemmeno quanto è figo il tuo salone.
+
+## È il valore che il cliente percepisce ancora prima di entrare
+
+E qui sta il punto: quel valore si costruisce **molto prima** dell'appuntamento.
+
+Si costruisce con quello che dici sui social. Con quello che pubblichi. Con quello che le persone dicono di te quando non ci sei.
+
+È per questo che continuo a ripeterlo: **i social non servono a fare visualizzazioni**. Servono a costruire fiducia.
+
+E quando la fiducia cresce, il prezzo smette di essere un motivo di scelta.
+
+## Le persone non comprano un servizio
+
+Comprano la **sicurezza** di avere scelto la persona giusta.
+
+Quando qualcuno prenota da te, non sta solo cercando un taglio o un colore. Sta cercando di sentirsi al sicuro. Di sapere che ha fatto la scelta giusta. Di non doversi pentire.
+
+E tutto questo inizia online, nei tuoi contenuti, nel modo in cui ti mostri, nelle recensioni che lasci parlare per te.
+
+Se lavori solo sul servizio ma non sul racconto di chi sei, stai perdendo metà della battaglia. Perché il cliente decide già prima di sedersi sulla tua poltrona.
+
+Ricordalo la prossima volta che pubblichi un contenuto: non stai solo facendo "pubblicità", stai costruendo la ragione per cui qualcuno sceglierà te e non un altro.
+
+Questa settimana, chiediti: cosa sto comunicando davvero? Fammi sapere cosa ne pensi.
+    `
+  },
+  {
     id: "perche-pubblicare-ogni-giorno-puo-uccidere-il-tuo-brand",
     slug: "perche-pubblicare-ogni-giorno-puo-uccidere-il-tuo-brand",
     title: "Perch\u00e9 pubblicare ogni giorno pu\u00f2 uccidere il tuo brand",
