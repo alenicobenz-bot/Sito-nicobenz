@@ -1,6 +1,15 @@
 // Episodi podcast Spotify pubblicati. Aggiornato automaticamente da Mappa Madre.
 export const PODCASTS = [
   {
+    id: "1bd986e6-49d4-4eb7-977b-aaeb6310bab1",
+    slug: "intervista-al-baffo-d-oro",
+    title: "Intervista al baffo d'oro",
+    spotifyUrl: "https://open.spotify.com/episode/1X8O3AIJDqBbh1OZOnVWci?si=6bffe6415d414acb",
+    episodeId: "1X8O3AIJDqBbh1OZOnVWci",
+    cover: "https://www.nicobenz.it/social/1bd986e6-49d4-4eb7-977b-aaeb6310bab1.jpg",
+    date: "2026-07-10",
+  },
+  {
     id: "fcb459ce-e833-4858-bd7c-e851aa66dbad",
     slug: "intervista-al-maestro-francesco-cirignotta",
     title: "Intervista al Maestro Francesco Cirignotta",
