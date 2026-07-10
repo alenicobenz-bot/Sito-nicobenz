@@ -1,6 +1,15 @@
 // Interviste pubblicate su YouTube. Aggiornato automaticamente da Mappa Madre.
 export const INTERVIEWS = [
   {
+    id: "6fad6a4c-4b1b-4dfa-9c65-3157e603878d",
+    slug: "intervista-al-baffo-d-oro",
+    title: "Intervista al Baffo d'oro",
+    youtubeUrl: "https://www.youtube.com/live/JM_1pr-ojNk?si=RKCe8dj1nDiFnnK8",
+    videoId: "JM_1pr-ojNk",
+    thumbnail: "https://img.youtube.com/vi/JM_1pr-ojNk/hqdefault.jpg",
+    date: "2026-07-10",
+  },
+  {
     id: "da7fb370-1904-42a0-8804-6062e1fce0fc",
     slug: "intervista-al-maestro-francesco-cirignotta",
     title: "Intervista al Maestro Francesco Cirignotta",
