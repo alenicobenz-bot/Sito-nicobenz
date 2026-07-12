@@ -3,6 +3,45 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "quando-avro-tempo-la-scusa-che-ti-tiene-ferma",
+    slug: "quando-avro-tempo-la-scusa-che-ti-tiene-ferma",
+    title: "\"Quando avr\u00f2 tempo\": la scusa che ti tiene ferma da anni",
+    excerpt: "C'\u00e8 una frase che sento da 15 anni e so gi\u00e0 come finisce. Spoiler: il tempo non arriva mai. Si decide.",
+    category: "Mindset",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://www.nicobenz.it/social/867c086f-7c1a-470f-b5c9-d8ff2eb15f50.jpg",
+    content: `
+C'è una frase che mi sento ripetere da 15 anni, sempre uguale: **"Quando avrò tempo comincerò a fare i video."**
+
+E sai cosa? So già come va a finire.
+
+Il tempo non arriva. Mai. Non è che un giorno ti svegli e improvvisamente hai tre ore libere da dedicare ai contenuti. Non funziona così.
+
+## Il tempo si decide, non si trova
+
+Una parrucchiera che oggi non ha tempo, tra un mese non avrà tempo. Tra sei mesi? Stesso discorso. Tra un anno? Peggio ancora, perché nel frattempo il salone si sarà riempito di altri impegni, altre urgenze, altre "priorità".
+
+E mentre tu aspetti il momento giusto, **qualcun'altro ha cominciato**. Ha fatto partire la telecamera, ha pubblicato il primo video (magari imperfetto), poi il secondo, poi il terzo. Si è costruita l'autorevolezza. Si è costruita la fiducia. Ha iniziato a raccogliere risultati.
+
+Oggi quella persona ha una presenza online che lavora per lei. Tu? Sei ancora lì che aspetti.
+
+## Il vero problema non è il tempo
+
+Il problema è che continui ad aspettare che le condizioni siano perfette. Che arrivi il momento ideale. Che magicamente si liberi uno spazio nell'agenda.
+
+Ma quel momento non esiste.
+
+I video, i contenuti, la tua presenza online — tutto questo **non è qualcosa che fai quando hai tempo**. È qualcosa che fai perché hai deciso che è importante. Perché hai capito che oggi, nel beauty, chi non comunica non esiste.
+
+E allora dimmi la verità: **qual è la scusa che ti dici più spesso?**
+
+Perché fino a quando non smetti di aspettare e cominci a decidere, nulla cambierà. Il tempo non arriverà. Ma i risultati di chi ha iniziato? Quelli sì, continuano ad arrivare.
+
+Questa settimana prova questo: togli 15 minuti da qualcosa che fai abitualmente e dedicali a un video. Uno solo. Poi fammi sapere com'è andata.
+    `
+  },
+  {
     id: "perche-i-tuoi-clienti-pagano-il-tuo-prezzo",
     slug: "perche-i-tuoi-clienti-pagano-il-tuo-prezzo",
     title: "Perch\u00e9 i tuoi clienti pagano il tuo prezzo (anche se non \u00e8 il pi\u00f9 basso)",
