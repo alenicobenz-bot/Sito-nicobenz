@@ -3,6 +3,45 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "perche-cercare-di-piacere-a-tutti-ti-rende-invisibile",
+    slug: "perche-cercare-di-piacere-a-tutti-ti-rende-invisibile",
+    title: "Perch\u00e9 cercare di piacere a tutti ti rende invisibile",
+    excerpt: "Se cambi contenuto ogni giorno per accontentare tutti, non lasci traccia. Ecco perch\u00e9 la coerenza batte sempre la variet\u00e0 casuale.",
+    category: "Branding",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://www.nicobenz.it/social/cd74dbc5-1a12-4f79-83b2-962ba04dc231.jpg",
+    content: `
+## Vuoi piacere a tutti o essere ricordato?
+
+Cercare di piacere a tutti è il modo più veloce per non essere ricordato da nessuno.
+
+Vedo continuamente profili di parrucchieri che un giorno pubblicano una piega, il giorno dopo una schiaritura, poi una nanoplastia, poi una promozione, poi un video con la musichetta del momento, poi un buongiorno motivazionale stile "ciao, oggi volevo parlarvi di..."
+
+E sai cosa rimane impresso a chi guarda? Niente. Boh. Parrucchiere generico.
+
+## Il problema della varietà casuale
+
+Quando cambi registro continuamente, le persone non riescono a fermarsi sul tuo profilo. Non riescono a farti entrare nella loro testa con un'idea chiara di chi sei, cosa fai meglio, perché dovrebbero scegliere proprio te.
+
+Se ogni volta cerchi di accontentare tutti — un po' di tecnica, un po' di intrattenimento, un po' di motivazione, un po' di promozioni — finisci per non parlare davvero a nessuno.
+
+E lì perdi l'occasione più preziosa: diventare la prima scelta nella testa dei tuoi clienti ideali.
+
+## Meglio essere ricordato dalle persone giuste
+
+La domanda vera è questa: preferisci piacere a tutti o essere ricordato dalle persone giuste?
+
+Perché chi ti ricorda è chi poi ti sceglie. Chi ti cerca. Chi ti consiglia. Chi torna.
+
+La coerenza nei contenuti non è limitante — è strategica. Ti permette di costruire un'identità riconoscibile, di posizionarti come esperto in qualcosa di specifico, di attrarre esattamente il tipo di cliente con cui lavori meglio.
+
+Smetti di inseguire l'algoritmo con contenuti a caso. Scegli la tua direzione, mantienila, e diventa memorabile.
+
+Fammi sapere: la paura di non piacere a tutti ti spinge ancora verso questa varietà confusa, o hai già scelto la tua strada?
+    `
+  },
+  {
     id: "quando-avro-tempo-la-scusa-che-ti-tiene-ferma",
     slug: "quando-avro-tempo-la-scusa-che-ti-tiene-ferma",
     title: "\"Quando avr\u00f2 tempo\": la scusa che ti tiene ferma da anni",
