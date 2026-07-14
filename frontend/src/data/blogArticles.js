@@ -3,6 +3,55 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "i-clienti-non-comprano-il-tuo-servizio-comprano-te",
+    slug: "i-clienti-non-comprano-il-tuo-servizio-comprano-te",
+    title: "I clienti non comprano il tuo servizio. Comprano te.",
+    excerpt: "Tecnica, prodotti, macchinari: tutti li hanno. Quello che fa davvero la differenza \u00e8 chi sei tu e come fai sentire le persone.",
+    category: "Branding",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://www.nicobenz.it/social/8e7323d6-afde-40ad-87ff-40a90e38565e.jpg",
+    content: `
+## Il tuo più grande errore? Pensare che ti scelgano per la tecnica
+
+Se pensi che i clienti ti scelgano per il taglio, per il colore, per la piega perfetta — ti stai perdendo il motivo più importante.
+
+Molti parrucchieri mi dicono: "Noi siamo quelli che usano questa tecnica, noi abbiamo questo nuovo macchinario, noi usiamo i prodotti migliori."
+
+Ma allora dimmi una cosa: **se fosse davvero così, perché alcuni saloni esplodono e altri invece fanno fatica?**
+
+Perché le persone non comprano solo un servizio.
+
+## Cosa comprano davvero i tuoi clienti
+
+Comprano **la fiducia**.
+
+Comprano **l'idea di sentirsi finalmente nel posto giusto**.
+
+Comprano **il modo in cui le fai sentire**.
+
+I colori li fanno tanti. Le tecniche si copiano. I prodotti premium? Li usano anche gli altri.
+
+L'esperienza invece è tua. Solo tua.
+
+Ed è proprio quello che dovresti raccontare sui social.
+
+## Confrontabile vs. Memorabile
+
+Quando comunichi solo **quello che fai**, diventi confrontabile.
+
+Un salone tra mille. Un prezzo da valutare. Una scelta razionale.
+
+Quando invece comunichi **chi sei**, diventi memorabile.
+
+Diventi la scelta emotiva. Quella che non si discute.
+
+Allora te lo chiedo: **oggi i tuoi clienti comprano un servizio o comprano te?**
+
+Fatti questa domanda la prossima volta che posti sui social. E se la risposta non ti piace, sai già cosa devi cambiare.
+    `
+  },
+  {
     id: "perche-cercare-di-piacere-a-tutti-ti-rende-invisibile",
     slug: "perche-cercare-di-piacere-a-tutti-ti-rende-invisibile",
     title: "Perch\u00e9 cercare di piacere a tutti ti rende invisibile",
