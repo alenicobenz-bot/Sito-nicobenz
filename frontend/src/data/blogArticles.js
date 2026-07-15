@@ -3,6 +3,56 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "smetti-di-parlare-di-te-errore-che-costa-clienti",
+    slug: "smetti-di-parlare-di-te-errore-che-costa-clienti",
+    title: "Smetti di parlare di te: l'errore che ti costa clienti",
+    excerpt: "Il tuo Instagram parla solo del salone? Ecco perch\u00e9 i clienti non ti ascoltano e cosa devi cambiare oggi stesso.",
+    category: "Social",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://www.nicobenz.it/social/53c0c393-7865-42b3-aa52-f1f3b8e18810.jpg",
+    content: `
+## Fai questo test: apri il tuo profilo
+
+Vai sul tuo Instagram o TikTok adesso. Scorri gli ultimi 10 post. Quanti parlano di te? "Siamo specializzati in questo", "Ecco il nostro nuovo trattamento", "Guarda cosa abbiamo fatto".
+
+Scommetto che la maggior parte dei tuoi contenuti inizia con "noi".
+
+E sai qual è il problema? **Ai clienti non interessa quello che sai fare tu.**
+
+## Quello che conta davvero
+
+Alle persone interessa una cosa sola: sei la soluzione al loro problema?
+
+Non vogliono sapere che sei brava con le extension. Vogliono sapere se finalmente avranno i capelli lunghi che sognano da anni.
+
+Non gli importa che hai preso l'ultimo corso di laminazione. Vogliono sapere se finalmente avranno ciglia da cerbiatta senza mascara.
+
+La domanda che si fanno scrollando il tuo profilo è sempre la stessa: **"Cosa cambia per me?"**
+
+## Il cambio di prospettiva
+
+Quando comunichi, smetti di raccontare quanto sei bravo. Inizia a raccontare cosa cambia nella vita del tuo cliente.
+
+- La fai sentire più bella?
+- Più sicura di sé?
+- Pronta per quel colloquio importante?
+- Finalmente a suo agio con la sua pelle?
+
+Le persone non ascoltano chi parla di sé. Ascoltano chi parla di loro, dei loro problemi, dei loro desideri, di come si sentiranno dopo.
+
+## L'esercizio di oggi
+
+Guarda il tuo ultimo post. Parli di te o parli di loro?
+
+Se la risposta è "di me", riscrivilo. Invece di "Siamo specializzati in balayage", prova con "Immagina di svegliarti con capelli che sembrano baciati dal sole, senza ore di piastra".
+
+Cambia prospettiva e vedrai cambiare anche i risultati.
+
+Provalo questa settimana e fammi sapere com'è andata.
+    `
+  },
+  {
     id: "i-clienti-non-comprano-il-tuo-servizio-comprano-te",
     slug: "i-clienti-non-comprano-il-tuo-servizio-comprano-te",
     title: "I clienti non comprano il tuo servizio. Comprano te.",
