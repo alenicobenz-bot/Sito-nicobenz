@@ -3,6 +3,56 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "follower-non-servono-fiducia-clienti-salone",
+    slug: "follower-non-servono-fiducia-clienti-salone",
+    title: "I follower non ti servono: quello che ti serve \u00e8 la fiducia",
+    excerpt: "Smetti di rincorrere i numeri: le persone non comprano da chi ha pi\u00f9 follower, ma da chi genera pi\u00f9 fiducia. Ecco come cambiare prospettiva.",
+    category: "Mindset",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://www.nicobenz.it/social/92919c37-1660-4672-a1b1-8bc2d73dbdc3.jpg",
+    content: `
+## I follower non portano clienti (e te lo dimostro)
+
+Quante volte hai pensato: "Se avessi 10.000 follower avrei più clienti"? O magari: "Con 50.000 follower sarei più considerata in città". Lascia che ti dica una cosa che può sembrare assurda, ma è la verità: i follower di per sé non ti servono.
+
+Se fosse solo questione di numeri, basterebbe comprarli. Ma sappiamo entrambe che non funziona così.
+
+Le persone non acquistano da chi ha più follower. Le persone acquistano da chi genera più **fiducia**.
+
+## La vera lotta non è andare virale
+
+Smetti di costruire contenuti solo per cercare il virale, per inseguire quel numero magico di follower. La vera battaglia è un'altra: costruire fiducia.
+
+E la fiducia si costruisce con:
+
+- **Quello che dici** nei tuoi contenuti
+- **Quello che racconti** della tua esperienza e del tuo lavoro
+- **Le cose che fai** ogni giorno nel tuo salone
+- **Il tempo** che dedichi a mostrarti per come sei davvero
+
+Sì, ci vuole tempo. La fiducia non si costruisce in una settimana o con un Reel virale.
+
+## I saloni con la fila fuori (e pochi follower)
+
+Conosco migliaia di saloni che hanno pochi follower ma hanno la fila fuori dalla porta. Perché? Perché hanno generato fiducia nelle persone.
+
+E sai quante persone si fidano davvero di te oggi? Probabilmente poche, se il tuo problema è che non senti arrivare clienti, se non vedi cambiare le cose.
+
+Ma le cose non cambiano così velocemente. Bisogna costruire la fiducia, mattone dopo mattone, contenuto dopo contenuto.
+
+## La domanda che devi farti
+
+Prima di pubblicare il tuo prossimo contenuto, chiediti: "Questo contenuto genera fiducia nei miei confronti?".
+
+Non: "Questo contenuto mi farà fare centinaia di migliaia di follower?"
+
+Cambia la domanda, cambia la prospettiva. Smetti di fare contenuti per i numeri e inizia a fare contenuti per le persone.
+
+Dimmi tu: il tuo ultimo contenuto era per fare follower o per generare fiducia?
+    `
+  },
+  {
     id: "smetti-di-parlare-di-te-errore-che-costa-clienti",
     slug: "smetti-di-parlare-di-te-errore-che-costa-clienti",
     title: "Smetti di parlare di te: l'errore che ti costa clienti",
