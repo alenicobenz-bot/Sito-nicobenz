@@ -3,6 +3,55 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "prima-e-dopo-racconta-storia-vera",
+    slug: "prima-e-dopo-racconta-storia-vera",
+    title: "Prima e dopo? No, racconta una storia vera",
+    excerpt: "Il prima/dopo da solo non basta pi\u00f9. Quello che davvero genera clienti \u00e8 la storia che ci metti in mezzo. Ti spiego come trasformare un post in un viaggio.",
+    category: "Contenuti",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://www.nicobenz.it/social/43ae9f53-ef1c-4803-99a0-3bd4e0f1d0b3.jpg",
+    content: `
+## Il prima/dopo non basta più
+
+Se pensi che un semplice prima e dopo sia la cosa giusta per generare clienti, mi sa che stai facendo un grande errore.
+
+Guarda, lo so: il mondo è fatto di prima e dopo. Tutti si aspettano di vederlo — non solo nei parrucchieri, anche in cucina, quando piastrelli il bagno nuovo, quando costruisci una casa. Il prima/dopo è il fondamento della curiosità.
+
+Ma quello che conta davvero è che **tra il prima e il dopo ci sia una storia**.
+
+## Cosa significa raccontare una storia
+
+La storia è quella di un cliente che ha un prima, e tu racconti insieme a lui cosa succede per arrivare a un dopo.
+
+È vero, ci sono ancora persone che pubblicano solo le foto del prima e le foto del dopo, un po' come timbrare un cartellino. Ma questo non crea connessione.
+
+Invece bisogna:
+
+- **Raccontare un viaggio** — non solo il punto di partenza e quello di arrivo
+- **Raccontare le emozioni** — cosa prova il cliente, cosa lo spinge a cambiare
+- **Far provare empatia** — chi guarda deve riconoscersi, sentirsi parte di quella storia
+
+## Le domande che devi farti (e fare)
+
+Quando devi costruire un lavoro, chiediti:
+
+- Da dove arriva questa persona?
+- Che cos'è che le piace o non le piace?
+- Dove va la sua storia?
+
+E poi cerca di raccontare una storia che sia seguibile, che abbia un filo logico e che parli davvero al cuore di chi guarda.
+
+## Ora tocca a te
+
+Pensa al tuo ultimo video. È un prima e dopo, o è una storia?
+
+Se è solo un prima/dopo, prova a ripensarlo: aggiungi il contesto, le emozioni, il motivo per cui quella trasformazione è importante per quella persona. Vedrai che la risposta del pubblico sarà tutta un'altra cosa.
+
+Provaci questa settimana e fammi sapere com'è andata.
+    `
+  },
+  {
     id: "follower-non-servono-fiducia-clienti-salone",
     slug: "follower-non-servono-fiducia-clienti-salone",
     title: "I follower non ti servono: quello che ti serve \u00e8 la fiducia",
