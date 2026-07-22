@@ -3,6 +3,53 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "smetti-di-aspettare-settembre-momento-giusto-oggi",
+    slug: "smetti-di-aspettare-settembre-momento-giusto-oggi",
+    title: "Smetti di aspettare settembre: il momento giusto \u00e8 oggi",
+    excerpt: "Il giorno perfetto per iniziare non arriver\u00e0 mai. I social premiano chi si presenta ogni giorno, non chi aspetta l'ispirazione.",
+    category: "Mindset",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://www.nicobenz.it/social/c446bc4a-dbe9-4669-85c2-96c5566e5e86.jpg",
+    content: `
+Quante volte te lo sei detto? "Da settembre comincio sul serio con i social." E poi settembre arriva, e tu aspetti ottobre. Poi arriva Natale, poi gennaio, poi la primavera... e intanto è passato un altro anno.
+
+Vuoi sapere qual è la verità?
+
+**Quel giorno perfetto non arriverà mai.**
+
+Il problema non è settembre. Non è lunedì. Non è il momento giusto che non arriva. Il problema è credere che esista un momento magico in cui tutto sarà più facile, in cui avrai più tempo, più energia, più ispirazione.
+
+Ma i social non funzionano così.
+
+## I social premiano la costanza, non la perfezione
+
+I social premiano chi si presenta ogni giorno, non chi aspetta la Madonna dell'ispirazione. Premiano chi pubblica anche quando non si sente al massimo, anche quando il contenuto non è perfetto.
+
+Ti dico una cosa che forse non vuoi sentire, ma che devi sapere: **un video normale pubblicato oggi vale molto di più di un video perfetto che pubblicherai "un giorno".**
+
+Perché quel video perfetto rischia di non vedere mai la luce. Rimarrà nella tua testa, insieme a tutte le buone intenzioni di settembre, ottobre, gennaio...
+
+## Trasforma oggi nel tuo giorno 1
+
+Se vuoi risultati diversi da quelli che hai sempre ottenuto, devi smettere di aspettare il momento giusto.
+
+Devi smettere di cercare scuse nel calendario.
+
+Devi decidere che oggi — proprio oggi, non domani, non lunedì prossimo, non settembre — è il tuo giorno 1.
+
+Io l'ho fatto. Ho smesso di aspettare il momento perfetto e ho iniziato a presentarmi, ogni giorno, anche quando non mi sentivo pronto. Anche quando il contenuto non era perfetto.
+
+E sai cosa è successo? Che i risultati sono arrivati. Non perché fossi perfetto, ma perché ero presente.
+
+**Adesso tocca a te.**
+
+Non aspettare settembre. Non aspettare lunedì. Prendi il telefono e registra qualcosa oggi. Anche solo 30 secondi. Anche se non ti sembra granché.
+
+Fallo oggi, e poi domani rifallo. Questo è l'unico segreto che conta.
+    `
+  },
+  {
     id: "prima-e-dopo-racconta-storia-vera",
     slug: "prima-e-dopo-racconta-storia-vera",
     title: "Prima e dopo? No, racconta una storia vera",
