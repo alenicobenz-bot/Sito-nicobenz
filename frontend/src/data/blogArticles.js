@@ -3,6 +3,54 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "il-cliente-compra-quando-si-fida",
+    slug: "il-cliente-compra-quando-si-fida",
+    title: "Il cliente non compra quando ha bisogno, compra quando si fida",
+    excerpt: "La fiducia non nasce con un'offerta. Si costruisce un contenuto alla volta, settimana dopo settimana. Ecco perch\u00e9 i social funzionano davvero.",
+    category: "Strategia",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://www.nicobenz.it/social/6b066702-aeab-432d-9632-89fb1a79c0c5.jpg",
+    content: `
+## Perché quella cliente va sempre dalla stessa parrucchiera?
+
+Ti svelo una cosa che cambia completamente il modo di vedere i social: **il cliente non compra quando ha bisogno, compra quando si fida**.
+
+Pensaci un attimo. Quante persone conosci che avrebbero bisogno di cambiare look, ma continuano ad andare sempre dallo stesso parrucchiere? Non perché è il migliore in assoluto, ma perché si fidano.
+
+E qui sta il punto che molti beauty professional non capiscono.
+
+## La fiducia non nasce il giorno dell'offerta
+
+La fiducia non si costruisce quando pubblichi uno sconto del 20% o un'offerta lampo. Si costruisce prima. Molto prima.
+
+Nasce da:
+
+- I piccoli contenuti che pubblichi ogni settimana
+- Quello che racconti di te e del tuo lavoro
+- Come rispondi ai commenti e ai messaggi
+- Come ti fai conoscere, giorno dopo giorno
+
+Ogni contenuto che pubblichi è come un piccolo mattone. Da solo sembra contare poco, quasi niente. Ma dopo settimane, dopo mesi, quei mattoni costruiscono qualcosa di enorme: una relazione solida.
+
+## I social non servono a vendere oggi
+
+Questa è la parte che frustra molti. Pubblichi, pubblichi, pubblichi... e non vedi risultati immediati. Normale.
+
+Perché i social **non servono a vendere oggi**. Servono a fare in modo che quando una persona deciderà di cambiare parrucchiere, pensi subito a te. Non alla collega in centro. Non a quella che fa le unghie. A te.
+
+Questo è il vero potere dei contenuti: essere presente nella mente delle persone nel momento in cui sono pronte a scegliere.
+
+## La domanda che devi farti
+
+Secondo te, la fiducia si costruisce in un giorno o un contenuto alla volta?
+
+La risposta la conosci già. E se oggi ti sembra di pubblicare nel vuoto, ricordati che stai costruendo. Un mattone alla volta.
+
+Continua a esserci, continua a raccontarti. I risultati arrivano a chi resiste.
+    `
+  },
+  {
     id: "smetti-di-aspettare-settembre-momento-giusto-oggi",
     slug: "smetti-di-aspettare-settembre-momento-giusto-oggi",
     title: "Smetti di aspettare settembre: il momento giusto \u00e8 oggi",
