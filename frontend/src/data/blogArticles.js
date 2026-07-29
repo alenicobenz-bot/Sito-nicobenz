@@ -3,6 +3,41 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "perche-ti-blocchi-davanti-alla-videocamera-e-come-smettere",
+    slug: "perche-ti-blocchi-davanti-alla-videocamera-e-come-smettere",
+    title: "Perch\u00e9 ti blocchi davanti alla videocamera (e come smettere)",
+    excerpt: "Il problema non \u00e8 cosa dire. \u00c8 che vuoi sembrare intelligente invece di essere te stessa. Ecco come parlare in video come parli con le clienti.",
+    category: "Contenuti",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://www.nicobenz.it/social/c8dfd462-453b-4b77-8d75-8bfb62e5629c.jpg",
+    content: `
+Appena premi registra, succede qualcosa. Smetti di parlare come parli normalmente. Cerchi la frase perfetta, inizi a usare parole tecniche per dimostrare quanto sei preparata. E proprio in quel momento diventi meno credibile.
+
+L'ho visto per 15 anni: parrucchieri che parlano benissimo con la cliente davanti allo specchio, poi si bloccano completamente davanti al telefono. Eppure la competenza era la stessa. Cambiava solo una cosa: davanti alla videocamera sentivano di dover recitare.
+
+## Il problema non è la videocamera
+
+Non è che non sai cosa dire. Il problema è che vuoi sembrare intelligente. E quando cerchi di sembrarlo, smetti di esserlo davvero.
+
+Pensa a come spieghi un trattamento alla tua cliente. Usi parole semplici, esempi concreti, ti fai capire. Sei naturale, sei te stessa. Sei autorevole proprio perché non stai cercando di impressionare nessuno.
+
+## Come registrare il prossimo video
+
+Il prossimo video non registrarlo per impressionare un collega. Registralo come se stessi rispondendo a una sola cliente. Quella che ti ha fatto quella domanda ieri, quella che aveva quel dubbio specifico.
+
+Perché l'autorevolezza non nasce quando sembri intelligente. Nasce quando riesci a farti capire.
+
+## La domanda che devi farti
+
+Prima di premere registra, chiediti: sto parlando a una cliente oppure sto cercando di impressionare un collega?
+
+Se la risposta è la seconda, fermati. Respira. Pensa a una cliente vera, a una conversazione vera che hai avuto. E parla come hai parlato in quel momento.
+
+La tua competenza c'è già. Devi solo smettere di nasconderla dietro parole che non useresti mai davanti allo specchio.
+    `
+  },
+  {
     id: "il-cliente-compra-quando-si-fida",
     slug: "il-cliente-compra-quando-si-fida",
     title: "Il cliente non compra quando ha bisogno, compra quando si fida",
