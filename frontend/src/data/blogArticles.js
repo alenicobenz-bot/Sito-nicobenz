@@ -3,6 +3,49 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "se-piaci-a-tutti-non-stai-dicendo-niente-di-interessante",
+    slug: "se-piaci-a-tutti-non-stai-dicendo-niente-di-interessante",
+    title: "Se piaci a tutti, non stai dicendo niente di interessante",
+    excerpt: "Contenuti generici non lasciano il segno. Chi prende posizione viene ricordato e attira i clienti giusti. Ecco perch\u00e9 dovresti smettere di voler piacere a tutti",
+    category: "Contenuti",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://www.nicobenz.it/social/89e3d702-3f1c-4b87-b44e-259fccf4386d.jpg",
+    content: `
+## Se tutti sono d'accordo con te, è un problema
+
+Ti dico una cosa che probabilmente farà arrabbiare qualcuno: se tutti sono d'accordo con quello che pubblichi, probabilmente non stai dicendo niente di interessante.
+
+Molte persone nel settore beauty pubblicano contenuti con un solo obiettivo: non dare fastidio a nessuno. Così usano frasi generiche, consigli che vanno bene per tutti, opinioni che nessuno può contestare.
+
+Io li conosco bene, li riconosco. Mi svegliano di notte con i loro messaggi preoccupati per i commenti degli haters.
+
+Ma sai qual è il risultato? **Nessuno si ricorda niente.**
+
+## Le persone ricordano chi prende posizione
+
+Non significa essere arroganti o provocatori tanto per. Significa avere il coraggio di dire quello in cui credi, anche se qualcuno non sarà d'accordo.
+
+Nei miei 15 anni di lavoro con i parrucchieri ho imparato una cosa importante: ogni volta che un contenuto divide le opinioni, succede anche un'altra cosa. Qualcuno si riconosce davvero in quello che dici.
+
+E quelle persone, quelle che si riconoscono nei tuoi valori, nella tua visione, nel tuo modo di vedere il lavoro? Quelle sono le persone che un giorno diventeranno i tuoi clienti.
+
+## Cerca la fiducia delle persone giuste
+
+Non cercare gli applausi di tutti. Cerca la fiducia delle persone giuste.
+
+Le persone che la pensano come te, che condividono il tuo approccio, che apprezzano il tuo modo di lavorare. Quelle sono le relazioni che costruiscono un business solido.
+
+I contenuti che non disturbano nessuno non creano connessioni vere. Creano indifferenza.
+
+E l'indifferenza è il peggior nemico di chi vuole farsi notare sui social.
+
+Quindi la prossima volta che hai paura di pubblicare qualcosa perché "magari a qualcuno non piace", ricordati: **è esattamente quella la cosa che dovresti pubblicare.**
+
+Ora dimmi: su quale tema del nostro settore hai cambiato idea negli ultimi anni? Io leggo tutti i commenti.
+    `
+  },
+  {
     id: "perche-ti-blocchi-davanti-alla-videocamera-e-come-smettere",
     slug: "perche-ti-blocchi-davanti-alla-videocamera-e-come-smettere",
     title: "Perch\u00e9 ti blocchi davanti alla videocamera (e come smettere)",
