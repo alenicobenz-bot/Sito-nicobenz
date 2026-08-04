@@ -1,5 +1,6 @@
 import React from "react";
-import { Instagram, Youtube, Facebook, Mail, ArrowUpRight } from "lucide-react";
+import { Link } from "react-router-dom";
+import { Instagram, Youtube, Facebook, Mail, ArrowUpRight, Sparkles } from "lucide-react";
 import { BRAND, FOOTER_LINKS } from "../mock";
 
 const Footer = () => {
@@ -84,6 +85,16 @@ const Footer = () => {
                 >
                   Cookie Policy
                 </a>
+              </li>
+              <li>
+                <Link
+                  to="/trasparenza-ai"
+                  className="inline-flex items-center gap-1.5 text-[14px] text-[var(--nb-ivory-dim)] hover:text-[var(--nb-gold)] transition-colors"
+                  data-testid="footer-trasparenza-ai-link"
+                >
+                  <Sparkles className="w-3.5 h-3.5" strokeWidth={1.6} />
+                  Trasparenza AI
+                </Link>
               </li>
             </ul>
           </div>

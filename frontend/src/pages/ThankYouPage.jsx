@@ -2,9 +2,25 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { CheckCircle, Mail, Home } from "lucide-react";
 import { AiTransparencyNote } from "../components/AiTransparency";
+import { useSeo } from "../hooks/useSeo";
 
 const ThankYouPage = () => {
+  useSeo({
+    title: "Iscrizione completata — Nicobenz",
+    description: "Grazie per l'iscrizione. Controlla la tua email per confermare.",
+    canonical: "https://www.nicobenz.it/grazie-iscrizione",
+    ogType: "website",
+  });
+
   useEffect(() => {
+    // Aggiungi noindex per questa pagina — non deve essere indicizzata da Google
+    let meta = document.querySelector('meta[name="robots"]');
+    if (!meta) {
+      meta = document.createElement("meta");
+      meta.setAttribute("name", "robots");
+      document.head.appendChild(meta);
+    }
+    meta.setAttribute("content", "noindex, nofollow");
     window.scrollTo(0, 0);
   }, []);
 
