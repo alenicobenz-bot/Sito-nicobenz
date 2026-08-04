@@ -9,6 +9,7 @@ import BlogArticlePage from "./pages/BlogArticlePage";
 import ThankYouPage from "./pages/ThankYouPage";
 import PrenotaPage from "./pages/PrenotaPage";
 import TrasparenzaAiPage from "./pages/TrasparenzaAiPage";
+import ContattiPage from "./pages/ContattiPage";
 import DemoPage from "./pages/DemoPage";
 import ScrollToTop from "./components/ScrollToTop";
 import WhatsAppButton from "./components/WhatsAppButton";
@@ -25,6 +26,7 @@ function App() {
           <Route path="/grazie-iscrizione" element={<ThankYouPage />} />
           <Route path="/prenota" element={<PrenotaPage />} />
           <Route path="/trasparenza-ai" element={<TrasparenzaAiPage />} />
+          <Route path="/contatti" element={<ContattiPage />} />
           <Route path="/blog" element={<BlogListPage />} />
           <Route path="/blog/:slug" element={<BlogArticlePage />} />
           <Route path="/demo" element={<DemoPage />} />

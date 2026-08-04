@@ -67,6 +67,15 @@ const Footer = () => {
             <div className="text-[10px] tracking-micro uppercase text-[var(--nb-muted)] mb-5">Legale</div>
             <ul className="space-y-3">
               <li>
+                <Link
+                  to="/contatti"
+                  className="text-[14px] text-[var(--nb-ivory-dim)] hover:text-[var(--nb-ivory)] transition-colors"
+                  data-testid="footer-contatti-link"
+                >
+                  Contatti
+                </Link>
+              </li>
+              <li>
                 <a 
                   href="https://www.iubenda.com/privacy-policy/8164139" 
                   target="_blank" 
