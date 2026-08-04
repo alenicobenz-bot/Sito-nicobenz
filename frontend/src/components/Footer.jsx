@@ -1,5 +1,6 @@
 import React from "react";
-import { Instagram, Youtube, Facebook, Mail, ArrowUpRight } from "lucide-react";
+import { Link } from "react-router-dom";
+import { Instagram, Youtube, Facebook, Mail, ArrowUpRight, Sparkles } from "lucide-react";
 import { BRAND, FOOTER_LINKS } from "../mock";
 
 const Footer = () => {
@@ -66,6 +67,15 @@ const Footer = () => {
             <div className="text-[10px] tracking-micro uppercase text-[var(--nb-muted)] mb-5">Legale</div>
             <ul className="space-y-3">
               <li>
+                <Link
+                  to="/contatti"
+                  className="text-[14px] text-[var(--nb-ivory-dim)] hover:text-[var(--nb-ivory)] transition-colors"
+                  data-testid="footer-contatti-link"
+                >
+                  Contatti
+                </Link>
+              </li>
+              <li>
                 <a 
                   href="https://www.iubenda.com/privacy-policy/8164139" 
                   target="_blank" 
@@ -84,6 +94,16 @@ const Footer = () => {
                 >
                   Cookie Policy
                 </a>
+              </li>
+              <li>
+                <Link
+                  to="/trasparenza-ai"
+                  className="inline-flex items-center gap-1.5 text-[14px] text-[var(--nb-ivory-dim)] hover:text-[var(--nb-gold)] transition-colors"
+                  data-testid="footer-trasparenza-ai-link"
+                >
+                  <Sparkles className="w-3.5 h-3.5" strokeWidth={1.6} />
+                  Trasparenza AI
+                </Link>
               </li>
             </ul>
           </div>

@@ -1,9 +1,18 @@
 import React, { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Check, Home } from "lucide-react";
+import { AiTransparencyNote } from "../components/AiTransparency";
+import { useSeo } from "../hooks/useSeo";
 
 const VideoGiornoPage = () => {
   const navigate = useNavigate();
+
+  useSeo({
+    title: "Un video al giorno per parrucchieri — Idee reel gratis | Nicobenz",
+    description: "Ricevi ogni giorno via email un'idea video pronta per Instagram e TikTok. Hook, scaletta e caption pensate per parrucchieri. Gratis.",
+    canonical: "https://www.nicobenz.it/un-video-al-giorno",
+    ogType: "website",
+  });
 
   // Scroll to top quando la pagina si carica
   useEffect(() => {
@@ -140,6 +149,11 @@ const VideoGiornoPage = () => {
                   <p className="text-[12px] text-[var(--nb-muted)] text-center">
                     Gratis. Nessuno spam. Solo idee video utili per parrucchieri.
                   </p>
+
+                  <AiTransparencyNote
+                    className="pt-2 border-t border-[var(--nb-border)]"
+                    text="Le idee video sono generate con l'assistenza di intelligenza artificiale e revisionate editorialmente per il settore beauty. Segnalazione ai sensi del Regolamento UE 2024/1689 (AI Act)."
+                  />
                 </form>
               </div>
             </div>
@@ -359,6 +373,13 @@ const VideoGiornoPage = () => {
                 <p className="text-[12px] text-[#0B0B0C]/70 text-center">
                   Nessuno spam. Solo idee video chiare, pratiche e pensate per parrucchieri.
                 </p>
+
+                <div className="pt-3 border-t border-[#0B0B0C]/15">
+                  <p className="text-[11px] leading-[1.55] text-[#0B0B0C]/70 text-center">
+                    ✨ Le idee video sono generate con assistenza di intelligenza artificiale
+                    e revisionate editorialmente. Segnalazione ai sensi del Regolamento UE 2024/1689 (AI Act).
+                  </p>
+                </div>
               </form>
             </div>
           </div>

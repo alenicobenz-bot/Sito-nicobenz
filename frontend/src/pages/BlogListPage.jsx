@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { useSeo } from "../hooks/useSeo";
 import { ArrowUpRight, ArrowLeft, Home } from "lucide-react";
 import { BLOG_ARTICLES } from "../data/blogArticles";
+import { isAiAssisted } from "../data/humanArticleSlugs";
+import { AiBadgeCompact } from "../components/AiTransparency";
 
 const BlogListPage = () => {
   useSeo({
@@ -92,6 +94,12 @@ const BlogListPage = () => {
                     <span>{article.date}</span>
                     <span className="w-1 h-1 rounded-full bg-[var(--nb-muted)]" />
                     <span>{article.readTime} lettura</span>
+                    {isAiAssisted(article.slug) && (
+                      <>
+                        <span className="w-1 h-1 rounded-full bg-[var(--nb-muted)]" />
+                        <AiBadgeCompact />
+                      </>
+                    )}
                   </div>
                   
                   <h3 className="font-display tracking-editorial text-[24px] md:text-[26px] leading-[1.2] text-[var(--nb-ivory)] group-hover:text-[var(--nb-gold)] transition-colors mb-3">

@@ -50,6 +50,10 @@ const FreeResource = () => {
                 Iscriviti gratis
                 <ArrowUpRight className="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" strokeWidth={2} />
               </Link>
+
+              <p className="mt-6 text-[11px] leading-[1.55] text-[var(--nb-muted)] max-w-[540px]">
+                ✨ Le idee video sono generate con l'assistenza di intelligenza artificiale e revisionate editorialmente. Segnalazione ai sensi del Regolamento UE 2024/1689 (AI Act).
+              </p>
             </div>
 
             <div className="lg:col-span-5 flex justify-center">

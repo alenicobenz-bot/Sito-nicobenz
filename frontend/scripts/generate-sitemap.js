@@ -22,6 +22,8 @@ const STATIC_URLS = [
   { loc: "/prenota", changefreq: "weekly", priority: "0.95" },
   { loc: "/blog", changefreq: "weekly", priority: "0.9" },
   { loc: "/un-video-al-giorno", changefreq: "monthly", priority: "0.8" },
+  { loc: "/contatti", changefreq: "monthly", priority: "0.6" },
+  { loc: "/trasparenza-ai", changefreq: "yearly", priority: "0.4" },
 ];
 
 function todayISO() {

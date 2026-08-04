@@ -3,6 +3,8 @@ import { useParams, Link, Navigate } from "react-router-dom";
 import { ArrowLeft, Clock, Tag, Home, Share2 } from "lucide-react";
 import { getArticleBySlug, getRelatedArticles } from "../data/blogArticles";
 import { useSeo } from "../hooks/useSeo";
+import { isAiAssisted } from "../data/humanArticleSlugs";
+import { AiBadgeCompact, AiDisclosureBox } from "../components/AiTransparency";
 
 const BlogArticlePage = () => {
   const { slug } = useParams();
@@ -210,6 +212,7 @@ const BlogArticlePage = () => {
               <Clock className="w-3 h-3" />
               {article.readTime} di lettura
             </span>
+            {isAiAssisted(slug) && <AiBadgeCompact />}
           </div>
 
           <h1 className="font-display font-light tracking-editorial text-[36px] sm:text-[48px] md:text-[60px] leading-[1.05] text-[var(--nb-ivory)] mb-6">
@@ -241,6 +244,7 @@ const BlogArticlePage = () => {
       {/* Content */}
       <section className="relative py-12 md:py-16">
         <div className="max-w-[800px] mx-auto px-6 md:px-10">
+          {isAiAssisted(slug) && <AiDisclosureBox className="mb-10" />}
           <div className="prose prose-invert max-w-none">
             {renderContent(article.content)}
           </div>

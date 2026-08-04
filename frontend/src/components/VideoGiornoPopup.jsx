@@ -159,6 +159,10 @@ const VideoGiornoPopup = () => {
           <p className="text-[11px] text-[var(--nb-muted)] text-center mt-4">
             Puoi disiscriverti quando vuoi. Nessuna email spam.
           </p>
+
+          <p className="text-[10px] leading-[1.5] text-[var(--nb-muted)]/80 text-center mt-2 px-2">
+            ✨ Idee generate con assistenza AI e revisionate editorialmente. Reg. UE 2024/1689 (AI Act).
+          </p>
         </div>
       </div>
     </>

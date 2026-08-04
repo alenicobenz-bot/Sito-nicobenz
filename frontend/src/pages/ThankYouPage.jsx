@@ -1,9 +1,26 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { CheckCircle, Mail, Home } from "lucide-react";
+import { AiTransparencyNote } from "../components/AiTransparency";
+import { useSeo } from "../hooks/useSeo";
 
 const ThankYouPage = () => {
+  useSeo({
+    title: "Iscrizione completata — Nicobenz",
+    description: "Grazie per l'iscrizione. Controlla la tua email per confermare.",
+    canonical: "https://www.nicobenz.it/grazie-iscrizione",
+    ogType: "website",
+  });
+
   useEffect(() => {
+    // Aggiungi noindex per questa pagina — non deve essere indicizzata da Google
+    let meta = document.querySelector('meta[name="robots"]');
+    if (!meta) {
+      meta = document.createElement("meta");
+      meta.setAttribute("name", "robots");
+      document.head.appendChild(meta);
+    }
+    meta.setAttribute("content", "noindex, nofollow");
     window.scrollTo(0, 0);
   }, []);
 
@@ -63,6 +80,11 @@ const ThankYouPage = () => {
             <p className="text-[15px] leading-[1.65] text-[var(--nb-ivory-dim)]">
               Hai fatto bene: da oggi non resterai più senza idee per i tuoi contenuti.
             </p>
+
+            <AiTransparencyNote
+              className="mt-6 pt-6 border-t border-[var(--nb-border)]"
+              text="Le idee video che riceverai sono generate con l'assistenza di intelligenza artificiale e revisionate editorialmente per il settore beauty. Segnalazione ai sensi del Regolamento UE 2024/1689 (AI Act)."
+            />
           </div>
 
           {/* Note */}
