@@ -3,6 +3,47 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "parrucchieri-che-criticano-colleghi-dove-sta-il-limite",
+    slug: "parrucchieri-che-criticano-colleghi-dove-sta-il-limite",
+    title: "Parrucchieri che criticano colleghi: dove sta il limite?",
+    excerpt: "Criticare i lavori altrui online: \u00e8 corretto o dannoso? Riflessione su un fenomeno sempre pi\u00f9 diffuso nel settore beauty.",
+    category: "Mindset",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://www.nicobenz.it/social/8582f01b-5d8a-4066-9e40-1ddb6aa22613.jpg",
+    content: `
+## È giusto prendere in giro i lavori dei colleghi?
+
+È un periodo che vedo parrucchieri che commentano lavori di altri parrucchieri. Cavalcano l'onda della presa in giro, evidenziano errori, si ergono a giudici del bello e del brutto. Ho visto addirittura qualcuno che ha creato un canale apposta solo per questo.
+
+Su internet si può fare un po' tutto quello che si vuole — poi ognuno si prende le proprie responsabilità. Ma dall'altro lato esistono anche parrucchieri che pubblicano lavori oggettivamente discutibili pensando che siano capolavori.
+
+Quindi la domanda sorge spontanea: **è giusto criticare pubblicamente?**
+
+## Il problema vero: oggettivo o soggettivo?
+
+Ecco dove la faccenda si complica. Esistono davvero lavori "oggettivamente brutti"? O stiamo sempre parlando di gusto soggettivo?
+
+Certo, ci sono errori tecnici evidenti: una decolorazione bruciata, un taglio asimmetrico non voluto, una piega rovinata. Ma quando si passa dal tecnico all'estetico, il confine diventa labilissimo.
+
+E poi c'è l'altra faccia della medaglia: **le persone già lo fanno**. Scrivono "oddio che brutto lavoro" sotto i post dei colleghi. Creano contenuti interi basati sulla critica altrui.
+
+## La mia riflessione
+
+È un tema delicatissimo che prendo con le pinze. Perché oltre alla questione etica, c'è anche quella **economica**: criticare pubblicamente il lavoro di un collega può danneggiarlo professionalmente.
+
+Mi chiedo:
+
+- È corretto pubblicare lavori oggettivamente discutibili spacciandoli per eccellenza?
+- È giusto criticare o prendere in giro i lavori dei colleghi, magari creando loro un danno?
+- Dove tracciamo il confine tra critica costruttiva e bullismo professionale?
+
+Non ho risposte definitive. Forse ne farò addirittura una mega live, perché bisognerebbe parlarne seriamente.
+
+**Tu cosa ne pensi? Scrivimi la tua opinione**, sono davvero curioso di sapere dove ti posizioni su questo tema.
+    `
+  },
+  {
     id: "se-piaci-a-tutti-non-stai-dicendo-niente-di-interessante",
     slug: "se-piaci-a-tutti-non-stai-dicendo-niente-di-interessante",
     title: "Se piaci a tutti, non stai dicendo niente di interessante",
