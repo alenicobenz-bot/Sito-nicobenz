@@ -2,37 +2,51 @@
 <!--
   AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
   This file is regenerated at every build by scripts/generate-sitemap.js
-  Generated on: 2026-08-04T08:49:02.514Z
-  Total URLs: 22
+  Generated on: 2026-10-05T16:21:06.329Z
+  Total URLs: 24
 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
     <loc>https://www.nicobenz.it/</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://www.nicobenz.it/prenota</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
 
   <url>
     <loc>https://www.nicobenz.it/blog</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://www.nicobenz.it/un-video-al-giorno</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.nicobenz.it/contatti</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.nicobenz.it/trasparenza-ai</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
 
   <url>
