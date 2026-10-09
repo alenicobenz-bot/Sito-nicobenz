@@ -1,6 +1,15 @@
 // Episodi podcast Spotify pubblicati. Aggiornato automaticamente da Mappa Madre.
 export const PODCASTS = [
   {
+    id: "b5e179a5-db1c-44ef-946d-8854320d7c64",
+    slug: "intervista-a-pigmento",
+    title: "Intervista a Pigmento",
+    spotifyUrl: "https://open.spotify.com/episode/1P8lCj9pk6vQ4jZ8VxiUBn?si=6b1303a2571f4073",
+    episodeId: "1P8lCj9pk6vQ4jZ8VxiUBn",
+    cover: "https://mappa-madre.emergent.host/api/static/social/b5e179a5-db1c-44ef-946d-8854320d7c64.jpg",
+    date: "2026-10-09",
+  },
+  {
     id: "c1c90b44-8eeb-406d-a0e2-097eef0669be",
     slug: "intervista-ad-elisa-polverini",
     title: "Intervista ad Elisa Polverini",
