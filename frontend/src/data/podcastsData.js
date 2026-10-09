@@ -1,6 +1,15 @@
 // Episodi podcast Spotify pubblicati. Aggiornato automaticamente da Mappa Madre.
 export const PODCASTS = [
   {
+    id: "c1c90b44-8eeb-406d-a0e2-097eef0669be",
+    slug: "intervista-ad-elisa-polverini",
+    title: "Intervista ad Elisa Polverini",
+    spotifyUrl: "https://open.spotify.com/episode/1TQ7K7l2CvhPZJfEl4gAWw?si=c69b9c11e2844918",
+    episodeId: "1TQ7K7l2CvhPZJfEl4gAWw",
+    cover: "https://mappa-madre.emergent.host/api/static/social/c1c90b44-8eeb-406d-a0e2-097eef0669be.jpg",
+    date: "2026-10-09",
+  },
+  {
     id: "1bd986e6-49d4-4eb7-977b-aaeb6310bab1",
     slug: "intervista-al-baffo-d-oro",
     title: "Intervista al baffo d'oro",
