@@ -1,6 +1,15 @@
 // Episodi podcast Spotify pubblicati. Aggiornato automaticamente da Mappa Madre.
 export const PODCASTS = [
   {
+    id: "d6cca1af-898a-4ce4-ab6b-ecd472265533",
+    slug: "intervista-a-fabiola-di-inprimopiano",
+    title: "Intervista a Fabiola di inPrimoPiano",
+    spotifyUrl: "https://open.spotify.com/episode/0XhIZ3RaMqRa7Ep9Z1DSJq?si=51688c1fcceb4aa0",
+    episodeId: "0XhIZ3RaMqRa7Ep9Z1DSJq",
+    cover: "https://mappa-madre.emergent.host/api/static/social/d6cca1af-898a-4ce4-ab6b-ecd472265533.jpg",
+    date: "2026-10-09",
+  },
+  {
     id: "b5e179a5-db1c-44ef-946d-8854320d7c64",
     slug: "intervista-a-pigmento",
     title: "Intervista a Pigmento",
