@@ -1,6 +1,15 @@
 // Interviste pubblicate su YouTube. Aggiornato automaticamente da Mappa Madre.
 export const INTERVIEWS = [
   {
+    id: "2ecb86d7-6f8f-422d-92c1-f72bf7802ac3",
+    slug: "intervista-a-fabiola-di-inprimopiano",
+    title: ">Intervista a Fabiola di inPrimoPiano",
+    youtubeUrl: "https://www.youtube.com/watch?v=YuOHpBzlG7E",
+    videoId: "YuOHpBzlG7E",
+    thumbnail: "https://img.youtube.com/vi/YuOHpBzlG7E/hqdefault.jpg",
+    date: "2026-10-09",
+  },
+  {
     id: "948799b8-fa50-41fa-b351-d64c8f62bd33",
     slug: "intervista-a-pigmento",
     title: "Intervista a PIGMENTO",
