@@ -1,6 +1,15 @@
 // Episodi podcast Spotify pubblicati. Aggiornato automaticamente da Mappa Madre.
 export const PODCASTS = [
   {
+    id: "8da500ef-c2bd-4440-9964-b65964f2f6d9",
+    slug: "heaters-e-attacchi-social",
+    title: "Heaters e attacchi social",
+    spotifyUrl: "https://open.spotify.com/episode/1otBNMm2aCwxy7qmkj8iau?si=f2b3e91ea7be41e2",
+    episodeId: "1otBNMm2aCwxy7qmkj8iau",
+    cover: "https://mappa-madre.emergent.host/api/static/social/8da500ef-c2bd-4440-9964-b65964f2f6d9.jpg",
+    date: "2026-10-09",
+  },
+  {
     id: "d6cca1af-898a-4ce4-ab6b-ecd472265533",
     slug: "intervista-a-fabiola-di-inprimopiano",
     title: "Intervista a Fabiola di inPrimoPiano",
