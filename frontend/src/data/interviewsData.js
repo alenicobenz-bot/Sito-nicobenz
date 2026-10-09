@@ -1,6 +1,15 @@
 // Interviste pubblicate su YouTube. Aggiornato automaticamente da Mappa Madre.
 export const INTERVIEWS = [
   {
+    id: "a92fde27-04e1-4efd-9bcf-5665aade7d3d",
+    slug: "gli-strumenti-ai-gratuiti-per-i-parrucchieri",
+    title: "Gli strumenti AI gratuiti per i Parrucchieri",
+    youtubeUrl: "https://www.youtube.com/watch?v=zWzDld1lARg",
+    videoId: "zWzDld1lARg",
+    thumbnail: "https://img.youtube.com/vi/zWzDld1lARg/hqdefault.jpg",
+    date: "2026-10-09",
+  },
+  {
     id: "068b2bde-f7b7-47a2-8469-a549ca4a1145",
     slug: "intervista-ad-elisa-polverini",
     title: "Intervista ad Elisa Polverini",
