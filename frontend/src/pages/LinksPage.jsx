@@ -79,6 +79,17 @@ export default function LinksPage() {
           </p>
         </header>
 
+        <section className="mb-8">
+          <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-white/40 mb-3">
+            CANALI E SERVIZI
+          </div>
+          <div className="space-y-2">
+            {LINKS_DATA.map((l, i) => (
+              <LinkRow key={i} href={l.url} label={l.label} icon={l.icon} external={l.external} />
+            ))}
+          </div>
+        </section>
+
         {recentPodcasts.length > 0 && (
           <section className="mb-8">
             <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-white/40 mb-3">
@@ -151,17 +162,6 @@ export default function LinksPage() {
             </div>
           </section>
         )}
-
-        <section>
-          <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-white/40 mb-3">
-            CANALI E SERVIZI
-          </div>
-          <div className="space-y-2">
-            {LINKS_DATA.map((l, i) => (
-              <LinkRow key={i} href={l.url} label={l.label} icon={l.icon} external={l.external} />
-            ))}
-          </div>
-        </section>
 
         <footer className="mt-12 pt-6 border-t border-white/10 text-center">
           <a href="https://www.nicobenz.it" className="font-mono text-[10px] uppercase tracking-[0.3em] text-white/40 hover:text-[#ECA72C] transition-colors">
