@@ -1,6 +1,15 @@
 // Episodi podcast Spotify pubblicati. Aggiornato automaticamente da Mappa Madre.
 export const PODCASTS = [
   {
+    id: "968e3132-8789-4080-bce6-b700f78f59f9",
+    slug: "intervista-a-massimo-desiderio",
+    title: "Intervista a Massimo Desiderio",
+    spotifyUrl: "https://open.spotify.com/episode/5RHaddeAtnxIhV1dWuTbWo?si=22dc5c651fd3494c",
+    episodeId: "5RHaddeAtnxIhV1dWuTbWo",
+    cover: "https://mappa-madre.emergent.host/api/static/social/968e3132-8789-4080-bce6-b700f78f59f9.jpg",
+    date: "2026-10-09",
+  },
+  {
     id: "8da500ef-c2bd-4440-9964-b65964f2f6d9",
     slug: "heaters-e-attacchi-social",
     title: "Heaters e attacchi social",
