@@ -1,6 +1,15 @@
 // Interviste pubblicate su YouTube. Aggiornato automaticamente da Mappa Madre.
 export const INTERVIEWS = [
   {
+    id: "948799b8-fa50-41fa-b351-d64c8f62bd33",
+    slug: "intervista-a-pigmento",
+    title: "Intervista a PIGMENTO",
+    youtubeUrl: "https://www.youtube.com/live/P4r20YLSdYs?si=t8HP4UBSHyGKlmga",
+    videoId: "P4r20YLSdYs",
+    thumbnail: "https://img.youtube.com/vi/P4r20YLSdYs/hqdefault.jpg",
+    date: "2026-10-09",
+  },
+  {
     id: "a92fde27-04e1-4efd-9bcf-5665aade7d3d",
     slug: "gli-strumenti-ai-gratuiti-per-i-parrucchieri",
     title: "Gli strumenti AI gratuiti per i Parrucchieri",
