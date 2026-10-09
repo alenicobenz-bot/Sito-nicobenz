@@ -1,6 +1,15 @@
 // Interviste pubblicate su YouTube. Aggiornato automaticamente da Mappa Madre.
 export const INTERVIEWS = [
   {
+    id: "d77300b8-8c1a-49a7-b5ed-2963cf6a7538",
+    slug: "intervista-a-massimo-desiderio-di-laboratorio-cosmetico",
+    title: "Intervista a Massimo Desiderio di Laboratorio Cosmetico",
+    youtubeUrl: "https://www.youtube.com/live/7xf_uLpqyv0?si=VvXaWbLvQSv-nru2",
+    videoId: "7xf_uLpqyv0",
+    thumbnail: "https://img.youtube.com/vi/7xf_uLpqyv0/hqdefault.jpg",
+    date: "2026-10-09",
+  },
+  {
     id: "2ecb86d7-6f8f-422d-92c1-f72bf7802ac3",
     slug: "intervista-a-fabiola-di-inprimopiano",
     title: ">Intervista a Fabiola di inPrimoPiano",
