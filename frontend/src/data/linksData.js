@@ -1,6 +1,12 @@
 // Lista link fissi della pagina /links. Aggiornato automaticamente da Mappa Madre.
 export const LINKS_DATA = [
   {
+    label: "Entra Gratis nel Portale AI per Parrucchieri",
+    url: "https://portale.marketingparrucchieri.info/gratis",
+    icon: "\ud83d\udd17",
+    external: true,
+  },
+  {
     label: "Portale Matketing Parrucchieri",
     url: "https://portale.marketingparrucchieri.info/",
     icon: "\ud83e\udd16",
