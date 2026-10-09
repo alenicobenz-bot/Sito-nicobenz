@@ -1,6 +1,15 @@
 // Interviste pubblicate su YouTube. Aggiornato automaticamente da Mappa Madre.
 export const INTERVIEWS = [
   {
+    id: "068b2bde-f7b7-47a2-8469-a549ca4a1145",
+    slug: "intervista-ad-elisa-polverini",
+    title: "Intervista ad Elisa Polverini",
+    youtubeUrl: "https://www.youtube.com/live/acPSURHZSm4?si=Pc0QWH0A3BFpWP49",
+    videoId: "acPSURHZSm4",
+    thumbnail: "https://img.youtube.com/vi/acPSURHZSm4/hqdefault.jpg",
+    date: "2026-10-09",
+  },
+  {
     id: "6fad6a4c-4b1b-4dfa-9c65-3157e603878d",
     slug: "intervista-al-baffo-d-oro",
     title: "Intervista al Baffo d'oro",
