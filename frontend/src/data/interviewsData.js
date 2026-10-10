@@ -1,6 +1,15 @@
 // Interviste pubblicate su YouTube. Aggiornato automaticamente da Mappa Madre.
 export const INTERVIEWS = [
   {
+    id: "d58d41c1-5cb9-4f2f-a634-84e59f6194da",
+    slug: "intervista-ad-ambrogio-vigliucci",
+    title: "Intervista ad Ambrogio Vigliucci",
+    youtubeUrl: "https://www.youtube.com/live/Vw-R-swgpPk?si=MdVKfVc5eJlxx7pS",
+    videoId: "Vw-R-swgpPk",
+    thumbnail: "https://img.youtube.com/vi/Vw-R-swgpPk/hqdefault.jpg",
+    date: "2026-10-10",
+  },
+  {
     id: "d77300b8-8c1a-49a7-b5ed-2963cf6a7538",
     slug: "intervista-a-massimo-desiderio-di-laboratorio-cosmetico",
     title: "Intervista a Massimo Desiderio di Laboratorio Cosmetico",
