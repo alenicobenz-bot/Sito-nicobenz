@@ -1,6 +1,15 @@
 // Episodi podcast Spotify pubblicati. Aggiornato automaticamente da Mappa Madre.
 export const PODCASTS = [
   {
+    id: "1e0ba5e0-a108-4be3-bea6-08ee1585fb07",
+    slug: "intervista-ad-ambrogio-vigliucci",
+    title: "Intervista ad Ambrogio Vigliucci",
+    spotifyUrl: "https://open.spotify.com/episode/5IGE6n3tUAwbLZOUkAfkPJ?si=319fa61be23545e9",
+    episodeId: "5IGE6n3tUAwbLZOUkAfkPJ",
+    cover: "https://www.nicobenz.it/social/1e0ba5e0-a108-4be3-bea6-08ee1585fb07.jpg",
+    date: "2026-10-12",
+  },
+  {
     id: "968e3132-8789-4080-bce6-b700f78f59f9",
     slug: "intervista-a-massimo-desiderio",
     title: "Intervista a Massimo Desiderio",
