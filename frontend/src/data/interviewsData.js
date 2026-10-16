@@ -1,6 +1,15 @@
 // Interviste pubblicate su YouTube. Aggiornato automaticamente da Mappa Madre.
 export const INTERVIEWS = [
   {
+    id: "f9edb669-9bf2-4046-ba95-191543c986e8",
+    slug: "l-ai-nel-beaity-con-memento",
+    title: "L'Ai nel Beaity con Memento",
+    youtubeUrl: "https://www.youtube.com/watch?v=rbTr5sg_uQw",
+    videoId: "rbTr5sg_uQw",
+    thumbnail: "https://img.youtube.com/vi/rbTr5sg_uQw/hqdefault.jpg",
+    date: "2026-10-16",
+  },
+  {
     id: "d58d41c1-5cb9-4f2f-a634-84e59f6194da",
     slug: "intervista-ad-ambrogio-vigliucci",
     title: "Intervista ad Ambrogio Vigliucci",
