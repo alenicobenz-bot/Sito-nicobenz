@@ -1,6 +1,15 @@
 // Episodi podcast Spotify pubblicati. Aggiornato automaticamente da Mappa Madre.
 export const PODCASTS = [
   {
+    id: "b2cc2799-6409-4278-89d6-552e6d093770",
+    slug: "ai-nel-beauty-con-memento",
+    title: "AI nel beauty con Memento",
+    spotifyUrl: "https://open.spotify.com/episode/0RpVcOyKqNjo9z5A62netV?si=7938c8acf6754173",
+    episodeId: "0RpVcOyKqNjo9z5A62netV",
+    cover: "https://www.nicobenz.it/social/b2cc2799-6409-4278-89d6-552e6d093770.jpg",
+    date: "2026-10-17",
+  },
+  {
     id: "1e0ba5e0-a108-4be3-bea6-08ee1585fb07",
     slug: "intervista-ad-ambrogio-vigliucci",
     title: "Intervista ad Ambrogio Vigliucci",
