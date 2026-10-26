@@ -3,6 +3,58 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "un-terzo-dei-saloni-chiudera-come-sopravvivere-alla-crisi",
+    slug: "un-terzo-dei-saloni-chiudera-come-sopravvivere-alla-crisi",
+    title: "Un terzo dei saloni chiuder\u00e0: come sopravvivere alla crisi",
+    excerpt: "Il mercato sta cambiando radicalmente. Solo chi fa tre cose insieme sopravviver\u00e0. Scopri quali sono e perch\u00e9 il 90% dei parrucchieri le ignora.",
+    category: "Strategia",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://www.nicobenz.it/social/55da529a-756e-473f-b453-8def8052f082.jpg",
+    content: `
+## Il mercato beauty sta per cambiare radicalmente
+
+Dovrei andare dal parrucchiere, ma mi fermo sempre a pensare: in quale salone vado? Non è una domanda banale, perché le previsioni parlano chiaro: **nei prossimi 2-3 anni un terzo dei saloni chiuderà**. E forse un altro terzo è a rischio serio.
+
+Perché sta succedendo questo? L'intelligenza artificiale sta rivoluzionando il mondo del lavoro, il ceto medio si sta impoverendo, i giovani clienti hanno aspettative completamente diverse e noi — diciamocelo — non li abbiamo capiti. In questi giorni ne vediamo le prove tutti i giorni.
+
+## Chi sopravviverà?
+
+La risposta è chiara. Sopravviveranno tre categorie:
+
+- **Gli specialisti** — quelli che sanno fare una cosa meglio di chiunque altro
+- **Chi punta al segmento medio-alto** — perché il prezzo basso non è più sostenibile
+- **Chi è conosciuto sui social** — perché è lì che i clienti ti cercano
+
+E attenzione: **queste tre cose dovrebbero coincidere tutte insieme**. Non una o due. Tutte e tre.
+
+Il problema? Il 90% dei parrucchieri non fa queste tre cose insieme. A volte non ne fa nemmeno una. Ed è una questione di testa, di psicologia, di mentalità.
+
+## L'unico PLUS in mezzo ai MENO
+
+Pensaci: la tua lista mentale quotidiana è fatta di sottrazione.
+
+- Meno affitto
+- Meno collaboratori
+- Meno tasse
+- Meno bollette
+- Meno commercialista
+- Meno prodotti
+
+In mezzo a tutti questi MENO, **c'è un solo PLUS: i video, i social**. Eppure non lo consideriamo come la cosa fondamentale.
+
+Io invece mi alzo la mattina e quello è il mio unico dubbio, il mio unico pensiero, la mia unica ossessione. Chi lo fa davvero — con costanza, strategia, autenticità — diventa riconoscibile, memorabile, scelto.
+
+## La mia domanda per te
+
+Ti lascio questa riflessione. Voglio sentire la tua opinione qui sotto. Puoi anche dirmi che sono un cazzaro, un fuffaguru del cazzo, non mi offendo. Oppure ammetti: "Cazzo è vero, porca troia".
+
+Qualunque sia la tua risposta, scrivimela. E poi chiediti: **che si fa?**
+
+Perché il momento di agire è adesso, non tra due anni quando sarà troppo tardi.
+    `
+  },
+  {
     id: "parrucchieri-che-criticano-colleghi-dove-sta-il-limite",
     slug: "parrucchieri-che-criticano-colleghi-dove-sta-il-limite",
     title: "Parrucchieri che criticano colleghi: dove sta il limite?",
