@@ -3,6 +3,53 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "in-quale-terzo-stai-futuro-saloni-beauty-italia",
+    slug: "in-quale-terzo-stai-futuro-saloni-beauty-italia",
+    title: "In quale terzo stai? Il futuro dei saloni beauty in Italia",
+    excerpt: "Un terzo chiuder\u00e0, un terzo vivr\u00e0 sicuro, un terzo dipende da te. Dove ti posizioni e quale strada scegli per il tuo salone?",
+    category: "Strategia",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://www.nicobenz.it/social/8eb43311-5146-432e-b255-885fe190d462.jpg",
+    content: `
+## Un terzo dei saloni chiuderà
+
+Ho pubblicato un po' di contenuti su questo tema e, come prevedibile, è scoppiato il caos nei commenti. C'è chi mi dà del fuffaguru, chi dice che moriremo tutti, collaboratori che si lamentano degli stipendi, imprenditori che urlano contro le tasse. Un disastro totale.
+
+Ma la realtà è questa: nei prossimi due o tre anni, un terzo dei saloni chiuderà. Un altro terzo vivrà sicuro. E c'è un terzo nel mezzo che... dipende.
+
+## Chi sopravviverà sicuro?
+
+Il terzo che vivrà tranquillo ha tre caratteristiche chiare:
+
+- **Saloni specializzati** in un servizio o una nicchia precisa
+- **Posizionamento fascia medio-alta** con clientela disposta a pagare il giusto valore
+- **Presenza online forte** con riconoscibilità e autorevolezza digitale
+
+Questi tre elementi, meglio se combinati insieme, sono la tua polizza assicurativa.
+
+## Chi chiuderà?
+
+Il terzo destinato a chiudere sono quei saloni che perderanno clienti perché il ceto medio si sta spostando verso il ceto povero. L'intelligenza artificiale porterà via lavoro a tante persone. Molti non riusciranno a reinventarsi, anche se le opportunità ci sono.
+
+Aggiungi la questione collaboratori introvabili e imprenditori che pagano il 70% di tasse e non ce la fanno più. È una tempesta perfetta.
+
+## Il terzo che dipende da te
+
+Poi c'è quel secondo terzo, quello nel mezzo. Quello che potrebbe anche chiudere **se** non decide di cambiare rotta. Se invece sceglie di diventare specialistico, di puntare a un pubblico ceto medio-alto, di costruire una presenza online forte — o magari tutte e tre le cose insieme — allora può scalare verso l'alto.
+
+Lo so, è un casino. Lo so che non è facile. Ma una strada va presa.
+
+## Dove stai tu?
+
+Questa è la domanda vera: in quale terzo ti trovi oggi? E soprattutto, **cosa vuoi fare** per mantenere la tua posizione, per scalare verso l'alto o... ti arrendi e finisci nel primo terzo?
+
+Non ditemi "chiudo" perché quello è già il destino del primo terzo. Voglio sentire qual è la **tua** strategia, la **tua** scelta.
+
+Scrivimi nei commenti o sui social: dove ti posizioni e quale strada hai deciso di prendere?
+    `
+  },
+  {
     id: "un-terzo-dei-saloni-chiudera-come-sopravvivere-alla-crisi",
     slug: "un-terzo-dei-saloni-chiudera-come-sopravvivere-alla-crisi",
     title: "Un terzo dei saloni chiuder\u00e0: come sopravvivere alla crisi",
