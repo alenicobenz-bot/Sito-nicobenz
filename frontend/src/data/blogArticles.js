@@ -3,6 +3,59 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "agenti-social-intelligenza-artificiale-salone",
+    slug: "agenti-social-intelligenza-artificiale-salone",
+    title: "Gli agenti social che lavorano 24/7 per il tuo salone",
+    excerpt: "Immagina un collaboratore che risponde ai commenti e messaggi per te, 24 ore su 24, senza dimenticare mai nulla. Ecco come funzionano gli agenti AI.",
+    category: "Social",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://www.nicobenz.it/social/b4fca204-1a83-436c-a143-e58c4db749af.jpg",
+    content: `
+## Il collaboratore che non dorme mai
+
+Quanti commenti e messaggi privati ricevi ogni giorno su Instagram, TikTok, Facebook?
+
+Due, tre, cinque, dieci, venti... E quante volte ti dimentichi di rispondere? Lo so, succede a tutti. Tra un cliente e l'altro, tra un servizio e una pausa, quei messaggi finiscono in fondo alla lista.
+
+È arrivato il momento di cominciare a usare gli **agenti social** in salone.
+
+## Cosa sono gli agenti social
+
+Sono collaboratori digitali che lavorano 7 giorni su 7, 24 ore su 24. Fanno compiti che oggi fai tu o fanno i tuoi collaboratori — ma senza pause, senza dimenticanze, senza stress.
+
+Ti faccio un esempio pratico che cambierà la tua gestione dei social.
+
+## Come funziona nella pratica
+
+Immagina di attivare un agente che:
+
+- **Legge** tutti i commenti e messaggi privati che ricevi durante il giorno
+- **Prepara** le risposte più adatte per ognuno
+- **Ordina** tutto per importanza (cliente che vuole prenotare? In cima)
+- **Ti presenta** il resoconto una volta al giorno, magari la sera prima di chiudere
+
+Ti dice: "Guarda, questi sono i messaggi e commenti che hai ricevuto. A questi darei una risposta. Ho pensato che questa è quella giusta. Dimmi cosa confermo, cosa non faccio o cosa posso cambiare."
+
+Tu gli dai il feedback. Lui **impara** da quello che gli hai detto.
+
+Il giorno dopo lo farà di nuovo, ma con le indicazioni che hai dato il giorno prima. E così via, migliorando sempre.
+
+## Il vantaggio reale
+
+Praticamente ti sei tolta un lavoro che facevi tu o che delegavi a una collaboratrice. E lo hai dato a qualcuno che:
+
+- Non si dimentica mai
+- Non va in ferie
+- Lavora ininterrottamente
+- Impara dal tuo stile di comunicazione
+
+Questi sono i modi concreti di utilizzare l'intelligenza artificiale in salone. Non roba da fantascienza — strumenti che puoi attivare oggi.
+
+Vuoi scoprire altri esempi di agenti AI che possono lavorare per te? Continua a seguirmi, nei prossimi video ti mostro altri casi pratici che puoi implementare subito.
+    `
+  },
+  {
     id: "in-quale-terzo-stai-futuro-saloni-beauty-italia",
     slug: "in-quale-terzo-stai-futuro-saloni-beauty-italia",
     title: "In quale terzo stai? Il futuro dei saloni beauty in Italia",
