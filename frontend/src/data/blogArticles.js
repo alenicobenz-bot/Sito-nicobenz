@@ -3,6 +3,46 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "ai-lavora-per-te-mentre-chiudi-salone",
+    slug: "ai-lavora-per-te-mentre-chiudi-salone",
+    title: "L'AI pu\u00f2 lavorare per te mentre chiudi il salone",
+    excerpt: "L'intelligenza artificiale ti restituisce il tempo che ti manca. Ecco come uso l'AI ogni giorno per gestire il mio lavoro.",
+    category: "Strategia",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://www.nicobenz.it/social/36ca94c1-69fd-4ef8-985e-41983cfdbb40.jpg",
+    content: `
+## E se l'AI lavorasse per te mentre chiudi?
+
+Mentre tu la sera abbassi la serranda, l'intelligenza artificiale può continuare a lavorare per te. E no, non sto parlando di robot che spazzano il salone.
+
+Io ogni giorno uso l'AI e gli agenti automatizzati per:
+
+- Montare video
+- Gestire le risposte ai messaggi
+- Controllare le statistiche
+- Ricontattare clienti che non tornano da tempo
+- Richiamare chi dovrebbe prenotare di nuovo
+
+Tutto automatizzato. E sai qual è il risultato? **Tempo libero**. Quella risorsa che manca sempre a noi parrucchieri ed estetiste.
+
+## Il tempo è la vera ricchezza
+
+Non è questione di fare più cose. È questione di fare le cose giuste senza bruciarti. L'AI non sostituisce il tuo lavoro, lo potenzia. Ti toglie le task ripetitive e ti lascia energia per quello che conta davvero: stare con i clienti, creare, crescere.
+
+Per questo offro una **consulenza gratuita ai titolari di salone**. Guardiamo insieme:
+
+- Come comunichi oggi
+- Se hai una specializzazione chiara
+- Se sei percepito come unico nel tuo mercato
+- Come l'intelligenza artificiale può aiutarti concretamente
+
+Niente teoria astratta. Solo strategie pratiche per guadagnare tempo e lavorare meglio.
+
+**Scrivimi in direct o clicca il link qui sotto.** Parliamone insieme.
+    `
+  },
+  {
     id: "agenti-social-intelligenza-artificiale-salone",
     slug: "agenti-social-intelligenza-artificiale-salone",
     title: "Gli agenti social che lavorano 24/7 per il tuo salone",
