@@ -2,28 +2,20 @@
  * generate-sitemap.js
  *
  * Genera automaticamente /public/sitemap.xml ad ogni build (yarn build).
- * - URL statici: homepage, /prenota, /blog, /un-video-al-giorno
- * - URL dinamici: tutti gli articoli del blog letti da src/data/blogArticles.js
+ * Le URL statiche arrivano da src/seo/pageMeta.json (le stesse usate
+ * per le HTML). Gli articoli arrivano da src/data/blogArticles.js.
  *
- * Per aggiungere un nuovo articolo basta aggiungerlo in blogArticles.js
- * → al prossimo deploy la sitemap si aggiorna da sola.
+ * Per aggiungere un nuovo articolo basta aggiungerlo in blogArticles.js:
+ * al prossimo deploy la sitemap e la HTML dell'articolo si aggiornano da sole.
  */
 
 const fs = require("fs");
 const path = require("path");
-const { SITE_URL, loadBlogArticles } = require("./site-routes");
+const { loadBlogArticles } = require("./load-blog-articles");
+const { pageMeta, sitemapStaticPages } = require("./seo-pages");
 
+const SITE_URL = pageMeta.siteUrl;
 const OUT_FILE = path.join(__dirname, "..", "public", "sitemap.xml");
-
-// URL statici (sempre presenti)
-const STATIC_URLS = [
-  { loc: "/", changefreq: "weekly", priority: "1.0" },
-  { loc: "/prenota", changefreq: "weekly", priority: "0.95" },
-  { loc: "/blog", changefreq: "weekly", priority: "0.9" },
-  { loc: "/un-video-al-giorno", changefreq: "monthly", priority: "0.8" },
-  { loc: "/contatti", changefreq: "monthly", priority: "0.6" },
-  { loc: "/trasparenza-ai", changefreq: "yearly", priority: "0.4" },
-];
 
 function todayISO() {
   return new Date().toISOString().slice(0, 10);
@@ -48,17 +40,23 @@ function buildUrlBlock({ loc, lastmod, changefreq, priority }) {
 }
 
 function main() {
+  const staticPages = sitemapStaticPages();
   const articles = loadBlogArticles();
-
   const today = todayISO();
-  const staticBlocks = STATIC_URLS.map((u) =>
-    buildUrlBlock({ ...u, lastmod: today })
+
+  const staticBlocks = staticPages.map((page) =>
+    buildUrlBlock({
+      loc: page.path,
+      lastmod: today,
+      changefreq: page.sitemap.changefreq,
+      priority: page.sitemap.priority,
+    })
   );
 
-  const articleBlocks = articles.map((a) =>
+  const articleBlocks = articles.map((article) =>
     buildUrlBlock({
-      loc: `/blog/${a.slug}`,
-      lastmod: dateToISO(a.date),
+      loc: `/blog/${article.slug}`,
+      lastmod: dateToISO(article.date),
       changefreq: "monthly",
       priority: "0.75",
     })
@@ -69,7 +67,7 @@ function main() {
   AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
   This file is regenerated at every build by scripts/generate-sitemap.js
   Generated on: ${new Date().toISOString()}
-  Total URLs: ${STATIC_URLS.length + articles.length}
+  Total URLs: ${staticPages.length + articles.length}
 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
@@ -83,8 +81,8 @@ ${articleBlocks.join("\n\n")}
   fs.writeFileSync(OUT_FILE, xml, "utf8");
   console.log(
     `[sitemap] Generated ${OUT_FILE} with ${
-      STATIC_URLS.length + articles.length
-    } URLs (${STATIC_URLS.length} static + ${articles.length} blog articles).`
+      staticPages.length + articles.length
+    } URLs (${staticPages.length} static + ${articles.length} blog articles).`
   );
 }
 

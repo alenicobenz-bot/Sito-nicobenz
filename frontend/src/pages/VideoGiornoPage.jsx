@@ -3,16 +3,12 @@ import { Link, useNavigate } from "react-router-dom";
 import { Check, Home } from "lucide-react";
 import { AiTransparencyNote } from "../components/AiTransparency";
 import { useSeo } from "../hooks/useSeo";
+import seo from "../seo/pageMeta.json";
 
 const VideoGiornoPage = () => {
   const navigate = useNavigate();
 
-  useSeo({
-    title: "Un video al giorno per parrucchieri — Idee reel gratis | Nicobenz",
-    description: "Ricevi ogni giorno via email un'idea video pronta per Instagram e TikTok. Hook, scaletta e caption pensate per parrucchieri. Gratis.",
-    canonical: "https://www.nicobenz.it/un-video-al-giorno",
-    ogType: "website",
-  });
+  useSeo(seo.pages["un-video-al-giorno"]);
 
   // Scroll to top quando la pagina si carica
   useEffect(() => {

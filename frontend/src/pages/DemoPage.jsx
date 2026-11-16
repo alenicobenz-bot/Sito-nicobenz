@@ -1,8 +1,11 @@
 import React from "react";
 import Header from "../components/Header";
 import SocialProofBadges from "../components/SocialProofBadges";
+import { useSeo } from "../hooks/useSeo";
+import seo from "../seo/pageMeta.json";
 
 const DemoPage = () => {
+  useSeo(seo.pages.demo);
   return (
     <div className="relative bg-[var(--nb-bg)] text-[var(--nb-ivory)] min-h-screen">
       <Header />

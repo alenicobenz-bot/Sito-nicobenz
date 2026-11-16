@@ -1,5 +1,6 @@
 import React from "react";
 import { useSeo } from "../hooks/useSeo";
+import seo from "../seo/pageMeta.json";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Problem from "../components/Problem";
@@ -16,12 +17,7 @@ import BookingCTA from "../components/BookingCTA";
 import Footer from "../components/Footer";
 
 const HomePage = () => {
-  useSeo({
-    title: "Nicobenz — Beauty Social Coach per Parrucchieri | Marketing Digitale per Saloni",
-    description: "Il primo beauty social coach italiano. Trasforma il tuo salone in un brand che le persone scelgono, seguono e ricordano.",
-    canonical: "https://www.nicobenz.it/",
-    ogType: "website",
-  });
+  useSeo(seo.pages.home);
 
   return (
     <main className="relative bg-[var(--nb-bg)] text-[var(--nb-ivory)]">

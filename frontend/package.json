@@ -63,7 +63,8 @@
     "postbuild": "node scripts/generate-static-pages.js",
     "start": "craco start",
     "build": "craco build",
-    "test": "craco test"
+    "test": "craco test",
+    "check:static-html": "node --test scripts/generate-static-pages.check.js"
   },
   "browserslist": {
     "production": [
