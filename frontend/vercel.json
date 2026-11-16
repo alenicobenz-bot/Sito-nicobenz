@@ -55,6 +55,22 @@
   ],
   "routes": [
     {
+      "src": "/(.*)",
+      "headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Content-Security-Policy": "frame-ancestors *",
+        "X-XSS-Protection": "1; mode=block"
+      },
+      "continue": true
+    },
+    {
+      "src": "/static/(.*)",
+      "headers": {
+        "Cache-Control": "public, max-age=31536000, immutable"
+      },
+      "continue": true
+    },
+    {
       "src": "^/$",
       "has": [{ "type": "host", "value": "^nicobenz\\.it$" }],
       "status": 308,
