@@ -76,7 +76,7 @@ const ContattiPage = () => {
 
   const companyInfo = [
     { icon: Building2, label: "Ragione sociale", value: "Marketing Parrucchieri S.r.l." },
-    { icon: MapPin, label: "Sede legale", value: "Via Prestinari 4, 20080 Besate (MI) — Italia" },
+    { icon: MapPin, label: "Sede legale", value: "Via G. Verdi 10, 27022 Casorate Primo (PV) — Italia" },
     { icon: FileText, label: "Partita IVA / Codice Fiscale", value: "IT 11579150969" },
   ];
 

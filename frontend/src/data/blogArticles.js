@@ -1236,7 +1236,7 @@ Prova questa settimana con un paio di clienti e dimmi com'è andata. Vedrai che 
     category: "Mindset",
     date: "2026",
     readTime: "2 min",
-    image: "https://mappa-madre.emergent.host/api/static/social/f4e26b57-1c4f-42b2-880f-4d99820b5ae6.jpg",
+    image: "/blog-covers/il-momento-in-cui-smetti-di-pensare-che-i-social-siano-un-gioco.jpg",
     content: `
 **Scusi, lei non è quello dei video sui capelli ricci?**
 
@@ -1272,7 +1272,7 @@ Chi arriva a questo punto non torna quasi mai indietro, perché ha visto concret
 
 E il valore, una volta visto e toccato con mano, non si abbandona facilmente.
 
-**Questo passaggio l'hai già fatto? O sei ancora in quella fase in cui pubblichi "quando capita"? Scrivimelo, sono curiosa di sapere a che punto sei del percorso.**
+**Questo passaggio l'hai già fatto? O sei ancora in quella fase in cui pubblichi "quando capita"? Scrivimelo, sono curioso di sapere a che punto sei del percorso.**
     `
   },
   {
@@ -1283,7 +1283,7 @@ E il valore, una volta visto e toccato con mano, non si abbandona facilmente.
     category: "Marketing",
     date: "2026",
     readTime: "2 min",
-    image: "https://mappa-madre.emergent.host/api/static/social/8442e844-9769-4ddc-9dc0-8f5aa8d5fab1.jpg",
+    image: "/blog-covers/perche-ai-non-funziona-ti-manca-solo-questo.jpg",
     content: `
 ## "Ma a me non funziona"
 

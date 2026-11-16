@@ -3,7 +3,7 @@ export const INTERVIEWS = [
   {
     id: "f9edb669-9bf2-4046-ba95-191543c986e8",
     slug: "l-ai-nel-beaity-con-memento",
-    title: "L'Ai nel Beaity con Memento",
+    title: "AI nel Beauty, con Memento",
     youtubeUrl: "https://www.youtube.com/watch?v=rbTr5sg_uQw",
     videoId: "rbTr5sg_uQw",
     thumbnail: "https://img.youtube.com/vi/rbTr5sg_uQw/hqdefault.jpg",
@@ -30,7 +30,7 @@ export const INTERVIEWS = [
   {
     id: "2ecb86d7-6f8f-422d-92c1-f72bf7802ac3",
     slug: "intervista-a-fabiola-di-inprimopiano",
-    title: ">Intervista a Fabiola di inPrimoPiano",
+    title: "Intervista a Fabiola di inPrimoPiano",
     youtubeUrl: "https://www.youtube.com/watch?v=YuOHpBzlG7E",
     videoId: "YuOHpBzlG7E",
     thumbnail: "https://img.youtube.com/vi/YuOHpBzlG7E/hqdefault.jpg",

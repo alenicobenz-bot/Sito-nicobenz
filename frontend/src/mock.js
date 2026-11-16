@@ -338,7 +338,6 @@ export const FAQS = [
 
 export const FOOTER_LINKS = [
 { label: "Metodo", href: "#metodo" },
-{ label: "Case study", href: "#case-study" },
 { label: "Libro", href: "#libro" },
 { label: "Podcast", href: "#podcast" },
 { label: "Journal", href: "#journal" },

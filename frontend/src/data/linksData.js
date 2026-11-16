@@ -7,7 +7,7 @@ export const LINKS_DATA = [
     external: true,
   },
   {
-    label: "Portale Matketing Parrucchieri",
+    label: "Portale Marketing Parrucchieri",
     url: "https://portale.marketingparrucchieri.info/",
     icon: "\ud83e\udd16",
     external: true,
