@@ -14,9 +14,9 @@
  * ci sono iubenda e PostHog, che in un browser headless spesso
  * vanno in timeout.
  *
- * vercel.json (arrivato con le immagini e i 404) tiene i redirect
- * e, dopo i file veri, risponde 404. Non va rimesso un rewrite che
- * manda tutto a index.html.
+ * vercel.json tiene i redirect del sito e, dopo i file veri, risponde 404.
+ * Non va rimesso un rewrite che manda tutto a index.html, e non va
+ * riscritto quel file di rotte: cancellerebbe i redirect.
  */
 
 const fs = require("fs");
@@ -113,11 +113,11 @@ function injectIntro(html, h1, intro) {
     `<h1 style="font-size:40px;font-weight:400;line-height:1.1;margin:0 0 16px">${escapeHtml(h1)}</h1>` +
     `<p style="font-size:18px;line-height:1.6;max-width:40rem;margin:0;color:#D9D3C7">${escapeHtml(intro)}</p>` +
     `</main></div>`;
-  const pattern = /<div id="root">\s*<\/div>/;
-  if (!pattern.test(html)) {
-    throw new Error('Manca <div id="root"></div> vuoto in build/index.html');
-  }
-  return html.replace(pattern, block);
+  const empty = /<div id="root">\s*<\/div>/;
+  if (empty.test(html)) return html.replace(empty, block);
+  const already = /<div id="root"><main data-static-seo="true"[\s\S]*?<\/main><\/div>/;
+  if (already.test(html)) return html.replace(already, block);
+  throw new Error('Manca <div id="root"></div> vuoto in build/index.html');
 }
 
 function applySeo(templateHtml, page) {

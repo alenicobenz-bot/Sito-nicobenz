@@ -10,7 +10,12 @@ const path = require("path");
 const test = require("node:test");
 const { loadBlogArticles } = require("./load-blog-articles");
 const { allPages, allStaticPages, assertRoutesCoveredFromApp, sitemapStaticPages } = require("./seo-pages");
-const { applySeo, absoluteImage, outputFile, DEFAULT_OG_IMAGE } = require("./generate-static-pages");
+const {
+  applySeo,
+  absoluteImage,
+  outputFile,
+  DEFAULT_OG_IMAGE,
+} = require("./generate-static-pages");
 
 const FIXTURE = `<!doctype html>
 <html lang="it">
