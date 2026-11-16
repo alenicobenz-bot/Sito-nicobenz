@@ -12,6 +12,7 @@ import TrasparenzaAiPage from "./pages/TrasparenzaAiPage";
 import ContattiPage from "./pages/ContattiPage";
 import DemoPage from "./pages/DemoPage";
 import LinksPage from "./pages/LinksPage";
+import NotFoundPage from "./pages/NotFoundPage";
 import ScrollToTop from "./components/ScrollToTop";
 import WhatsAppButton from "./components/WhatsAppButton";
 import VideoGiornoPopup from "./components/VideoGiornoPopup";
@@ -33,6 +34,7 @@ function App() {
           <Route path="/links" element={<LinksPage />} />
           <Route path="/demo" element={<DemoPage />} />
           <Route path="/mockup-qualifier" element={<div className="bg-[var(--nb-bg)] min-h-screen"><QualifierMockup /></div>} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
         <ScrollToTop />
         <WhatsAppButton />

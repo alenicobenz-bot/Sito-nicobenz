@@ -11,9 +11,8 @@
 
 const fs = require("fs");
 const path = require("path");
+const { SITE_URL, loadBlogArticles } = require("./site-routes");
 
-const SITE_URL = "https://www.nicobenz.it";
-const BLOG_FILE = path.join(__dirname, "..", "src", "data", "blogArticles.js");
 const OUT_FILE = path.join(__dirname, "..", "public", "sitemap.xml");
 
 // URL statici (sempre presenti)
@@ -39,22 +38,6 @@ function dateToISO(d) {
   return todayISO();
 }
 
-function extractArticles(jsContent) {
-  // Parsing minimale via regex (robusto rispetto al contenuto Markdown delle articoli).
-  // Cerca tutti i blocchi `slug: "..."` seguiti più avanti da `date: "..."`.
-  const articles = [];
-  const slugRegex = /slug:\s*["'`]([^"'`]+)["'`]/g;
-  const dateRegex = /date:\s*["'`]([^"'`]+)["'`]/g;
-
-  const slugs = [...jsContent.matchAll(slugRegex)].map((m) => m[1]);
-  const dates = [...jsContent.matchAll(dateRegex)].map((m) => m[1]);
-
-  for (let i = 0; i < slugs.length; i++) {
-    articles.push({ slug: slugs[i], date: dates[i] || "" });
-  }
-  return articles;
-}
-
 function buildUrlBlock({ loc, lastmod, changefreq, priority }) {
   return `  <url>
     <loc>${SITE_URL}${loc}</loc>
@@ -65,13 +48,7 @@ function buildUrlBlock({ loc, lastmod, changefreq, priority }) {
 }
 
 function main() {
-  if (!fs.existsSync(BLOG_FILE)) {
-    console.error(`[sitemap] Blog file not found: ${BLOG_FILE}`);
-    process.exit(1);
-  }
-
-  const jsContent = fs.readFileSync(BLOG_FILE, "utf8");
-  const articles = extractArticles(jsContent);
+  const articles = loadBlogArticles();
 
   const today = todayISO();
   const staticBlocks = STATIC_URLS.map((u) =>
