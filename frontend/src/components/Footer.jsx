@@ -111,7 +111,7 @@ const Footer = () => {
 
         <div className="mt-14 pt-8 border-t border-[var(--nb-border)] flex flex-col gap-4">
           <p className="text-[12px] leading-[1.7] text-[var(--nb-ivory-dim)] max-w-[900px]">
-            <span className="text-[var(--nb-ivory)] font-medium">Marketing Parrucchieri S.r.l.</span> · Via Prestinari 4, 20080 Besate (MI) · P.IVA 11579150969
+            <span className="text-[var(--nb-ivory)] font-medium">Marketing Parrucchieri S.r.l.</span> · Via G. Verdi 10, 27022 Casorate Primo (PV) · P.IVA 11579150969
           </p>
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 pt-2">
             <p className="text-[11px] tracking-micro uppercase text-[var(--nb-muted)]">

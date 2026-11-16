@@ -3,7 +3,7 @@ import { Headphones, ExternalLink } from "lucide-react";
 
 const PodcastSection = () => {
   return (
-    <section className="relative py-24 md:py-36 bg-[var(--nb-bg)] border-t border-[var(--nb-border)]">
+    <section id="podcast" className="relative py-24 md:py-36 bg-[var(--nb-bg)] border-t border-[var(--nb-border)]">
       <div className="max-w-[1200px] mx-auto px-6 md:px-10">
         
         {/* Header */}
