@@ -3,7 +3,7 @@
   "outputDirectory": "build",
   "devCommand": "yarn start",
   "installCommand": "yarn install",
-  "framework": null,
+  "framework": "create-react-app",
   "redirects": [
     {
       "source": "/",
@@ -52,6 +52,10 @@
     { "source": "/_functions/:path*", "destination": "/", "permanent": true },
     { "source": "/_partials/:path*", "destination": "/", "permanent": true },
     { "source": "/1-video-al-giorno", "destination": "/un-video-al-giorno", "permanent": true }
+  ],
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "status": 404, "dest": "/404.html" }
   ],
   "headers": [
     {
