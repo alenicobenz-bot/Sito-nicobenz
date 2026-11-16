@@ -54,6 +54,38 @@
     { "source": "/1-video-al-giorno", "destination": "/un-video-al-giorno", "permanent": true }
   ],
   "routes": [
+    {
+      "src": "^/$",
+      "has": [{ "type": "host", "value": "^nicobenz\\.it$" }],
+      "status": 308,
+      "headers": { "Location": "https://www.nicobenz.it/" }
+    },
+    {
+      "src": "^/(.*)$",
+      "has": [{ "type": "host", "value": "^nicobenz\\.it$" }],
+      "status": 308,
+      "headers": { "Location": "https://www.nicobenz.it/$1" }
+    },
+    {
+      "src": "^/(post|single-post|blog-1|category|categories|tag|tags)(/.*)?$",
+      "status": 308,
+      "headers": { "Location": "/blog" }
+    },
+    {
+      "src": "^/blog-feed\\.xml$",
+      "status": 308,
+      "headers": { "Location": "/blog" }
+    },
+    {
+      "src": "^/(forum|group|groups|members|profile|author|wix|_functions|_partials)(/.*)?$",
+      "status": 308,
+      "headers": { "Location": "/" }
+    },
+    {
+      "src": "^/1-video-al-giorno/?$",
+      "status": 308,
+      "headers": { "Location": "/un-video-al-giorno" }
+    },
     { "handle": "filesystem" },
     { "src": "/(.*)", "status": 404, "dest": "/404.html" }
   ],
