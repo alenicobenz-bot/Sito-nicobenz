@@ -2,15 +2,11 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Home, Mail, MapPin, Building2, FileText, MessageCircle, Calendar, Instagram, Youtube, Facebook } from "lucide-react";
 import { useSeo } from "../hooks/useSeo";
+import seo from "../seo/pageMeta.json";
 import { BRAND } from "../mock";
 
 const ContattiPage = () => {
-  useSeo({
-    title: "Contatti — Nicobenz Beauty Social Coach | Marketing Parrucchieri S.r.l.",
-    description: "Contatta Nico Benz per una consulenza gratuita. Marketing Parrucchieri S.r.l., Casorate Primo (PV). Email, WhatsApp, calendario prenotazioni.",
-    canonical: "https://www.nicobenz.it/contatti",
-    ogType: "website",
-  });
+  useSeo(seo.pages.contatti);
 
   useEffect(() => {
     window.scrollTo(0, 0);

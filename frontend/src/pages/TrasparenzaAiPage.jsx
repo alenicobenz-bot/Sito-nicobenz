@@ -2,14 +2,10 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Home, Sparkles, ShieldCheck, Users, FileText, MessageCircle } from "lucide-react";
 import { useSeo } from "../hooks/useSeo";
+import seo from "../seo/pageMeta.json";
 
 const TrasparenzaAiPage = () => {
-  useSeo({
-    title: "Trasparenza AI — Come uso l'intelligenza artificiale | Nicobenz",
-    description: "La mia politica di trasparenza sull'uso dell'intelligenza artificiale nei contenuti pubblicati su nicobenz.it. Conforme al Regolamento UE 2024/1689 (AI Act).",
-    canonical: "https://www.nicobenz.it/trasparenza-ai",
-    ogType: "article",
-  });
+  useSeo(seo.pages["trasparenza-ai"]);
 
   useEffect(() => {
     window.scrollTo(0, 0);

@@ -1,15 +1,11 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useSeo } from "../hooks/useSeo";
+import seo from "../seo/pageMeta.json";
 import { Home, Calendar, Clock, Video } from "lucide-react";
 
 const PrenotaPage = () => {
-  useSeo({
-    title: "Prenota consulenza gratuita — Nicobenz Beauty Social Coach",
-    description: "Prenota la tua consulenza gratuita 1-a-1 di 30 minuti. Analizziamo il posizionamento del tuo salone e come far crescere il tuo personal brand.",
-    canonical: "https://www.nicobenz.it/prenota",
-    ogType: "website",
-  });
+  useSeo(seo.pages.prenota);
 
   // Scroll to top quando la pagina si carica
   useEffect(() => {

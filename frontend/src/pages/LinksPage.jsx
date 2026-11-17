@@ -1,6 +1,7 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import { useSeo } from "../hooks/useSeo";
+import seo from "../seo/pageMeta.json";
 import { LINKS_DATA } from "../data/linksData";
 import { BLOG_ARTICLES } from "../data/blogArticles";
 
@@ -52,16 +53,12 @@ function LinkRow({ href, label, icon, external, badge }) {
 }
 
 export default function LinksPage() {
+  useSeo(seo.pages.links);
   const recentArticles = (BLOG_ARTICLES || []).slice(0, 3);
   const recentInterviews = (INTERVIEWS || []).slice(0, 5);
   const recentPodcasts = (PODCASTS || []).slice(0, 5);
   return (
     <div className="min-h-screen bg-[#0A0A0A] text-white">
-      <Helmet>
-        <title>Nico Benz — Tutti i link</title>
-        <meta name="description" content="Tutti i link ufficiali di Nico Benz, Beauty Social Coach." />
-      </Helmet>
-
       <main className="mx-auto max-w-[560px] px-5 py-12 sm:py-16">
         <header className="flex flex-col items-center text-center mb-10">
           <img

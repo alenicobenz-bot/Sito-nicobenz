@@ -17,6 +17,17 @@ import ScrollToTop from "./components/ScrollToTop";
 import WhatsAppButton from "./components/WhatsAppButton";
 import VideoGiornoPopup from "./components/VideoGiornoPopup";
 import QualifierMockup from "./components/QualifierMockup";
+import { useSeo } from "./hooks/useSeo";
+import seo from "./seo/pageMeta.json";
+
+function MockupQualifierPage() {
+  useSeo(seo.pages["mockup-qualifier"]);
+  return (
+    <div className="bg-[var(--nb-bg)] min-h-screen">
+      <QualifierMockup />
+    </div>
+  );
+}
 
 function App() {
   return (
@@ -33,7 +44,7 @@ function App() {
           <Route path="/blog/:slug" element={<BlogArticlePage />} />
           <Route path="/links" element={<LinksPage />} />
           <Route path="/demo" element={<DemoPage />} />
-          <Route path="/mockup-qualifier" element={<div className="bg-[var(--nb-bg)] min-h-screen"><QualifierMockup /></div>} />
+          <Route path="/mockup-qualifier" element={<MockupQualifierPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
         <ScrollToTop />

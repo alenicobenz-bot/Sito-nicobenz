@@ -1,0 +1,117 @@
+{
+  "siteUrl": "https://www.nicobenz.it",
+  "defaultOgImage": "https://www.nicobenz.it/og-image.jpg",
+  "articleTitleSuffix": " — Nicobenz Blog",
+  "articleFallbackTitle": "Nicobenz Blog",
+  "pages": {
+    "home": {
+      "path": "/",
+      "title": "Nicobenz — Beauty Social Coach per Parrucchieri | Marketing Digitale per Saloni",
+      "description": "Il primo beauty social coach italiano. Trasforma il tuo salone in un brand che le persone scelgono, seguono e ricordano.",
+      "canonical": "https://www.nicobenz.it/",
+      "ogType": "website",
+      "ogImage": "https://www.nicobenz.it/og-image.jpg",
+      "h1": "Trasformo saloni di bellezza in personal brand che le persone scelgono, seguono e ricordano.",
+      "intro": "Strategia, personal branding e video marketing per parrucchieri e professionisti beauty che vogliono smettere di inseguire i clienti e iniziare ad attrarli. Noi facciamo il 95% del lavoro: tu ti concentri sulla poltrona.",
+      "sitemap": { "changefreq": "weekly", "priority": "1.0", "order": 1 }
+    },
+    "prenota": {
+      "path": "/prenota",
+      "title": "Prenota consulenza gratuita — Nicobenz Beauty Social Coach",
+      "description": "Prenota la tua consulenza gratuita 1-a-1 di 30 minuti. Analizziamo il posizionamento del tuo salone e come far crescere il tuo personal brand.",
+      "canonical": "https://www.nicobenz.it/prenota",
+      "ogType": "website",
+      "ogImage": "https://www.nicobenz.it/og-image.jpg",
+      "h1": "Prenota la tua consulenza gratuita",
+      "intro": "Call 1-a-1 di 30 minuti per analizzare il posizionamento del tuo salone e capire come far crescere il tuo personal brand.",
+      "sitemap": { "changefreq": "weekly", "priority": "0.95", "order": 2 }
+    },
+    "blog": {
+      "path": "/blog",
+      "title": "Blog — Nicobenz Beauty Social Coach",
+      "description": "Articoli su marketing, social media e personal branding per parrucchieri e professionisti beauty.",
+      "canonical": "https://www.nicobenz.it/blog",
+      "ogType": "website",
+      "ogImage": "https://www.nicobenz.it/og-image.jpg",
+      "h1": "Ultimi articoli.",
+      "intro": "Marketing, strategia e mindset per parrucchieri che vogliono crescere attraverso il personal brand e i social.",
+      "sitemap": { "changefreq": "weekly", "priority": "0.9", "order": 3 }
+    },
+    "un-video-al-giorno": {
+      "path": "/un-video-al-giorno",
+      "title": "Un video al giorno per parrucchieri — Idee reel gratis | Nicobenz",
+      "description": "Ricevi ogni giorno via email un'idea video pronta per Instagram e TikTok. Hook, scaletta e caption pensate per parrucchieri. Gratis.",
+      "canonical": "https://www.nicobenz.it/un-video-al-giorno",
+      "ogType": "website",
+      "ogImage": "https://www.nicobenz.it/og-image.jpg",
+      "h1": "Ogni giorno un'idea video pronta da pubblicare",
+      "intro": "Se ogni volta non sai cosa postare su Instagram o TikTok, qui trovi la soluzione: ricevi ogni giorno un'idea di reel semplice, concreta e pensata per attirare clienti.",
+      "sitemap": { "changefreq": "monthly", "priority": "0.8", "order": 4 }
+    },
+    "contatti": {
+      "path": "/contatti",
+      "title": "Contatti — Nicobenz Beauty Social Coach | Marketing Parrucchieri S.r.l.",
+      "description": "Contatta Nico Benz per una consulenza gratuita. Marketing Parrucchieri S.r.l., Casorate Primo (PV). Email, WhatsApp, calendario prenotazioni.",
+      "canonical": "https://www.nicobenz.it/contatti",
+      "ogType": "website",
+      "ogImage": "https://www.nicobenz.it/og-image.jpg",
+      "h1": "Scrivimi. Ti rispondo io.",
+      "intro": "Niente call center, niente assistenti. Se scrivi qui, la risposta la scrivo io o qualcuno del mio team ristretto — con nome, cognome e responsabilità.",
+      "sitemap": { "changefreq": "monthly", "priority": "0.6", "order": 5 }
+    },
+    "trasparenza-ai": {
+      "path": "/trasparenza-ai",
+      "title": "Trasparenza AI — Come uso l'intelligenza artificiale | Nicobenz",
+      "description": "La mia politica di trasparenza sull'uso dell'intelligenza artificiale nei contenuti pubblicati su nicobenz.it. Conforme al Regolamento UE 2024/1689 (AI Act).",
+      "canonical": "https://www.nicobenz.it/trasparenza-ai",
+      "ogType": "article",
+      "ogImage": "https://www.nicobenz.it/og-image.jpg",
+      "h1": "Come uso l'intelligenza artificiale",
+      "intro": "Credo nella trasparenza. Per questo ti spiego in modo chiaro dove uso l'intelligenza artificiale sul mio sito, come garantisco la qualità dei contenuti, e quali sono i riferimenti normativi che seguo.",
+      "sitemap": { "changefreq": "yearly", "priority": "0.4", "order": 6 }
+    },
+    "grazie-iscrizione": {
+      "path": "/grazie-iscrizione",
+      "title": "Iscrizione completata — Nicobenz",
+      "description": "Grazie per l'iscrizione. Controlla la tua email per confermare.",
+      "canonical": "https://www.nicobenz.it/grazie-iscrizione",
+      "ogType": "website",
+      "ogImage": "https://www.nicobenz.it/og-image.jpg",
+      "robots": "noindex, nofollow",
+      "h1": "Complimenti, ti sei iscritto.",
+      "intro": "Controlla la tua email e clicca sul link di conferma per completare la tua iscrizione."
+    },
+    "links": {
+      "path": "/links",
+      "title": "Nico Benz — Tutti i link",
+      "description": "Tutti i link ufficiali di Nico Benz, Beauty Social Coach.",
+      "canonical": "https://www.nicobenz.it/links",
+      "ogType": "website",
+      "ogImage": "https://www.nicobenz.it/og-image.jpg",
+      "h1": "NicoBenz",
+      "intro": "Trasformo parrucchieri in social-content machine. Tutti i miei canali, qui."
+    },
+    "demo": {
+      "path": "/demo",
+      "title": "Demo Social Proof Badges — Nicobenz",
+      "description": "Pagina interna di prova dei badge. Non va indicizzata.",
+      "canonical": "https://www.nicobenz.it/demo",
+      "ogType": "website",
+      "ogImage": "https://www.nicobenz.it/og-image.jpg",
+      "robots": "noindex, nofollow",
+      "h1": "Demo Social Proof Badges",
+      "intro": "Due varianti possibili."
+    },
+    "mockup-qualifier": {
+      "path": "/mockup-qualifier",
+      "title": "Anteprima qualificatore — Nicobenz",
+      "description": "Bozza interna della sezione per chi è il percorso. Non va indicizzata.",
+      "canonical": "https://www.nicobenz.it/mockup-qualifier",
+      "ogType": "website",
+      "ogImage": "https://www.nicobenz.it/og-image.jpg",
+      "robots": "noindex, nofollow",
+      "h1": "Non lavoro con tutti. Solo con chi è pronto.",
+      "intro": "Per chi è (e per chi non è)."
+    }
+  }
+}

@@ -3,6 +3,7 @@ import { useParams, Link, Navigate } from "react-router-dom";
 import { ArrowLeft, Clock, Tag, Home, Share2 } from "lucide-react";
 import { getArticleBySlug, getRelatedArticles } from "../data/blogArticles";
 import { useSeo } from "../hooks/useSeo";
+import seo from "../seo/pageMeta.json";
 import { isAiAssisted } from "../data/humanArticleSlugs";
 import { AiBadgeCompact, AiDisclosureBox } from "../components/AiTransparency";
 
@@ -12,9 +13,9 @@ const BlogArticlePage = () => {
   const relatedArticles = article ? getRelatedArticles(slug, 3) : [];
 
   useSeo({
-    title: article ? `${article.title} — Nicobenz Blog` : "Nicobenz Blog",
+    title: article ? `${article.title}${seo.articleTitleSuffix}` : seo.articleFallbackTitle,
     description: article?.excerpt,
-    canonical: `https://www.nicobenz.it/blog/${slug}`,
+    canonical: `${seo.siteUrl}/blog/${slug}`,
     ogImage: article?.image,
     ogType: "article",
   });
