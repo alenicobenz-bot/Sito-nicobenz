@@ -7,7 +7,7 @@ import { BRAND } from "../mock";
 const ContattiPage = () => {
   useSeo({
     title: "Contatti — Nicobenz Beauty Social Coach | Marketing Parrucchieri S.r.l.",
-    description: "Contatta Nico Benz per una consulenza gratuita. Marketing Parrucchieri S.r.l., Besate (MI). Email, WhatsApp, calendario prenotazioni.",
+    description: "Contatta Nico Benz per una consulenza gratuita. Marketing Parrucchieri S.r.l., Casorate Primo (PV). Email, WhatsApp, calendario prenotazioni.",
     canonical: "https://www.nicobenz.it/contatti",
     ogType: "website",
   });
@@ -31,10 +31,10 @@ const ContattiPage = () => {
     },
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Via Prestinari 4",
-      "addressLocality": "Besate",
-      "addressRegion": "MI",
-      "postalCode": "20080",
+      "streetAddress": "Via G. Verdi 10",
+      "addressLocality": "Casorate Primo",
+      "addressRegion": "PV",
+      "postalCode": "27022",
       "addressCountry": "IT",
     },
     "vatID": "IT11579150969",
