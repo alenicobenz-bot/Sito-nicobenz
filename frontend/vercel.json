@@ -5,6 +5,35 @@
   "installCommand": "yarn install",
   "framework": "create-react-app",
   "redirects": [
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "^nicobenz\\.it$" }],
+      "destination": "https://www.nicobenz.it/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "^nicobenz\\.it$" }],
+      "destination": "https://www.nicobenz.it/:path*",
+      "permanent": true
+    },
+    { "source": "/post/", "destination": "/blog", "permanent": true },
+    { "source": "/single-post/", "destination": "/blog", "permanent": true },
+    { "source": "/blog-1/", "destination": "/blog", "permanent": true },
+    { "source": "/category/", "destination": "/blog", "permanent": true },
+    { "source": "/categories/", "destination": "/blog", "permanent": true },
+    { "source": "/tag/", "destination": "/blog", "permanent": true },
+    { "source": "/tags/", "destination": "/blog", "permanent": true },
+    { "source": "/forum/", "destination": "/", "permanent": true },
+    { "source": "/group/", "destination": "/", "permanent": true },
+    { "source": "/groups/", "destination": "/", "permanent": true },
+    { "source": "/members/", "destination": "/", "permanent": true },
+    { "source": "/profile/", "destination": "/", "permanent": true },
+    { "source": "/author/", "destination": "/", "permanent": true },
+    { "source": "/wix/", "destination": "/", "permanent": true },
+    { "source": "/_functions/", "destination": "/", "permanent": true },
+    { "source": "/_partials/", "destination": "/", "permanent": true },
+    { "source": "/1-video-al-giorno/", "destination": "/un-video-al-giorno", "permanent": true },
     { "source": "/forum/:path*", "destination": "/", "permanent": true },
     { "source": "/group/:path*", "destination": "/", "permanent": true },
     { "source": "/groups/:path*", "destination": "/", "permanent": true },
@@ -24,11 +53,57 @@
     { "source": "/_partials/:path*", "destination": "/", "permanent": true },
     { "source": "/1-video-al-giorno", "destination": "/un-video-al-giorno", "permanent": true }
   ],
-  "rewrites": [
+  "routes": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
+      "src": "/(.*)",
+      "headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Content-Security-Policy": "frame-ancestors *",
+        "X-XSS-Protection": "1; mode=block"
+      },
+      "continue": true
+    },
+    {
+      "src": "/static/(.*)",
+      "headers": {
+        "Cache-Control": "public, max-age=31536000, immutable"
+      },
+      "continue": true
+    },
+    {
+      "src": "^/$",
+      "has": [{ "type": "host", "value": "^nicobenz\\.it$" }],
+      "status": 308,
+      "headers": { "Location": "https://www.nicobenz.it/" }
+    },
+    {
+      "src": "^/(.*)$",
+      "has": [{ "type": "host", "value": "^nicobenz\\.it$" }],
+      "status": 308,
+      "headers": { "Location": "https://www.nicobenz.it/$1" }
+    },
+    {
+      "src": "^/(post|single-post|blog-1|category|categories|tag|tags)(/.*)?$",
+      "status": 308,
+      "headers": { "Location": "/blog" }
+    },
+    {
+      "src": "^/blog-feed\\.xml$",
+      "status": 308,
+      "headers": { "Location": "/blog" }
+    },
+    {
+      "src": "^/(forum|group|groups|members|profile|author|wix|_functions|_partials)(/.*)?$",
+      "status": 308,
+      "headers": { "Location": "/" }
+    },
+    {
+      "src": "^/1-video-al-giorno/?$",
+      "status": 308,
+      "headers": { "Location": "/un-video-al-giorno" }
+    },
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "status": 404, "dest": "/404.html" }
   ],
   "headers": [
     {

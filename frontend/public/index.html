@@ -24,6 +24,11 @@
         <script type="text/javascript" src="//cdn.iubenda.com/cs/gpp/stub.js"></script>
         <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
         
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" type="image/png" href="/favicon-32.png" sizes="32x32" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/manifest.json" />
+
         <!-- Primary Meta Tags -->
         <title>Nicobenz — Beauty Social Coach per Parrucchieri | Marketing Digitale per Saloni</title>
         <meta name="title" content="Nicobenz — Beauty Social Coach per Parrucchieri | Marketing Digitale per Saloni" />
@@ -31,7 +36,9 @@
         <meta name="keywords" content="beauty social coach, marketing parrucchieri, video marketing saloni, personal branding beauty, consulenza saloni bellezza, social media parrucchieri, formazione parrucchieri, corso social parrucchieri, strategia instagram parrucchieri, content marketing saloni bellezza" />
         <meta name="author" content="Nicobenz" />
 
-        <!-- Default canonical (overridden per route via react-helmet) -->
+        <!-- Canonical della sola home. In build, generate-static-pages.js scrive
+             un HTML per ogni altra rotta con il canonical di quella pagina.
+             useSeo aggiorna gli stessi tag nel browser. -->
         <link rel="canonical" href="https://www.nicobenz.it/" />
         
         <!-- Open Graph / Facebook -->
@@ -40,6 +47,8 @@
         <meta property="og:title" content="Nicobenz — Beauty Social Coach per Parrucchieri" />
         <meta property="og:description" content="Trasforma il tuo salone in un brand che le persone scelgono, seguono e ricordano. Strategia, video marketing e personal branding per parrucchieri." />
         <meta property="og:image" content="https://www.nicobenz.it/og-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <meta property="og:locale" content="it_IT" />
         
         <!-- Twitter -->
@@ -55,14 +64,21 @@
           "@context": "https://schema.org",
           "@type": "ProfessionalService",
           "name": "Nicobenz Beauty Social Coach",
+          "legalName": "Marketing Parrucchieri S.r.l.",
           "description": "Il primo beauty social coach italiano specializzato in marketing per parrucchieri e professionisti beauty",
           "url": "https://www.nicobenz.it",
           "logo": "https://www.nicobenz.it/logo.png",
           "image": "https://www.nicobenz.it/og-image.jpg",
           "priceRange": "$$",
+          "email": "info@nicobenz.it",
+          "telephone": "+393923141757",
+          "vatID": "IT11579150969",
           "address": {
             "@type": "PostalAddress",
-            "addressLocality": "Milano",
+            "streetAddress": "Via G. Verdi 10",
+            "addressLocality": "Casorate Primo",
+            "addressRegion": "PV",
+            "postalCode": "27022",
             "addressCountry": "IT"
           },
           "sameAs": [
@@ -75,7 +91,8 @@
             "@type": "Person",
             "name": "Nico Benz",
             "jobTitle": "Beauty Social Coach",
-            "url": "https://www.nicobenz.it"
+            "url": "https://www.nicobenz.it",
+            "image": "https://www.nicobenz.it/nico-profile.jpg"
           },
           "offers": {
             "@type": "Offer",

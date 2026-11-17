@@ -8,6 +8,7 @@ import { useEffect } from "react";
  *   - <meta name="description">
  *   - <link rel="canonical">
  *   - <meta property="og:title|og:description|og:url|og:image|og:type">
+ *   - <meta property="twitter:title|twitter:description|twitter:url|twitter:image">
  *
  * Più affidabile di react-helmet su React 19 (che ha problemi noti
  * a sovrascrivere tag già presenti in index.html).
@@ -29,9 +30,18 @@ export function useSeo({
   ogType = "website",
 } = {}) {
   useEffect(() => {
-    if (title) document.title = title;
+    if (title) {
+      document.title = title;
+      setMeta("name", "title", title);
+      setMeta("property", "og:title", title);
+      setMeta("property", "twitter:title", title);
+    }
 
-    if (description) setMeta("name", "description", description);
+    if (description) {
+      setMeta("name", "description", description);
+      setMeta("property", "og:description", description);
+      setMeta("property", "twitter:description", description);
+    }
 
     if (canonical) {
       let link = document.querySelector('link[rel="canonical"]');
@@ -41,12 +51,14 @@ export function useSeo({
         document.head.appendChild(link);
       }
       link.setAttribute("href", canonical);
+      setMeta("property", "og:url", canonical);
+      setMeta("property", "twitter:url", canonical);
     }
 
-    if (title) setMeta("property", "og:title", title);
-    if (description) setMeta("property", "og:description", description);
-    if (canonical) setMeta("property", "og:url", canonical);
-    if (ogImage) setMeta("property", "og:image", ogImage);
+    if (ogImage) {
+      setMeta("property", "og:image", ogImage);
+      setMeta("property", "twitter:image", ogImage);
+    }
     setMeta("property", "og:type", ogType);
   }, [title, description, canonical, ogImage, ogType]);
 }
