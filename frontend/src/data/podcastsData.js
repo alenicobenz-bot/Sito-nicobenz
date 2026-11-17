@@ -24,7 +24,7 @@ export const PODCASTS = [
     title: "Intervista a Massimo Desiderio",
     spotifyUrl: "https://open.spotify.com/episode/5RHaddeAtnxIhV1dWuTbWo?si=22dc5c651fd3494c",
     episodeId: "5RHaddeAtnxIhV1dWuTbWo",
-    cover: "https://mappa-madre.emergent.host/api/static/social/968e3132-8789-4080-bce6-b700f78f59f9.jpg",
+    cover: "https://www.nicobenz.it/social/podcast-intervista-a-massimo-desiderio.jpg",
     date: "2026-10-09",
   },
   {
@@ -33,7 +33,7 @@ export const PODCASTS = [
     title: "Heaters e attacchi social",
     spotifyUrl: "https://open.spotify.com/episode/1otBNMm2aCwxy7qmkj8iau?si=f2b3e91ea7be41e2",
     episodeId: "1otBNMm2aCwxy7qmkj8iau",
-    cover: "https://mappa-madre.emergent.host/api/static/social/8da500ef-c2bd-4440-9964-b65964f2f6d9.jpg",
+    cover: "https://www.nicobenz.it/social/podcast-heaters-e-attacchi-social.jpg",
     date: "2026-10-09",
   },
   {
@@ -42,7 +42,7 @@ export const PODCASTS = [
     title: "Intervista a Fabiola di inPrimoPiano",
     spotifyUrl: "https://open.spotify.com/episode/0XhIZ3RaMqRa7Ep9Z1DSJq?si=51688c1fcceb4aa0",
     episodeId: "0XhIZ3RaMqRa7Ep9Z1DSJq",
-    cover: "https://mappa-madre.emergent.host/api/static/social/d6cca1af-898a-4ce4-ab6b-ecd472265533.jpg",
+    cover: "https://www.nicobenz.it/social/podcast-intervista-a-fabiola-di-inprimopiano.jpg",
     date: "2026-10-09",
   },
   {
@@ -51,7 +51,7 @@ export const PODCASTS = [
     title: "Intervista a Pigmento",
     spotifyUrl: "https://open.spotify.com/episode/1P8lCj9pk6vQ4jZ8VxiUBn?si=6b1303a2571f4073",
     episodeId: "1P8lCj9pk6vQ4jZ8VxiUBn",
-    cover: "https://mappa-madre.emergent.host/api/static/social/b5e179a5-db1c-44ef-946d-8854320d7c64.jpg",
+    cover: "https://www.nicobenz.it/social/podcast-intervista-a-pigmento.jpg",
     date: "2026-10-09",
   },
   {
@@ -60,7 +60,7 @@ export const PODCASTS = [
     title: "Intervista ad Elisa Polverini",
     spotifyUrl: "https://open.spotify.com/episode/1TQ7K7l2CvhPZJfEl4gAWw?si=c69b9c11e2844918",
     episodeId: "1TQ7K7l2CvhPZJfEl4gAWw",
-    cover: "https://mappa-madre.emergent.host/api/static/social/c1c90b44-8eeb-406d-a0e2-097eef0669be.jpg",
+    cover: "https://www.nicobenz.it/social/podcast-intervista-ad-elisa-polverini.jpg",
     date: "2026-10-09",
   },
   {
@@ -96,7 +96,7 @@ export const PODCASTS = [
     title: "Intervista a Ilaria Martinelli",
     spotifyUrl: "https://open.spotify.com/episode/4PKoWkMqRnvsEH0BcxRscj?si=8edefa85b9c847cb",
     episodeId: "4PKoWkMqRnvsEH0BcxRscj",
-    cover: "https://mappa-madre.emergent.host/api/static/social/638ea761-8784-4822-809e-45f0595ea0b1.jpg",
+    cover: "https://www.nicobenz.it/social/podcast-intervista-a-ilaria-martinelli.jpg",
     date: "2026-05-24",
   },
   {
@@ -105,7 +105,7 @@ export const PODCASTS = [
     title: "Intervista a Marica Lopez",
     spotifyUrl: "https://open.spotify.com/episode/6a5oSH82gWHAsQw7nX68fo?si=b47d6bf5e26b4f23",
     episodeId: "6a5oSH82gWHAsQw7nX68fo",
-    cover: "https://mappa-madre.emergent.host/api/static/social/51625cae-8ef1-44f4-bafd-a749f07ebdc9.jpg",
+    cover: "https://www.nicobenz.it/social/podcast-intervista-a-marica-lopez.jpg",
     date: "2026-05-19",
   },
   {
@@ -114,7 +114,7 @@ export const PODCASTS = [
     title: "La Live dei Top",
     spotifyUrl: "https://open.spotify.com/episode/4BSkTbhUiambXsq6Uq5RJB?si=408a1ba1911f46d6",
     episodeId: "4BSkTbhUiambXsq6Uq5RJB",
-    cover: "https://omni-content-3.preview.emergentagent.com/api/static/social/69edc70c-9b45-488f-bee7-3b87420a50bc.jpg",
+    cover: "https://www.nicobenz.it/social/podcast-la-live-dei-top.jpg",
     date: "2026-05-16",
   },
   {
@@ -123,7 +123,7 @@ export const PODCASTS = [
     title: "Intervista a Jenny Fratini",
     spotifyUrl: "https://open.spotify.com/episode/7Fpjv3BCEyqw9bvW8Y4hde?si=99c7d2abdd3e4bc7",
     episodeId: "7Fpjv3BCEyqw9bvW8Y4hde",
-    cover: "https://omni-content-3.preview.emergentagent.com/api/static/social/6253c088-d642-43d5-bf06-782a86ca9948_sp.jpg",
+    cover: "https://www.nicobenz.it/social/podcast-intervista-a-jenny-fratini.jpg",
     date: "2026-05-15",
   },
 ];

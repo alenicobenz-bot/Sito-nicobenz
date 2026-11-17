@@ -1192,7 +1192,7 @@ Però Michela, su questo: sono d'accordo con te.
     category: "Social",
     date: "2026",
     readTime: "2 min",
-    image: "https://mappa-madre.emergent.host/api/static/social/80339ec9-dd52-492a-b105-98d669d01b45.jpg",
+    image: "/blog-covers/articolo-ia-in-salone-trucca-le-foto-prima-di-pubblicarle.jpg",
     content: `
 ## Il problema delle foto in salone
 
