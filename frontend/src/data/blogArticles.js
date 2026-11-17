@@ -3,6 +3,63 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "programmare-video-social-parrucchieri",
+    slug: "programmare-video-social-parrucchieri",
+    title: "Programmare video social per parrucchieri in un pomeriggio",
+    excerpt: "Programmare video social da parrucchieri: registra 5 video in un pomeriggio, mettili in coda e pubblica anche mentre sei in salone. Ecco come.",
+    category: "Video Marketing",
+    date: "2026",
+    readTime: "5 min",
+    image: "/blog-covers/programmare-video-social-parrucchieri.jpg",
+    content: `
+Se ogni volta che devi pubblicare un video prendi il telefono in mano tra un cliente e l'altro, hai già perso. Non perché non sei capace, ma perché stai facendo la cosa più difficile nel momento peggiore. Programmare video social per parrucchieri non è un trucco da esperti: è l'unico modo per essere costante senza vivere sul telefono.
+
+Io i miei video non li pubblico a mano. Ho una coda: nel mio sistema ci sono 277 video pronti e ne esce uno ogni giorno alle 8:00 e uno alle 20:00. Io intanto lavoro. Non ti serve arrivare a quel numero. Ti serve iniziare con cinque.
+
+## Perché pubblicare «quando hai tempo» non funziona
+
+Il tempo, in salone, non arriva mai. C'è la cliente in ritardo, il colore da rifare, la collaboratrice malata. Se il tuo video dipende dal momento libero, non uscirà. E quando esce, lo fai di corsa: caption scritta male, nessuna idea chiara, zero voglia.
+
+Il problema non è la tua costanza. È che non hai un sistema. La coda è il sistema: separi il momento in cui **crei** dal momento in cui **pubblichi**. Non serve nemmeno pubblicare tutti i giorni: conta la regolarità, non la quantità (ne parlo anche qui: https://www.nicobenz.it/blog/perche-pubblicare-ogni-giorno-puo-uccidere-il-tuo-brand).
+
+## Cos'è una coda di video (spiegato semplice)
+
+Una coda è una lista di video già pronti, con la loro caption, che escono da soli a giorni e orari decisi prima. In pratica è il tuo calendario editoriale del salone, ma già riempito. Tu fai il lavoro una volta, in un blocco di tempo protetto. Poi lo strumento di programmazione pubblica al posto tuo.
+
+Puoi programmare i post con gli strumenti che hai già, per esempio la programmazione di Meta Business Suite per Instagram e Facebook, o quella interna dell'app che usi. Non serve niente di complicato per partire.
+
+## Programmare video social per parrucchieri: la prima coda in un pomeriggio
+
+1. **Blocca due ore in agenda.** Un pomeriggio con meno appuntamenti. Scrivilo come se fosse un cliente.
+2. **Chiedi le idee all'AI.** Apri ChatGPT (o l'assistente che usi) e scrivi: «Sono un parrucchiere, i miei clienti sono [chi sono]. Dammi 10 idee di video da 30-60 secondi in cui parlo in camera e rispondo ai dubbi dei clienti». Scegline 5.
+3. **Fatti fare la scaletta.** Per ogni idea chiedi: gancio iniziale, 3 punti, chiusura con invito. Non leggerla parola per parola: usala come traccia.
+4. **Registra 5 talking-head.** Tu, in salone, che parli in camera. Telefono appoggiato, luce davanti, audio pulito. Se sbagli, riparti: nessuno vedrà gli errori. Se davanti alla camera ti blocchi, leggi qui: https://www.nicobenz.it/blog/perche-ti-blocchi-davanti-alla-videocamera-e-come-smettere
+5. **Metti tutto in una cartella.** Dai a ogni file un nome chiaro (es. «01-come-mantenere-il-biondo»). Ti salva quando devi ritrovarli.
+6. **Scrivi le caption con l'AI e controllale tu.** Chiedi una caption breve per ogni video, nel tuo tono. Poi rileggi: deve sembrare tua, non di un robot.
+7. **Programma.** Scegli giorni e orari fissi e carica i 5 Reels per parrucchieri nello strumento di programmazione. Fine. Questa settimana pubblichi senza toccare il telefono.
+
+## Errori da evitare
+
+- **Aspettare il video perfetto.** Il video perfetto non esce mai. Quello buono e costante sì.
+- **Copiare la caption dell'AI senza leggerla.** L'AI ti aiuta, ma la faccia e la firma sono tue.
+- **Programmare e sparire.** La coda pubblica, ma i commenti li guardi tu (o un agente che ti segnala solo quelli importanti).
+- **Partire da 30 video.** Ti blocchi. Cinque bastano per capire come funziona.
+- **Rincorrere il virale.** Una coda serve a farti trovare e scegliere dai clienti giusti, non a fare numeri a caso.
+
+## Dalla coda al sistema: il passo successivo
+
+Quando la prima coda funziona, ripeti il pomeriggio ogni due settimane. Piano piano la coda si allunga e tu smetti di chiederti «cosa pubblico oggi?». È così che sono arrivato alla mia: un blocco alla volta, con l'AI e gli agenti che fanno il lavoro ripetitivo e io che controllo.
+
+## Inizia questa settimana
+
+La sfida è semplice: **registra 5 video e mettili in coda entro domenica.**
+
+Se ti mancano le idee, iscriviti gratis a **Un video al giorno**: ogni giorno ti arriva via email un'idea di reel pronta, con gancio, scaletta, caption e hashtag → https://www.nicobenz.it/un-video-al-giorno
+
+Se invece vuoi capire come costruire il sistema giusto per il tuo salone, prenota la **consulenza gratuita di 30 minuti** → https://www.nicobenz.it/prenota
+    `
+  },
+  {
     id: "ai-lavora-per-te-mentre-chiudi-salone",
     slug: "ai-lavora-per-te-mentre-chiudi-salone",
     title: "L'AI pu\u00f2 lavorare per te mentre chiudi il salone",
