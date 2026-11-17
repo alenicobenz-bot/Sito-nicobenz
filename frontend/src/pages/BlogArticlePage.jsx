@@ -84,6 +84,86 @@ const BlogArticlePage = () => {
     ]
   };
 
+
+  const LINK_CLASS =
+    "text-[var(--nb-gold)] underline underline-offset-2 decoration-[var(--nb-gold)]/70 hover:text-[var(--nb-ivory)] hover:decoration-[var(--nb-ivory)] transition-colors break-words";
+
+  const trimUrl = (raw) => {
+    let url = raw;
+    while (/[.,;:!?]$/.test(url)) {
+      url = url.slice(0, -1);
+    }
+    if (url.endsWith(")") && (url.match(/\(/g) || []).length < (url.match(/\)/g) || []).length) {
+      url = url.slice(0, -1);
+    }
+    return url;
+  };
+
+  const internalPathFromHref = (href) => {
+    if (href.startsWith("/") && !href.startsWith("//")) {
+      return href;
+    }
+    try {
+      const u = new URL(href);
+      const host = u.hostname.replace(/^www\./, "");
+      if (host === "nicobenz.it") {
+        return `${u.pathname}${u.search}${u.hash}` || "/";
+      }
+    } catch {
+      // ignore invalid URLs
+    }
+    return null;
+  };
+
+  const renderLink = (href, label, key) => {
+    const internal = internalPathFromHref(href);
+    if (internal) {
+      return (
+        <Link key={key} to={internal} className={LINK_CLASS}>
+          {label}
+        </Link>
+      );
+    }
+    return (
+      <a
+        key={key}
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={LINK_CLASS}
+      >
+        {label}
+      </a>
+    );
+  };
+
+  const renderInline = (text, keyPrefix) => {
+    if (text == null || text === "") return text;
+    const re = /\[([^\]]+)\]\(([^)]+)\)|https?:\/\/[^\s<]+/g;
+    const nodes = [];
+    let lastIndex = 0;
+    let match;
+    let i = 0;
+    while ((match = re.exec(text)) !== null) {
+      if (match.index > lastIndex) {
+        nodes.push(text.slice(lastIndex, match.index));
+      }
+      if (match[1] !== undefined) {
+        nodes.push(renderLink(match[2].trim(), match[1], `${keyPrefix}-lnk-${i++}`));
+        lastIndex = match.index + match[0].length;
+      } else {
+        const href = trimUrl(match[0]);
+        nodes.push(renderLink(href, href, `${keyPrefix}-lnk-${i++}`));
+        lastIndex = match.index + href.length;
+        re.lastIndex = lastIndex;
+      }
+    }
+    if (lastIndex < text.length) {
+      nodes.push(text.slice(lastIndex));
+    }
+    return nodes.length === 1 && typeof nodes[0] === "string" ? nodes[0] : nodes;
+  };
+
   // Simple markdown-like rendering
   const renderContent = (content) => {
     const lines = content.trim().split('\n');
@@ -95,37 +175,37 @@ const BlogArticlePage = () => {
       
       if (trimmed.startsWith('# ')) {
         if (currentParagraph.length > 0) {
-          elements.push(<p key={`p-${index}`} className="text-[16px] md:text-[17px] leading-[1.8] text-[var(--nb-ivory-dim)] mb-6">{currentParagraph.join(' ')}</p>);
+          elements.push(<p key={`p-${index}`} className="text-[16px] md:text-[17px] leading-[1.8] text-[var(--nb-ivory-dim)] mb-6">{renderInline(currentParagraph.join(' '), `p-${index}`)}</p>);
           currentParagraph = [];
         }
         elements.push(
           <h1 key={index} className="font-display font-light tracking-editorial text-[40px] md:text-[52px] leading-[1.1] text-[var(--nb-ivory)] mb-8 mt-12">
-            {trimmed.replace('# ', '')}
+            {renderInline(trimmed.replace('# ', ''), `h1-${index}`)}
           </h1>
         );
       } else if (trimmed.startsWith('## ')) {
         if (currentParagraph.length > 0) {
-          elements.push(<p key={`p-${index}`} className="text-[16px] md:text-[17px] leading-[1.8] text-[var(--nb-ivory-dim)] mb-6">{currentParagraph.join(' ')}</p>);
+          elements.push(<p key={`p-${index}`} className="text-[16px] md:text-[17px] leading-[1.8] text-[var(--nb-ivory-dim)] mb-6">{renderInline(currentParagraph.join(' '), `p-${index}`)}</p>);
           currentParagraph = [];
         }
         elements.push(
           <h2 key={index} className="font-display tracking-editorial text-[28px] md:text-[34px] leading-[1.15] text-[var(--nb-ivory)] mb-6 mt-10">
-            {trimmed.replace('## ', '')}
+            {renderInline(trimmed.replace('## ', ''), `h2-${index}`)}
           </h2>
         );
       } else if (trimmed.startsWith('### ')) {
         if (currentParagraph.length > 0) {
-          elements.push(<p key={`p-${index}`} className="text-[16px] md:text-[17px] leading-[1.8] text-[var(--nb-ivory-dim)] mb-6">{currentParagraph.join(' ')}</p>);
+          elements.push(<p key={`p-${index}`} className="text-[16px] md:text-[17px] leading-[1.8] text-[var(--nb-ivory-dim)] mb-6">{renderInline(currentParagraph.join(' '), `p-${index}`)}</p>);
           currentParagraph = [];
         }
         elements.push(
           <h3 key={index} className="font-display tracking-editorial text-[22px] md:text-[26px] leading-[1.2] text-[var(--nb-ivory)] mb-4 mt-8">
-            {trimmed.replace('### ', '')}
+            {renderInline(trimmed.replace('### ', ''), `h3-${index}`)}
           </h3>
         );
       } else if (trimmed.startsWith('- ')) {
         if (currentParagraph.length > 0) {
-          elements.push(<p key={`p-${index}`} className="text-[16px] md:text-[17px] leading-[1.8] text-[var(--nb-ivory-dim)] mb-6">{currentParagraph.join(' ')}</p>);
+          elements.push(<p key={`p-${index}`} className="text-[16px] md:text-[17px] leading-[1.8] text-[var(--nb-ivory-dim)] mb-6">{renderInline(currentParagraph.join(' '), `p-${index}`)}</p>);
           currentParagraph = [];
         }
         if (!elements[elements.length - 1]?.type || elements[elements.length - 1].type !== 'ul') {
@@ -134,35 +214,35 @@ const BlogArticlePage = () => {
         const ul = elements[elements.length - 1];
         ul.props.children.push(
           <li key={index} className="text-[16px] md:text-[17px] leading-[1.8] text-[var(--nb-ivory-dim)] before:content-['•'] before:text-[var(--nb-gold)] before:mr-3">
-            {trimmed.replace('- ', '')}
+            {renderInline(trimmed.replace('- ', ''), `li-${index}`)}
           </li>
         );
       } else if (trimmed.startsWith('---')) {
         if (currentParagraph.length > 0) {
-          elements.push(<p key={`p-${index}`} className="text-[16px] md:text-[17px] leading-[1.8] text-[var(--nb-ivory-dim)] mb-6">{currentParagraph.join(' ')}</p>);
+          elements.push(<p key={`p-${index}`} className="text-[16px] md:text-[17px] leading-[1.8] text-[var(--nb-ivory-dim)] mb-6">{renderInline(currentParagraph.join(' '), `p-${index}`)}</p>);
           currentParagraph = [];
         }
         elements.push(<hr key={index} className="my-12 border-t border-[var(--nb-border)]" />);
       } else if (trimmed.startsWith('**') && trimmed.endsWith('**')) {
         if (currentParagraph.length > 0) {
-          elements.push(<p key={`p-${index}`} className="text-[16px] md:text-[17px] leading-[1.8] text-[var(--nb-ivory-dim)] mb-6">{currentParagraph.join(' ')}</p>);
+          elements.push(<p key={`p-${index}`} className="text-[16px] md:text-[17px] leading-[1.8] text-[var(--nb-ivory-dim)] mb-6">{renderInline(currentParagraph.join(' '), `p-${index}`)}</p>);
           currentParagraph = [];
         }
         elements.push(
           <p key={index} className="text-[17px] md:text-[19px] leading-[1.7] text-[var(--nb-ivory)] font-semibold mb-6">
-            {trimmed.replace(/\*\*/g, '')}
+            {renderInline(trimmed.replace(/\*\*/g, ''), `b-${index}`)}
           </p>
         );
       } else if (trimmed) {
         currentParagraph.push(trimmed);
       } else if (currentParagraph.length > 0) {
-        elements.push(<p key={`p-${index}`} className="text-[16px] md:text-[17px] leading-[1.8] text-[var(--nb-ivory-dim)] mb-6">{currentParagraph.join(' ')}</p>);
+        elements.push(<p key={`p-${index}`} className="text-[16px] md:text-[17px] leading-[1.8] text-[var(--nb-ivory-dim)] mb-6">{renderInline(currentParagraph.join(' '), `p-${index}`)}</p>);
         currentParagraph = [];
       }
     });
 
     if (currentParagraph.length > 0) {
-      elements.push(<p key="p-final" className="text-[16px] md:text-[17px] leading-[1.8] text-[var(--nb-ivory-dim)] mb-6">{currentParagraph.join(' ')}</p>);
+      elements.push(<p key="p-final" className="text-[16px] md:text-[17px] leading-[1.8] text-[var(--nb-ivory-dim)] mb-6">{renderInline(currentParagraph.join(' '), 'p-final')}</p>);
     }
 
     return elements;
