@@ -3,6 +3,64 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "agenti-ai-per-parrucchieri-webinar",
+    slug: "agenti-ai-per-parrucchieri-webinar",
+    title: "Agenti AI per parrucchieri: webinar gratuito del 23/11",
+    excerpt: "Un salone su tre chiuderà? Lunedì 23 novembre alle 21 Nico Benz spiega come gli agenti AI gestiscono commenti e recensioni del salone. Iscriviti gratis.",
+    category: "Social",
+    date: "18 novembre 2026",
+    readTime: "3 min",
+    image: "/nico-profile.jpg",
+    imagePosition: "top",
+    content: `
+Agenti AI per parrucchieri: lunedì 23 novembre ne parliamo online, e l'ingresso è gratuito.
+
+Se hai un salone, la giornata la conosci. La cliente in poltrona, il colore da controllare, il telefono che si accende con un commento, una recensione, un messaggio. Rispondi quando puoi. Spesso è tardi. A volte non rispondi.
+
+Io non sono un parrucchiere. Sono un beauty social coach per parrucchieri. Ti spiego cosa puoi fare tu con l'intelligenza artificiale e con gli agenti. Il taglio lo fai tu. Io ti dico come usare questi strumenti nel tuo salone.
+
+Lunedì 23 novembre 2026, alle 21:00, tengo un webinar gratuito. Il titolo è «Secondo me un salone su tre chiuderà». È online, su Google Meet. Per iscriverti apri questa pagina: [Iscriviti gratis](https://anteprima-webinar-23-11-saloni.vercel.app/).
+
+## Di cosa parliamo
+
+Il tema è il futuro dei saloni e gli agenti social. Un agente social, in questa serata, è un'AI che legge commenti e recensioni e prepara le risposte. Tu sei in salone. L'agente legge quello che i clienti hanno scritto e prepara la risposta.
+
+«Secondo me un salone su tre chiuderà» è il titolo della serata ed è il mio punto di vista. Il futuro dei saloni di parrucchiere si gioca anche fuori dalla poltrona: su quello che una persona legge di te prima di prenotare, e su come le rispondi dopo che è stata da te.
+
+In questo webinar gratuito per parrucchieri resto su quel punto. Ti spiego cosa può fare un agente social sui commenti e sulle recensioni. Il rapporto con chi entra in salone resta tuo. Io ti parlo da coach. Le mani sui capelli restano le tue.
+
+## Gestire recensioni e commenti del salone
+
+Gestire recensioni e commenti del salone è un lavoro piccolo che non finisce mai. Una frase sotto una foto. Una recensione. Una cliente che chiede un'informazione. Un'altra che ringrazia e aspetta un segno. Se la risposta arriva il giorno dopo, o non arriva, quella persona se ne accorge.
+
+È qui che entra l'agente. Legge il commento. Legge la recensione. Prepara la risposta. Gli agenti AI per parrucchieri servono a togliere questo pezzo ripetuto, quello che oggi slitta a fine giornata, quando hai già chiuso.
+
+## Lunedì 23 novembre, ore 21:00
+
+Segna questa data. Lunedì 23 novembre 2026, ore 21:00. Online e gratuito, su Google Meet.
+
+L'iscrizione la fai qui: [Iscriviti gratis al webinar](https://anteprima-webinar-23-11-saloni.vercel.app/).
+
+Io parlo del futuro dei saloni di parrucchiere e di come un agente può leggere i commenti e le recensioni e preparare le risposte mentre tu lavori. Se hai una domanda sui commenti che lasci aperti, o sulle recensioni a cui non sai cosa scrivere, portala con te.
+
+## Il bonus se prenoti la call
+
+Oltre al webinar c'è un bonus, con una scadenza precisa.
+
+Per prenotare la call scrivimi PARLIAMONE su WhatsApp entro giovedì 26 novembre 2026 alle 23:59: la configurazione del primo agente social è gratuita.
+
+L'iscrizione al webinar è gratuita. Scrivimi PARLIAMONE su WhatsApp entro giovedì 26 novembre 2026 alle 23:59: il bonus è la configurazione del primo agente social.
+
+## Iscriviti gratis
+
+Gli agenti AI per parrucchieri sono il centro della serata. Il webinar gratuito per parrucchieri è lunedì 23 novembre 2026 alle 21:00, online su Google Meet, e si intitola «Secondo me un salone su tre chiuderà».
+
+[Iscriviti gratis](https://anteprima-webinar-23-11-saloni.vercel.app/)
+
+Ci sentiamo lunedì alle 21. Se oggi i commenti e le recensioni del salone restano in attesa, questa è la sera in cui ti spiego come un agente può preparare le risposte.
+    `
+  },
+  {
     id: "ho-creato-un-team-di-bot-che-gestisce-la-mia-giornata",
     slug: "ho-creato-un-team-di-bot-che-gestisce-la-mia-giornata",
     title: "Ho Creato un Team di Bot che Gestisce la Mia Giornata",
