@@ -2,6 +2,7 @@ import React from "react";
 import { useSeo } from "../hooks/useSeo";
 import seo from "../seo/pageMeta.json";
 import Header from "../components/Header";
+import WebinarPromoBanner from "../components/WebinarPromoBanner";
 import Hero from "../components/Hero";
 import Problem from "../components/Problem";
 import SocialProof from "../components/SocialProof";
@@ -22,6 +23,7 @@ const HomePage = () => {
   return (
     <main className="relative bg-[var(--nb-bg)] text-[var(--nb-ivory)]">
       <Header />
+      <WebinarPromoBanner />
       <Hero />
       <Problem />
       <SocialProof />

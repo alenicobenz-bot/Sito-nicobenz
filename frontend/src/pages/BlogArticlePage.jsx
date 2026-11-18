@@ -2,10 +2,12 @@ import React, { useEffect } from "react";
 import { useParams, Link, Navigate } from "react-router-dom";
 import { ArrowLeft, Clock, Tag, Home, Share2 } from "lucide-react";
 import { getArticleBySlug, getRelatedArticles } from "../data/blogArticles";
+import { webinar23Nov } from "../data/webinar23Nov";
 import { useSeo } from "../hooks/useSeo";
 import seo from "../seo/pageMeta.json";
 import { isAiAssisted } from "../data/humanArticleSlugs";
 import { AiBadgeCompact, AiDisclosureBox } from "../components/AiTransparency";
+import WebinarSignupBox from "../components/WebinarSignupBox";
 
 const BlogArticlePage = () => {
   const { slug } = useParams();
@@ -314,7 +316,7 @@ const BlogArticlePage = () => {
               src={article.image} 
               alt={`${article.title} - Articolo marketing parrucchieri e formazione beauty social media`} 
               onError={(e) => { e.currentTarget.src = "/blog-covers/default-cover.svg"; }}
-              className="w-full h-full object-cover" 
+              className={`w-full h-full object-cover${article.imagePosition === "top" ? " object-top" : ""}`} 
               loading="eager" 
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
@@ -325,6 +327,7 @@ const BlogArticlePage = () => {
       {/* Content */}
       <section className="relative py-12 md:py-16">
         <div className="max-w-[800px] mx-auto px-6 md:px-10">
+          {slug === webinar23Nov.slug && <WebinarSignupBox />}
           {isAiAssisted(slug) && <AiDisclosureBox className="mb-10" />}
           <div className="prose prose-invert max-w-none">
             {renderContent(article.content)}
@@ -420,7 +423,7 @@ const BlogArticlePage = () => {
                         src={related.image} 
                         alt={related.title}
                         onError={(e) => { e.currentTarget.src = "/blog-covers/default-cover.svg"; }}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        className={`w-full h-full object-cover group-hover:scale-105 transition-transform duration-500${related.imagePosition === "top" ? " object-top" : ""}`}
                         loading="lazy"
                       />
                       <div className="absolute top-3 left-3">
