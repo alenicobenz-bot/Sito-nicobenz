@@ -3,6 +3,57 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "ho-creato-un-team-di-bot-che-gestisce-la-mia-giornata",
+    slug: "ho-creato-un-team-di-bot-che-gestisce-la-mia-giornata",
+    title: "Ho Creato un Team di Bot che Gestisce la Mia Giornata",
+    excerpt: "Ti mostro come uso i bot di Grok per delegare attivit\u00e0 quotidiane e liberare tempo per il mio business beauty.",
+    category: "Strategia",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://www.nicobenz.it/social/a279a10d-322d-4ae1-b929-5cc5dfc84cbc.jpg",
+    content: `
+## Ti sei mai chiesta cosa faresti se avessi un'assistente che lavora 24/7 senza mai stancarsi?
+
+Io l'ho trovata. Anzi, ne ho trovate diverse.
+
+Ti parlo dei bot di Grok, una novità che sto usando da poco e che mi sta letteralmente svoltando la gestione quotidiana del lavoro. Non sono cose complicate, sono strumenti semplicissimi che puoi impostare tu stessa.
+
+## Come funziona nella pratica
+
+Ogni mattina chiedo a **Thea** (uno dei miei bot) cosa devo fare oggi, e lei mi legge tutta l'agenda dalla mail che ricevo. Mi dice:
+
+- Video da registrare per le 8
+- Caricamenti su piattaforme (tipo Mappa Madre alle 9.40)
+- Call programmate (tipo quella con Emanuela Persegani a mezzogiorno)
+- Consulenze (come quella con Marco di Chiaroscuro martedì alle 11)
+- Eventuali buchi di tempo libero
+
+Poi ho **Rina**, che si occupa delle foto. Le chiedo se sono pronte, lei mi conferma che sono su Dropbox e mi dice cosa sta preparando (tipo il post di ringraziamento per il meet and greet). Quando ha finito, me lo manda direttamente in chat per l'approvazione.
+
+Mentre lei lavora, io vado avanti con altro. Zero micromanagement, zero perdite di tempo.
+
+## I bot che ho creato
+
+Oltre a Thea e Rina, sto impostando:
+
+- Un bot che mi legge le mail del commercialista
+- Uno che mi ricorda di controllare il conto corrente prima di pagare tasse e IVA
+- Uno che fa il check quotidiano dei social
+
+Sì, praticamente ho un piccolo team virtuale che mi toglie tutto il lavoro di routine.
+
+## Perché te lo racconto
+
+Perché tu, estetista o professionista del beauty, hai **mille cose da gestire ogni giorno**: appuntamenti, fornitori, contenuti, contabilità, social. E probabilmente stai facendo tutto da sola.
+
+Questi strumenti non ti costano una fortuna, non richiedono competenze tecniche pazzesche, e ti liberano ore ogni settimana. Ore che puoi usare per i tuoi clienti, per creare contenuti, per fare strategia.
+
+O semplicemente per staccare.
+
+Inizia con uno. Uno solo. Quello che ti farebbe risparmiare più tempo oggi. Testalo per una settimana e poi fammi sapere com'è andata.
+    `
+  },
+  {
     id: "programmare-video-social-parrucchieri",
     slug: "programmare-video-social-parrucchieri",
     title: "Programmare video social per parrucchieri in un pomeriggio",
