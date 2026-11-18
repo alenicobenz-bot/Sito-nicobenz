@@ -8,7 +8,7 @@ export const BLOG_ARTICLES = [
     title: "Agenti AI per parrucchieri: webinar gratuito del 23/11",
     excerpt: "Un salone su tre chiuderà? Lunedì 23 novembre alle 21 Nico Benz spiega come gli agenti AI gestiscono commenti e recensioni del salone. Iscriviti gratis.",
     category: "Social",
-    date: "19 novembre 2026",
+    date: "18 novembre 2026",
     readTime: "3 min",
     image: "/nico-profile.jpg",
     imagePosition: "top",
@@ -47,9 +47,9 @@ Io parlo del futuro dei saloni di parrucchiere e di come un agente può leggere 
 
 Oltre al webinar c'è un bonus, con una scadenza precisa.
 
-Per prenotare la call scrivi PARLIAMONE su WhatsApp a Nico entro giovedì 26 novembre 2026 alle 23:59: la configurazione del primo agente social è gratuita.
+Per prenotare la call scrivimi PARLIAMONE su WhatsApp entro giovedì 26 novembre 2026 alle 23:59: la configurazione del primo agente social è gratuita.
 
-L'iscrizione al webinar è gratuita. Il bonus arriva se scrivi PARLIAMONE su WhatsApp a Nico entro giovedì 26 novembre 2026 alle 23:59.
+L'iscrizione al webinar è gratuita. Scrivimi PARLIAMONE su WhatsApp entro giovedì 26 novembre 2026 alle 23:59: il bonus è la configurazione del primo agente social.
 
 ## Iscriviti gratis
 
