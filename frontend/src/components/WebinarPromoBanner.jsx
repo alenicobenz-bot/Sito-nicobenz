@@ -58,7 +58,7 @@ const WebinarPromoBanner = () => {
                     <span className="text-[var(--nb-gold)]">{webinar23Nov.placeLabel}</span>
                   </p>
                   <p className="mt-3 max-w-[720px] text-[13px] md:text-[14px] leading-[1.55] text-[var(--nb-ivory-dim)]">
-                    Bonus: chi prenota la call entro giovedì 26/11/2026 alle 23:59 riceve la configurazione gratuita del primo agente social.
+                    Bonus: per prenotare la call scrivi PARLIAMONE su WhatsApp a Nico entro giovedì 26/11/2026 alle 23:59. La configurazione del primo agente social è gratuita.
                   </p>
                 </div>
                 <a

@@ -8,7 +8,7 @@ export const BLOG_ARTICLES = [
     title: "Agenti AI per parrucchieri: webinar gratuito del 23/11",
     excerpt: "Un salone su tre chiuderà? Lunedì 23 novembre alle 21 Nico Benz spiega come gli agenti AI gestiscono commenti e recensioni del salone. Iscriviti gratis.",
     category: "Social",
-    date: "23 novembre 2026",
+    date: "19 novembre 2026",
     readTime: "3 min",
     image: "/nico-profile.jpg",
     imagePosition: "top",
@@ -17,7 +17,7 @@ Agenti AI per parrucchieri: lunedì 23 novembre ne parliamo online, e l'ingresso
 
 Se hai un salone, la giornata la conosci. La cliente in poltrona, il colore da controllare, il telefono che si accende con un commento, una recensione, un messaggio. Rispondi quando puoi. Spesso è tardi. A volte non rispondi.
 
-Io non sono un parrucchiere. Sono un digital marketing coach. Ti spiego cosa puoi fare tu con l'intelligenza artificiale e con gli agenti. Il taglio lo fai tu. Io ti dico come usare questi strumenti nel tuo salone.
+Io non sono un parrucchiere. Sono un beauty social coach per parrucchieri. Ti spiego cosa puoi fare tu con l'intelligenza artificiale e con gli agenti. Il taglio lo fai tu. Io ti dico come usare questi strumenti nel tuo salone.
 
 Lunedì 23 novembre 2026, alle 21:00, tengo un webinar gratuito. Il titolo è «Secondo me un salone su tre chiuderà». È online, su Google Meet. Per iscriverti apri questa pagina: [Iscriviti gratis](https://anteprima-webinar-23-11-saloni.vercel.app/).
 
@@ -27,7 +27,7 @@ Il tema è il futuro dei saloni e gli agenti social. Un agente social, in questa
 
 «Secondo me un salone su tre chiuderà» è il titolo della serata ed è il mio punto di vista. Il futuro dei saloni di parrucchiere si gioca anche fuori dalla poltrona: su quello che una persona legge di te prima di prenotare, e su come le rispondi dopo che è stata da te.
 
-In questo webinar gratuito parrucchieri resto su quel punto. Ti spiego cosa può fare un agente social sui commenti e sulle recensioni. Il rapporto con chi entra in salone resta tuo. Io ti parlo da coach. Le mani sui capelli restano le tue.
+In questo webinar gratuito per parrucchieri resto su quel punto. Ti spiego cosa può fare un agente social sui commenti e sulle recensioni. Il rapporto con chi entra in salone resta tuo. Io ti parlo da coach. Le mani sui capelli restano le tue.
 
 ## Gestire recensioni e commenti del salone
 
@@ -45,15 +45,15 @@ Io parlo del futuro dei saloni di parrucchiere e di come un agente può leggere 
 
 ## Il bonus se prenoti la call
 
-Oltre al webinar c'è un bonus, con una scadenza precisa. Chi prenota la call entro giovedì 26 novembre 2026 alle 23:59 riceve la configurazione gratuita del primo agente social.
+Oltre al webinar c'è un bonus, con una scadenza precisa.
 
-La call la prenoti da questa pagina: [Prenota la call](https://www.nicobenz.it/prenota). Se la prenoti entro giovedì 26 novembre 2026, alle 23:59, la configurazione del primo agente social è gratuita.
+Per prenotare la call scrivi PARLIAMONE su WhatsApp a Nico entro giovedì 26 novembre 2026 alle 23:59: la configurazione del primo agente social è gratuita.
 
-L'iscrizione al webinar è gratuita. Il bonus arriva se prenoti la call entro quella scadenza: giovedì 26 novembre 2026, ore 23:59.
+L'iscrizione al webinar è gratuita. Il bonus arriva se scrivi PARLIAMONE su WhatsApp a Nico entro giovedì 26 novembre 2026 alle 23:59.
 
 ## Iscriviti gratis
 
-Gli agenti AI per parrucchieri sono il centro della serata. Il webinar gratuito parrucchieri è lunedì 23 novembre 2026 alle 21:00, online su Google Meet, e si intitola «Secondo me un salone su tre chiuderà».
+Gli agenti AI per parrucchieri sono il centro della serata. Il webinar gratuito per parrucchieri è lunedì 23 novembre 2026 alle 21:00, online su Google Meet, e si intitola «Secondo me un salone su tre chiuderà».
 
 [Iscriviti gratis](https://anteprima-webinar-23-11-saloni.vercel.app/)
 
