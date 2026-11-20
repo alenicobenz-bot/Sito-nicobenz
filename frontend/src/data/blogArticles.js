@@ -3,6 +3,66 @@
 
 export const BLOG_ARTICLES = [
   {
+    id: "tradurre-reel-instagram-tua-voce",
+    slug: "tradurre-reel-instagram-tua-voce",
+    title: "Tradurre i Reel Instagram con la tua voce: guida per saloni",
+    excerpt: "Tradurre i Reel Instagram con la tua voce grazie al doppiaggio AI: come funziona, i limiti veri e come usarlo nel tuo salone per i clienti stranieri.",
+    category: "Social",
+    date: "2026",
+    readTime: "2 min",
+    image: "https://www.nicobenz.it/social/8dbfffe9-5bf1-42d5-b439-6fec3770fbdc.jpg",
+    content: `
+## Tradurre i Reel Instagram con la tua voce: cosa è cambiato
+
+Oggi puoi tradurre i Reel di Instagram in altre lingue senza registrarli di nuovo. Tu parli in italiano e Meta AI li traduce e li doppia mantenendo la **tua voce**. Da luglio 2026 la funzione c'è anche in italiano.
+
+Per un salone vuol dire una cosa semplice: lo stesso video che fai per i tuoi clienti può arrivare anche a chi non parla italiano.
+
+## Come funziona il doppiaggio AI su Instagram
+
+Il doppiaggio AI di Instagram lavora così:
+
+- registri il Reel nella tua lingua, come fai sempre;
+- prima di pubblicare attivi la traduzione e scegli la lingua;
+- Meta AI traduce il parlato e lo rifà con un timbro simile alla tua voce;
+- se vuoi, attivi anche il labiale sincronizzato, che è facoltativo;
+- prima di pubblicare puoi rivedere la traduzione.
+
+I limiti da sapere: serve un **account pubblico** e funziona solo nei Paesi dove Meta AI è disponibile. Se non trovi l'opzione, il motivo di solito è uno di questi due.
+
+## Reel in più lingue: a chi servono davvero
+
+Non serve a tutti. Serve se nel tuo salone entrano, o potrebbero entrare, persone che non parlano italiano:
+
+- turisti, se lavori in una città d'arte, al mare o in montagna;
+- clienti stranieri che vivono nella tua città;
+- studenti e lavoratori internazionali in zona.
+
+Se i tuoi clienti sono tutti del quartiere e parlano italiano, la traduzione è un di più. Prima viene la strategia: in [7 errori su Instagram che fanno i parrucchieri](https://www.nicobenz.it/blog/7-errori-instagram-parrucchieri) trovi da dove partire.
+
+## Instagram per parrucchieri: quali Reel tradurre
+
+Non tradurre tutto. Scegli i video che fanno entrare un cliente nuovo:
+
+- il tuo **servizio di punta**, per esempio un colore, un balayage o un taglio che ti rappresenta;
+- un prima e dopo raccontato da te, con le parole che usi in salone;
+- come si prenota da te: dove sei, come scriverti, cosa aspettarsi.
+
+Un consiglio pratico: parla piano e con frasi corte. La traduzione viene meglio e il video si capisce meglio anche in italiano.
+
+## Come preparo io i video da tradurre
+
+Io per i miei script uso un agente AI che conosce il mio lavoro: cosa faccio, cosa dico, cosa pubblico. Gli chiedo «Che video dovrei fare oggi?» e mi propone argomento e struttura. Poi registro una volta sola e, se il video ha senso anche per chi non parla italiano, attivo la traduzione.
+
+Puoi farlo anche tu: non devi essere un esperto di tecnologia, ti serve solo un metodo.
+
+## Vuoi usare l'AI nei social del tuo salone?
+
+Se vuoi capire quali video fare e come usare l'AI senza perdere tempo, [prenota la consulenza gratuita di 30 minuti](https://www.nicobenz.it/prenota). Guardiamo insieme il tuo salone e ti dico da dove partire.
+
+    `
+  },
+  {
     id: "agenti-ai-per-parrucchieri-webinar",
     slug: "agenti-ai-per-parrucchieri-webinar",
     title: "Agenti AI per parrucchieri: webinar gratuito del 23/11",
